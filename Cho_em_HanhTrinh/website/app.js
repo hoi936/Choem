@@ -135,9 +135,15 @@
       allPhotos.push(enrichedPhoto);
     });
 
-    (season.resolved_videos || []).forEach((video) => {
+    (season.resolved_videos || []).forEach((video, vIdx) => {
+      const seasonPhotos = season.resolved_photos || [];
+      const fallbackPoster =
+        (seasonPhotos[vIdx] && seasonPhotos[vIdx].local_path) ||
+        season.hero_photo ||
+        'Ảnh/Anh1.jpg';
       allVideos.push({
         ...video,
+        poster_photo: fallbackPoster,
         title_clean: cleanText(video.title_clean || season.official_name),
         body_clean: cleanText(video.body_clean || video.caption_original || season.description),
         season_id: season.season_id,
@@ -724,7 +730,7 @@
               (v) => `
               <article class="post-card">
                 <div class="cinema-video-wrap">
-                  <video controls preload="metadata" src="${escapeHtml(v.local_path)}"></video>
+                  <video controls preload="metadata" poster="${escapeHtml(v.poster_photo || s.hero_photo)}" src="${escapeHtml(v.local_path)}"></video>
                 </div>
                 <div class="post-card-top">
                   <span class="category-badge cat-recap">Phim tư liệu gốc</span>
@@ -953,7 +959,7 @@
         (v) => `
         <article class="cinema-card">
           <div class="cinema-video-wrap">
-            <video controls preload="metadata" src="${escapeHtml(v.local_path)}"></video>
+            <video controls preload="metadata" poster="${escapeHtml(v.poster_photo)}" src="${escapeHtml(v.local_path)}"></video>
           </div>
           <div class="cinema-body">
             <div class="cinema-meta">
