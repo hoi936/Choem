@@ -141,6 +141,14 @@ async function runVerification() {
       fullPage: false,
     });
 
+    // 4b. Capture Chapter 04 Cinema section
+    await page.locator('#stories-cinema').scrollIntoViewIfNeeded();
+    await page.waitForTimeout(300);
+    await page.screenshot({
+      path: path.join(ARTIFACT_DIR, 'fe_verify_06_cinema_warm.png'),
+      fullPage: false,
+    });
+
     // 5. Test Full Archive Search ("Tà Long") + Mode Switch + Lightbox Modal
     await page.locator('#full-archive').scrollIntoViewIfNeeded();
     await page.fill('#archive-search-input', 'Tà Long');

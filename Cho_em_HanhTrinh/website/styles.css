@@ -537,8 +537,8 @@ a {
 }
 
 .section-dark {
-  background-color: var(--bg-dark);
-  color: var(--ink-light);
+  background-color: var(--bg-warm);
+  color: var(--ink-900);
 }
 
 .section-header {
@@ -1613,7 +1613,7 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  background: #1C1713;
+  background: var(--bg-elevated);
 }
 
 .cinema-body {
