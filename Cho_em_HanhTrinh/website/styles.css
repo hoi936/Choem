@@ -1484,14 +1484,18 @@ a {
 .milestone-list {
   list-style: none;
   position: relative;
-  padding-left: 1.35rem;
-  border-left: 2px solid var(--border-strong);
+  padding: 0.25rem 0.25rem 0.25rem 2.15rem;
   display: flex;
   flex-direction: column;
   gap: 0.95rem;
-  max-height: 640px;
-  overflow-y: auto;
-  padding-right: 0.4rem;
+}
+
+.timeline-toggle-wrap {
+  margin-top: 1.15rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: center;
 }
 
 .milestone-item {
@@ -1499,26 +1503,56 @@ a {
   background: var(--bg-paper);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-md);
-  padding: 0.85rem 1rem;
+  padding: 0.9rem 1.05rem;
   cursor: pointer;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
+/* Continuous vertical line connecting timeline milestones */
+.milestone-item::after {
+  content: '';
+  position: absolute;
+  left: -1.25rem;
+  top: 0;
+  bottom: -1rem;
+  width: 2px;
+  background: var(--border-strong);
+  z-index: 1;
+}
+
+.milestone-item:first-child::after {
+  top: 1.25rem;
+}
+
+.milestone-item:last-child::after {
+  bottom: calc(100% - 1.25rem);
+}
+
+/* Centered circular node on the vertical timeline rail */
 .milestone-item::before {
   content: '';
   position: absolute;
-  left: -1.78rem;
+  left: calc(-1.25rem - 5px);
   top: 1.05rem;
-  width: 11px;
-  height: 11px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: var(--accent-terracotta);
   border: 2px solid var(--bg-card);
+  box-shadow: 0 0 0 2px rgba(184, 71, 42, 0.22);
+  z-index: 2;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .milestone-item:hover {
   border-color: var(--accent-terracotta);
-  transform: translateX(3px);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-sm);
+}
+
+.milestone-item:hover::before {
+  transform: scale(1.22);
+  box-shadow: 0 0 0 4px var(--accent-terracotta-soft);
 }
 
 .milestone-date {

@@ -158,6 +158,7 @@
     seasonPostCategory: 'all',
     seasonPhotoLimit: 12,
     timelineYear: 'all',
+    timelineExpanded: false,
     archiveMode: 'photos', // 'photos' | 'posts'
     archiveSeason: 'all',
     archiveCategory: 'all',
@@ -860,6 +861,7 @@
       yearFilters.querySelectorAll('[data-year]').forEach((btn) => {
         btn.addEventListener('click', () => {
           state.timelineYear = btn.getAttribute('data-year') || 'all';
+          state.timelineExpanded = false;
           yearFilters.querySelectorAll('[data-year]').forEach((b) => b.classList.remove('active'));
           btn.classList.add('active');
           renderTimelineMilestones();
@@ -882,7 +884,11 @@
         ? events
         : events.filter((ev) => String(ev.event_date || ev.date || '').startsWith(state.timelineYear));
 
-    listEl.innerHTML = filtered
+    const defaultVisibleCount = 6;
+    const shouldTruncate = state.timelineYear === 'all' && !state.timelineExpanded && filtered.length > defaultVisibleCount;
+    const visibleEvents = shouldTruncate ? filtered.slice(0, defaultVisibleCount) : filtered;
+
+    listEl.innerHTML = visibleEvents
       .map((ev) => {
         const rawDate = ev.event_date || ev.date || '';
         const seasonId =
@@ -901,6 +907,30 @@
         `;
       })
       .join('');
+
+    let toggleWrap = document.getElementById('timeline-toggle-wrap');
+    if (state.timelineYear === 'all' && filtered.length > defaultVisibleCount) {
+      if (!toggleWrap) {
+        toggleWrap = document.createElement('div');
+        toggleWrap.id = 'timeline-toggle-wrap';
+        toggleWrap.className = 'timeline-toggle-wrap';
+        listEl.insertAdjacentElement('afterend', toggleWrap);
+      }
+      toggleWrap.innerHTML = `
+        <button type="button" class="btn-secondary" id="btn-toggle-timeline" style="padding: 0.55rem 1.15rem; font-size: 0.84rem;">
+          ${state.timelineExpanded ? 'Thu gọn danh sách cột mốc ↑' : `Xem toàn bộ ${filtered.length} cột mốc lịch sử ↓`}
+        </button>
+      `;
+      const btnToggle = document.getElementById('btn-toggle-timeline');
+      if (btnToggle) {
+        btnToggle.addEventListener('click', () => {
+          state.timelineExpanded = !state.timelineExpanded;
+          renderTimelineMilestones();
+        });
+      }
+    } else if (toggleWrap) {
+      toggleWrap.remove();
+    }
 
     listEl.querySelectorAll('[data-milestone-season]').forEach((item) => {
       item.addEventListener('click', () => {

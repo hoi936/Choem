@@ -127,11 +127,13 @@ async function runVerification() {
     await page.waitForTimeout(250);
 
     // 4. Test Impact Ledger & Timeline Year Filter
-    await page.locator('#impact-ledger').scrollIntoViewIfNeeded();
+    await page.locator('.ledger-timeline-grid').scrollIntoViewIfNeeded();
     await page.locator('[data-year="2024"]').click();
     await page.waitForTimeout(200);
     const milestones2024 = await page.locator('#milestone-list .milestone-item').count();
     await page.locator('[data-year="all"]').click();
+    await page.waitForTimeout(200);
+    await page.locator('#milestone-list .milestone-item').nth(1).hover();
     await page.waitForTimeout(200);
 
     await page.screenshot({
