@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "inventory_type": "initial_workspace_snapshot",
+  "inventoried_at": "2026-10-18T11:31:12.511001+00:00",
+  "workspace": "/mnt/d/CHO_EM/Cho_em_HanhTrinh",
+  "user_local_date": "2026-10-18",
+  "files": [
+    {
+      "path": "docs/promt/Promt1",
+      "file_size": 48936,
+      "sha256": "e944e2be8f85e8e9cbcc11197870ff0b8a91f52eda8ddca409f5619821a5f4d1",
+      "kind": "task_instruction",
+      "source": "pre_existing_workspace",
+      "modified": false
+    },
+    {
+      "path": "Ảnh/Anh1.jpg",
+      "file_size": 22881,
+      "sha256": "0d28e8721445a57a1f286582ffbdfbce6e13b3510a5ab9b308dd89e35c73417f",
+      "kind": "local_media",
+      "source": "pre_existing_workspace",
+      "modified": false,
+      "metadata": {
+        "width": 526,
+        "height": 519,
+        "format": "JPEG",
+        "codec_name": "mjpeg",
+        "probe_tool": "ffprobe",
+        "probe_succeeded": true,
+        "visible_text": [
+          "CHO EM",
+          "PROJECT"
+        ],
+        "description": "Hình minh họa/logo có chữ CHO EM PROJECT; kiểm tra thị giác trực tiếp.",
+        "published_at": null,
+        "season_ids": [],
+        "season_evidence_status": "unknown",
+        "rights_status": "unknown",
+        "privacy_review_required": true,
+        "notes": "Không suy đoán thời gian, mùa hoặc quyền tái sử dụng từ ảnh/tên file."
+      }
+    }
+  ],
+  "counts": {
+    "initial_files": 2,
+    "local_images": 1,
+    "local_videos": 0,
+    "existing_collected_posts": 0
+  },
+  "excluded_directories": [
+    {
+      "path": ".agents",
+      "reason": "Thư mục cấu hình/lưu trữ nhạy cảm hoặc VCS; chỉ ghi nhận sự tồn tại, không kiểm kê nội dung hay đọc bí mật."
+    },
+    {
+      "path": ".aws",
+      "reason": "Thư mục cấu hình/lưu trữ nhạy cảm hoặc VCS; chỉ ghi nhận sự tồn tại, không kiểm kê nội dung hay đọc bí mật."
+    },
+    {
+      "path": ".codex",
+      "reason": "Thư mục cấu hình/lưu trữ nhạy cảm hoặc VCS; chỉ ghi nhận sự tồn tại, không kiểm kê nội dung hay đọc bí mật."
+    },
+    {
+      "path": ".git",
+      "reason": "Thư mục cấu hình/lưu trữ nhạy cảm hoặc VCS; chỉ ghi nhận sự tồn tại, không kiểm kê nội dung hay đọc bí mật."
+    }
+  ],
+  "environment": {
+    "python_version": "3.14.4",
+    "tools": {
+      "python3": "/usr/bin/python3",
+      "node": "/home/user/.local/bin/node",
+      "ffprobe": "/usr/bin/ffprobe",
+      "ffmpeg": "/usr/bin/ffmpeg",
+      "file": "/usr/bin/file",
+      "exiftool": null
+    },
+    "python_libraries": {
+      "PIL": false,
+      "jsonschema": true,
+      "requests": true,
+      "bs4": false,
+      "playwright": false
+    }
+  },
+  "scope_notes": [
+    "Snapshot ban đầu gồm các file có sẵn trước khi tạo kho dữ liệu; các file đầu ra do tác vụ tạo không được trộn vào tài liệu nguồn ban đầu.",
+    "Không có bài đăng, caption hoặc tài liệu lịch sử dự án sẵn có ngoài chỉ thị tác vụ và một ảnh logo chưa xác minh nguồn.",
+    "Thời gian sửa file không được sử dụng làm ngày đăng hay ngày sự kiện."
+  ]
+}

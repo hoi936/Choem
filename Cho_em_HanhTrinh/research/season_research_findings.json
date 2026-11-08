@@ -1,0 +1,176 @@
+{
+  "research_id": "cho_em_season_research_20261018",
+  "collected_at": "2026-10-18 11:33:00 UTC",
+  "official_facebook_url": "https://www.facebook.com/profile.php?id=100094610840245",
+  "official_profile_id": "100094610840245",
+  "identity_confirmed_from_local_public_snapshot": {
+    "source_path": "research/sources/facebook_public_response.html",
+    "source_status": "public_html_metadata",
+    "official_name": "CHO EM project",
+    "description_original": "Cho Em Project - Góp phần nhỏ vì một tương lai tươi sáng hơn của trẻ em Quảng Trị",
+    "canonical_url": "https://www.facebook.com/p/CHO-EM-project-100094610840245/"
+  },
+  "scope": "Nghiên cứu mùa từ toàn bộ kết quả chỉ mục web được phép truy cập; không đăng nhập, không lấy cookie, không vượt hạn chế Facebook.",
+  "tool_calls": 16,
+  "search_queries_attempted": 60,
+  "distinct_search_queries": 59,
+  "raw_evidence_files": [
+    "research/sources/season_search_001.json",
+    "research/sources/season_search_002.json",
+    "research/sources/season_search_003.json",
+    "research/sources/season_search_004.json",
+    "research/sources/season_search_005.json",
+    "research/sources/season_search_006.json",
+    "research/sources/season_search_007.json",
+    "research/sources/season_search_008.json",
+    "research/sources/season_search_009.json",
+    "research/sources/season_search_010.json",
+    "research/sources/season_search_011.json",
+    "research/sources/season_search_012.json",
+    "research/sources/season_search_013.json",
+    "research/sources/season_search_014.json",
+    "research/sources/season_search_015.json",
+    "research/sources/season_search_016.json"
+  ],
+  "verified_season_count": 0,
+  "total_season_count": null,
+  "season_candidates": [],
+  "season_research_notes": [
+    "Không tìm được bài Facebook trực tiếp hoặc caption gốc có số/tên mùa trong các truy vấn đã thực hiện.",
+    "Không diễn giải việc không có kết quả index thành dự án không có mùa.",
+    "Các truy vấn đã xét mùa 1, 2, 3, 4; số La Mã I, II, III, IV; mùa đầu tiên, mùa thứ hai, mùa thứ ba; season; các năm 2022–2025; slug và ID chính xác; tên + Quảng Trị, Hướng Phùng, Đông Hà, Lê Quý Đôn, Tâm Phúc.",
+    "Báo năm 2024 nói năm thứ 3 triển khai; không đủ chứng cứ để xác nhận mùa 3, tạo mùa 1/2, hoặc suy một năm là một mùa.",
+    "Mốc làm tình nguyện ghi trên LinkedIn không mặc nhiên là ngày thành lập hoặc thời gian mùa."
+  ],
+  "facebook_posts_discovered": [],
+  "related_activity_candidates": [
+    {
+      "candidate_id": "candidate_playground_huong_phung_20240806",
+      "candidate_type": "program_or_activity",
+      "official_name_from_source": "Sân chơi cho em",
+      "source_status": "search_excerpt",
+      "verification_status": "inferred",
+      "identity_match_status": "inferred_from_project_name_and_quang_tri_geography",
+      "event_date_candidate": "2024-08-06",
+      "publication_date": "2024-08-06",
+      "season_number": null,
+      "season_id": null,
+      "season_mapping_status": "unknown",
+      "locations": [
+        "Điểm trường Hướng Choa",
+        "Điểm trường Chênh Vênh",
+        "Trường Mầm non xã Hướng Phùng",
+        "Huyện Hướng Hóa",
+        "Tỉnh Quảng Trị"
+      ],
+      "reported_organizers": [
+        "Ban Tổ chức dự án Cho Em (TP Đông Hà, Quảng Trị)",
+        "Đồn Biên phòng Hướng Phùng"
+      ],
+      "reported_slogan": "Mùa Hè xanh - Trái đất xanh",
+      "reported_result_candidates": [
+        {
+          "metric": "Giá trị công trình",
+          "value": 35000000,
+          "unit": "VND",
+          "qualifier": "khoảng",
+          "verification_status": "unknown"
+        }
+      ],
+      "historical_lead": "Nguồn báo cho biết đây là năm thứ 3 triển khai; cần bản gốc dự án để làm rõ lịch sử trước năm 2024.",
+      "source_urls": [
+        "https://giaoducthoidai.vn/trao-tang-san-choi-cho-cac-chau-mam-non-vung-bien-gioi-quang-tri-post694578.html",
+        "https://congdankhuyenhoc.vn/print/trao-tang-cong-trinh-san-choi-cho-em-tren-bien-gioi-huong-phung-179240806121723997.htm"
+      ],
+      "evidence_logs": [
+        "research/sources/season_search_009.json",
+        "research/sources/season_search_011.json"
+      ],
+      "research_notes": "Root đang thu thập nguồn báo trực tiếp riêng. Không dùng đoạn search làm caption_original của Facebook."
+    }
+  ],
+  "supplementary_identity_leads": [
+    {
+      "source_url": "https://vn.linkedin.com/in/linh-thuy-nguyen-2b26073b3",
+      "source_status": "search_excerpt",
+      "verification_status": "unknown",
+      "possible_connection": "Người tự khai đồng sáng lập Cho Em Project hoạt động với trẻ em vùng núi Quảng Trị.",
+      "reported_volunteer_period": {
+        "start": "2023-06",
+        "end": "2025-08"
+      },
+      "unverified_reported_metrics": [
+        {
+          "value": 3,
+          "unit": "sân chơi tái chế"
+        },
+        {
+          "value": 400,
+          "unit": "học sinh",
+          "qualifier": "hơn"
+        }
+      ],
+      "evidence_logs": [
+        "research/sources/season_search_008.json",
+        "research/sources/season_search_009.json",
+        "research/sources/season_search_016.json"
+      ],
+      "use_restriction": "Chỉ làm đầu mối kiểm tra, chưa nhập thành số liệu đã xác minh hoặc mùa."
+    }
+  ],
+  "entity_exclusions": [
+    {
+      "entity": "Dự án Cho em – PFC / Project For Children",
+      "source_url": "https://humanactprize.org/du-an-cho-em-pfc-199241008102802553.htm",
+      "facebook_urls_from_search": [
+        "https://www.facebook.com/duanchoem",
+        "https://www.facebook.com/profile.php?id=61552243954668"
+      ],
+      "reason": "Trang báo trỏ Facebook ID khác ID được chỉ định; gắn với Thạch Ngọc Hải, Đồng Tháp. Không gộp ngày ra đời 1/6/2023 hay các số liệu PFC vào kho CHO EM project Quảng Trị.",
+      "source_status": "search_excerpt",
+      "evidence_logs": [
+        "research/sources/season_search_003.json"
+      ]
+    },
+    {
+      "entity": "CHO EM Project về giáo dục giới tính thân thiện với trẻ em ở TP Hồ Chí Minh",
+      "source_url": "https://ca.linkedin.com/in/le-minh-ngoc-nguyen",
+      "reason": "Mục tiêu và địa bàn khác metadata chính thức Quảng Trị; không gộp giai đoạn 2/2022–3/2024 hoặc 500 người hưởng lợi.",
+      "source_status": "search_excerpt",
+      "evidence_logs": [
+        "research/sources/season_search_008.json",
+        "research/sources/season_search_016.json"
+      ]
+    },
+    {
+      "entity": "Áo ấm cho em / Trung thu cho em / Mùa hạ cho em / Hành trang cho em / Sân chơi cho em của các đơn vị khác",
+      "reason": "Tên chứa Cho em không đủ để liên kết đến dự án chính xác. Chỉ giữ nhật ký tìm kiếm, không đưa thành mùa/chương trình của dự án."
+    }
+  ],
+  "access_limits": [
+    {
+      "tool": "web__run",
+      "target": "Facebook URL chính xác",
+      "result": "Internal Error, không nhận được bài đăng."
+    },
+    {
+      "tool": "mcp__codex_apps__search_service_web_run",
+      "result": "isError=true, content=[]"
+    },
+    {
+      "tool": "web__run",
+      "target": "Nguồn GD&TĐ, Công dân & Khuyến học, LinkedIn",
+      "result": "Open báo Internal Error; search_excerpt chỉ hỗ trợ tìm đầu mối."
+    }
+  ],
+  "recommended_next_evidence": [
+    "File Facebook export chính thức do quản lý trang xuất, gồm bài viết từ ngày đầu, caption đầy đủ, album/media và thời gian đăng.",
+    "Bài công bố/tổng kết có tên hoặc số mùa, đặc biệt nội dung trước năm 2024.",
+    "Xác nhận mối liên hệ giữa bài báo Sân chơi cho em 2024 và Facebook ID 100094610840245.",
+    "Làm rõ nhận xét năm thứ 3 của báo năm 2024 trước khi lập các mùa lịch sử."
+  ],
+  "conclusion": "Phạm vi tìm kiếm đã tạo bằng chứng và đầu mối thật nhưng chưa xác minh được danh mục mùa; tổng số mùa vẫn chưa biết.",
+  "scope_status": "search_index_only",
+  "superseded_by": "research/facebook_snapshot_extraction.json",
+  "supersession_note": "Counts and absence of verified seasons in this file describe only the search-index phase. Later direct public HTML snapshots independently verify season 7; use the linked extraction for current direct-source evidence."
+}

@@ -1,0 +1,145 @@
+[
+  {
+    "evidence_id": "ev_project_mission_20230720",
+    "claim": "Dự án CHO EM đăng ký ngày 17/07/2023 tại Đông Hà, Quảng Trị và công bố bài viết Sứ mệnh đầu tiên ngày 20/07/2023 với bài thơ chiết tự C-H-O-E-M.",
+    "verification_status": "verified",
+    "source_type": "meta_official_export",
+    "source_files": [
+      "profile_information/profile_information/profile_information.html",
+      "this_profile's_activity_across_facebook/posts/profile_posts_1.html"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_01_verified_export",
+    "claim": "Xác minh CHO EM Mùa 1 — Sân Chơi Cho Em với chương trình 'Sân Chơi Cho Em (Mùa 1)' diễn ra ngày 2023-08-15 tại Điểm trường Mầm non Bản Ho Le, xã Húc, huyện Hướng Hóa, tỉnh Quảng Trị, Điểm trường Mầm non Bản Tà Rùng, xã Húc, huyện Hướng Hóa, tỉnh Quảng Trị, Trường Mầm non Húc, huyện Hướng Hóa, tỉnh Quảng Trị.",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/reel/294889986618149",
+      "https://www.facebook.com/photo.php?fbid=134361976394163",
+      "https://www.facebook.com/photo.php?fbid=132319373265090",
+      "https://www.facebook.com/photo.php?fbid=131657019997992",
+      "https://www.facebook.com/photo.php?fbid=131639446666416"
+    ],
+    "post_ids": [
+      "post_9b2492832bc954255b8c67ea",
+      "post_3c45223081d6ba4f89f28445",
+      "post_9d13732373661ea4d107556e",
+      "post_44dc1fad75df85fb2f29cd1c",
+      "post_1fc5415942afa593434867cd"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_02_verified_export",
+    "claim": "Xác minh CHO EM Mùa 2 — Răng Xinh Cho Em với chương trình 'Răng Xinh Cho Em' diễn ra ngày 2024-02-02 tại Trường Tiểu học và Trung học cơ sở Triệu Vân, xã Triệu Vân, huyện Triệu Phong, tỉnh Quảng Trị.",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/reel/780168937467886",
+      "https://www.facebook.com/photo.php?fbid=238122329351460",
+      "https://www.facebook.com/photo.php?fbid=237500782746948",
+      "https://www.facebook.com/photo.php?fbid=234417709721922",
+      "https://www.facebook.com/photo.php?fbid=231846653312361"
+    ],
+    "post_ids": [
+      "post_04fc9fb2d20b2e081d62f3fc",
+      "post_969d95421337ace0e4e796db",
+      "post_8dadfe84b493e15e85eda45c",
+      "post_77f8de957c30cc8afbb0ecd8",
+      "post_78f2da6936b08b9f9ef6618e"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_03_verified_export",
+    "claim": "Xác minh CHO EM Mùa 3 — Sân Chơi Cho Em (Mùa 3) với chương trình 'Sân Chơi Cho Em (Mùa 3)' diễn ra ngày 2024-08-06 tại Điểm trường Mầm non Chênh Vênh, Trường Mầm non Hướng Phùng, xã Hướng Phùng, huyện Hướng Hóa, tỉnh Quảng Trị, Điểm trường Mầm non Hướng Choa, Trường Mầm non Hướng Phùng, xã Hướng Phùng, huyện Hướng Hóa, tỉnh Quảng Trị.",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/reel/494155613221434",
+      "https://www.facebook.com/photo.php?fbid=352351214595237",
+      "https://www.facebook.com/photo.php?fbid=351079411389084",
+      "https://www.facebook.com/photo.php?fbid=350439618119730",
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "post_ids": [
+      "post_396eb1afc41d360037f402db",
+      "post_1e4fd5805d400146d889cfb4",
+      "post_aeaf928e8f3da0f1726e17b1",
+      "post_eabf7d38aee9d5e927800d7c",
+      "post_91cc4ce4bd1435923fca60fc"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_04_verified_export",
+    "claim": "Xác minh CHO EM Mùa 4 — Phao Xinh Cho Em với chương trình 'Phao Xinh Cho Em' diễn ra ngày 2025-01-22 tại Trường TH&THCS Triệu Vân (thôn 8, xã Triệu Vân, huyện Triệu Phong, tỉnh Quảng Trị).",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/reel/1157236049179114",
+      "https://www.facebook.com/photo.php?fbid=473024419194582",
+      "https://www.facebook.com/photo.php?fbid=471575476006143",
+      "https://www.facebook.com/photo.php?fbid=470840109413013",
+      "https://www.facebook.com/photo.php?fbid=470163242814033"
+    ],
+    "post_ids": [
+      "post_b9405eb08e51e5fc5d33677b",
+      "post_813f228ea88b4a66bb8dd2ff",
+      "post_5d629a8e5eda0e02b1ba90af",
+      "post_8b344ec81ac45c746000e51c",
+      "post_857389a58d86ca7146baffe1"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_05_verified_export",
+    "claim": "Xác minh CHO EM Mùa 5 — An Toàn Cho Em với chương trình 'An Toàn Cho Em' diễn ra ngày 2025-08-11 tại Trường TH&THCS Tân Thành, xã Tân Thành, huyện Hướng Hóa, tỉnh Quảng Trị.",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/reel/1288126198864163",
+      "https://www.facebook.com/photo.php?fbid=620680407762315",
+      "https://www.facebook.com/photo.php?fbid=620657721097917",
+      "https://www.facebook.com/photo.php?fbid=619860981177591",
+      "https://www.facebook.com/photo.php?fbid=619859154511107"
+    ],
+    "post_ids": [
+      "post_3e14d54ba0b087b93146720f",
+      "post_cc9206de8cba9a367f5f6dec",
+      "post_1d98af39aa67873866f3587a",
+      "post_88404c645c9b6b40b1987c4c",
+      "post_e794c05bead034b3309eeec2"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_06_verified_export",
+    "claim": "Xác minh CHO EM Mùa 6 — An Toàn Cho Em 2 với chương trình 'An Toàn Cho Em 2' diễn ra ngày 2026-02-09 tại Trường PTDTBT Tiểu học Vĩnh Ô, xã Vĩnh Ô (Bến Quan), tỉnh Quảng Trị.",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=764103220086699",
+      "https://www.facebook.com/photo.php?fbid=762890900207931",
+      "https://www.facebook.com/photo.php?fbid=761520407011647",
+      "https://www.facebook.com/photo.php?fbid=759791243851230",
+      "https://www.facebook.com/photo.php?fbid=758969380600083"
+    ],
+    "post_ids": [
+      "post_196e020e0ff3c33d741fbe37",
+      "post_884803b83abeae2d65b13d14",
+      "post_8341fb8f1f4e7ac95c3140c6",
+      "post_361064957825b9ebaadfee63",
+      "post_299b82520bbcd64c884e8f70"
+    ]
+  },
+  {
+    "evidence_id": "ev_season_07_verified_export",
+    "claim": "Xác minh CHO EM Mùa 7 — Hành Trang Cho Em với chương trình 'Hành Trang Cho Em' diễn ra ngày 2026-08-18 tại Trường Tiểu học Tà Long (điểm trường thôn Pa Hy), xã Tà Long / Đakrông, huyện Đakrông, tỉnh Quảng Trị.",
+    "verification_status": "verified",
+    "source_urls": [
+      "https://www.facebook.com/100094610840245/posts/pfbid02aDZF3AFgRTeXha1y7oBijJ28ono9Yx79bdvJhifeawLGGen5EpwK9r5357yoPJcZl",
+      "https://www.facebook.com/100094610840245/posts/pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl",
+      "https://www.facebook.com/reel/1411736247503742",
+      "https://www.facebook.com/100094610840245/posts/pfbid0JQ5oZmdCcsQ7v7hVTZLmCh8zMPSFNZP4ovV6vGadcyF8Xztxset4G5Vss4EV4kx1l",
+      "https://www.facebook.com/100094610840245/posts/pfbid04T49kQYmFu5efYQot6NZsNhShuDfn6JnS4D1d4MJZQudC6DBtoV5HGQf3ZY7Drq9l"
+    ],
+    "post_ids": [
+      "post_f104d87e8be54343375d4996",
+      "post_e2a1adcea78d463c78aeb99e",
+      "post_f1fd853a73f285ab239cc303",
+      "post_27468f8bc18be1773591a581",
+      "post_718fab34ea6bd300cb1c50f2"
+    ]
+  }
+]

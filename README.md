@@ -27,3 +27,4 @@ Khởi nguồn từ ngày **17/07/2023** bởi học sinh **Trường THPT Chuy�
 - `Cho_em_HanhTrinh/data/` — Dữ liệu JSON chuẩn hóa (`seasons.json`, `programs.json`, `journeys.json`, `timeline.json`, `milestones.json`, `stories.json`, `albums.json`).
 - `Cho_em_HanhTrinh/assets/originals/` — Kho lưu trữ 563 bức ảnh và 8 thước phim thực địa gốc.
 - `Cho_em_HanhTrinh/Skill/` — Bộ 6 Frontend Skills (`ui-ux-pro-max`, `taste-skill`, `awesome-design-skills`, `frontend-ai-skills`, `web-design-guidelines`, `playwright-cli`).
+

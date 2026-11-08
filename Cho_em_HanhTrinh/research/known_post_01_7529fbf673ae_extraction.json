@@ -1,0 +1,892 @@
+{
+  "schema_version": 1,
+  "method": "offline_public_snapshot_json_extraction",
+  "network_requests": 0,
+  "source_snapshot": "research/sources/known_post_01_7529fbf673ae.html",
+  "source_metadata": null,
+  "source_url": null,
+  "collected_at": null,
+  "extracted_at": "2026-10-18T11:42:15.750447+00:00",
+  "sha256": "4ccea603079270559bdc4a2763c68ab2723e8e25b69e37f1e75549a992b2f80c",
+  "script_count": 139,
+  "parsed_json_script_count": 60,
+  "json_parse_errors": [],
+  "page_meta": {
+    "og:type": "video.other",
+    "og:title": "CHO EM project",
+    "og:description": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và cũng có những đồng hành bắt đầu từ một tấm lòng....",
+    "og:url": "https://www.facebook.com/100094610840245/posts/%F0%9D%90%82%F0%9D%90%87%F0%9D%90%8E-%F0%9D%90%84%F0%9D%90%8C-tri-%C3%A2n-nh%C3%A0-t%C3%A0i-tr%E1%BB%A3-%C4%91%E1%BB%93ng-dimori-coffee-%EF%B8%8F-c%C3%B3-nh%E1%BB%AFng-cu%E1%BB%99c-g%E1%BA%B7p-g%E1%BB%A1-b%E1%BA%AFt-%C4%91%E1%BA%A7u-b%E1%BA%B1ng/917458881417798/",
+    "og:image:alt": "CHO EM project",
+    "og:image": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/777801430_917458984751121_8655778129851189708_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=b96d88&_nc_ohc=6rT3dgr3JsoQ7kNvwHPo3Ci&_nc_oc=AdoZ4olREMPvZnjVtcyeRwzCRW0KTm6gTkYwXvgQHDXgH5IT25_KsXjMcgcEPxqwD4U&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=2XbhKd-sjNPtFzsvVmkMWg&_nc_ss=7f289&oh=00_AQPhVQtair2X_v01eAphZH1QqQ0YexAdSWBqIr224thjxg&oe=6ADA695B",
+    "og:locale": "en_US",
+    "description": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và...",
+    "twitter:card": "summary",
+    "twitter:title": "CHO EM project",
+    "twitter:description": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và cũng có những đồng hành bắt đầu từ một tấm lòng....",
+    "twitter:image": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/777801430_917458984751121_8655778129851189708_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=b96d88&_nc_ohc=6rT3dgr3JsoQ7kNvwHPo3Ci&_nc_oc=AdoZ4olREMPvZnjVtcyeRwzCRW0KTm6gTkYwXvgQHDXgH5IT25_KsXjMcgcEPxqwD4U&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=2XbhKd-sjNPtFzsvVmkMWg&_nc_ss=7f289&oh=00_AQPhVQtair2X_v01eAphZH1QqQ0YexAdSWBqIr224thjxg&oe=6ADA695B",
+    "twitter:image:alt": "CHO EM project",
+    "twitter:site": "@facebookapp"
+  },
+  "profile_records": [
+    {
+      "id": "100094610840245",
+      "name": "CHO EM project",
+      "observed_fields": {
+        "url": [
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"actors\"][0][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"title\"][\"story\"][\"actors\"][0][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"actors\"][0][\"url\"]"
+            }
+          }
+        ],
+        "profile_url": [
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0][\"profile_url\"]"
+            }
+          }
+        ],
+        "is_additional_profile_plus": [
+          {
+            "value": true,
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0][\"is_additional_profile_plus\"]"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"title\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][0][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][1][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][2][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][3][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][4][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][5][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][6][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][7][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][8][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][9][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"actors\"][0]"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "facebook_post_id": "917458881417798",
+      "source_status": "direct_public_snapshot_json",
+      "collected_at": null,
+      "source_urls": [
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl&id=100094610840245"
+      ],
+      "actor_ids": [
+        "100094610840245"
+      ],
+      "creation_times": [
+        {
+          "unix": 1787058900,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"creation_time\"]"
+          }
+        },
+        {
+          "unix": 1787058900,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"metadata\"][1][\"story\"][\"creation_time\"]"
+          }
+        },
+        {
+          "unix": 1787058900,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"timestamp\"][\"story\"][\"creation_time\"]"
+          }
+        }
+      ],
+      "caption_variants": [
+        {
+          "text": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và cũng có những đồng hành bắt đầu từ một tấm lòng. Nằm trên tầng 5 Khách sạn Á Thành, Cầu Hiền Lương, DIMORI COFFEE là một góc nhỏ để ta chậm lại giữa những ngày vội vã, thưởng thức một thức uống yêu thích và lưu giữ đôi ba câu chuyện dịu dàng. Và thật đẹp khi lần này, góc nhỏ ấy đã trở thành một phần trong hành trình của CHO EM.\n\n🌱 Với CHO EM, những điều tử tế chưa bao giờ cần bắt đầu từ những điều lớn lao. Đôi khi, chỉ một sự sẻ chia đúng lúc cũng đủ khiến một hành trình dài thêm phần ấm áp. Sự đồng hành của DIMORI COFFEE với chương trình “Hành Trang Cho Em” chính là một sẻ chia như thế, góp thêm nguồn lực để những kiến thức và kỹ năng về phòng, chống tai nạn đuối nước được gửi đến các em học sinh tại Trường Tiểu học Tà Long. Có thể sự đồng hành ấy chỉ là một phần nhỏ trên một hành trình dài, nhưng với CHO EM, mỗi tấm lòng đều là một lời nhắc rằng chúng mình chưa bao giờ bước đi một mình. \n\n🌸 Nếu có dịp đi qua Cầu Hiền Lương, đừng quên ghé DIMORI COFFEE - Tầng 5, Khách sạn Á Thành, tìm cho mình một góc nhỏ và một buổi chiều thật dịu dàng. Và biết đâu, giữa những câu chuyện bình dị ấy, những điều tốt đẹp DIMORI COFFEE đã trao đi hôm nay sẽ tiếp tục được nhắc nhớ và lan xa theo một cách thật tự nhiên.\n\n💛 Chúng mình sẽ nhớ DIMORI COFFEE như một điểm dừng thật đẹp trên hành trình này. Xin chân thành cảm ơn DIMORI COFFEE vì đã tin tưởng, đồng hành và cùng chúng mình gieo thêm một hạt mầm yêu thương.\n\n📌 Thông tin liên hệ DIMORI COFFEE:\n\n🏠 Địa chỉ: Tầng 5 – Khách sạn Á Thành, Cầu Hiền Lương \n\n☎️ Hotline: 084 555 7596 \nFacebook: https://www.facebook.com/profile.php?id=61590462942789\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"message\"][\"text\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message\"][\"story\"][\"message\"][\"text\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message_container\"][\"story\"][\"message\"][\"text\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"message\"][\"text\"]"
+            }
+          ]
+        }
+      ],
+      "photo_ids": [
+        "917458168084536",
+        "917458231417863",
+        "917458274751192",
+        "917458208084532"
+      ],
+      "attachment_counts": [
+        {
+          "reported_count": 4,
+          "delivered_node_count": 4,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"]"
+          }
+        },
+        {
+          "reported_count": 4,
+          "delivered_node_count": 4,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"]"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"title\"][\"story\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"]"
+        }
+      ],
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl&id=100094610840245",
+      "published_at": "2026-08-18T13:15:00+00:00",
+      "published_at_asia_bangkok": "2026-08-18T20:15:00+07:00",
+      "caption_original": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và cũng có những đồng hành bắt đầu từ một tấm lòng. Nằm trên tầng 5 Khách sạn Á Thành, Cầu Hiền Lương, DIMORI COFFEE là một góc nhỏ để ta chậm lại giữa những ngày vội vã, thưởng thức một thức uống yêu thích và lưu giữ đôi ba câu chuyện dịu dàng. Và thật đẹp khi lần này, góc nhỏ ấy đã trở thành một phần trong hành trình của CHO EM.\n\n🌱 Với CHO EM, những điều tử tế chưa bao giờ cần bắt đầu từ những điều lớn lao. Đôi khi, chỉ một sự sẻ chia đúng lúc cũng đủ khiến một hành trình dài thêm phần ấm áp. Sự đồng hành của DIMORI COFFEE với chương trình “Hành Trang Cho Em” chính là một sẻ chia như thế, góp thêm nguồn lực để những kiến thức và kỹ năng về phòng, chống tai nạn đuối nước được gửi đến các em học sinh tại Trường Tiểu học Tà Long. Có thể sự đồng hành ấy chỉ là một phần nhỏ trên một hành trình dài, nhưng với CHO EM, mỗi tấm lòng đều là một lời nhắc rằng chúng mình chưa bao giờ bước đi một mình. \n\n🌸 Nếu có dịp đi qua Cầu Hiền Lương, đừng quên ghé DIMORI COFFEE - Tầng 5, Khách sạn Á Thành, tìm cho mình một góc nhỏ và một buổi chiều thật dịu dàng. Và biết đâu, giữa những câu chuyện bình dị ấy, những điều tốt đẹp DIMORI COFFEE đã trao đi hôm nay sẽ tiếp tục được nhắc nhớ và lan xa theo một cách thật tự nhiên.\n\n💛 Chúng mình sẽ nhớ DIMORI COFFEE như một điểm dừng thật đẹp trên hành trình này. Xin chân thành cảm ơn DIMORI COFFEE vì đã tin tưởng, đồng hành và cùng chúng mình gieo thêm một hạt mầm yêu thương.\n\n📌 Thông tin liên hệ DIMORI COFFEE:\n\n🏠 Địa chỉ: Tầng 5 – Khách sạn Á Thành, Cầu Hiền Lương \n\n☎️ Hotline: 084 555 7596 \nFacebook: https://www.facebook.com/profile.php?id=61590462942789\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "caption_evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"message\"][\"text\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message\"][\"story\"][\"message\"][\"text\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message_container\"][\"story\"][\"message\"][\"text\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"message\"][\"text\"]"
+        }
+      ],
+      "caption_status": "exact_message_text_as_delivered_in_snapshot",
+      "caption_character_count": 2520,
+      "caption_clean": "CHO EM: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và cũng có những đồng hành bắt đầu từ một tấm lòng. Nằm trên tầng 5 Khách sạn Á Thành, Cầu Hiền Lương, DIMORI COFFEE là một góc nhỏ để ta chậm lại giữa những ngày vội vã, thưởng thức một thức uống yêu thích và lưu giữ đôi ba câu chuyện dịu dàng. Và thật đẹp khi lần này, góc nhỏ ấy đã trở thành một phần trong hành trình của CHO EM.\n\n🌱 Với CHO EM, những điều tử tế chưa bao giờ cần bắt đầu từ những điều lớn lao. Đôi khi, chỉ một sự sẻ chia đúng lúc cũng đủ khiến một hành trình dài thêm phần ấm áp. Sự đồng hành của DIMORI COFFEE với chương trình “Hành Trang Cho Em” chính là một sẻ chia như thế, góp thêm nguồn lực để những kiến thức và kỹ năng về phòng, chống tai nạn đuối nước được gửi đến các em học sinh tại Trường Tiểu học Tà Long. Có thể sự đồng hành ấy chỉ là một phần nhỏ trên một hành trình dài, nhưng với CHO EM, mỗi tấm lòng đều là một lời nhắc rằng chúng mình chưa bao giờ bước đi một mình. \n\n🌸 Nếu có dịp đi qua Cầu Hiền Lương, đừng quên ghé DIMORI COFFEE - Tầng 5, Khách sạn Á Thành, tìm cho mình một góc nhỏ và một buổi chiều thật dịu dàng. Và biết đâu, giữa những câu chuyện bình dị ấy, những điều tốt đẹp DIMORI COFFEE đã trao đi hôm nay sẽ tiếp tục được nhắc nhớ và lan xa theo một cách thật tự nhiên.\n\n💛 Chúng mình sẽ nhớ DIMORI COFFEE như một điểm dừng thật đẹp trên hành trình này. Xin chân thành cảm ơn DIMORI COFFEE vì đã tin tưởng, đồng hành và cùng chúng mình gieo thêm một hạt mầm yêu thương.\n\n📌 Thông tin liên hệ DIMORI COFFEE:\n\n🏠 Địa chỉ: Tầng 5 – Khách sạn Á Thành, Cầu Hiền Lương \n\n☎️ Hotline: 084 555 7596 \nFacebook: https://www.facebook.com/profile.php?id=61590462942789\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “CHO EM” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 Contact us\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "hashtags": []
+    }
+  ],
+  "photos": [
+    {
+      "facebook_photo_id": "917458168084536",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/777801430_917458984751121_8655778129851189708_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6rT3dgr3JsoQ7kNvwHPo3Ci&_nc_oc=AdoZ4olREMPvZnjVtcyeRwzCRW0KTm6gTkYwXvgQHDXgH5IT25_KsXjMcgcEPxqwD4U&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNX4yiOPIYWxXqBPejYvHvyPaPFS8-FiQCp9WQjYzKzBg&oe=6ADA695B",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/777801430_917458984751121_8655778129851189708_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6rT3dgr3JsoQ7kNvwHPo3Ci&_nc_oc=AdoZ4olREMPvZnjVtcyeRwzCRW0KTm6gTkYwXvgQHDXgH5IT25_KsXjMcgcEPxqwD4U&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNX4yiOPIYWxXqBPejYvHvyPaPFS8-FiQCp9WQjYzKzBg&oe=6ADA695B",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP BAN BAN CHỨC Đoàn phường Nam Đông Hà là Dưá Cho DưánChoEm Em CHÀ TÀO TRỢ ĐỒNG DiMori COFFEE Dimori DimoriCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP BAN BAN CHỨC Đoàn phường Nam Đông Hà là Dưá Cho DưánChoEm Em CHÀ TÀO TRỢ ĐỒNG DiMori COFFEE Dimori DimoriCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=917458168084536&set=pcb.917458881417798&__cft__[0]=AZhIvLWWJ-xPByKRT0uAz4uBi3w6pPjvHNxBfIi1TnbGg8Lk1qvTj0CYhzXhl58VjxQRsugNzKxADIvh89hebJeZ1QWiexL86Df1MBHWTAJUO4eZOvRL0n8c9iDuo1qt2eqgNr4_BNFoVpu3B__37rlRJ3MAgck&__tn__=*b0H-R",
+        "https://www.facebook.com/photo/?fbid=917458168084536&set=pcb.917458881417798"
+      ],
+      "source_post_ids": [
+        "917458881417798"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message\"][\"story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][0][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][1][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][2][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][3][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][4][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][5][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][6][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][7][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][8][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][9][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"save_info\"][\"savable\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "917458231417863",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/776040604_917459061417780_7348311476776461813_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7wE5e_LDejsQ7kNvwF8vCsh&_nc_oc=AdqoSLTN75rd7J1gCBtF1iGs5erLk5sHH2Z8x2Mbi-MZiFa8uHzW6X3grt6zt-JhUhU&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNBrDl_SL-R4drfWTxjLbmdJ1DnRdMsbnQiNoj16AYUwg&oe=6ADA9932",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/776040604_917459061417780_7348311476776461813_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7wE5e_LDejsQ7kNvwF8vCsh&_nc_oc=AdqoSLTN75rd7J1gCBtF1iGs5erLk5sHH2Z8x2Mbi-MZiFa8uHzW6X3grt6zt-JhUhU&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNBrDl_SL-R4drfWTxjLbmdJ1DnRdMsbnQiNoj16AYUwg&oe=6ADA9932",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP LÝ BAN CHỨC Đoàn phưởmg Đoànphưởng phưởng Nam Đông Hà Dưá Cho Em αHй TÀO TRỢ NHÀTÀOTRỢ ĐỒNG 川六司 Dimori DimoriCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP LÝ BAN CHỨC Đoàn phưởmg Đoànphưởng phưởng Nam Đông Hà Dưá Cho Em αHй TÀO TRỢ NHÀTÀOTRỢ ĐỒNG 川六司 Dimori DimoriCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=917458231417863&set=pcb.917458881417798&__cft__[0]=AZhIvLWWJ-xPByKRT0uAz4uBi3w6pPjvHNxBfIi1TnbGg8Lk1qvTj0CYhzXhl58VjxQRsugNzKxADIvh89hebJeZ1QWiexL86Df1MBHWTAJUO4eZOvRL0n8c9iDuo1qt2eqgNr4_BNFoVpu3B__37rlRJ3MAgck&__tn__=*b1H-R",
+        "https://www.facebook.com/photo/?fbid=917458231417863&set=pcb.917458881417798"
+      ],
+      "source_post_ids": [
+        "917458881417798"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][1][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "917458274751192",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/778755804_917459084751111_208561430298218737_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FQiApjMeO3QQ7kNvwF6XN1m&_nc_oc=AdpNpej2or0UBb0ZfuFGljfayE1gkhE-7EbjUMDX1_CZBOq2GyNjHIBEctMUA6hUZF4&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQPfPGhtRiPBmM4tLjNLakbdHKLsofT73u36ZLaJ4xmYIw&oe=6ADA7C8B",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/778755804_917459084751111_208561430298218737_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FQiApjMeO3QQ7kNvwF6XN1m&_nc_oc=AdpNpej2or0UBb0ZfuFGljfayE1gkhE-7EbjUMDX1_CZBOq2GyNjHIBEctMUA6hUZF4&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQPfPGhtRiPBmM4tLjNLakbdHKLsofT73u36ZLaJ4xmYIw&oe=6ADA7C8B",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP LÝ BAN CHỨC Đoàn phườmg phưởng Nam Đông Hà là Dưá Cho ưánChoEm Em HHÀ TÀO TRỢ ĐỒNG DiMori Dimori DimoriCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP LÝ BAN CHỨC Đoàn phườmg phưởng Nam Đông Hà là Dưá Cho ưánChoEm Em HHÀ TÀO TRỢ ĐỒNG DiMori Dimori DimoriCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=917458274751192&set=pcb.917458881417798&__cft__[0]=AZhIvLWWJ-xPByKRT0uAz4uBi3w6pPjvHNxBfIi1TnbGg8Lk1qvTj0CYhzXhl58VjxQRsugNzKxADIvh89hebJeZ1QWiexL86Df1MBHWTAJUO4eZOvRL0n8c9iDuo1qt2eqgNr4_BNFoVpu3B__37rlRJ3MAgck&__tn__=*b2H-R",
+        "https://www.facebook.com/photo/?fbid=917458274751192&set=pcb.917458881417798"
+      ],
+      "source_post_ids": [
+        "917458881417798"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][2][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "917458208084532",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/778767492_917459041417782_2054179463978981428_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JITI3AzG3TQQ7kNvwGRO9fB&_nc_oc=Adp0-ftnSlQhhZKLYv0Ie-lB1kgW14ItZ6oOve3tiye7jczCqCvvKsoxsIwp57ZD3kk&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNII-jtWILgoPWRHTSMMa-b-A1mbcW-7vre-8xVXHbQUw&oe=6ADA93B0",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/778767492_917459041417782_2054179463978981428_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JITI3AzG3TQQ7kNvwGRO9fB&_nc_oc=Adp0-ftnSlQhhZKLYv0Ie-lB1kgW14ItZ6oOve3tiye7jczCqCvvKsoxsIwp57ZD3kk&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNII-jtWILgoPWRHTSMMa-b-A1mbcW-7vre-8xVXHbQUw&oe=6ADA93B0",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP LÝ BAN BAN CHỨC るでん Đoànphương Đoàn phưởng Nam Đông Hà Dưá Cho ránChoEm Em NHÀ TÀO TRỢ ĐỒNG Dimori riCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHÁP LÝ BAN BAN CHỨC るでん Đoànphương Đoàn phưởng Nam Đông Hà Dưá Cho ránChoEm Em NHÀ TÀO TRỢ ĐỒNG Dimori riCoffee Coffee'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=917458208084532&set=pcb.917458881417798&__cft__[0]=AZhIvLWWJ-xPByKRT0uAz4uBi3w6pPjvHNxBfIi1TnbGg8Lk1qvTj0CYhzXhl58VjxQRsugNzKxADIvh89hebJeZ1QWiexL86Df1MBHWTAJUO4eZOvRL0n8c9iDuo1qt2eqgNr4_BNFoVpu3B__37rlRJ3MAgck&__tn__=*b3H-R",
+        "https://www.facebook.com/photo/?fbid=917458208084532&set=pcb.917458881417798"
+      ],
+      "source_post_ids": [
+        "917458881417798"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][79][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][3][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    }
+  ],
+  "dom_post_discoveries": [
+    {
+      "discovery_id": "dom_c70a96f40550848b5df2",
+      "source_status": "direct_public_dom_excerpt",
+      "caption_visible_excerpt": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE\n—-------------------------------------------\n☕️ Có những cuộc gặp gỡ bắt đầu bằng một tách cà phê, và cũng có những đồng hành bắt đầu từ một tấm lòng. Nằm trên tầng 5 Khách sạn Á Thành, Cầu Hiền Lương, DIMORI COFFEE là một góc nhỏ để ta chậm lại giữa những ngày vội vã, thưởng thức một thức uống yêu thích và lưu giữ đôi ba câu chuyện dịu dàng. Và thật đẹp khi lần này, góc nhỏ ấy đã trở thành một phần trong hành trình của CHO EM.\n\n🌱 Với CHO EM, những điều tử tế chưa bao giờ cần bắt đầu từ những điều lớn lao. Đôi khi, chỉ một sự sẻ chia đúng lúc cũng đủ khiến một hành trình dài thêm phần ấm áp. Sự đồng hành của DIMORI COFFEE với chương trình “Hành Trang Cho Em” chính là một sẻ chia như thế, góp thêm nguồn lực để những kiến thức và kỹ năng về phòng, chống tai nạn đuối nước được gửi đến các em học sinh tại Trường Tiểu học Tà Long. Có thể sự đồng hành ấy chỉ là một phần nhỏ trên một hành trình dài, nhưng với CHO EM, mỗi tấm lòng đều là một lời nhắc rằng chúng mình chưa bao giờ bước đi một mình. \n\n🌸 Nếu có dịp đi qua Cầu Hiền Lương, đừng quên ghé DIMORI COFFEE - Tầng 5, Khách sạn Á Thành, tìm cho mình một góc nhỏ và một buổi chiều thật dịu dàng. Và biết đâu, giữa những câu chuyện bình dị ấy, những điều tốt đẹp DIMORI COFFEE đã trao đi hôm nay sẽ tiếp tục được nhắc nhớ và lan xa theo một cách thật tự nhiên.\n\n💛 Chúng mình sẽ nhớ DIMORI COFFEE như một điểm dừng thật đẹp trên hành trình này. Xin chân thành cảm ơn DIMORI COFFEE vì đã tin tưởng, đồng hành và cùng chúng mình gieo thêm một hạt mầm yêu thương.\n\n📌 Thông tin liên hệ DIMORI COFFEE:\n\n🏠 Địa chỉ: Tầng 5 – Khách sạn Á Thành, Cầu Hiền Lương \n\n☎️ Hotline: 084 555 7596 \nFacebook: https://www.facebook.com/profile.php?id=61590462942789\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "caption_original": null,
+      "caption_status": "visible_dom_text_completeness_unconfirmed",
+      "post_urls": [
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl&id=100094610840245"
+      ],
+      "author_profile_urls": [
+        "https://www.facebook.com/people/CHO-EM-project/100094610840245/"
+      ],
+      "video_urls": [],
+      "facebook_post_ids_from_observed_photo_set": [
+        "917458881417798"
+      ],
+      "published_at": null,
+      "visible_timestamp_labels": [
+        "18 Tháng 8"
+      ],
+      "photos": [
+        {
+          "facebook_photo_id": "917458168084536",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=917458168084536&set=pcb.917458881417798",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/777801430_917458984751121_8655778129851189708_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=6rT3dgr3JsoQ7kNvwHPo3Ci&_nc_oc=AdoZ4olREMPvZnjVtcyeRwzCRW0KTm6gTkYwXvgQHDXgH5IT25_KsXjMcgcEPxqwD4U&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNX4yiOPIYWxXqBPejYvHvyPaPFS8-FiQCp9WQjYzKzBg&oe=6ADA695B",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "917458231417863",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=917458231417863&set=pcb.917458881417798",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/776040604_917459061417780_7348311476776461813_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=7wE5e_LDejsQ7kNvwF8vCsh&_nc_oc=AdqoSLTN75rd7J1gCBtF1iGs5erLk5sHH2Z8x2Mbi-MZiFa8uHzW6X3grt6zt-JhUhU&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNBrDl_SL-R4drfWTxjLbmdJ1DnRdMsbnQiNoj16AYUwg&oe=6ADA9932",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "917458274751192",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=917458274751192&set=pcb.917458881417798",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/778755804_917459084751111_208561430298218737_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FQiApjMeO3QQ7kNvwF6XN1m&_nc_oc=AdpNpej2or0UBb0ZfuFGljfayE1gkhE-7EbjUMDX1_CZBOq2GyNjHIBEctMUA6hUZF4&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQPfPGhtRiPBmM4tLjNLakbdHKLsofT73u36ZLaJ4xmYIw&oe=6ADA7C8B",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "917458208084532",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=917458208084532&set=pcb.917458881417798",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/778767492_917459041417782_2054179463978981428_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=833d8c&_nc_ohc=JITI3AzG3TQQ7kNvwGRO9fB&_nc_oc=Adp0-ftnSlQhhZKLYv0Ie-lB1kgW14ItZ6oOve3tiye7jczCqCvvKsoxsIwp57ZD3kk&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=xdVz-2fy7tEjJYxka7r4pg&_nc_ss=7f289&oh=00_AQNII-jtWILgoPWRHTSMMa-b-A1mbcW-7vre-8xVXHbQUw&oe=6ADA93B0",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        }
+      ],
+      "video_elements": [],
+      "video_duration_visible_labels": [],
+      "season_numbers_visible": [],
+      "evidence": {
+        "snapshot_path": "research/sources/known_post_01_7529fbf673ae.html",
+        "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+      }
+    }
+  ],
+  "season_mentions": [],
+  "date_mentions": [],
+  "counts": {
+    "posts": 1,
+    "photos_with_metadata_or_id": 4,
+    "photos_with_image_urls": 4,
+    "distinct_season_numbers_mentioned": [],
+    "dom_discoveries_with_video_urls": 0
+  },
+  "limitations": [
+    "Only data already delivered in this saved HTML is extracted.",
+    "Reported album counts do not mean every attachment was delivered or downloaded.",
+    "No unseen seasons, dates, images or captions are synthesized.",
+    "Image URL access and reuse rights require separate checks; no media is downloaded by this script.",
+    "Accessibility captions may be machine generated and do not establish identity or consent."
+  ],
+  "related_page_records": []
+}

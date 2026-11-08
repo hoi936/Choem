@@ -1,0 +1,1005 @@
+{
+  "schema_version": 1,
+  "method": "offline_public_snapshot_json_extraction",
+  "network_requests": 0,
+  "source_snapshot": "research/sources/known_post_04_d5f538efe216.html",
+  "source_metadata": null,
+  "source_url": null,
+  "collected_at": null,
+  "extracted_at": "2026-10-18T11:42:38.291999+00:00",
+  "sha256": "337c9dd6a8439bb453a055ccf2ba962c24b3781254d05475f52c2d49386feb86",
+  "script_count": 139,
+  "parsed_json_script_count": 60,
+  "json_parse_errors": [],
+  "page_meta": {
+    "og:type": "video.other",
+    "og:title": "CHO EM project",
+    "og:description": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học tập và trưởng thành, giúp các em tiếp cận thêm...",
+    "og:url": "https://www.facebook.com/100094610840245/posts/%F0%9D%90%82%F0%9D%90%87%F0%9D%90%8E-%F0%9D%90%84%F0%9D%90%8C-tri-%C3%A2n-nh%C3%A0-t%C3%A0i-tr%E1%BB%A3-b%E1%BA%A1c-nh%C3%A0-s%C3%A1ch-sang-hi%E1%BA%BFu-s%C3%A1ch-l%C3%A0-m%E1%BB%99t-ph%E1%BA%A7n-kh%C3%B4ng-th%E1%BB%83-thi%E1%BA%BF/913157068514646/",
+    "og:image:alt": "CHO EM project",
+    "og:image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/770396026_912324501931236_6058310952001790316_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=XYzWBXdChJ4Q7kNvwHrIcOD&_nc_oc=AdrRCbzJbpvyEuSZ5gHh1gfzfOZCuwfXnC8qho6uV-m3KP4eZobhDj67ss9NJm9U4Cc&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=H_zqxlHf0nPZBmNImWNI-A&_nc_ss=7f289&oh=00_AQN8LYK0hPycXLhfGyXvrKw111qZg0aB6oc4BC29gSMoXg&oe=6ADA9914",
+    "og:locale": "en_US",
+    "description": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học...",
+    "twitter:card": "summary",
+    "twitter:title": "CHO EM project",
+    "twitter:description": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học tập và trưởng thành, giúp các em tiếp cận thêm...",
+    "twitter:image": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/770396026_912324501931236_6058310952001790316_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s600x600&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cae128&_nc_ohc=XYzWBXdChJ4Q7kNvwHrIcOD&_nc_oc=AdrRCbzJbpvyEuSZ5gHh1gfzfOZCuwfXnC8qho6uV-m3KP4eZobhDj67ss9NJm9U4Cc&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=H_zqxlHf0nPZBmNImWNI-A&_nc_ss=7f289&oh=00_AQN8LYK0hPycXLhfGyXvrKw111qZg0aB6oc4BC29gSMoXg&oe=6ADA9914",
+    "twitter:image:alt": "CHO EM project",
+    "twitter:site": "@facebookapp"
+  },
+  "profile_records": [
+    {
+      "id": "100094610840245",
+      "name": "CHO EM project",
+      "observed_fields": {
+        "url": [
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"actors\"][0][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"title\"][\"story\"][\"actors\"][0][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"actors\"][0][\"url\"]"
+            }
+          }
+        ],
+        "profile_url": [
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0][\"profile_url\"]"
+            }
+          }
+        ],
+        "is_additional_profile_plus": [
+          {
+            "value": true,
+            "evidence": {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0][\"is_additional_profile_plus\"]"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"actor_photo\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"title\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][0][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][1][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][2][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][3][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][4][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][5][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][6][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][7][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][8][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][9][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_feedback\"][\"owning_profile\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"actors\"][0]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"actors\"][0]"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "facebook_post_id": "913157068514646",
+      "source_status": "direct_public_snapshot_json",
+      "collected_at": null,
+      "source_urls": [
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid0QFj864rHrGhdbYCbHqjuaQzi4rKBcYDZHRBAD1fxT8sT43BDvFGjFXgspTKfXwgKl&id=100094610840245"
+      ],
+      "actor_ids": [
+        "100094610840245"
+      ],
+      "creation_times": [
+        {
+          "unix": 1786626014,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"creation_time\"]"
+          }
+        },
+        {
+          "unix": 1786626014,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"metadata\"][0][\"story\"][\"creation_time\"]"
+          }
+        },
+        {
+          "unix": 1786626014,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"timestamp\"][\"story\"][\"creation_time\"]"
+          }
+        }
+      ],
+      "caption_variants": [
+        {
+          "text": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học tập và trưởng thành, giúp các em tiếp cận thêm nhiều kiến thức, khám phá thế giới và nuôi dưỡng niềm yêu thích học hỏi. Bên cạnh đó, những dụng cụ học tập phù hợp cũng là hành trang cần thiết, đồng hành cùng các em trong từng giờ học.\n\n⭐️ Nếu các bạn đang tìm kiếm một địa điểm để lựa chọn những cuốn sách hay cùng các dụng cụ học tập đa dạng, Nhà sách Sang Hiếu chắc chắn sẽ là một điểm đến đáng để ghé thăm. Tọa lạc trên mặt đường Đại Cồ Việt, nhà sách sở hữu vị trí thuận tiện cùng không gian mua sắm đa dạng, mang đến nhiều sản phẩm phục vụ cả nhu cầu học tập và giải trí. Tại đây, các bạn có thể tìm thấy nhiều đầu sách đa dạng về thể loại, từ sách giáo khoa, sách tham khảo, sách ngoại văn đến truyện tranh và các loại sách phục vụ nhu cầu đọc. Bên cạnh đó, các sản phẩm và dụng cụ học tập như hộp bút, cặp sách, bút viết,... cũng được cung cấp với nhiều mẫu mã và lựa chọn khác nhau, phù hợp với nhu cầu của học sinh, phụ huynh và giáo viên.\n\n💛  Đặc biệt, sự đồng hành của Nhà sách Sang Hiếu với các hoạt động cộng đồng cũng góp phần đưa những giá trị của sách và tri thức đến gần hơn với những bạn nhỏ còn gặp khó khăn trong việc tiếp cận tài liệu học tập. Đây cũng là điều mà 𝐂𝐇𝐎 𝐄𝐌 vô cùng trân trọng trong lần đồng hành này.\n\n🔆 Dự án 𝐂𝐇𝐎 𝐄𝐌 xin chân thành gửi lời cảm ơn đến Nhà sách Sang Hiếu vì đã tin tưởng đồng hành và tài trợ cho chương trình “Hành Trang Cho Em”. Sự hỗ trợ quý báu của nhà sách không chỉ góp phần bổ sung nguồn lực cho dự án trong quá trình chuẩn bị chương trình, mà còn tiếp thêm động lực để 𝐂𝐇𝐎 𝐄𝐌 tiếp tục mang đến những hoạt động thiết thực, lan tỏa kiến thức và kỹ năng phòng, chống tai nạn đuối nước đến các em học sinh tại Trường Tiểu học Tà Long.\n\n🌸 𝐂𝐇𝐎 𝐄𝐌 xin kính chúc Nhà sách Sang Hiếu ngày càng phát triển vững mạnh, tiếp tục khẳng định uy tín và trở thành điểm đến quen thuộc của những người yêu sách, đồng thời lan tỏa nhiều hơn nữa những giá trị của tri thức đến với cộng đồng.\n\n📌 Thông tin liên hệ Nhà sách Sang Hiếu:\n\n🏠 Địa chỉ: 08 Đại Cồ Việt, phường Nam Đông Hà, tỉnh Quảng Trị (Khu đô thị Vincom)\n\n☎️ Hotline: 0917 393 157 hoặc 0947 317 474\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"message\"][\"text\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message\"][\"story\"][\"message\"][\"text\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message_container\"][\"story\"][\"message\"][\"text\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"message\"][\"text\"]"
+            }
+          ]
+        }
+      ],
+      "photo_ids": [
+        "913157011847985",
+        "913157005181319",
+        "913157015181318",
+        "913157018514651",
+        "913157001847986"
+      ],
+      "attachment_counts": [
+        {
+          "reported_count": 6,
+          "delivered_node_count": 5,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"]"
+          }
+        },
+        {
+          "reported_count": 6,
+          "delivered_node_count": 5,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"]"
+          }
+        }
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"context_layout\"][\"story\"][\"comet_sections\"][\"title\"][\"story\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"]"
+        }
+      ],
+      "post_url": "https://www.facebook.com/permalink.php?story_fbid=pfbid0QFj864rHrGhdbYCbHqjuaQzi4rKBcYDZHRBAD1fxT8sT43BDvFGjFXgspTKfXwgKl&id=100094610840245",
+      "published_at": "2026-08-13T13:00:14+00:00",
+      "published_at_asia_bangkok": "2026-08-13T20:00:14+07:00",
+      "caption_original": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học tập và trưởng thành, giúp các em tiếp cận thêm nhiều kiến thức, khám phá thế giới và nuôi dưỡng niềm yêu thích học hỏi. Bên cạnh đó, những dụng cụ học tập phù hợp cũng là hành trang cần thiết, đồng hành cùng các em trong từng giờ học.\n\n⭐️ Nếu các bạn đang tìm kiếm một địa điểm để lựa chọn những cuốn sách hay cùng các dụng cụ học tập đa dạng, Nhà sách Sang Hiếu chắc chắn sẽ là một điểm đến đáng để ghé thăm. Tọa lạc trên mặt đường Đại Cồ Việt, nhà sách sở hữu vị trí thuận tiện cùng không gian mua sắm đa dạng, mang đến nhiều sản phẩm phục vụ cả nhu cầu học tập và giải trí. Tại đây, các bạn có thể tìm thấy nhiều đầu sách đa dạng về thể loại, từ sách giáo khoa, sách tham khảo, sách ngoại văn đến truyện tranh và các loại sách phục vụ nhu cầu đọc. Bên cạnh đó, các sản phẩm và dụng cụ học tập như hộp bút, cặp sách, bút viết,... cũng được cung cấp với nhiều mẫu mã và lựa chọn khác nhau, phù hợp với nhu cầu của học sinh, phụ huynh và giáo viên.\n\n💛  Đặc biệt, sự đồng hành của Nhà sách Sang Hiếu với các hoạt động cộng đồng cũng góp phần đưa những giá trị của sách và tri thức đến gần hơn với những bạn nhỏ còn gặp khó khăn trong việc tiếp cận tài liệu học tập. Đây cũng là điều mà 𝐂𝐇𝐎 𝐄𝐌 vô cùng trân trọng trong lần đồng hành này.\n\n🔆 Dự án 𝐂𝐇𝐎 𝐄𝐌 xin chân thành gửi lời cảm ơn đến Nhà sách Sang Hiếu vì đã tin tưởng đồng hành và tài trợ cho chương trình “Hành Trang Cho Em”. Sự hỗ trợ quý báu của nhà sách không chỉ góp phần bổ sung nguồn lực cho dự án trong quá trình chuẩn bị chương trình, mà còn tiếp thêm động lực để 𝐂𝐇𝐎 𝐄𝐌 tiếp tục mang đến những hoạt động thiết thực, lan tỏa kiến thức và kỹ năng phòng, chống tai nạn đuối nước đến các em học sinh tại Trường Tiểu học Tà Long.\n\n🌸 𝐂𝐇𝐎 𝐄𝐌 xin kính chúc Nhà sách Sang Hiếu ngày càng phát triển vững mạnh, tiếp tục khẳng định uy tín và trở thành điểm đến quen thuộc của những người yêu sách, đồng thời lan tỏa nhiều hơn nữa những giá trị của tri thức đến với cộng đồng.\n\n📌 Thông tin liên hệ Nhà sách Sang Hiếu:\n\n🏠 Địa chỉ: 08 Đại Cồ Việt, phường Nam Đông Hà, tỉnh Quảng Trị (Khu đô thị Vincom)\n\n☎️ Hotline: 0917 393 157 hoặc 0947 317 474\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "caption_evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"message\"][\"text\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message\"][\"story\"][\"message\"][\"text\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message_container\"][\"story\"][\"message\"][\"text\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"message\"][\"text\"]"
+        }
+      ],
+      "caption_status": "exact_message_text_as_delivered_in_snapshot",
+      "caption_character_count": 3016,
+      "caption_clean": "CHO EM: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học tập và trưởng thành, giúp các em tiếp cận thêm nhiều kiến thức, khám phá thế giới và nuôi dưỡng niềm yêu thích học hỏi. Bên cạnh đó, những dụng cụ học tập phù hợp cũng là hành trang cần thiết, đồng hành cùng các em trong từng giờ học.\n\n⭐️ Nếu các bạn đang tìm kiếm một địa điểm để lựa chọn những cuốn sách hay cùng các dụng cụ học tập đa dạng, Nhà sách Sang Hiếu chắc chắn sẽ là một điểm đến đáng để ghé thăm. Tọa lạc trên mặt đường Đại Cồ Việt, nhà sách sở hữu vị trí thuận tiện cùng không gian mua sắm đa dạng, mang đến nhiều sản phẩm phục vụ cả nhu cầu học tập và giải trí. Tại đây, các bạn có thể tìm thấy nhiều đầu sách đa dạng về thể loại, từ sách giáo khoa, sách tham khảo, sách ngoại văn đến truyện tranh và các loại sách phục vụ nhu cầu đọc. Bên cạnh đó, các sản phẩm và dụng cụ học tập như hộp bút, cặp sách, bút viết,... cũng được cung cấp với nhiều mẫu mã và lựa chọn khác nhau, phù hợp với nhu cầu của học sinh, phụ huynh và giáo viên.\n\n💛  Đặc biệt, sự đồng hành của Nhà sách Sang Hiếu với các hoạt động cộng đồng cũng góp phần đưa những giá trị của sách và tri thức đến gần hơn với những bạn nhỏ còn gặp khó khăn trong việc tiếp cận tài liệu học tập. Đây cũng là điều mà CHO EM vô cùng trân trọng trong lần đồng hành này.\n\n🔆 Dự án CHO EM xin chân thành gửi lời cảm ơn đến Nhà sách Sang Hiếu vì đã tin tưởng đồng hành và tài trợ cho chương trình “Hành Trang Cho Em”. Sự hỗ trợ quý báu của nhà sách không chỉ góp phần bổ sung nguồn lực cho dự án trong quá trình chuẩn bị chương trình, mà còn tiếp thêm động lực để CHO EM tiếp tục mang đến những hoạt động thiết thực, lan tỏa kiến thức và kỹ năng phòng, chống tai nạn đuối nước đến các em học sinh tại Trường Tiểu học Tà Long.\n\n🌸 CHO EM xin kính chúc Nhà sách Sang Hiếu ngày càng phát triển vững mạnh, tiếp tục khẳng định uy tín và trở thành điểm đến quen thuộc của những người yêu sách, đồng thời lan tỏa nhiều hơn nữa những giá trị của tri thức đến với cộng đồng.\n\n📌 Thông tin liên hệ Nhà sách Sang Hiếu:\n\n🏠 Địa chỉ: 08 Đại Cồ Việt, phường Nam Đông Hà, tỉnh Quảng Trị (Khu đô thị Vincom)\n\n☎️ Hotline: 0917 393 157 hoặc 0947 317 474\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “CHO EM” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 Contact us\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "hashtags": []
+    }
+  ],
+  "photos": [
+    {
+      "facebook_photo_id": "913157011847985",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/770396026_912324501931236_6058310952001790316_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XYzWBXdChJ4Q7kNvwHrIcOD&_nc_oc=AdrRCbzJbpvyEuSZ5gHh1gfzfOZCuwfXnC8qho6uV-m3KP4eZobhDj67ss9NJm9U4Cc&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNJhyHTpKeSnpM_D3c0Pif9GPjt16WmU4udSFOztxG9tg&oe=6ADA9914",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/770396026_912324501931236_6058310952001790316_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XYzWBXdChJ4Q7kNvwHrIcOD&_nc_oc=AdrRCbzJbpvyEuSZ5gHh1gfzfOZCuwfXnC8qho6uV-m3KP4eZobhDj67ss9NJm9U4Cc&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNJhyHTpKeSnpM_D3c0Pif9GPjt16WmU4udSFOztxG9tg&oe=6ADA9914",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=913157011847985&set=pcb.913157068514646&__cft__[0]=AZgALir3M6msBd6eH8cADzlnZgR0qbQyuPzZx13TPYHLWCyrglVs9Uh64DmbC4-pZajiAAqCsEHtGAZp8QGot41pev0nBqVOBPU1np-HLSFOla0AEUfD3pqXfHwWJYin0Cjm9zsCmWmvEVJ-kybXW2rEaNRMRfE&__tn__=*b0H-R",
+        "https://www.facebook.com/photo/?fbid=913157011847985&set=pcb.913157068514646"
+      ],
+      "source_post_ids": [
+        "913157068514646"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"comet_sections\"][\"message\"][\"story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][0][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][1][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][2][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][3][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][4][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][5][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][6][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][7][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][8][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"feedback_context\"][\"feedback_target_with_context\"][\"comment_list_renderer\"][\"feedback\"][\"comment_rendering_instance_for_feed_location\"][\"comments\"][\"edges\"][9][\"node\"][\"comet_comment_author_name_and_badges_renderer\"][\"comment\"][\"parent_post_story\"][\"attachments\"][0][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"feedback\"][\"story\"][\"story_ufi_container\"][\"story\"][\"save_info\"][\"savable\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "913157005181319",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/773403091_912324808597872_8223506687292701234_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IEIu9AGmGcIQ7kNvwGbQ4LB&_nc_oc=Adre9R7igJDhtUto8BRgdIHDQeZqYcAaZZXEdkpDCfT31kjHtnvsCoumyQpukas-a7c&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQPZ3eyTV_YzfTi2EwpWW3vSM-Ccw9rlUraH98phxD13RA&oe=6ADA82F4",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/773403091_912324808597872_8223506687292701234_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IEIu9AGmGcIQ7kNvwGbQ4LB&_nc_oc=Adre9R7igJDhtUto8BRgdIHDQeZqYcAaZZXEdkpDCfT31kjHtnvsCoumyQpukas-a7c&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQPZ3eyTV_YzfTi2EwpWW3vSM-Ccw9rlUraH98phxD13RA&oe=6ADA82F4",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BÀO TRỢ PHẨP LÝ BAN TỐ CHỨC 없없은 DƯ Cho Em Đoàn hưtng hưởng Namri Đông a NHÀ TÀO TRỢ 꽃길 Nhà Sách Sang Hiếu'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BÀO TRỢ PHẨP LÝ BAN TỐ CHỨC 없없은 DƯ Cho Em Đoàn hưtng hưởng Namri Đông a NHÀ TÀO TRỢ 꽃길 Nhà Sách Sang Hiếu'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=913157005181319&set=pcb.913157068514646&__cft__[0]=AZgALir3M6msBd6eH8cADzlnZgR0qbQyuPzZx13TPYHLWCyrglVs9Uh64DmbC4-pZajiAAqCsEHtGAZp8QGot41pev0nBqVOBPU1np-HLSFOla0AEUfD3pqXfHwWJYin0Cjm9zsCmWmvEVJ-kybXW2rEaNRMRfE&__tn__=*b1H-R",
+        "https://www.facebook.com/photo/?fbid=913157005181319&set=pcb.913157068514646"
+      ],
+      "source_post_ids": [
+        "913157068514646"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][1][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][1][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "913157015181318",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/772345426_912324708597882_6132030956496729976_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Q-PbTWHpK2UQ7kNvwFQIZil&_nc_oc=AdrafAHmJCpQAmVFQSKpvdSQ-boSfvRgNX3JGzjytQuecBaa4yosOUOkgyHVOGws404&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNHnHdp8P7HI-aGzDDfdaj7RQ8cH0WdhfmbzhfAeq46sg&oe=6ADA984F",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/772345426_912324708597882_6132030956496729976_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Q-PbTWHpK2UQ7kNvwFQIZil&_nc_oc=AdrafAHmJCpQAmVFQSKpvdSQ-boSfvRgNX3JGzjytQuecBaa4yosOUOkgyHVOGws404&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNHnHdp8P7HI-aGzDDfdaj7RQ8cH0WdhfmbzhfAeq46sg&oe=6ADA984F",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về ‎văn bản cho biết '‎6AO TRỢ PHẨP LÝ BAN TỐ CHỨC קונשי Đoàn huriig hưởng Nam Đông Hà al DƯ Cho Em NHÀ TÀO TRỢ BẠC - Nhà Sách Sang Hiếu‎'‎",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về ‎văn bản cho biết '‎6AO TRỢ PHẨP LÝ BAN TỐ CHỨC קונשי Đoàn huriig hưởng Nam Đông Hà al DƯ Cho Em NHÀ TÀO TRỢ BẠC - Nhà Sách Sang Hiếu‎'‎",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=913157015181318&set=pcb.913157068514646&__cft__[0]=AZgALir3M6msBd6eH8cADzlnZgR0qbQyuPzZx13TPYHLWCyrglVs9Uh64DmbC4-pZajiAAqCsEHtGAZp8QGot41pev0nBqVOBPU1np-HLSFOla0AEUfD3pqXfHwWJYin0Cjm9zsCmWmvEVJ-kybXW2rEaNRMRfE&__tn__=*b2H-R",
+        "https://www.facebook.com/photo/?fbid=913157015181318&set=pcb.913157068514646"
+      ],
+      "source_post_ids": [
+        "913157068514646"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][2][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][2][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "913157018514651",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/772951180_912324781931208_397122808400847074_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1yY9mElJtcAQ7kNvwFK8co9&_nc_oc=AdqzTXM2IaOH2Wr8Ld8mG3Xd23zvCx7jjui4igd8XObMhy_EfHADpzJ647Tl303yErI&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNol8UsWgMs1nsXdJT867I5sATRfpafHvDzc-MZSzcoTA&oe=6ADA8EE8",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/772951180_912324781931208_397122808400847074_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1yY9mElJtcAQ7kNvwFK8co9&_nc_oc=AdqzTXM2IaOH2Wr8Ld8mG3Xd23zvCx7jjui4igd8XObMhy_EfHADpzJ647Tl303yErI&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNol8UsWgMs1nsXdJT867I5sATRfpafHvDzc-MZSzcoTA&oe=6ADA8EE8",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về ‎văn bản cho biết '‎BAA TRỢ PHẨP BẢOTRỢPHÁPLÝ LÝ BAN TỐ CHỨC צקושי. Đoàn hưởng Nam Đông Hà a Dựá Cho Em HHÀ TÀO TRỢ BAC も Nhà Sách Sang Hiếu‎'‎",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về ‎văn bản cho biết '‎BAA TRỢ PHẨP BẢOTRỢPHÁPLÝ LÝ BAN TỐ CHỨC צקושי. Đoàn hưởng Nam Đông Hà a Dựá Cho Em HHÀ TÀO TRỢ BAC も Nhà Sách Sang Hiếu‎'‎",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=913157018514651&set=pcb.913157068514646&__cft__[0]=AZgALir3M6msBd6eH8cADzlnZgR0qbQyuPzZx13TPYHLWCyrglVs9Uh64DmbC4-pZajiAAqCsEHtGAZp8QGot41pev0nBqVOBPU1np-HLSFOla0AEUfD3pqXfHwWJYin0Cjm9zsCmWmvEVJ-kybXW2rEaNRMRfE&__tn__=*b3H-R",
+        "https://www.facebook.com/photo/?fbid=913157018514651&set=pcb.913157068514646"
+      ],
+      "source_post_ids": [
+        "913157068514646"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][3][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][3][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    },
+    {
+      "facebook_photo_id": "913157001847986",
+      "owner_ids": [
+        "100094610840245"
+      ],
+      "image_variants": [
+        {
+          "uri": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/773574705_912324835264536_4026803395456000236_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=F2udRjVwjIUQ7kNvwF8GUMo&_nc_oc=Adr8QofBnqhiLP3ugRoWI1_r6w04jXhMLgYW21EFbvQRaQnKPqKRiCgHW4Ex7P-ZNFg&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQMwMKE68HOdJ2KCEgzycVxlyoQF2lQwK2YtjPE8u2Jgqg&oe=6ADA8842",
+          "width": 590,
+          "height": 590,
+          "fields": [
+            "image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"][\"image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+            }
+          ]
+        },
+        {
+          "uri": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/773574705_912324835264536_4026803395456000236_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s2000x2000&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=F2udRjVwjIUQ7kNvwF8GUMo&_nc_oc=Adr8QofBnqhiLP3ugRoWI1_r6w04jXhMLgYW21EFbvQRaQnKPqKRiCgHW4Ex7P-ZNFg&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQMwMKE68HOdJ2KCEgzycVxlyoQF2lQwK2YtjPE8u2Jgqg&oe=6ADA8842",
+          "width": 2000,
+          "height": 2000,
+          "fields": [
+            "viewer_image"
+          ],
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"][\"viewer_image\"]"
+            },
+            {
+              "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+              "script_index": 86,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"][\"viewer_image\"]"
+            }
+          ]
+        }
+      ],
+      "accessibility_captions": [
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHẨP LÝ BAN ดี CHỨC 星民 Dự Cho Em Đoàn ለቶ። hưởng Nam Đông a CHÀ TÀO TRỢ BẠC Nhà Sách Sang Hiếu'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"][\"accessibility_caption\"]"
+          }
+        },
+        {
+          "text": "Có thể là hình ảnh về văn bản cho biết 'BẢO TRỢ PHẨP LÝ BAN ดี CHỨC 星民 Dự Cho Em Đoàn ለቶ። hưởng Nam Đông a CHÀ TÀO TRỢ BẠC Nhà Sách Sang Hiếu'",
+          "machine_generated": true,
+          "evidence": {
+            "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+            "script_index": 86,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"][\"accessibility_caption\"]"
+          }
+        }
+      ],
+      "observed_photo_page_urls": [
+        "https://www.facebook.com/photo/?fbid=913157001847986&set=pcb.913157068514646&__cft__[0]=AZgALir3M6msBd6eH8cADzlnZgR0qbQyuPzZx13TPYHLWCyrglVs9Uh64DmbC4-pZajiAAqCsEHtGAZp8QGot41pev0nBqVOBPU1np-HLSFOla0AEUfD3pqXfHwWJYin0Cjm9zsCmWmvEVJ-kybXW2rEaNRMRfE&__tn__=*b4H-R",
+        "https://www.facebook.com/photo/?fbid=913157001847986&set=pcb.913157068514646"
+      ],
+      "source_post_ids": [
+        "913157068514646"
+      ],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"styles\"][\"attachment\"][\"all_subattachments\"][\"nodes\"][4][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "script_index": 86,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][69][3][1][\"__bbox\"][\"result\"][\"data\"][\"node_v2\"][\"comet_sections\"][\"content\"][\"story\"][\"attachments\"][0][\"all_subattachments\"][\"nodes\"][4][\"media\"]"
+        },
+        {
+          "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+          "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+        }
+      ]
+    }
+  ],
+  "dom_post_discoveries": [
+    {
+      "discovery_id": "dom_465190c4fd27713f12dd",
+      "source_status": "direct_public_dom_excerpt",
+      "caption_visible_excerpt": "𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU\n—-------------------------------------------\n\n📚 Sách là một phần không thể thiếu trên hành trình học tập và trưởng thành, giúp các em tiếp cận thêm nhiều kiến thức, khám phá thế giới và nuôi dưỡng niềm yêu thích học hỏi. Bên cạnh đó, những dụng cụ học tập phù hợp cũng là hành trang cần thiết, đồng hành cùng các em trong từng giờ học.\n\n⭐️ Nếu các bạn đang tìm kiếm một địa điểm để lựa chọn những cuốn sách hay cùng các dụng cụ học tập đa dạng, Nhà sách Sang Hiếu chắc chắn sẽ là một điểm đến đáng để ghé thăm. Tọa lạc trên mặt đường Đại Cồ Việt, nhà sách sở hữu vị trí thuận tiện cùng không gian mua sắm đa dạng, mang đến nhiều sản phẩm phục vụ cả nhu cầu học tập và giải trí. Tại đây, các bạn có thể tìm thấy nhiều đầu sách đa dạng về thể loại, từ sách giáo khoa, sách tham khảo, sách ngoại văn đến truyện tranh và các loại sách phục vụ nhu cầu đọc. Bên cạnh đó, các sản phẩm và dụng cụ học tập như hộp bút, cặp sách, bút viết,... cũng được cung cấp với nhiều mẫu mã và lựa chọn khác nhau, phù hợp với nhu cầu của học sinh, phụ huynh và giáo viên.\n\n💛  Đặc biệt, sự đồng hành của Nhà sách Sang Hiếu với các hoạt động cộng đồng cũng góp phần đưa những giá trị của sách và tri thức đến gần hơn với những bạn nhỏ còn gặp khó khăn trong việc tiếp cận tài liệu học tập. Đây cũng là điều mà 𝐂𝐇𝐎 𝐄𝐌 vô cùng trân trọng trong lần đồng hành này.\n\n🔆 Dự án 𝐂𝐇𝐎 𝐄𝐌 xin chân thành gửi lời cảm ơn đến Nhà sách Sang Hiếu vì đã tin tưởng đồng hành và tài trợ cho chương trình “Hành Trang Cho Em”. Sự hỗ trợ quý báu của nhà sách không chỉ góp phần bổ sung nguồn lực cho dự án trong quá trình chuẩn bị chương trình, mà còn tiếp thêm động lực để 𝐂𝐇𝐎 𝐄𝐌 tiếp tục mang đến những hoạt động thiết thực, lan tỏa kiến thức và kỹ năng phòng, chống tai nạn đuối nước đến các em học sinh tại Trường Tiểu học Tà Long.\n\n🌸 𝐂𝐇𝐎 𝐄𝐌 xin kính chúc Nhà sách Sang Hiếu ngày càng phát triển vững mạnh, tiếp tục khẳng định uy tín và trở thành điểm đến quen thuộc của những người yêu sách, đồng thời lan tỏa nhiều hơn nữa những giá trị của tri thức đến với cộng đồng.\n\n📌 Thông tin liên hệ Nhà sách Sang Hiếu:\n\n🏠 Địa chỉ: 08 Đại Cồ Việt, phường Nam Đông Hà, tỉnh Quảng Trị (Khu đô thị Vincom)\n\n☎️ Hotline: 0917 393 157 hoặc 0947 317 474\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌 HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "caption_original": null,
+      "caption_status": "visible_dom_text_completeness_unconfirmed",
+      "post_urls": [
+        "https://www.facebook.com/permalink.php?story_fbid=pfbid0QFj864rHrGhdbYCbHqjuaQzi4rKBcYDZHRBAD1fxT8sT43BDvFGjFXgspTKfXwgKl&id=100094610840245"
+      ],
+      "author_profile_urls": [
+        "https://www.facebook.com/people/CHO-EM-project/100094610840245/"
+      ],
+      "video_urls": [],
+      "facebook_post_ids_from_observed_photo_set": [
+        "913157068514646"
+      ],
+      "published_at": null,
+      "visible_timestamp_labels": [
+        "13 Tháng 8"
+      ],
+      "photos": [
+        {
+          "facebook_photo_id": "913157011847985",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=913157011847985&set=pcb.913157068514646",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/770396026_912324501931236_6058310952001790316_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XYzWBXdChJ4Q7kNvwHrIcOD&_nc_oc=AdrRCbzJbpvyEuSZ5gHh1gfzfOZCuwfXnC8qho6uV-m3KP4eZobhDj67ss9NJm9U4Cc&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNJhyHTpKeSnpM_D3c0Pif9GPjt16WmU4udSFOztxG9tg&oe=6ADA9914",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "913157005181319",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=913157005181319&set=pcb.913157068514646",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-2.fna.fbcdn.net/v/t39.30808-6/773403091_912324808597872_8223506687292701234_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=IEIu9AGmGcIQ7kNvwGbQ4LB&_nc_oc=Adre9R7igJDhtUto8BRgdIHDQeZqYcAaZZXEdkpDCfT31kjHtnvsCoumyQpukas-a7c&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQPZ3eyTV_YzfTi2EwpWW3vSM-Ccw9rlUraH98phxD13RA&oe=6ADA82F4",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "913157015181318",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=913157015181318&set=pcb.913157068514646",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-1.fna.fbcdn.net/v/t39.30808-6/772345426_912324708597882_6132030956496729976_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Q-PbTWHpK2UQ7kNvwFQIZil&_nc_oc=AdrafAHmJCpQAmVFQSKpvdSQ-boSfvRgNX3JGzjytQuecBaa4yosOUOkgyHVOGws404&_nc_zt=23&_nc_ht=scontent.fdad1-1.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNHnHdp8P7HI-aGzDDfdaj7RQ8cH0WdhfmbzhfAeq46sg&oe=6ADA984F",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "913157018514651",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=913157018514651&set=pcb.913157068514646",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-3.fna.fbcdn.net/v/t39.30808-6/772951180_912324781931208_397122808400847074_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=1yY9mElJtcAQ7kNvwFK8co9&_nc_oc=AdqzTXM2IaOH2Wr8Ld8mG3Xd23zvCx7jjui4igd8XObMhy_EfHADpzJ647Tl303yErI&_nc_zt=23&_nc_ht=scontent.fdad1-3.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQNol8UsWgMs1nsXdJT867I5sATRfpafHvDzc-MZSzcoTA&oe=6ADA8EE8",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        },
+        {
+          "facebook_photo_id": "913157001847986",
+          "photo_page_url": "https://www.facebook.com/photo/?fbid=913157001847986&set=pcb.913157068514646",
+          "image_elements": [
+            {
+              "src": "https://scontent.fdad1-4.fna.fbcdn.net/v/t39.30808-6/773574705_912324835264536_4026803395456000236_n.jpg?stp=dst-jpg_tt6&cstp=mx2000x2000&ctp=s590x590&_nc_cat=106&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=127cfc&_nc_ohc=F2udRjVwjIUQ7kNvwF8GUMo&_nc_oc=Adr8QofBnqhiLP3ugRoWI1_r6w04jXhMLgYW21EFbvQRaQnKPqKRiCgHW4Ex7P-ZNFg&_nc_zt=23&_nc_ht=scontent.fdad1-4.fna&_nc_gid=-wW4NKSJPgY00naFXQF7aw&_nc_ss=7f289&oh=00_AQMwMKE68HOdJ2KCEgzycVxlyoQF2lQwK2YtjPE8u2Jgqg&oe=6ADA8842",
+              "alt": "",
+              "rendered_width": null,
+              "rendered_height": null
+            }
+          ]
+        }
+      ],
+      "video_elements": [],
+      "video_duration_visible_labels": [],
+      "season_numbers_visible": [],
+      "evidence": {
+        "snapshot_path": "research/sources/known_post_04_d5f538efe216.html",
+        "dom_selector": "[role=\"article\"][aria-posinset=\"1\"]"
+      }
+    }
+  ],
+  "season_mentions": [],
+  "date_mentions": [],
+  "counts": {
+    "posts": 1,
+    "photos_with_metadata_or_id": 5,
+    "photos_with_image_urls": 5,
+    "distinct_season_numbers_mentioned": [],
+    "dom_discoveries_with_video_urls": 0
+  },
+  "limitations": [
+    "Only data already delivered in this saved HTML is extracted.",
+    "Reported album counts do not mean every attachment was delivered or downloaded.",
+    "No unseen seasons, dates, images or captions are synthesized.",
+    "Image URL access and reuse rights require separate checks; no media is downloaded by this script.",
+    "Accessibility captions may be machine generated and do not establish identity or consent."
+  ],
+  "related_page_records": []
+}

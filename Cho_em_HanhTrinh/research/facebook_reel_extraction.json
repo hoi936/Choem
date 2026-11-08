@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "method": "offline_public_snapshot_json_extraction",
+  "network_requests": 0,
+  "source_snapshot": "research/sources/facebook_reel_browser.html",
+  "source_metadata": "research/sources/facebook_reel_browser.json",
+  "source_url": "https://www.facebook.com/reel/1411736247503742/",
+  "collected_at": "2026-10-18T11:43:11.257016+00:00",
+  "extracted_at": "2026-10-18T11:43:24.837791+00:00",
+  "sha256": "a47f6d04dd1e08f03dfafcc21fa0cd08b10e359f2bc06af7e26c3625dbf5fd5e",
+  "script_count": 137,
+  "parsed_json_script_count": 55,
+  "json_parse_errors": [],
+  "page_meta": {
+    "og:type": "video.other",
+    "og:title": "2,9K lượt xem · 66 cảm xúc | 𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương trình “Tuyên truyền và giáo dục phòng chống tai nạn đuối nước” tại Trường Tiểu học Tà Long, thuộc thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị sẽ chính thức diễn ra. Trước khi khởi hành, mỗi thành viên của dự án 𝐂𝐇𝐎 𝐄𝐌 đều mang trong mình những cảm xúc rất riêng: một chút háo hức vì sắp được gặp gỡ các em nhỏ, một chút hồi hộp về hành trình phía trước và trên hết là niềm hạnh phúc khi có cơ hội góp sức mình cho một chuyến đi đầy ý nghĩa. \n\n🌈 Với các thành viên của 𝐂𝐇𝐎 𝐄𝐌, đây không đơn thuần là một buổi tuyên truyền, đây còn là dịp để những trái tim trẻ gặp gỡ và cùng hướng về trẻ em vùng cao, để từng câu chuyện, từng lời chia sẻ được gửi đi bằng tất cả sự chân thành và yêu thương. Mỗi bài học về phòng chống đuối nước không chỉ mang theo kiến thức cần thiết, mà còn gửi gắm hy vọng về một tuổi thơ an toàn hơn, để chính những trải nghiệm trong chuyến đi trở thành động lực cho hành trình lan tỏa yêu thương phía trước. \n\n🌱 Chúng mình hy vọng rằng, những kiến thức và kỹ năng được trao gửi trong chương trình sẽ trở thành một chiếc \"hành trang\" nhỏ nhưng ý nghĩa, giúp các em thêm tự tin và biết cách bảo vệ bản thân trên mỗi chặng đường trưởng thành. Có lẽ, chính niềm tin vào những điều tốt đẹp ấy đã khiến hành trình lần này trở nên đặc biệt hơn bao giờ hết. \n\n🎤 Hãy cùng nhìn lại hành trình “𝐂𝐇𝐎 𝐄𝐌” của chúng mình và lắng nghe những chia sẻ chân thành của các thành viên trước chuyến đi ý nghĩa này nhé!\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com) | CHO EM project",
+    "og:description": "𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương...",
+    "og:url": "https://www.facebook.com/100094610840245/videos/%F0%9D%90%82%F0%9D%90%87%F0%9D%90%8E-%F0%9D%90%84%F0%9D%90%8C-c%C3%A1c-th%C3%A0nh-vi%C3%AAn-%C4%91ang-mong-ch%E1%BB%9D-%C4%91i%E1%BB%81u-g%C3%AC-nh%E1%BA%A5t-ch%C3%BA-%C3%BD-ch%C3%BA-%C3%BD-chuy%E1%BA%BFn-xe-c%E1%BB%A7a-%F0%9D%90%82%F0%9D%90%87%F0%9D%90%8E-%F0%9D%90%84/1411736247503742/",
+    "og:image:alt": "2,9K lượt xem · 66 cảm xúc | 𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương trình “Tuyên truyền và giáo dục phòng chống tai nạn đuối nước” tại Trường Tiểu học Tà Long, thuộc thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị sẽ chính thức diễn ra. Trước khi khởi hành, mỗi thành viên của dự án 𝐂𝐇𝐎 𝐄𝐌 đều mang trong mình những cảm xúc rất riêng: một chút háo hức vì sắp được gặp gỡ các em nhỏ, một chút hồi hộp về hành trình phía trước và trên hết là niềm hạnh phúc khi có cơ hội góp sức mình cho một chuyến đi đầy ý nghĩa. \n\n🌈 Với các thành viên của 𝐂𝐇𝐎 𝐄𝐌, đây không đơn thuần là một buổi tuyên truyền, đây còn là dịp để những trái tim trẻ gặp gỡ và cùng hướng về trẻ em vùng cao, để từng câu chuyện, từng lời chia sẻ được gửi đi bằng tất cả sự chân thành và yêu thương. Mỗi bài học về phòng chống đuối nước không chỉ mang theo kiến thức cần thiết, mà còn gửi gắm hy vọng về một tuổi thơ an toàn hơn, để chính những trải nghiệm trong chuyến đi trở thành động lực cho hành trình lan tỏa yêu thương phía trước. \n\n🌱 Chúng mình hy vọng rằng, những kiến thức và kỹ năng được trao gửi trong chương trình sẽ trở thành một chiếc \"hành trang\" nhỏ nhưng ý nghĩa, giúp các em thêm tự tin và biết cách bảo vệ bản thân trên mỗi chặng đường trưởng thành. Có lẽ, chính niềm tin vào những điều tốt đẹp ấy đã khiến hành trình lần này trở nên đặc biệt hơn bao giờ hết. \n\n🎤 Hãy cùng nhìn lại hành trình “𝐂𝐇𝐎 𝐄𝐌” của chúng mình và lắng nghe những chia sẻ chân thành của các thành viên trước chuyến đi ý nghĩa này nhé!\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com) | CHO EM project",
+    "og:image": "https://scontent.fdad1-2.fna.fbcdn.net/v/t15.5256-10/777799980_1696477354797118_4306369764056303637_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a27664&_nc_ohc=kdLIu8f9Zm0Q7kNvwGhj5w0&_nc_oc=Adp01-8B35Lviey20RPHIVhQiKdK-8I1iPA93p8iXdahjOwKs-sY1gv9CcjqyrLPfwI&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=cw2rJzAOsvnOt56mB6oR7g&_nc_ss=7f289&oh=00_AQMwDegp3RdzWzkyXcsZeSFVvgmPJQQTEDaUFpYgzcBUZw&oe=6ADA6DB5",
+    "og:locale": "en_US",
+    "description": "𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi...",
+    "twitter:card": "summary",
+    "twitter:title": "2,9K lượt xem · 66 cảm xúc | 𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ...",
+    "twitter:description": "𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương...",
+    "twitter:image": "https://scontent.fdad1-2.fna.fbcdn.net/v/t15.5256-10/777799980_1696477354797118_4306369764056303637_n.jpg?_nc_cat=102&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=a27664&_nc_ohc=kdLIu8f9Zm0Q7kNvwGhj5w0&_nc_oc=Adp01-8B35Lviey20RPHIVhQiKdK-8I1iPA93p8iXdahjOwKs-sY1gv9CcjqyrLPfwI&_nc_zt=23&_nc_ht=scontent.fdad1-2.fna&_nc_gid=cw2rJzAOsvnOt56mB6oR7g&_nc_ss=7f289&oh=00_AQMwDegp3RdzWzkyXcsZeSFVvgmPJQQTEDaUFpYgzcBUZw&oe=6ADA6DB5",
+    "twitter:image:alt": "2,9K lượt xem · 66 cảm xúc | 𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương trình “Tuyên truyền và giáo dục phòng chống tai nạn đuối nước” tại Trường Tiểu học Tà Long, thuộc thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị sẽ chính thức diễn ra. Trước khi khởi hành, mỗi thành viên...",
+    "twitter:site": "@facebookapp"
+  },
+  "profile_records": [
+    {
+      "id": "100094610840245",
+      "name": "CHO EM project",
+      "observed_fields": {
+        "url": [
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/facebook_reel_browser.html",
+              "script_index": 78,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"short_form_video_context\"][\"video_owner\"][\"url\"]"
+            }
+          },
+          {
+            "value": "https://www.facebook.com/people/CHO-EM-project/100094610840245/",
+            "evidence": {
+              "snapshot_path": "research/sources/facebook_reel_browser.html",
+              "script_index": 78,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"short_form_video_context\"][\"fb_shorts_reshare_context\"][\"reshare_creator\"][\"url\"]"
+            }
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/facebook_reel_browser.html",
+          "script_index": 78,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"short_form_video_context\"][\"video_owner\"]"
+        },
+        {
+          "snapshot_path": "research/sources/facebook_reel_browser.html",
+          "script_index": 78,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"short_form_video_context\"][\"fb_shorts_reshare_context\"][\"reshare_creator\"]"
+        },
+        {
+          "snapshot_path": "research/sources/facebook_reel_browser.html",
+          "script_index": 113,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][1][3][1][\"__bbox\"][\"result\"][\"data\"][\"short_form_video_context\"][\"video_owner\"]"
+        }
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "facebook_post_id": "916658988164454",
+      "source_status": "direct_public_snapshot_json",
+      "collected_at": "2026-10-18T11:43:11.257016+00:00",
+      "source_urls": [],
+      "actor_ids": [],
+      "creation_times": [
+        {
+          "unix": 1786976150,
+          "evidence": {
+            "snapshot_path": "research/sources/facebook_reel_browser.html",
+            "script_index": 78,
+            "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"creation_time\"]"
+          }
+        }
+      ],
+      "caption_variants": [
+        {
+          "text": "𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương trình “Tuyên truyền và giáo dục phòng chống tai nạn đuối nước” tại Trường Tiểu học Tà Long, thuộc thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị sẽ chính thức diễn ra. Trước khi khởi hành, mỗi thành viên của dự án 𝐂𝐇𝐎 𝐄𝐌 đều mang trong mình những cảm xúc rất riêng: một chút háo hức vì sắp được gặp gỡ các em nhỏ, một chút hồi hộp về hành trình phía trước và trên hết là niềm hạnh phúc khi có cơ hội góp sức mình cho một chuyến đi đầy ý nghĩa. \n\n🌈 Với các thành viên của 𝐂𝐇𝐎 𝐄𝐌, đây không đơn thuần là một buổi tuyên truyền, đây còn là dịp để những trái tim trẻ gặp gỡ và cùng hướng về trẻ em vùng cao, để từng câu chuyện, từng lời chia sẻ được gửi đi bằng tất cả sự chân thành và yêu thương. Mỗi bài học về phòng chống đuối nước không chỉ mang theo kiến thức cần thiết, mà còn gửi gắm hy vọng về một tuổi thơ an toàn hơn, để chính những trải nghiệm trong chuyến đi trở thành động lực cho hành trình lan tỏa yêu thương phía trước. \n\n🌱 Chúng mình hy vọng rằng, những kiến thức và kỹ năng được trao gửi trong chương trình sẽ trở thành một chiếc \"hành trang\" nhỏ nhưng ý nghĩa, giúp các em thêm tự tin và biết cách bảo vệ bản thân trên mỗi chặng đường trưởng thành. Có lẽ, chính niềm tin vào những điều tốt đẹp ấy đã khiến hành trình lần này trở nên đặc biệt hơn bao giờ hết. \n\n🎤 Hãy cùng nhìn lại hành trình “𝐂𝐇𝐎 𝐄𝐌” của chúng mình và lắng nghe những chia sẻ chân thành của các thành viên trước chuyến đi ý nghĩa này nhé!\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+          "evidence": [
+            {
+              "snapshot_path": "research/sources/facebook_reel_browser.html",
+              "script_index": 78,
+              "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"message\"][\"text\"]"
+            }
+          ]
+        }
+      ],
+      "photo_ids": [],
+      "attachment_counts": [],
+      "evidence": [
+        {
+          "snapshot_path": "research/sources/facebook_reel_browser.html",
+          "script_index": 78,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"]"
+        }
+      ],
+      "post_url": null,
+      "published_at": "2026-08-17T14:15:50+00:00",
+      "published_at_asia_bangkok": "2026-08-17T21:15:50+07:00",
+      "caption_original": "𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của 𝐂𝐇𝐎 𝐄𝐌 đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương trình “Tuyên truyền và giáo dục phòng chống tai nạn đuối nước” tại Trường Tiểu học Tà Long, thuộc thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị sẽ chính thức diễn ra. Trước khi khởi hành, mỗi thành viên của dự án 𝐂𝐇𝐎 𝐄𝐌 đều mang trong mình những cảm xúc rất riêng: một chút háo hức vì sắp được gặp gỡ các em nhỏ, một chút hồi hộp về hành trình phía trước và trên hết là niềm hạnh phúc khi có cơ hội góp sức mình cho một chuyến đi đầy ý nghĩa. \n\n🌈 Với các thành viên của 𝐂𝐇𝐎 𝐄𝐌, đây không đơn thuần là một buổi tuyên truyền, đây còn là dịp để những trái tim trẻ gặp gỡ và cùng hướng về trẻ em vùng cao, để từng câu chuyện, từng lời chia sẻ được gửi đi bằng tất cả sự chân thành và yêu thương. Mỗi bài học về phòng chống đuối nước không chỉ mang theo kiến thức cần thiết, mà còn gửi gắm hy vọng về một tuổi thơ an toàn hơn, để chính những trải nghiệm trong chuyến đi trở thành động lực cho hành trình lan tỏa yêu thương phía trước. \n\n🌱 Chúng mình hy vọng rằng, những kiến thức và kỹ năng được trao gửi trong chương trình sẽ trở thành một chiếc \"hành trang\" nhỏ nhưng ý nghĩa, giúp các em thêm tự tin và biết cách bảo vệ bản thân trên mỗi chặng đường trưởng thành. Có lẽ, chính niềm tin vào những điều tốt đẹp ấy đã khiến hành trình lần này trở nên đặc biệt hơn bao giờ hết. \n\n🎤 Hãy cùng nhìn lại hành trình “𝐂𝐇𝐎 𝐄𝐌” của chúng mình và lắng nghe những chia sẻ chân thành của các thành viên trước chuyến đi ý nghĩa này nhé!\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “𝐂𝐇𝐎 𝐄𝐌” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "caption_evidence": [
+        {
+          "snapshot_path": "research/sources/facebook_reel_browser.html",
+          "script_index": 78,
+          "json_path": "$[\"require\"][0][3][0][\"__bbox\"][\"require\"][5][3][1][\"__bbox\"][\"result\"][\"data\"][\"video\"][\"creation_story\"][\"message\"][\"text\"]"
+        }
+      ],
+      "caption_status": "exact_message_text_as_delivered_in_snapshot",
+      "caption_character_count": 2374,
+      "caption_clean": "CHO EM: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT?\n—-------------------------------------------\n📣 Chú ý, chú ý: Chuyến xe của CHO EM đã sắp được khởi hành! \n\n💙 Chỉ trong vài giờ nữa thôi, chương trình “Tuyên truyền và giáo dục phòng chống tai nạn đuối nước” tại Trường Tiểu học Tà Long, thuộc thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị sẽ chính thức diễn ra. Trước khi khởi hành, mỗi thành viên của dự án CHO EM đều mang trong mình những cảm xúc rất riêng: một chút háo hức vì sắp được gặp gỡ các em nhỏ, một chút hồi hộp về hành trình phía trước và trên hết là niềm hạnh phúc khi có cơ hội góp sức mình cho một chuyến đi đầy ý nghĩa. \n\n🌈 Với các thành viên của CHO EM, đây không đơn thuần là một buổi tuyên truyền, đây còn là dịp để những trái tim trẻ gặp gỡ và cùng hướng về trẻ em vùng cao, để từng câu chuyện, từng lời chia sẻ được gửi đi bằng tất cả sự chân thành và yêu thương. Mỗi bài học về phòng chống đuối nước không chỉ mang theo kiến thức cần thiết, mà còn gửi gắm hy vọng về một tuổi thơ an toàn hơn, để chính những trải nghiệm trong chuyến đi trở thành động lực cho hành trình lan tỏa yêu thương phía trước. \n\n🌱 Chúng mình hy vọng rằng, những kiến thức và kỹ năng được trao gửi trong chương trình sẽ trở thành một chiếc \"hành trang\" nhỏ nhưng ý nghĩa, giúp các em thêm tự tin và biết cách bảo vệ bản thân trên mỗi chặng đường trưởng thành. Có lẽ, chính niềm tin vào những điều tốt đẹp ấy đã khiến hành trình lần này trở nên đặc biệt hơn bao giờ hết. \n\n🎤 Hãy cùng nhìn lại hành trình “CHO EM” của chúng mình và lắng nghe những chia sẻ chân thành của các thành viên trước chuyến đi ý nghĩa này nhé!\n—-------------------------------------------\n🏫 Địa bàn triển khai: Trường tiểu học Tà Long, xã Đakrông, tỉnh Quảng Trị.\nHÌNH THỨC ỦNG HỘ: \n📌 HIỆN KIM: Quỹ “CHO EM” qua STK 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH với cú pháp “[HỌ TÊN] + CHOEM” Ví dụ: Nguyen Van A CHOEM \n📌HIỆN VẬT: Áo phao, dụng cụ học tập,...\n🏠 Điểm tiếp nhận: 09 Phạm Văn Đồng, phường Nam Đông Hà, tỉnh Quảng Trị \n☎️ Số điện thoại điểm tiếp nhận hiện vật: 0982666057 - Võ Ngọc Gia Linh\n📍 Link sao kê: https://tinyurl.vn/viyo \n—-------------------------------------------\n📪 Contact us\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)",
+      "hashtags": []
+    }
+  ],
+  "photos": [],
+  "dom_post_discoveries": [],
+  "season_mentions": [],
+  "date_mentions": [],
+  "counts": {
+    "posts": 1,
+    "photos_with_metadata_or_id": 0,
+    "photos_with_image_urls": 0,
+    "distinct_season_numbers_mentioned": [],
+    "dom_discoveries_with_video_urls": 0
+  },
+  "limitations": [
+    "Only data already delivered in this saved HTML is extracted.",
+    "Reported album counts do not mean every attachment was delivered or downloaded.",
+    "No unseen seasons, dates, images or captions are synthesized.",
+    "Image URL access and reuse rights require separate checks; no media is downloaded by this script.",
+    "Accessibility captions may be machine generated and do not establish identity or consent."
+  ],
+  "related_page_records": []
+}
