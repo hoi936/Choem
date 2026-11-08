@@ -1,0 +1,75 @@
+[
+  {
+    "event_id": "event_season_07_kickoff",
+    "title": "Khởi động CHO EM Mùa 7 — Hành Trang Cho Em",
+    "event_date": "2026-07-06",
+    "date_precision": "day",
+    "event_type": "season_kickoff",
+    "description": "Mở đầu hành trình CHO EM Mùa 7 — Hành Trang Cho Em với chủ đề 'Phòng Chống Tai Nạn Đuối Nước & Tủ Sách Tri Thức Vùng Cao'.",
+    "details": "Cùng Hành Trang Cho Em — Thay màu áo mới, bảo vệ nụ cười thơ",
+    "season_ids": [
+      "season_07"
+    ],
+    "program_ids": [
+      "program_hanh_trang_cho_em_2026"
+    ],
+    "post_ids": [
+      "post_406177430f0409506cdeeb78"
+    ],
+    "photo_ids": [
+      "photo_90e3c5159b7b0bca93bebb96",
+      "photo_59ad00e066bae3ddb59ecebc",
+      "photo_769480a7b6016b826d9d39a5"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/100094610840245/posts/pfbid02aDZF3AFgRTeXha1y7oBijJ28ono9Yx79bdvJhifeawLGGen5EpwK9r5357yoPJcZl",
+      "https://www.facebook.com/100094610840245/posts/pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl",
+      "https://www.facebook.com/reel/1411736247503742",
+      "https://www.facebook.com/100094610840245/posts/pfbid0JQ5oZmdCcsQ7v7hVTZLmCh8zMPSFNZP4ovV6vGadcyF8Xztxset4G5Vss4EV4kx1l",
+      "https://www.facebook.com/100094610840245/posts/pfbid04T49kQYmFu5efYQot6NZsNhShuDfn6JnS4D1d4MJZQudC6DBtoV5HGQf3ZY7Drq9l"
+    ],
+    "verification_status": "verified"
+  },
+  {
+    "event_id": "event_season_07_main_program",
+    "title": "Sự kiện chính: Hành Trang Cho Em (CHO EM Mùa 7 — Hành Trang Cho Em)",
+    "event_date": "2026-08-18",
+    "date_precision": "day",
+    "event_type": "program_execution",
+    "description": "Mùa 7 (tháng 7–8/2026) đánh dấu bước trưởng thành rực rỡ của CHO EM với chương trình 'Hành Trang Cho Em' tại điểm trường Tiểu học Tà Long (thôn Pa Hy, xã Đakrông, tỉnh Quảng Trị) vào ngày 18/08/2026. Kết hợp giữa bán hàng online, Workshop nghệ thuật gây quỹ và đợt quyên góp sách cộng đồng, dự án đã trao tặng 125 áo phao, 125 suất quà, hơn 100 đầu sách và 02 tủ sách tri thức cho thư viện nhà trường.",
+    "details": "Mở đơn tuyển thành viên Mùa 7 và tổ chức bán hàng gây quỹ online; Tổ chức thành công Workshop gây quỹ 'Hành Trang Cho Em' tại Đông Hà (01–02/08/2026); Phát động chiến dịch quyên góp sách giáo khoa, truyện thiếu nhi và sách kỹ năng (11–17/08/2026); Tổ chức chương trình chính 'Hành Trang Cho Em' tại điểm trường Tiểu học Tà Long ngày 18/08/2026; Trao tặng 125 suất quà, 125 áo phao, hơn 100 quyển sách và 02 tủ sách tri thức đặt tại thư viện trường",
+    "season_ids": [
+      "season_07"
+    ],
+    "program_ids": [
+      "program_hanh_trang_cho_em_2026"
+    ],
+    "post_ids": [
+      "post_f104d87e8be54343375d4996",
+      "post_e2a1adcea78d463c78aeb99e",
+      "post_f1fd853a73f285ab239cc303"
+    ],
+    "photo_ids": [
+      "photo_6ecca86af231ae5f30c18bb9",
+      "photo_2cdb7fca42bbeaca717f447e",
+      "photo_78a79f7612dfb93c1cd8a45b",
+      "photo_67c81f2a04f5c14450c9d572",
+      "photo_fef45178deab58dc7729d1af",
+      "photo_d797d7d61bbbcfdb988aebaf",
+      "photo_4888c205538e675560da3879",
+      "photo_5dba645ca453ed908274423f"
+    ],
+    "video_ids": [
+      "video_1411736247503742"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/100094610840245/posts/pfbid02aDZF3AFgRTeXha1y7oBijJ28ono9Yx79bdvJhifeawLGGen5EpwK9r5357yoPJcZl",
+      "https://www.facebook.com/100094610840245/posts/pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl",
+      "https://www.facebook.com/reel/1411736247503742",
+      "https://www.facebook.com/100094610840245/posts/pfbid0JQ5oZmdCcsQ7v7hVTZLmCh8zMPSFNZP4ovV6vGadcyF8Xztxset4G5Vss4EV4kx1l",
+      "https://www.facebook.com/100094610840245/posts/pfbid04T49kQYmFu5efYQot6NZsNhShuDfn6JnS4D1d4MJZQudC6DBtoV5HGQf3ZY7Drq9l"
+    ],
+    "verification_status": "verified"
+  }
+]

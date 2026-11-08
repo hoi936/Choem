@@ -1,0 +1,1376 @@
+# PROMPT 01 — NGHIÊN CỨU VÀ XÂY DỰNG KHO DỮ LIỆU TOÀN BỘ HÀNH TRÌNH DỰ ÁN TỪ THIỆN CHO EM
+
+## I. VAI TRÒ VÀ NHIỆM VỤ
+
+Bạn là một Senior AI Research Agent, Web Data Engineer, Digital Archivist và Content Analyst.
+
+Bạn được giao nhiệm vụ nghiên cứu, thu thập, phân tích, hệ thống hóa và lưu trữ toàn bộ dữ liệu về dự án từ thiện **CHO EM**, dựa trên trang Facebook chính thức của dự án.
+
+Đây là công việc chuẩn bị dữ liệu nền tảng cho một website giới thiệu dự án và tái hiện toàn bộ hành trình thiện nguyện qua nhiều mùa hoạt động.
+
+Tôi yêu cầu bạn làm việc như một nhóm nghiên cứu lịch sử dự án thực thụ, không phải một công cụ tải ảnh đơn giản.
+
+Bạn phải hiểu được:
+
+- Dự án CHO EM là gì.
+- Dự án được hình thành như thế nào.
+- Dự án đã trải qua bao nhiêu mùa.
+- Mỗi mùa diễn ra vào thời gian nào.
+- Mục tiêu và chủ đề của từng mùa.
+- Những chương trình, hoạt động và chuyến đi trong từng mùa.
+- Những địa điểm dự án đã đặt chân đến.
+- Các câu chuyện, con người và khoảnh khắc đáng nhớ.
+- Những kết quả, thành tựu và dấu mốc phát triển.
+- Sự thay đổi và trưởng thành của dự án qua từng mùa.
+- Các hình ảnh, caption và bài đăng gốc chứng minh những thông tin đó.
+
+**QUAN TRỌNG: GIAI ĐOẠN NÀY CHỈ TẬP TRUNG THU THẬP VÀ XỬ LÝ DỮ LIỆU. CHƯA ĐƯỢC XÂY DỰNG WEBSITE.**
+
+---
+
+## II. THÔNG TIN DỰ ÁN
+
+**Tên dự án:** CHO EM
+
+**Facebook chính thức:**
+
+https://www.facebook.com/profile.php?id=100094610840245
+
+**Thư mục dự án trên máy tính Windows:**
+
+`D:\CHO_EM\Cho_em_HanhTrinh`
+
+Đây là thư mục làm việc chính thức và duy nhất cho nhiệm vụ này.
+
+Yêu cầu:
+
+1. Kiểm tra thư mục dự án trước khi thao tác.
+2. Nếu chưa tồn tại, hãy tạo thư mục.
+3. Nếu đã có mã nguồn hoặc dữ liệu, phải giữ nguyên và không tự ý xóa.
+4. Lưu mọi dữ liệu, ảnh, metadata, chương trình thu thập, tài liệu nghiên cứu và báo cáo vào thư mục dự án.
+5. Không lưu các file quan trọng rải rác ngoài thư mục này.
+6. Tổ chức thư mục khoa học để AI Agent phát triển website ở giai đoạn sau có thể sử dụng ngay.
+
+Tôi muốn mọi dữ liệu được lưu thực sự trên ổ đĩa, không phải chỉ tồn tại trong cuộc trò chuyện của AI.
+
+---
+
+## III. MỤC TIÊU CUỐI CÙNG
+
+Sau khi hoàn thành nhiệm vụ, thư mục dự án phải chứa một **kho tư liệu số đầy đủ nhất có thể về CHO EM**, được tổ chức theo mùa, chương trình, hoạt động và dòng thời gian.
+
+Kho dữ liệu phải đáp ứng các mục tiêu sau:
+
+### 1. Dữ liệu giới thiệu dự án
+
+Phục vụ xây dựng trang giới thiệu dự án với:
+
+- Tên dự án.
+- Ý nghĩa tên gọi.
+- Hoàn cảnh ra đời.
+- Thời điểm bắt đầu.
+- Sứ mệnh.
+- Tầm nhìn.
+- Mục tiêu.
+- Những giá trị cốt lõi.
+- Câu chuyện hình thành.
+- Các giai đoạn phát triển.
+- Những người hoặc tổ chức đồng hành nếu có thông tin công khai và phù hợp.
+
+### 2. Dữ liệu hành trình nhiều mùa
+
+Website tương lai phải giúp người xem khám phá toàn bộ lịch sử CHO EM từ mùa đầu tiên tới mùa mới nhất.
+
+Ví dụ về trải nghiệm website dự kiến:
+
+Người xem chọn một mùa, sau đó khám phá:
+
+- Câu chuyện bắt đầu mùa đó.
+- Chủ đề và thông điệp của mùa.
+- Các địa điểm và chương trình.
+- Dòng thời gian hoạt động.
+- Hình ảnh của từng hoạt động.
+- Những khoảnh khắc đáng nhớ.
+- Các kết quả được công bố.
+- Bài tổng kết và ý nghĩa của mùa.
+
+Mỗi mùa phải có một bộ dữ liệu riêng.
+
+### 3. Dữ liệu thư viện ảnh
+
+Cần có thư viện ảnh gốc được phân loại rõ ràng để làm:
+
+- Ảnh trang chủ.
+- Ảnh giới thiệu dự án.
+- Ảnh bìa từng mùa.
+- Ảnh của từng chương trình.
+- Ảnh timeline.
+- Ảnh gallery.
+- Ảnh cho các câu chuyện.
+- Ảnh kỷ niệm và thành tựu.
+
+### 4. Dữ liệu kể chuyện
+
+Từ những nội dung có nguồn xác thực, tạo các bản tóm tắt và câu chuyện có thể sử dụng khi xây dựng website.
+
+Không được bịa đặt tình tiết, số liệu hoặc cảm xúc của nhân vật.
+
+---
+
+# IV. YÊU CẦU ĐẶC BIỆT: NGHIÊN CỨU THEO TỪNG MÙA
+
+**ĐÂY LÀ YÊU CẦU QUAN TRỌNG NHẤT CỦA TOÀN BỘ NHIỆM VỤ.**
+
+Dự án CHO EM đã trải qua nhiều mùa thiện nguyện.
+
+Bạn phải xem mỗi mùa như một chương lớn trong lịch sử dự án.
+
+Không được chỉ lấy dữ liệu của mùa gần nhất.
+
+Không được chỉ tải các bài viết mới xuất hiện trên Facebook.
+
+Không được mặc định một năm là một mùa.
+
+Không được tự giả định dự án chỉ có 2, 3, 4 hoặc một số mùa cố định.
+
+Bạn phải tìm bằng chứng để xác định chính xác các mùa đã tồn tại.
+
+## BƯỚC 1 — TÌM HIỂU DỰ ÁN CÓ BAO NHIÊU MÙA
+
+Khảo sát các nội dung có thể truy cập trên Facebook:
+
+- Bài đăng ghim.
+- Bài viết giới thiệu.
+- Bài công bố mùa mới.
+- Bài tuyển tình nguyện viên.
+- Bài phát động chương trình.
+- Album ảnh.
+- Bài tổng kết hoạt động.
+- Bài tổng kết mùa.
+- Bài hồi tưởng mùa cũ.
+- Video, Reels và mô tả liên quan.
+- Những nội dung nhắc đến tên hoặc số thứ tự mùa.
+
+Tìm kiếm những cách gọi khác nhau như:
+
+- CHO EM MÙA 1, MÙA 2, MÙA 3...
+- CHO EM MÙA I, II, III, IV...
+- Cho Em Season 1, Season 2...
+- Khởi động mùa mới.
+- Hành trình Cho Em mùa...
+- Tổng kết hành trình.
+- Nhìn lại một mùa.
+- Khép lại mùa...
+- Cho Em trở lại.
+- Các hashtag hoặc tên chiến dịch đặc trưng.
+
+Không chỉ dựa vào từ khóa. Phải đọc nội dung để hiểu một bài viết thực sự thuộc mùa nào.
+
+## BƯỚC 2 — LẬP DANH SÁCH MÙA
+
+Sau khi khảo sát, tạo file:
+
+`data/processed/seasons.json`
+
+Mỗi mùa phải có:
+
+- `season_id`: mã mùa duy nhất.
+- `season_number`: số thứ tự mùa nếu xác định được.
+- `official_name`: tên chính thức nếu có.
+- `theme`: chủ đề của mùa.
+- `slogan`: khẩu hiệu hoặc thông điệp.
+- `start_date`: ngày bắt đầu nếu biết.
+- `end_date`: ngày kết thúc nếu biết.
+- `description`: giới thiệu mùa.
+- `objectives`: mục tiêu.
+- `locations`: các địa điểm.
+- `program_ids`: danh sách chương trình thuộc mùa.
+- `journey_ids`: danh sách chuyến đi.
+- `post_ids`: danh sách bài đăng liên quan.
+- `photo_ids`: danh sách ảnh liên quan.
+- `video_ids`: danh sách video liên quan.
+- `milestone_ids`: các cột mốc.
+- `source_urls`: nguồn xác minh.
+- `verification_status`: trạng thái xác minh.
+- `research_notes`: những thông tin chưa rõ.
+
+Sử dụng các trạng thái xác minh:
+
+- `verified`: có bằng chứng trực tiếp.
+- `inferred`: suy luận có căn cứ nhưng chưa được xác nhận trực tiếp.
+- `unknown`: chưa đủ dữ liệu.
+
+Nếu chỉ tìm thấy dấu hiệu của một mùa nhưng chưa xác định được tên hoặc thời gian, vẫn lưu lại để nghiên cứu bổ sung.
+
+Tuyệt đối không tự sáng tác mùa.
+
+## BƯỚC 3 — THU THẬP DỮ LIỆU RIÊNG CHO MỖI MÙA
+
+Thực hiện lần lượt:
+
+**Mùa đầu tiên → Mùa kế tiếp → ... → Mùa gần nhất.**
+
+Đối với mỗi mùa, cần thu thập:
+
+### A. Giai đoạn khởi động
+
+- Bài công bố mùa.
+- Chủ đề mùa.
+- Mục tiêu.
+- Kế hoạch tổ chức.
+- Hoạt động chuẩn bị.
+- Lời kêu gọi đồng hành.
+- Các thông điệp mở đầu.
+
+### B. Giai đoạn triển khai
+
+- Các chương trình.
+- Các chuyến đi.
+- Những hoạt động cộng đồng.
+- Các đợt vận động hoặc gây quỹ.
+- Công tác chuẩn bị vật phẩm.
+- Hoạt động trao tặng.
+- Những địa điểm thiện nguyện.
+- Bài cập nhật tiến độ.
+- Hình ảnh và câu chuyện trong quá trình thực hiện.
+
+### C. Giai đoạn tổng kết
+
+- Kết quả hoạt động.
+- Số liệu được công bố.
+- Những dấu mốc đáng nhớ.
+- Bài cảm ơn.
+- Bài tổng kết.
+- Cảm nhận được chia sẻ công khai.
+- Hình ảnh tổng kết.
+- Những thông điệp được dự án để lại.
+
+### D. Những bài đăng hồi tưởng
+
+Một bài được đăng trong năm gần đây vẫn có thể nói về một mùa rất cũ.
+
+Vì vậy, phải phân biệt:
+
+- Ngày bài viết được đăng.
+- Ngày sự kiện thực sự diễn ra.
+- Mùa được nhắc tới.
+
+Không gán mùa chỉ dựa vào ngày đăng.
+
+---
+
+# V. PHƯƠNG PHÁP THU THẬP DỮ LIỆU FACEBOOK
+
+## 1. Khảo sát khả năng truy cập
+
+Đầu tiên truy cập:
+
+https://www.facebook.com/profile.php?id=100094610840245
+
+Kiểm tra nội dung công khai có thể xem, khả năng duyệt bài cũ, album ảnh và các thông tin giới thiệu.
+
+Ưu tiên phương thức được Facebook cho phép, chẳng hạn các công cụ chính thức, API hợp lệ hoặc dữ liệu được người quản lý trang xuất ra.
+
+Nếu được phép sử dụng trình duyệt tự động, có thể dùng Playwright hoặc công cụ tương đương để duyệt những nội dung mà phiên truy cập hiện tại có quyền xem.
+
+Nếu Facebook sử dụng lazy loading, hãy xử lý việc tải thêm nội dung theo cách hợp lệ và có giới hạn tốc độ phù hợp.
+
+**Các nguyên tắc bắt buộc:**
+
+- Không vượt CAPTCHA.
+- Không vượt cơ chế chống bot hoặc giới hạn truy cập.
+- Không truy cập nội dung riêng tư trái phép.
+- Không lấy cookie, mật khẩu hoặc thông tin đăng nhập bí mật.
+- Không sử dụng tài khoản người khác khi chưa được phép.
+- Không tạo lưu lượng yêu cầu quá mức.
+- Không cố vượt các hạn chế tải xuống của nền tảng.
+
+Nếu bị giới hạn quyền truy cập, hãy ghi lại vấn đề, tiếp tục với những dữ liệu được phép thu thập và nêu rõ những phần cần người quản lý trang cung cấp qua công cụ xuất dữ liệu chính thức.
+
+Không được báo cáo đã thu thập 100% khi chưa thể kiểm chứng.
+
+## 2. Thu thập toàn bộ lịch sử có thể truy cập
+
+Cố gắng khảo sát từ những bài đăng cũ nhất đến những bài mới nhất.
+
+Không được dừng sau 20, 50 hoặc 100 bài đầu tiên chỉ vì đã có đủ ảnh để thiết kế website.
+
+Cần xây dựng danh sách các bài đăng được phát hiện trước khi phân tích chuyên sâu.
+
+Với mỗi bài đăng, phải biết:
+
+- Đã phát hiện nhưng chưa xử lý.
+- Đã trích xuất nội dung.
+- Đã tải media.
+- Đã phân loại mùa.
+- Đã xác minh.
+- Gặp lỗi hoặc cần xử lý thủ công.
+
+Hệ thống phải hỗ trợ chạy tiếp sau khi bị gián đoạn mà không cần thu thập lại toàn bộ.
+
+## 3. Thu thập tất cả bài đăng có giá trị tư liệu
+
+Không giới hạn ở bài có nhiều lượt thích.
+
+Thu thập cả những bài ít tương tác nhưng mang ý nghĩa lịch sử.
+
+Ưu tiên:
+
+- Bài viết từ khi dự án thành lập.
+- Bài ra mắt các mùa.
+- Bài giới thiệu từng chương trình.
+- Bài trước, trong và sau chuyến đi.
+- Bài có câu chuyện thực tế.
+- Bài tổng kết.
+- Bài kỷ niệm.
+- Bài công bố kết quả.
+- Bài có hình ảnh thể hiện hành trình.
+- Bài nói về những khó khăn, nỗ lực hoặc thay đổi.
+
+---
+
+# VI. YÊU CẦU DỮ LIỆU ĐỐI VỚI MỖI BÀI ĐĂNG
+
+Mỗi bài đăng phải có hồ sơ riêng.
+
+Lưu vào:
+
+`data/raw/posts.json`
+
+Và nếu phù hợp, lưu thêm file JSON riêng cho từng bài để dễ tra cứu.
+
+Các trường dữ liệu bắt buộc:
+
+- `post_id`: mã bài viết.
+- `facebook_post_id`: ID Facebook nếu có thể lấy được.
+- `post_url`: URL trực tiếp.
+- `published_at`: ngày đăng.
+- `caption_original`: caption nguyên bản.
+- `caption_clean`: nội dung được làm sạch để tìm kiếm.
+- `hashtags`: danh sách hashtag.
+- `post_type`: loại bài.
+- `season_ids`: mùa liên quan.
+- `program_ids`: chương trình liên quan.
+- `journey_ids`: chuyến đi liên quan.
+- `photo_ids`: ảnh liên quan.
+- `video_ids`: video liên quan.
+- `location_mentions`: địa điểm được nhắc đến.
+- `keywords`: từ khóa.
+- `summary`: tóm tắt.
+- `historical_significance`: ý nghĩa đối với lịch sử dự án.
+- `importance_score`: mức độ quan trọng.
+- `source_status`: tình trạng nguồn.
+- `collected_at`: thời điểm thu thập.
+
+Nếu không thể lấy ID Facebook, hãy tạo ID nội bộ ổn định.
+
+Giữ lại nguyên văn caption, dấu câu, emoji, hashtag và xuống dòng.
+
+Không được thay thế caption gốc bằng bản AI viết lại.
+
+Một bài đăng có thể liên quan đến nhiều mùa hoặc nhiều hoạt động. Hệ thống dữ liệu phải hỗ trợ trường hợp này.
+
+Thông tin chưa biết phải để `null` hoặc ghi trạng thái chưa xác minh.
+
+---
+
+# VII. THU THẬP HÌNH ẢNH — ƯU TIÊN RẤT CAO
+
+Hình ảnh là tài nguyên quan trọng nhất để xây dựng website kể chuyện hành trình.
+
+Mục tiêu không phải chỉ tạo một danh sách URL hình ảnh, mà là lưu trữ có tổ chức các file ảnh có quyền tải và sử dụng phù hợp.
+
+## 1. Tìm ảnh
+
+Tìm những hình ảnh liên quan từ:
+
+- Bài đăng.
+- Album.
+- Bài tổng kết.
+- Bài giới thiệu chương trình.
+- Bài kể chuyện.
+- Các bài kỷ niệm mùa cũ.
+- Nội dung công khai có liên kết trực tiếp với dự án.
+
+## 2. Tải ảnh
+
+Đối với ảnh được phép tải:
+
+- Tải phiên bản chất lượng cao nhất có thể truy cập hợp lệ.
+- Giữ nguyên bản gốc.
+- Không thay đổi nội dung ảnh.
+- Không cắt ghép.
+- Không thêm hoặc xóa watermark.
+- Không chỉ tải thumbnail nếu có phiên bản lớn hơn được phép sử dụng.
+- Kiểm tra file tải xuống có mở được không.
+- Lưu đường dẫn gốc của ảnh.
+- Liên kết ảnh với bài đăng, chương trình và mùa tương ứng.
+
+Nếu không thể tải file hợp lệ, lưu metadata và trạng thái lỗi, không tạo file giả.
+
+## 3. Lưu metadata
+
+Mỗi ảnh phải có:
+
+- `photo_id`
+- `local_path`
+- `source_url`
+- `source_post_url`
+- `season_ids`
+- `program_ids`
+- `journey_ids`
+- `published_at`
+- `downloaded_at`
+- `width`
+- `height`
+- `format`
+- `file_size`
+- `sha256`
+- `description`
+- `category`
+- `importance_score`
+- `rights_status`
+- `privacy_review_required`
+
+## 4. Phân loại ảnh
+
+Phân loại theo các nhóm:
+
+- Khởi đầu dự án.
+- Khởi động mùa.
+- Chuẩn bị chương trình.
+- Di chuyển và hành trình.
+- Hoạt động thiện nguyện.
+- Hoạt động giáo dục.
+- Trao tặng quà.
+- Hoạt động cộng đồng.
+- Tình nguyện viên.
+- Hậu trường.
+- Khoảnh khắc cảm xúc.
+- Ảnh tập thể.
+- Lễ tổng kết.
+- Dấu mốc phát triển.
+- Các nhóm phát hiện thêm trong quá trình nghiên cứu.
+
+## 5. Đề xuất hình ảnh cho website
+
+Phân tích và đánh dấu những ảnh phù hợp để làm:
+
+- `homepage_hero`
+- `project_cover`
+- `season_cover`
+- `program_cover`
+- `journey_cover`
+- `timeline_image`
+- `story_image`
+- `gallery_featured`
+
+Ưu tiên những bức ảnh có khả năng thể hiện hành trình và giá trị nhân văn một cách chân thực.
+
+Không lựa chọn chỉ dựa trên độ đẹp. Cần xét giá trị lịch sử và mối liên hệ với nội dung.
+
+## 6. Xử lý ảnh trùng lặp
+
+Sử dụng hash để phát hiện file giống hệt nhau.
+
+Có thể sử dụng perceptual hash để gợi ý ảnh gần trùng nhau.
+
+Không tự động xóa những ảnh khác nhau nhưng chụp cùng một cảnh.
+
+Một ảnh có thể liên quan đến nhiều bài viết. Chỉ cần lưu một bản vật lý nếu hoàn toàn trùng file, nhưng phải bảo toàn tất cả liên kết nguồn.
+
+## 7. Bảo vệ quyền riêng tư
+
+Ảnh của trẻ em và người thụ hưởng cần được đánh dấu kiểm duyệt trước khi công bố lên website.
+
+Không thực hiện nhận dạng khuôn mặt.
+
+Không suy đoán danh tính từ hình ảnh.
+
+Không công bố thông tin cá nhân nhạy cảm, hoàn cảnh gia đình riêng tư hoặc tình trạng sức khỏe khi không có quyền hoặc căn cứ phù hợp.
+
+Việc ảnh xuất hiện trên Facebook không tự động chứng minh dự án có quyền tái sử dụng trên một website độc lập.
+
+---
+
+# VIII. THU THẬP VIDEO VÀ REELS
+
+Nghiên cứu các video có liên quan đến dự án.
+
+Lưu những thông tin:
+
+- ID video.
+- URL nguồn.
+- Ngày đăng.
+- Caption.
+- Mùa liên quan.
+- Chương trình liên quan.
+- Mô tả nội dung.
+- Thumbnail nếu được phép sử dụng.
+- Thời lượng nếu xác định được.
+- Trạng thái tải xuống.
+- Trạng thái quyền sử dụng.
+
+Nếu có quyền tải video theo phương thức hợp lệ, lưu file trong thư mục media tương ứng.
+
+Nếu không, lưu URL nguồn và metadata.
+
+Không dùng công cụ để vượt các hạn chế tải xuống.
+
+---
+
+# IX. PHÂN TÍCH CÁC CHƯƠNG TRÌNH VÀ CHUYẾN ĐI
+
+Đây là bước quan trọng để không nhầm lẫn giữa mùa, chương trình và bài viết.
+
+Cấu trúc dữ liệu phải hỗ trợ:
+
+**DỰ ÁN → MÙA → CHƯƠNG TRÌNH → HOẠT ĐỘNG/CHUYẾN ĐI → BÀI ĐĂNG → MEDIA**
+
+Ví dụ minh họa về cách tổ chức, không phải dữ liệu thực tế của CHO EM:
+
+Một mùa có thể chứa:
+
+- Hoạt động khởi động.
+- Chiến dịch gây quỹ.
+- Một chuyến đi thiện nguyện.
+- Một chương trình trao quà.
+- Một hoạt động cộng đồng.
+- Chương trình tổng kết.
+
+Mỗi hoạt động có thể có nhiều bài đăng và hình ảnh.
+
+Không được coi mỗi bài Facebook là một chương trình riêng biệt.
+
+## Hồ sơ chương trình
+
+Mỗi chương trình cần có:
+
+- Mã chương trình.
+- Tên chương trình.
+- Mùa liên quan.
+- Thời gian.
+- Địa điểm.
+- Mục đích.
+- Bối cảnh.
+- Công tác chuẩn bị.
+- Các hoạt động.
+- Kết quả.
+- Số liệu có nguồn.
+- Những câu chuyện nổi bật.
+- Các ảnh.
+- Các bài viết.
+- Link chứng minh.
+
+## Hồ sơ chuyến đi
+
+Đối với mỗi chuyến đi thiện nguyện, xác định:
+
+- Điểm đến.
+- Ngày đi.
+- Ngày kết thúc.
+- Mục tiêu chuyến đi.
+- Hoạt động đã thực hiện.
+- Những kết quả được ghi nhận.
+- Những khoảnh khắc tiêu biểu.
+- Bài đăng liên quan.
+- Album ảnh liên quan.
+- Vị trí địa lý, nếu có thể xác minh chính xác.
+
+Không tự suy đoán địa điểm từ hình ảnh.
+
+Nếu nguồn chỉ nêu tên một tỉnh hoặc khu vực rộng, không tự gán tọa độ chính xác của điểm hoạt động.
+
+---
+
+# X. XÂY DỰNG CÂU CHUYỆN CỦA TỪNG MÙA
+
+Sau khi thu thập đủ dữ liệu có thể tiếp cận cho một mùa, hãy xây dựng bản tổng hợp riêng.
+
+Mỗi mùa phải có file:
+
+`season_story.md`
+
+Nội dung gồm:
+
+### 1. Giới thiệu mùa
+
+Mùa đó là gì, diễn ra trong bối cảnh nào và mang ý nghĩa gì?
+
+### 2. Khởi đầu
+
+Những bài viết và sự kiện đánh dấu mùa bắt đầu.
+
+### 3. Mục tiêu
+
+Mùa hướng đến điều gì?
+
+### 4. Hành trình triển khai
+
+Trình bày những hoạt động chính theo thời gian.
+
+### 5. Những địa điểm
+
+Các địa phương và điểm đến có bằng chứng xác thực.
+
+### 6. Những câu chuyện nổi bật
+
+Lựa chọn các câu chuyện mang giá trị nhân văn, bảo đảm quyền riêng tư.
+
+### 7. Khoảnh khắc đáng nhớ
+
+Gắn từng khoảnh khắc với bài viết và hình ảnh cụ thể.
+
+### 8. Thành tựu và kết quả
+
+Chỉ ghi những số liệu được công bố hoặc có tài liệu chứng minh.
+
+### 9. Bài học và ý nghĩa
+
+Đúc kết từ những gì dự án thực sự chia sẻ, không tự tạo phát biểu của người trong dự án.
+
+### 10. Kết thúc mùa
+
+Bài tổng kết, lời cảm ơn, sự kiện kết thúc hoặc bằng chứng về việc chuyển sang mùa mới.
+
+### 11. Nguồn tham khảo
+
+Liệt kê bài viết, album và dữ liệu chứng minh từng thông tin quan trọng.
+
+Bản viết phải giàu tính kể chuyện nhưng trung thực.
+
+Không được tạo những câu nói trực tiếp của tình nguyện viên hoặc người thụ hưởng nếu không có nguồn thực tế.
+
+---
+
+# XI. XÂY DỰNG TIMELINE TOÀN DỰ ÁN
+
+Sau khi phân tích các mùa riêng biệt, hãy xây dựng dòng thời gian xuyên suốt.
+
+File:
+
+`data/processed/timeline.json`
+
+Timeline phải bắt đầu từ hoạt động sớm nhất có bằng chứng, cho đến hoạt động mới nhất được thu thập.
+
+Các sự kiện cần ghi lại:
+
+- Thành lập dự án.
+- Công bố mùa đầu tiên.
+- Các chuyến đi nổi bật.
+- Những hoạt động đặc biệt.
+- Tổng kết các mùa.
+- Bắt đầu các mùa tiếp theo.
+- Các cột mốc phát triển.
+- Những dấu mốc kỷ niệm.
+
+Mỗi mục timeline gồm:
+
+- ID.
+- Tiêu đề.
+- Ngày hoặc khoảng thời gian.
+- Mùa.
+- Loại sự kiện.
+- Mô tả ngắn.
+- Mô tả chi tiết.
+- Ảnh đại diện.
+- Bài viết liên quan.
+- Nguồn xác minh.
+- Mức độ chính xác của thời gian.
+
+Sắp xếp theo thời gian thực tế diễn ra sự kiện, không mặc định theo thời gian đăng Facebook.
+
+Những mốc chỉ có tháng hoặc năm vẫn được lưu, nhưng phải thể hiện đúng độ chính xác.
+
+---
+
+# XII. XÁC ĐỊNH CÁC DẤU MỐC VÀ CÂU CHUYỆN NỔI BẬT
+
+Sau khi thu thập, phân tích và chấm điểm các nội dung theo:
+
+1. Giá trị lịch sử.
+2. Mức độ đại diện cho một mùa.
+3. Giá trị nhân văn.
+4. Tầm quan trọng với quá trình phát triển dự án.
+5. Mức độ đầy đủ của nguồn xác minh.
+6. Chất lượng tư liệu hình ảnh.
+7. Mức độ phù hợp để đưa lên website.
+
+Chấm điểm từ 1 đến 5 cho mỗi tiêu chí.
+
+Tạo danh sách:
+
+- Những cột mốc quan trọng nhất.
+- Những chương trình tiêu biểu của từng mùa.
+- Những câu chuyện nổi bật.
+- Những hình ảnh đáng nhớ.
+- Những bài đăng nên được trích dẫn.
+- Những ảnh bìa phù hợp nhất.
+
+Với mỗi lựa chọn, giải thích lý do.
+
+Không được chỉ ưu tiên bài nhiều lượt tương tác.
+
+---
+
+# XIII. CẤU TRÚC THƯ MỤC BẮT BUỘC
+
+Tạo cấu trúc bên dưới trong:
+
+`D:\CHO_EM\Cho_em_HanhTrinh`
+
+Có thể mở rộng nếu cần, nhưng không được làm mất cấu trúc cốt lõi.
+
+Dùng cấu trúc sau:
+
+    Cho_em_HanhTrinh/
+    |
+    |-- data/
+    |   |
+    |   |-- raw/
+    |   |   |-- page_info.json
+    |   |   |-- posts.json
+    |   |   |-- photos.json
+    |   |   |-- videos.json
+    |   |   |-- albums.json
+    |   |   |-- discovered_urls.json
+    |   |
+    |   |-- processed/
+    |   |   |-- project_info.json
+    |   |   |-- seasons.json
+    |   |   |-- programs.json
+    |   |   |-- journeys.json
+    |   |   |-- timeline.json
+    |   |   |-- milestones.json
+    |   |   |-- stories.json
+    |   |   |-- featured_content.json
+    |   |   |-- media_index.json
+    |   |
+    |   |-- seasons/
+    |   |   |
+    |   |   |-- season_01/
+    |   |   |   |-- season_info.json
+    |   |   |   |-- posts.json
+    |   |   |   |-- programs.json
+    |   |   |   |-- journeys.json
+    |   |   |   |-- timeline.json
+    |   |   |   |-- media_manifest.json
+    |   |   |   |-- season_story.md
+    |   |   |   |-- sources.md
+    |   |   |
+    |   |   |-- season_02/
+    |   |   |   |-- season_info.json
+    |   |   |   |-- posts.json
+    |   |   |   |-- programs.json
+    |   |   |   |-- journeys.json
+    |   |   |   |-- timeline.json
+    |   |   |   |-- media_manifest.json
+    |   |   |   |-- season_story.md
+    |   |   |   |-- sources.md
+    |   |   |
+    |   |   |-- [cac_mua_khac]/
+    |   |
+    |   |-- unclassified/
+    |   |   |-- posts.json
+    |   |   |-- media.json
+    |   |   |-- research_notes.md
+    |
+    |-- assets/
+    |   |-- originals/
+    |   |   |-- images/
+    |   |   |-- videos/
+    |   |
+    |   |-- seasons/
+    |   |   |-- season_01/
+    |   |   |   |-- covers/
+    |   |   |   |-- preparation/
+    |   |   |   |-- activities/
+    |   |   |   |-- journeys/
+    |   |   |   |-- highlights/
+    |   |   |   |-- closing/
+    |   |   |
+    |   |   |-- season_02/
+    |   |   |   |-- covers/
+    |   |   |   |-- preparation/
+    |   |   |   |-- activities/
+    |   |   |   |-- journeys/
+    |   |   |   |-- highlights/
+    |   |   |   |-- closing/
+    |   |   |
+    |   |   |-- [cac_mua_khac]/
+    |   |
+    |   |-- project/
+    |   |   |-- logos/
+    |   |   |-- covers/
+    |   |   |-- featured/
+    |   |
+    |   |-- thumbnails/
+    |
+    |-- content/
+    |   |-- project_story.md
+    |   |-- mission_vision.md
+    |   |-- complete_history.md
+    |   |-- seasons_overview.md
+    |   |-- featured_stories.md
+    |   |-- milestones.md
+    |   |-- website_content_plan.md
+    |
+    |-- research/
+    |   |-- source_index.md
+    |   |-- season_discovery.md
+    |   |-- evidence_map.json
+    |   |-- unresolved_questions.md
+    |   |-- collection_progress.json
+    |   |-- access_limitations.md
+    |
+    |-- scripts/
+    |   |-- README.md
+    |   |-- collection/
+    |   |-- processing/
+    |   |-- validation/
+    |
+    |-- logs/
+    |   |-- collection.log
+    |   |-- errors.log
+    |
+    |-- reports/
+    |   |-- COLLECTION_REPORT.md
+    |   |-- SEASON_COVERAGE_REPORT.md
+    |   |-- DATA_QUALITY_REPORT.md
+    |   |-- MEDIA_REPORT.md
+    |   |-- PRIVACY_RIGHTS_REVIEW.md
+    |   |-- MISSING_DATA.md
+    |
+    |-- README_FOR_NEXT_AGENT.md
+    |-- DATA_DICTIONARY.md
+
+**Lưu ý:** Các thư mục `season_01`, `season_02` chỉ là mẫu cấu trúc. Chỉ tạo hồ sơ mùa chính thức sau khi có bằng chứng mùa đó tồn tại. Những nội dung chưa xác định được mùa phải đưa vào `unclassified`, không tự gán.
+
+Ảnh gốc phải được lưu trong kho `assets/originals` với mã định danh ổn định. Các thư mục ảnh theo mùa có thể chứa bản sao hoặc đường dẫn tham chiếu phù hợp, nhưng không được làm mất liên kết đến ảnh gốc.
+
+---
+
+# XIV. CHUẨN HÓA DỮ LIỆU CHO WEBSITE TƯƠNG LAI
+
+Dữ liệu phải được thiết kế để frontend có thể sử dụng trực tiếp sau này.
+
+Yêu cầu:
+
+- JSON hợp lệ, mã hóa UTF-8.
+- Khóa dữ liệu nhất quán bằng tiếng Anh.
+- Nội dung mô tả sử dụng tiếng Việt.
+- Đường dẫn file nên ở dạng tương đối so với thư mục dự án.
+- ID ổn định khi thu thập lại.
+- Có quan hệ rõ ràng giữa các thực thể.
+- Không lưu nhiều bản ghi trùng một nội dung.
+- Dùng `null` cho thông tin chưa biết.
+- Không đưa giả định chưa xác minh thành sự thật.
+- Ngày giờ nên chuẩn hóa theo ISO 8601.
+- Khi có giờ địa phương, lưu đúng múi giờ.
+- Không tự gán ngày đầu tháng hoặc đầu năm nếu chỉ biết tháng/năm.
+
+Mối quan hệ chính:
+
+- Một dự án có nhiều mùa.
+- Một mùa có nhiều chương trình.
+- Một chương trình có thể có nhiều chuyến đi.
+- Một chuyến đi có nhiều hoạt động.
+- Một hoạt động có nhiều bài đăng.
+- Một bài đăng có thể chứa nhiều ảnh.
+- Một ảnh có thể xuất hiện trong nhiều bài đăng.
+- Một bài đăng có thể liên quan đến nhiều mùa.
+- Một sự kiện có thể được mô tả bởi nhiều bài đăng.
+
+Tạo `DATA_DICTIONARY.md` giải thích cấu trúc và ý nghĩa của các trường dữ liệu.
+
+Tất cả nội dung biên tập cho website phải có liên kết đến bằng chứng gốc, trực tiếp hoặc thông qua bảng quan hệ.
+
+---
+
+# XV. XÂY DỰNG KHO KIẾN THỨC CHO AI AGENT PHÁT TRIỂN WEBSITE
+
+Tôi muốn AI Agent phát triển website ở giai đoạn tiếp theo có thể đọc thư mục dự án và hiểu rõ lịch sử CHO EM mà không cần tự nghiên cứu lại từ đầu.
+
+Vì vậy, cần tạo các tài liệu sau.
+
+## 1. README_FOR_NEXT_AGENT.md
+
+Đây là tài liệu quan trọng nhất để chuyển giao công việc.
+
+Phải giải thích:
+
+- Dự án CHO EM là gì.
+- Mục tiêu của website tương lai.
+- Dữ liệu được lấy từ đâu.
+- Đã xác minh được bao nhiêu mùa.
+- Danh sách các mùa.
+- Cấu trúc thư mục.
+- Cách đọc dữ liệu.
+- Cách liên kết ảnh với bài viết.
+- Cách truy xuất thông tin một chương trình.
+- Cách truy xuất timeline.
+- Cách tìm nội dung phù hợp cho trang chủ.
+- Những dữ liệu chưa hoàn chỉnh.
+- Những vấn đề quyền riêng tư và quyền sử dụng cần kiểm tra.
+- Những yêu cầu quan trọng đối với AI Agent tiếp theo.
+
+## 2. complete_history.md
+
+Viết lịch sử tổng thể của dự án theo dòng thời gian.
+
+Nội dung bao gồm:
+
+- Hình thành.
+- Giai đoạn đầu.
+- Các mùa phát triển.
+- Các chương trình nổi bật.
+- Những thay đổi có bằng chứng.
+- Thành tựu được công bố.
+- Hiện trạng theo dữ liệu mới nhất thu thập được.
+
+## 3. seasons_overview.md
+
+Tổng hợp tất cả các mùa thành một tài liệu thống nhất.
+
+Đối với mỗi mùa, có:
+
+- Tên mùa.
+- Thời gian.
+- Chủ đề.
+- Mục tiêu.
+- Các chương trình.
+- Các địa điểm.
+- Kết quả.
+- Những câu chuyện.
+- Hình ảnh đại diện được đề xuất.
+- Nguồn thông tin.
+
+## 4. website_content_plan.md
+
+Phân tích dữ liệu đã có và đề xuất cách sử dụng trên website.
+
+Website dự kiến có các khu vực:
+
+**Trang chủ**
+
+Giới thiệu ngắn về CHO EM, hình ảnh nổi bật và những dấu mốc tiêu biểu.
+
+**Về CHO EM**
+
+Câu chuyện ra đời, sứ mệnh, mục tiêu và giá trị dự án.
+
+**Hành trình qua các mùa**
+
+Mỗi mùa là một chương trong câu chuyện chung. Có thể hiển thị dạng timeline hoặc các thẻ mùa.
+
+**Chi tiết từng mùa**
+
+Giới thiệu mùa, chương trình, chuyến đi, câu chuyện, thư viện ảnh và tổng kết.
+
+**Dấu chân thiện nguyện**
+
+Các địa điểm đã đi qua với thông tin địa lý có thể xác minh.
+
+**Những câu chuyện**
+
+Các câu chuyện tiêu biểu thể hiện giá trị nhân văn của dự án.
+
+**Thư viện hình ảnh**
+
+Tổ chức ảnh theo mùa, chương trình và thời gian.
+
+**Dấu ấn và thành tựu**
+
+Những kết quả có số liệu và bằng chứng.
+
+**Đồng hành cùng CHO EM**
+
+Thông tin liên hệ hoặc phương thức đồng hành được công bố và xác minh.
+
+Chỉ lập kế hoạch nội dung và dữ liệu. Chưa được xây giao diện hoặc triển khai website.
+
+---
+
+# XVI. NGUYÊN TẮC XÁC THỰC THÔNG TIN
+
+Độ chính xác quan trọng hơn việc trình bày một kho dữ liệu trông có vẻ đầy đủ.
+
+Mọi thông tin quan trọng phải có bằng chứng.
+
+Ví dụ:
+
+Nếu ghi một chương trình diễn ra tại một địa phương, phải có bài đăng hoặc tài liệu chứng minh.
+
+Nếu ghi mùa bắt đầu vào một ngày cụ thể, phải có nguồn xác thực.
+
+Nếu ghi dự án trao tặng một số lượng phần quà cụ thể, phải có nguồn công bố.
+
+Nếu không thể tìm thấy bằng chứng, không tự suy luận thành sự thật.
+
+Phải phân biệt:
+
+- **Dữ liệu gốc:** bài đăng và ảnh thực tế.
+- **Thông tin được xác minh:** thông tin có nguồn trực tiếp.
+- **Thông tin suy luận:** nhận định có căn cứ nhưng chưa chắc chắn.
+- **Nội dung biên tập:** câu chuyện được viết lại dựa trên dữ liệu đã xác minh.
+- **Thông tin chưa rõ:** cần nghiên cứu thêm.
+
+Tạo `research/evidence_map.json` để quản lý nguồn của những khẳng định quan trọng.
+
+Không sử dụng lượt thích hoặc bình luận như bằng chứng về kết quả hoạt động.
+
+Không tự đưa số tiền, số người được hỗ trợ hoặc số phần quà khi nguồn không công bố.
+
+---
+
+# XVII. AN TOÀN DỮ LIỆU VÀ QUYỀN SỬ DỤNG
+
+Dự án liên quan đến thiện nguyện và có thể bao gồm hình ảnh trẻ em, người thụ hưởng hoặc những hoàn cảnh dễ bị tổn thương.
+
+Vì vậy:
+
+1. Chỉ thu thập dữ liệu có quyền truy cập hợp lệ.
+2. Không lấy thông tin từ tài khoản riêng tư không được phép.
+3. Không thu thập hàng loạt thông tin cá nhân của người bình luận.
+4. Không xây dựng hồ sơ cá nhân của người thụ hưởng.
+5. Không sử dụng công nghệ nhận dạng khuôn mặt.
+6. Không suy đoán các đặc điểm nhạy cảm từ hình ảnh.
+7. Đánh dấu những media cần được xem xét trước khi xuất bản.
+8. Không mặc định mọi ảnh công khai đều có quyền sử dụng lại.
+9. Không tự động đưa dữ liệu nhạy cảm vào nội dung website.
+10. Tạo báo cáo riêng về quyền sử dụng và quyền riêng tư.
+
+Dữ liệu nội bộ phục vụ nghiên cứu phải được phân biệt với dữ liệu đã được duyệt để xuất bản công khai.
+
+---
+
+# XVIII. YÊU CẦU TRIỂN KHAI KỸ THUẬT
+
+Bạn là AI Agent có khả năng lập trình và thực thi công cụ.
+
+Hãy chủ động lựa chọn công nghệ phù hợp để thực hiện công việc.
+
+Có thể sử dụng:
+
+- Browser automation được cho phép.
+- Playwright hoặc công cụ tương đương.
+- Python hoặc Node.js để xử lý dữ liệu.
+- JSON để lưu trữ.
+- Công cụ xử lý ảnh và hash.
+- Các thư viện đọc metadata.
+- Công cụ kiểm tra dữ liệu.
+- Script tạo báo cáo.
+
+Trước khi cài đặt công cụ, kiểm tra môi trường hiện tại và các thư viện đã có.
+
+Không thay đổi cấu hình hệ thống hoặc mã nguồn hiện có nếu không cần thiết.
+
+Các script thu thập phải:
+
+- Có thể chạy lại.
+- Có khả năng tiếp tục khi gián đoạn.
+- Không tạo dữ liệu trùng.
+- Có giới hạn tốc độ truy cập.
+- Có kiểm tra lỗi.
+- Có log.
+- Có báo cáo tiến độ.
+- Không xóa dữ liệu đã xác minh.
+- Có thể mở rộng khi phát hiện mùa mới.
+
+Tách rõ:
+
+**Thu thập dữ liệu thô → Làm sạch → Phân loại → Xác minh → Biên tập → Xuất dữ liệu cho website.**
+
+Không tạo ra các file JSON chứa nội dung ví dụ rồi báo cáo như dữ liệu thật.
+
+Nếu tạo dữ liệu mẫu để kiểm thử, phải đánh dấu rõ là dữ liệu mẫu và không trộn với dữ liệu đã thu thập.
+
+---
+
+# XIX. QUY TRÌNH THỰC HIỆN BẮT BUỘC
+
+Bạn phải làm việc theo các giai đoạn sau.
+
+## PHASE 0 — KIỂM TRA MÔI TRƯỜNG
+
+- Kiểm tra thư mục dự án.
+- Kiểm tra công cụ.
+- Kiểm tra khả năng truy cập Facebook.
+- Xác định phương thức thu thập hợp lệ.
+- Tạo cấu trúc thư mục nền tảng.
+- Tạo hệ thống log và checkpoint.
+
+## PHASE 1 — KHẢO SÁT LỊCH SỬ DỰ ÁN
+
+- Đọc thông tin giới thiệu.
+- Tìm các bài viết khởi đầu.
+- Xác định các dấu mốc ban đầu.
+- Khảo sát bài đăng theo thời gian.
+- Xác định khoảng lịch sử có thể truy cập.
+
+## PHASE 2 — XÁC ĐỊNH TẤT CẢ CÁC MÙA
+
+- Tìm những bài viết nhắc tới các mùa.
+- Đối chiếu nguồn.
+- Xác định số lượng mùa có bằng chứng.
+- Tạo danh sách mùa.
+- Phân biệt mùa đã xác minh và mùa chưa xác minh.
+- Tạo báo cáo phát hiện mùa.
+
+**Không chuyển sang tổng hợp lịch sử toàn dự án trước khi đã thực hiện khảo sát các mùa.**
+
+## PHASE 3 — LẬP CHỈ MỤC BÀI ĐĂNG
+
+- Duyệt lịch sử bài viết có thể truy cập.
+- Thu thập URL.
+- Xác định ngày đăng.
+- Lập chỉ mục.
+- Đánh dấu bài đã xử lý và chưa xử lý.
+
+## PHASE 4 — THU THẬP DỮ LIỆU TỪNG MÙA
+
+Thực hiện lần lượt từng mùa.
+
+Với mỗi mùa:
+
+1. Thu thập bài đăng.
+2. Lưu caption.
+3. Xác định chương trình.
+4. Xác định hoạt động.
+5. Tải các ảnh được phép tải.
+6. Lưu video hoặc metadata video.
+7. Liên kết bài đăng với ảnh.
+8. Xây dựng timeline của mùa.
+9. Xây dựng hồ sơ chương trình.
+10. Biên tập câu chuyện mùa.
+11. Lưu nguồn xác minh.
+12. Đánh giá mức độ hoàn chỉnh.
+
+Khi xử lý xong một mùa, phải có bộ dữ liệu riêng cho mùa đó.
+
+Sau đó tiếp tục sang mùa tiếp theo.
+
+Các nội dung chưa phân loại được vẫn phải lưu giữ, không bỏ qua.
+
+## PHASE 5 — XÂY DỰNG TIMELINE TỔNG THỂ
+
+- Tổng hợp dữ liệu các mùa.
+- Xác định thứ tự sự kiện.
+- Loại bỏ bản ghi sự kiện trùng.
+- Liên kết các mùa.
+- Đánh dấu các cột mốc.
+- Tạo timeline toàn dự án.
+
+## PHASE 6 — PHÂN TÍCH HÌNH ẢNH
+
+- Kiểm tra ảnh.
+- Phát hiện file trùng.
+- Phân loại theo mùa.
+- Phân loại theo chương trình.
+- Chấm điểm mức độ phù hợp.
+- Chọn ảnh tiêu biểu.
+- Tạo media index.
+- Đánh dấu ảnh cần kiểm tra quyền sử dụng.
+
+## PHASE 7 — XÂY DỰNG KHO NỘI DUNG
+
+- Viết giới thiệu dự án.
+- Tổng hợp lịch sử.
+- Tổng hợp hành trình từng mùa.
+- Lựa chọn các câu chuyện.
+- Tổng hợp những dấu mốc.
+- Chuẩn bị nội dung cho website.
+
+Chỉ viết dựa trên thông tin có nguồn.
+
+## PHASE 8 — KIỂM TRA CHẤT LƯỢNG
+
+Kiểm tra:
+
+- File JSON có hợp lệ không.
+- Các mùa có nguồn chứng minh không.
+- Bài viết có URL nguồn không.
+- Những ảnh được ghi là đã tải có thực sự tồn tại không.
+- File ảnh có bị hỏng không.
+- Caption có bị cắt mất nội dung không.
+- Có bài viết trùng không.
+- Có ảnh bị trùng không.
+- Các chương trình có được gán đúng mùa không.
+- Timeline có đúng trình tự không.
+- Các ID tham chiếu có tồn tại không.
+- Có ảnh hoặc bài viết nào không liên kết với dữ liệu nào không.
+- Các thông tin chưa xác minh có được đánh dấu không.
+- Có nội dung riêng tư cần hạn chế xuất bản không.
+
+Tạo báo cáo dữ liệu thiếu và lỗi còn tồn tại.
+
+## PHASE 9 — TÀI LIỆU BÀN GIAO
+
+Tạo đầy đủ:
+
+- `README_FOR_NEXT_AGENT.md`
+- `DATA_DICTIONARY.md`
+- `COLLECTION_REPORT.md`
+- `SEASON_COVERAGE_REPORT.md`
+- `DATA_QUALITY_REPORT.md`
+- `MEDIA_REPORT.md`
+- `MISSING_DATA.md`
+- `PRIVACY_RIGHTS_REVIEW.md`
+
+Đảm bảo AI Agent khác có thể tiếp tục công việc mà không cần hỏi lại cấu trúc dữ liệu.
+
+---
+
+# XX. YÊU CẦU BÁO CÁO MỨC ĐỘ HOÀN THÀNH THEO MÙA
+
+Tạo một bảng tổng hợp cho tất cả các mùa.
+
+Bảng phải bao gồm:
+
+| Mùa | Trạng thái xác minh | Bài đăng | Ảnh tải thành công | Chương trình | Chuyến đi | Mức độ hoàn chỉnh |
+|---|---|---|---|---|---|---|
+| Mùa đã phát hiện | Verified/Unverified | Số lượng | Số lượng | Số lượng | Số lượng | Đánh giá |
+
+Bảng phải được điền bằng dữ liệu thực tế, không sử dụng số giả định.
+
+Thêm thông tin:
+
+- Số bài đăng đã phát hiện.
+- Số bài đã xử lý thành công.
+- Số bài còn chờ xử lý.
+- Số ảnh có metadata.
+- Số ảnh thực sự đã tải.
+- Số ảnh lỗi tải.
+- Số bài chưa xác định được mùa.
+- Số chương trình đã xác minh.
+- Những khoảng thời gian chưa khảo sát được.
+- Những giới hạn truy cập đã gặp.
+
+Không dùng số ảnh tìm được để thay thế số ảnh tải thành công.
+
+Nếu không biết tổng số bài đăng thực tế trên Facebook, không tính tỷ lệ hoàn chỉnh dựa trên một tổng số tự tưởng tượng.
+
+Mức độ hoàn chỉnh chỉ được đánh giá trên phạm vi nguồn và khoảng thời gian đã khảo sát, đồng thời phải nêu giới hạn của đánh giá.
+
+---
+
+# XXI. TIÊU CHÍ NGHIỆM THU
+
+Nhiệm vụ chỉ được coi là hoàn thành trong phạm vi dữ liệu có thể truy cập khi:
+
+1. Đã khảo sát lịch sử Facebook trong phạm vi truy cập hợp lệ.
+2. Đã lập danh sách tất cả mùa tìm thấy bằng chứng.
+3. Mỗi mùa đã xác minh có hồ sơ riêng.
+4. Những bài viết có giá trị tư liệu đã được lưu kèm nguồn.
+5. Caption gốc đã được bảo toàn.
+6. Media có chỉ mục và trạng thái tải chính xác.
+7. Các ảnh được báo cáo là đã tải thực sự tồn tại trên ổ đĩa.
+8. Các chương trình được phân loại theo mùa.
+9. Các chuyến đi và hoạt động có hồ sơ riêng khi có đủ dữ liệu.
+10. Có timeline từng mùa.
+11. Có timeline toàn dự án.
+12. Có những câu chuyện tiêu biểu được liên kết nguồn.
+13. Có hồ sơ giới thiệu dự án.
+14. Có báo cáo thiếu dữ liệu.
+15. Có kiểm tra quyền riêng tư và quyền sử dụng.
+16. Có tài liệu bàn giao cho AI Agent tiếp theo.
+17. Không có dữ liệu giả được trình bày như sự thật.
+18. Không có sự khẳng định thu thập đầy đủ nếu còn giới hạn chưa giải quyết.
+
+Nếu một phần không thể hoàn thành, cần ghi rõ nguyên nhân và trạng thái, không bỏ qua hoặc tạo dữ liệu thay thế.
+
+---
+
+# XXII. NGUYÊN TẮC LÀM VIỆC CỦA AI AGENT
+
+Bạn cần thực sự thực hiện công việc, không chỉ hướng dẫn tôi cách thực hiện.
+
+Hãy:
+
+- Chủ động kiểm tra môi trường.
+- Chủ động nghiên cứu nguồn.
+- Chủ động viết các script cần thiết.
+- Chủ động chạy các script.
+- Chủ động xử lý dữ liệu.
+- Chủ động tạo thư mục và file.
+- Chủ động phát hiện lỗi.
+- Chủ động kiểm tra kết quả.
+- Chủ động duy trì trạng thái công việc.
+
+Không được coi việc viết xong một chương trình thu thập là hoàn thành nhiệm vụ nếu chưa chạy và kiểm tra kết quả thực tế.
+
+Không được tạo thư mục rỗng và báo cáo đã có dữ liệu.
+
+Không được chỉ đưa ra một danh sách link Facebook mà không xử lý dữ liệu có thể trích xuất.
+
+Không tự động tuyên bố đã hoàn tất khi mới xử lý các bài đăng gần nhất.
+
+Ưu tiên nghiên cứu bao quát các mùa trước, sau đó đào sâu từng mùa. Cách này giúp tránh tình trạng hết thời gian hoặc gặp giới hạn truy cập khi chưa phát hiện được các mùa cũ.
+
+Nếu tác vụ bị gián đoạn, lưu tiến độ để có thể tiếp tục.
+
+Nếu không thể tiếp tục vì thiếu quyền truy cập, không vượt giới hạn. Hãy hoàn thiện những phần có thể thực hiện và báo cáo rõ cách bổ sung dữ liệu hợp lệ.
+
+---
+
+# XXIII. ĐẦU RA CUỐI CÙNG
+
+Sau khi thực hiện, tôi cần nhận được báo cáo ngắn gọn nhưng có số liệu thực tế, gồm:
+
+**1. Tổng quan dự án**
+
+Những thông tin đã xác minh được về CHO EM.
+
+**2. Các mùa đã phát hiện**
+
+Số lượng mùa, tên từng mùa, thời gian và trạng thái xác minh.
+
+**3. Kết quả thu thập**
+
+Số bài đăng, ảnh thực sự tải được, video, chương trình, chuyến đi và sự kiện.
+
+**4. Kết quả từng mùa**
+
+Mỗi mùa có bao nhiêu bài viết, hình ảnh và chương trình, còn thiếu gì.
+
+**5. Dữ liệu đã tạo**
+
+Liệt kê những file và thư mục quan trọng trong `D:\CHO_EM\Cho_em_HanhTrinh`.
+
+**6. Chất lượng và giới hạn**
+
+Những lỗi, dữ liệu chưa xác minh, hạn chế truy cập và vấn đề bản quyền hoặc quyền riêng tư.
+
+**7. Khả năng sử dụng cho website**
+
+Những dữ liệu có thể chuyển trực tiếp sang giai đoạn phát triển website và những nội dung cần phê duyệt trước khi xuất bản.
+
+---
+
+# XXIV. CHỈ THỊ CUỐI CÙNG — BẮT ĐẦU NGAY
+
+Hãy bắt đầu bằng việc:
+
+**BƯỚC 1:** Kiểm tra thư mục `D:\CHO_EM\Cho_em_HanhTrinh`.
+
+**BƯỚC 2:** Truy cập và khảo sát nguồn Facebook chính thức của CHO EM bằng phương thức hợp lệ.
+
+**BƯỚC 3:** Nghiên cứu lịch sử để tìm bằng chứng về TOÀN BỘ CÁC MÙA đã diễn ra.
+
+**BƯỚC 4:** Tạo danh sách mùa và nguồn xác minh.
+
+**BƯỚC 5:** Xây dựng quy trình thu thập dữ liệu, caption và hình ảnh có thể truy cập hợp lệ theo từng mùa.
+
+**BƯỚC 6:** Tiến hành thu thập thực tế và lưu dữ liệu vào thư mục dự án.
+
+**BƯỚC 7:** Tiếp tục phân tích, phân loại, kiểm chứng và xây dựng kho tư liệu hoàn chỉnh trong phạm vi truy cập cho phép.
+
+Đừng chỉ lập kế hoạch rồi dừng lại.
+
+Hãy thực thi những bước có thể làm ngay, duy trì checkpoint, kiểm tra kết quả trên ổ đĩa và tiếp tục cho tới khi hoàn thành phạm vi có thể thực hiện hoặc gặp trở ngại thực sự cần sự can thiệp của tôi.
+
+**MỤC TIÊU TỐI THƯỢNG:**
+
+Xây dựng một kho dữ liệu lịch sử CHO EM chân thực, có cấu trúc, giàu hình ảnh, có thể truy xuất đến nguồn gốc và được tổ chức theo từng mùa, để giai đoạn tiếp theo có thể phát triển một website kể lại trọn vẹn hành trình thiện nguyện của CHO EM — từ những ngày đầu tiên đến hiện tại.
+
+**TUYỆT ĐỐI CHƯA LẬP TRÌNH WEBSITE TRONG NHIỆM VỤ NÀY.**

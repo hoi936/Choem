@@ -1,0 +1,35 @@
+# Nguồn xác minh CHO EM Mùa 6 — An Toàn Cho Em 2
+
+- Hồ sơ xuất chính thức Meta (`Data_fb/this_profile's_activity_across_facebook/posts/profile_posts_1.html`).
+- Số bài đăng thuộc mùa: **28 bài viết**.
+- Số hình ảnh tư liệu gốc: **82 ảnh**.
+- Số video tư liệu gốc: **0 video**.
+
+- [2026-02-11] 𝐂𝐇𝐎 𝐄𝐌: RECAP CHƯƠNG TRÌNH “AN TOÀN CHO EM 2 (https://www.facebook.com/photo.php?fbid=764103220086699)
+- [2026-02-10] 𝐂𝐇𝐎 𝐄𝐌: CẢM ƠN NHÀ TÀI TRỢ ĐỒNG - THE MOMENT CAFE & FOOD (https://www.facebook.com/photo.php?fbid=762890900207931)
+- [2026-02-08] 𝐂𝐇𝐎 𝐄𝐌: CẢM ƠN NHÀ TÀI TRỢ ĐỒNG: MÂY MART (https://www.facebook.com/photo.php?fbid=761520407011647)
+- [2026-02-06] 𝐂𝐇𝐎 𝐄𝐌: AN TOÀN CHO EM - GỬI TRỌN YÊU THƯƠNG (https://www.facebook.com/photo.php?fbid=759791243851230)
+- [2026-02-05] 𝐂𝐇𝐎 𝐄𝐌: CẢM ƠN NHÀ TÀI TRỢ VÀNG – NHÀ SÁCH SANG HIẾU (https://www.facebook.com/photo.php?fbid=758969380600083)
+- [2026-02-03] 𝐂𝐇𝐎 𝐄𝐌: [SERIES NHỮNG KỸ NĂNG SƠ CỨU CƠ BẢN VÀ AN TOÀN CHO TRẺ EM] (https://www.facebook.com/photo.php?fbid=757188317444856)
+- [2026-02-01] 𝐂𝐇𝐎 𝐄𝐌: [SERIES NHỮNG KỸ NĂNG SƠ CỨU CƠ BẢN VÀ AN TOÀN CHO TRẺ EM] (https://www.facebook.com/photo.php?fbid=755698507593837)
+- [2026-01-30] 𝐂𝐇𝐎 𝐄𝐌: [SERIES NHỮNG KỸ NĂNG SƠ CỨU CƠ BẢN VÀ AN TOÀN CHO TRẺ EM] (https://www.facebook.com/photo.php?fbid=754159514414403)
+- [2026-01-28] 𝐂𝐇𝐎 𝐄𝐌: [SERIES NHỮNG KỸ NĂNG SƠ CỨU CƠ BẢN VÀ AN TOÀN CHO TRẺ EM] (https://www.facebook.com/photo.php?fbid=752547861242235)
+- [2026-01-26] 𝐂𝐇𝐎 𝐄𝐌: GIỚI THIỆU CHUỖI SERIES “NHỮNG KỸ NĂNG SƠ CỨU CƠ BẢN VÀ AN TOÀN CHO TRẺ EM” (https://www.facebook.com/photo.php?fbid=750834688080219)
+- [2026-01-24] 𝐂𝐇𝐎 𝐄𝐌: GIỚI THIỆU ĐIỂM TRƯỜNG PTDTBT TH VĨNH Ô (https://www.facebook.com/photo.php?fbid=749130041584017)
+- [2026-01-21] CHO EM: RECAP GIAN HÀNG GÂY QUỸ “AN TOÀN CHO EM 2” (https://www.facebook.com/photo.php?fbid=746763565153998)
+- [2026-01-19] 𝐂𝐇𝐎 𝐄𝐌: GIAN HÀNG TẾT “AN TOÀN CHO EM 2” - TẾT CỦA SỰ SẺ CHIA✨ (https://www.facebook.com/photo.php?fbid=745217628641925)
+- [2026-01-18] 𝐂𝐇𝐎 𝐄𝐌: Về nhà là Tết - 𝐂𝐇𝐎 𝐄𝐌 là Xuân 🏠 (https://www.facebook.com/photo.php?fbid=744495662047455)
+- [2026-01-16] 𝐂𝐇𝐎 𝐄𝐌: CHÍNH THỨC MỞ ĐƠN ĐẶT HÀNG GÂY QUỸ CHƯƠNG TRÌNH “AN TOÀN CHO EM 2” (https://www.facebook.com/photo.php?fbid=742645385565816)
+- [2026-01-14] ⏳ 𝐂𝐇𝐎 𝐄𝐌: GIA HẠN PRE - ORDER GIAN HÀNG GÂY QUỸ (https://www.facebook.com/photo.php?fbid=741442885686066)
+- [2026-01-12] 📣𝐂𝐇𝐎 𝐄𝐌: MỞ ĐƠN PRE - ORDER GIAN HÀNG GÂY QUỸ 📣 (https://www.facebook.com/photo.php?fbid=739987835831571)
+- [2026-01-10] 𝐂𝐇𝐎 𝐄𝐌: TIẾP NỐI HÀNH TRÌNH GIÁO DỤC KỸ NĂNG SƠ CỨU CƠ BẢN "AN TOÀN CHO EM 2" (https://www.facebook.com/photo.php?fbid=738631842633837)
+- [2026-01-08] 𝐂𝐇𝐎 𝐄𝐌: THƯ NGỎ HỖ TRỢ CHƯƠNG TRÌNH “AN TOÀN CHO EM 2” (https://www.facebook.com/photo.php?fbid=737143602782661)
+- [2025-12-30] 𝐂𝐇𝐎 𝐄𝐌: RECAP 2025 (https://www.facebook.com/photo.php?fbid=730512343445787)
+- [2025-12-27] 📣𝐂𝐇𝐎 𝐄𝐌: CHECK YOUR MAIL 📣 (https://www.facebook.com/photo.php?fbid=728467793650242)
+- [2025-12-25] 𝐂𝐇𝐎 𝐄𝐌: NHÌN LẠI HÀNH TRÌNH ĐÃ QUA (https://www.facebook.com/photo.php?fbid=727566830407005)
+- [2025-12-22] 𝐂𝐇𝐎 𝐄𝐌: TIẾNG GỌI TỪ 𝐂𝐇𝐎 𝐄𝐌: BẠN ĐÃ SẴN SÀNG? (https://www.facebook.com/photo.php?fbid=724950970668591)
+- [2025-12-20] 𝐂𝐇𝐎 𝐄𝐌: ĐÓNG ĐƠN TUYỂN THÀNH VIÊN CHO EM MÙA 6 (https://www.facebook.com/photo.php?fbid=723209994176022)
+- [2025-12-19] 𝐂𝐇𝐎 𝐄𝐌: ĐẾM NGƯỢC NHỮNG KHOẢNH KHẮC CUỐI CÙNG (https://www.facebook.com/photo.php?fbid=722714790892209)
+- [2025-12-18] 📣 𝐂𝐇𝐎 𝐄𝐌: VÉN MÀN SỰ THẬT 📣 (https://www.facebook.com/photo.php?fbid=722008650962823)
+- [2025-12-16] 𝐂𝐇𝐎 𝐄𝐌: CHÍNH THỨC MỞ ĐƠN TUYỂN THÀNH VIÊN MÙA 6 (https://www.facebook.com/photo.php?fbid=720537821109906)
+- [2025-12-13] 𝐂𝐇𝐎 𝐄𝐌: COMING SOON… (https://www.facebook.com/photo.php?fbid=718405841323104)

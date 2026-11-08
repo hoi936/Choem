@@ -1,0 +1,3000 @@
+[
+  {
+    "photo_id": "photo_9e0e3c10cbe01ac5805ade5c",
+    "local_path": "assets/originals/images/9e0e3c10cbe01ac5805ade5c52cc6554bca269eee8a9a8e85e369ceb3309f54d.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352351214595237"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 628446,
+    "sha256": "9e0e3c10cbe01ac5805ade5c52cc6554bca269eee8a9a8e85e369ceb3309f54d",
+    "description": "Chúng mình đã tập trung tại trường từ rất sớm để khởi hành đến Hướng Hóa.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352351214595237.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_d9445fe053b236a7c0572b73",
+    "local_path": "assets/originals/images/d9445fe053b236a7c0572b736d7303168838a5eeb5f553dee04675910a22b4e9.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352351794595179",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351794595179"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352351794595179"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 729545,
+    "sha256": "d9445fe053b236a7c0572b736d7303168838a5eeb5f553dee04675910a22b4e9",
+    "description": "Lễ khánh thành Sân chơi Cho Em tại điểm trường Chênh Vênh.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352351794595179.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_50dd5ef4d1ab731d82a29432",
+    "local_path": "assets/originals/images/50dd5ef4d1ab731d82a29432f64f654b00367d72092da74cc7682cee7c2b979b.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352351914595167",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351914595167"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352351914595167"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 434792,
+    "sha256": "50dd5ef4d1ab731d82a29432f64f654b00367d72092da74cc7682cee7c2b979b",
+    "description": "Các em nhỏ tại điểm trường Chênh Vênh rất đáng yêu và vâng lời.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352351914595167.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_e460e10efff29c165d6f9ad1",
+    "local_path": "assets/originals/images/e460e10efff29c165d6f9ad19b8c92c6c48cfaef857dca28c93d774e6041d377.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352352544595104",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352352544595104"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352352544595104"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 486119,
+    "sha256": "e460e10efff29c165d6f9ad19b8c92c6c48cfaef857dca28c93d774e6041d377",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352352544595104.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_2b07f9f6e909c8f52e3373e6",
+    "local_path": "assets/originals/images/2b07f9f6e909c8f52e3373e6987f779958f12e364c57040908fe343f73047697.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352352714595087",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352352714595087"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352352714595087"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 461215,
+    "sha256": "2b07f9f6e909c8f52e3373e6987f779958f12e364c57040908fe343f73047697",
+    "description": "Một số phát biểu của hiệu trưởng trường mầm non Hướng Phùng.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352352714595087.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_90b7767436599cbc196b297d",
+    "local_path": "assets/originals/images/90b7767436599cbc196b297d78da75a0dfc4cc873a478599b482694e39420e43.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352352771261748",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352352771261748"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352352771261748"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 472326,
+    "sha256": "90b7767436599cbc196b297d78da75a0dfc4cc873a478599b482694e39420e43",
+    "description": "Anh Phan Bin - một nhà tài trợ rất nhiệt tình đã ủng hộ dự án rất nhiều từ quá trình quyên góp các phần quà giúp dự án đến hỗ trợ thi công các hạng mục sân chơi.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352352771261748.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_a4f0347d0f1c8b976c24b495",
+    "local_path": "assets/originals/images/a4f0347d0f1c8b976c24b495622b4dfb529bed90a13c19613adffd3f95c4a956.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352352821261743",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352352821261743"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352352821261743"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 559575,
+    "sha256": "a4f0347d0f1c8b976c24b495622b4dfb529bed90a13c19613adffd3f95c4a956",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352352821261743.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_5d105081a06b3831fe2fe2c9",
+    "local_path": "assets/originals/images/5d105081a06b3831fe2fe2c90e7be6cde4db0b68d00b29aaf5d15ed2acfcdec7.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352352894595069",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352352894595069"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352352894595069"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 573444,
+    "sha256": "5d105081a06b3831fe2fe2c90e7be6cde4db0b68d00b29aaf5d15ed2acfcdec7",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352352894595069.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_74f400d5e6939fc09b2a6314",
+    "local_path": "assets/originals/images/74f400d5e6939fc09b2a63143deafd4ae6798d210dcf8c0024bd9974ac131993.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352353044595054",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352353044595054"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352353044595054"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 586673,
+    "sha256": "74f400d5e6939fc09b2a63143deafd4ae6798d210dcf8c0024bd9974ac131993",
+    "description": "Chúng tớ trao quà cho các em nhỏ.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352353044595054.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_3838400425ae6d253705e936",
+    "local_path": "assets/originals/images/3838400425ae6d253705e9365db07bbf064a3678e166c77a82940a7f1b0e1bcf.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352353804594978",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352353804594978"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352353804594978"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 546691,
+    "sha256": "3838400425ae6d253705e9365db07bbf064a3678e166c77a82940a7f1b0e1bcf",
+    "description": "Chúng tớ trao quà cho các em nhỏ.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352353804594978.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_f565b57e1da654f515d8b31c",
+    "local_path": "assets/originals/images/f565b57e1da654f515d8b31c4b36d46733b6f935cef312036d60dcf5b5f420cc.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361057927586",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361057927586"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361057927586"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 661377,
+    "sha256": "f565b57e1da654f515d8b31c4b36d46733b6f935cef312036d60dcf5b5f420cc",
+    "description": "Lễ khánh thành Sân chơi Cho Em tại điểm trường Hướng Choa.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361057927586.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_4f10a0500e5d64062fe46028",
+    "local_path": "assets/originals/images/4f10a0500e5d64062fe4602815f13c6aa4d85c3971fdee2790e47ea96b1e343b.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361114594247",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361114594247"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361114594247"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 770018,
+    "sha256": "4f10a0500e5d64062fe4602815f13c6aa4d85c3971fdee2790e47ea96b1e343b",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361114594247.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_a8b2badf2a37d113c0aaf6c1",
+    "local_path": "assets/originals/images/a8b2badf2a37d113c0aaf6c110e9bd092b3b2a8f92394f3fe28db24a8b840fd4.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361204594238",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361204594238"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361204594238"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 421812,
+    "sha256": "a8b2badf2a37d113c0aaf6c110e9bd092b3b2a8f92394f3fe28db24a8b840fd4",
+    "description": "Một số hình ảnh các em nhỏ tại 2 điểm trường thích thú với sân chơi tái chế mà dự án đã làm.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361204594238.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_4ae5992e75c5a41c5a343e6f",
+    "local_path": "assets/originals/images/4ae5992e75c5a41c5a343e6f036df5ff9b7c7d04c147bf07d45d473ffe2bfad7.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352365937927098",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352365937927098"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352365937927098"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 453599,
+    "sha256": "4ae5992e75c5a41c5a343e6f036df5ff9b7c7d04c147bf07d45d473ffe2bfad7",
+    "description": "Một số hình ảnh các em nhỏ tại 2 điểm trường thích thú với sân chơi tái chế mà dự án đã làm.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352365937927098.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_b824c0609f5cec84c906fbba",
+    "local_path": "assets/originals/images/b824c0609f5cec84c906fbba68ce644ae3153e1854b42e01319c4dcef73372b0.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361341260891",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361341260891"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361341260891"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 429245,
+    "sha256": "b824c0609f5cec84c906fbba68ce644ae3153e1854b42e01319c4dcef73372b0",
+    "description": "Một số hình ảnh các em nhỏ tại 2 điểm trường thích thú với sân chơi tái chế mà dự án đã làm.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361341260891.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_cd0238b4f64b19d1d704306b",
+    "local_path": "assets/originals/images/cd0238b4f64b19d1d704306b0057d1d56fe4096b98aeba17e8286bf6bd3acef9.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361414594217",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361414594217"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361414594217"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 670949,
+    "sha256": "cd0238b4f64b19d1d704306b0057d1d56fe4096b98aeba17e8286bf6bd3acef9",
+    "description": "Một số hình ảnh các em nhỏ tại 2 điểm trường thích thú với sân chơi tái chế mà dự án đã làm.",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361414594217.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_94696d8e52236737ef4701b9",
+    "local_path": "assets/originals/images/94696d8e52236737ef4701b943edeb47bd316fbbefd584c4ca460220697bd632.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361551260870",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361551260870"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361551260870"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1366,
+    "format": "JPEG",
+    "file_size": 446534,
+    "sha256": "94696d8e52236737ef4701b943edeb47bd316fbbefd584c4ca460220697bd632",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361551260870.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_b5f6f7fe1b6780b8a3999b24",
+    "local_path": "assets/originals/images/b5f6f7fe1b6780b8a3999b2431ac455fa78acd4e3137ee5eba6825eb263222dc.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361524594206",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361524594206"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361524594206"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 623703,
+    "sha256": "b5f6f7fe1b6780b8a3999b2431ac455fa78acd4e3137ee5eba6825eb263222dc",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361524594206.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_5e7de99ea8d891f332aa7ccd",
+    "local_path": "assets/originals/images/5e7de99ea8d891f332aa7ccd40bc8351119eca950521fd5ba47113ab7dd9d491.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361607927531",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361607927531"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361607927531"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1366,
+    "format": "JPEG",
+    "file_size": 479090,
+    "sha256": "5e7de99ea8d891f332aa7ccd40bc8351119eca950521fd5ba47113ab7dd9d491",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361607927531.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_e8c00145c9d4ba2a81e80f03",
+    "local_path": "assets/originals/images/e8c00145c9d4ba2a81e80f0327e459e08bfa7c87f55829e4fce729bfcc0cdd8a.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352361824594176",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352361824594176"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352361824594176"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 388278,
+    "sha256": "e8c00145c9d4ba2a81e80f0327e459e08bfa7c87f55829e4fce729bfcc0cdd8a",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352361824594176.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_c0b740e2f74e2eb4561a824e",
+    "local_path": "assets/originals/images/c0b740e2f74e2eb4561a824ec0abb34bfd899953268c45dba8e1120149f046f0.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=352362301260795",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=352362301260795"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=352351214595237"
+    ],
+    "facebook_photo_ids": [
+      "352362301260795"
+    ],
+    "post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "source_post_ids": [
+      "post_1e4fd5805d400146d889cfb4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-10T13:36:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1365,
+    "format": "JPEG",
+    "file_size": 649164,
+    "sha256": "c0b740e2f74e2eb4561a824ec0abb34bfd899953268c45dba8e1120149f046f0",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/352362301260795.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_4b35b673056c3cb8e37b7ac8",
+    "local_path": "assets/originals/images/4b35b673056c3cb8e37b7ac8e1df3975386c7df0292dd180939f0f2a760eef8d.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=351079411389084",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=351079411389084"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=351079411389084",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=351079411389084"
+    ],
+    "facebook_photo_ids": [
+      "351079411389084"
+    ],
+    "post_ids": [
+      "post_aeaf928e8f3da0f1726e17b1"
+    ],
+    "source_post_ids": [
+      "post_aeaf928e8f3da0f1726e17b1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-08T13:18:42+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 586490,
+    "sha256": "4b35b673056c3cb8e37b7ac8e1df3975386c7df0292dd180939f0f2a760eef8d",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/351079411389084.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_29a29abc2f7e6c8974cd9a2e",
+    "local_path": "assets/originals/images/29a29abc2f7e6c8974cd9a2e2ae5c5e336491dbfc7e68c752c485bfae34a41f3.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=351079481389077",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=351079481389077"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=351079411389084",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=351079411389084"
+    ],
+    "facebook_photo_ids": [
+      "351079481389077"
+    ],
+    "post_ids": [
+      "post_aeaf928e8f3da0f1726e17b1"
+    ],
+    "source_post_ids": [
+      "post_aeaf928e8f3da0f1726e17b1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-08T13:18:42+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 571307,
+    "sha256": "29a29abc2f7e6c8974cd9a2e2ae5c5e336491dbfc7e68c752c485bfae34a41f3",
+    "description": "Với niềm đam mê nghề giáo, ông giáo toán Thông Đình là người thầy được nhiều học sinh tin tưởng như là người kề vai sát cánh trên hành trình chinh phục những vũ môn Toán Học của mình. Bên cạnh đó, Thầy cũng là một người tâm huyết và hài hước, giúp giờ học toán của các bạn trở nên vui vẻ và thú vị hơn rất nhiều. Thầy Thông còn thuộc team giáo viên trẻ của tỉnh nên thầy có thể dễ dàng cập nhật những dạng Toán và phương pháp giải đề mới nhất để các bạn học sinh có thể đạt điểm cao trong những kì thi quan trọng sắp tới. Vì vậy, lớp Toán Thong Math chắc chắn là một địa điểm học thêm đáng cân nhắc cho các bạn học sinh. \n\nThông tin liên hệ lớp toán THONG MATH:\nLink facebook: https://www.facebook.com/THONGMATHS",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/351079481389077.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_278d85eca44435c33d1d71fd",
+    "local_path": "assets/originals/images/278d85eca44435c33d1d71fd648770985f53611097190d31a3e5729198cc5c1f.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=351079531389072",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=351079531389072"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=351079411389084",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=351079411389084"
+    ],
+    "facebook_photo_ids": [
+      "351079531389072"
+    ],
+    "post_ids": [
+      "post_aeaf928e8f3da0f1726e17b1"
+    ],
+    "source_post_ids": [
+      "post_aeaf928e8f3da0f1726e17b1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-08T13:18:42+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 536044,
+    "sha256": "278d85eca44435c33d1d71fd648770985f53611097190d31a3e5729198cc5c1f",
+    "description": "Trường mầm non Joy-School là nơi có thể mang lại cho những bạn nhỏ những trải nghiệm tuyệt vời với đội ngũ giáo viên, cán bộ nhà trường có đầy đủ bằng cấp chuyên môn, tâm huyết với. Joy-School còn áp dụng đa dạng các phương pháp dạy học như: Giáo dục mầm non, ứng dụng Montessori, Giáo dục sớm (phát triển EQ - IQ - AQ - BQ), trường còn thường xuyên tổ chức các hoạt động thực tế giúp các bạn nhỏ có những trải nghiệm chân thật nhất với đời sống, được thử làm những ngành nghề mình yêu thích giúp việc mỗi ngày đến trường luôn đầy ắp tiếng cười và sự bất ngờ. \n\nThông tin liên hệ Joy-School Kindergarten\nLink facebook: https://www.facebook.com/profile.php?id=100067892883159&mibextid=LQQJ4d \nSĐT: 098 255 37 05\nĐịa chỉ: 213 Tôn Thất Thuyết",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/351079531389072.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_dd0bcc0a988ff47649a807ae",
+    "local_path": "assets/originals/images/dd0bcc0a988ff47649a807ae1fe1470e0350696a20757e831f4a88e83972d997.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=350439618119730",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439618119730"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=350439618119730",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439618119730"
+    ],
+    "facebook_photo_ids": [
+      "350439618119730"
+    ],
+    "post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "source_post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-07T13:01:09+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 666543,
+    "sha256": "dd0bcc0a988ff47649a807ae1fe1470e0350696a20757e831f4a88e83972d997",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/350439618119730.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_d80078aaf4081a4046df7f01",
+    "local_path": "assets/originals/images/d80078aaf4081a4046df7f01ef113f664285dee990de90e0c00c6b25e58f4e3c.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=350439671453058",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439671453058"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=350439618119730",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439618119730"
+    ],
+    "facebook_photo_ids": [
+      "350439671453058"
+    ],
+    "post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "source_post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-07T13:01:09+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 739997,
+    "sha256": "d80078aaf4081a4046df7f01ef113f664285dee990de90e0c00c6b25e58f4e3c",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/350439671453058.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_2c99627e93156ba5f2aeb11d",
+    "local_path": "assets/originals/images/2c99627e93156ba5f2aeb11db9fcb541e8bcc024a67bfe1d0bf607ac7fad3c8b.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=350439708119721",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439708119721"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=350439618119730",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439618119730"
+    ],
+    "facebook_photo_ids": [
+      "350439708119721"
+    ],
+    "post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "source_post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-07T13:01:09+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 791715,
+    "sha256": "2c99627e93156ba5f2aeb11db9fcb541e8bcc024a67bfe1d0bf607ac7fad3c8b",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/350439708119721.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_85d5439a405ca9bee016e836",
+    "local_path": "assets/originals/images/85d5439a405ca9bee016e8368e545f8d3bbfa1b3a28e5c96d3c9d11658900f97.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=350439748119717",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439748119717"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=350439618119730",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=350439618119730"
+    ],
+    "facebook_photo_ids": [
+      "350439748119717"
+    ],
+    "post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "source_post_ids": [
+      "post_eabf7d38aee9d5e927800d7c"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-07T13:01:09+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 740627,
+    "sha256": "85d5439a405ca9bee016e8368e545f8d3bbfa1b3a28e5c96d3c9d11658900f97",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/350439748119717.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_ef61dc8d938b9e67141dbb9d",
+    "local_path": "assets/originals/images/ef61dc8d938b9e67141dbb9dddb9bc24d382a0bfa3360cd8ae86d1b3ffc20988.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=349260684904290",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=349260684904290",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "facebook_photo_ids": [
+      "349260684904290"
+    ],
+    "post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "source_post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-05T13:13:36+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 580320,
+    "sha256": "ef61dc8d938b9e67141dbb9dddb9bc24d382a0bfa3360cd8ae86d1b3ffc20988",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/349260684904290.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_7a02c8933a7bb035449ca41e",
+    "local_path": "assets/originals/images/7a02c8933a7bb035449ca41e8dd2fc447a1ea35859e678829ede9ad04bc7375d.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=349260691570956",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260691570956"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=349260684904290",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "facebook_photo_ids": [
+      "349260691570956"
+    ],
+    "post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "source_post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-05T13:13:36+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 748941,
+    "sha256": "7a02c8933a7bb035449ca41e8dd2fc447a1ea35859e678829ede9ad04bc7375d",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/349260691570956.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_2c3e11d5b1e10bd695bfb1a1",
+    "local_path": "assets/originals/images/2c3e11d5b1e10bd695bfb1a11d3b277731b4d64995590f3386fb6c7883c0d6f7.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=349260688237623",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260688237623"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=349260684904290",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "facebook_photo_ids": [
+      "349260688237623"
+    ],
+    "post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "source_post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-05T13:13:36+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 852880,
+    "sha256": "2c3e11d5b1e10bd695bfb1a11d3b277731b4d64995590f3386fb6c7883c0d6f7",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/349260688237623.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_cc4f6d7c33b7fe038b4229fd",
+    "local_path": "assets/originals/images/cc4f6d7c33b7fe038b4229fd2823e5a5fb79cfef6b2efa0dd75fc456cab05132.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=349260681570957",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260681570957"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=349260684904290",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "facebook_photo_ids": [
+      "349260681570957"
+    ],
+    "post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "source_post_ids": [
+      "post_91cc4ce4bd1435923fca60fc"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-05T13:13:36+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 808674,
+    "sha256": "cc4f6d7c33b7fe038b4229fd2823e5a5fb79cfef6b2efa0dd75fc456cab05132",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/349260681570957.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_c3224e96e371db7bbe191576",
+    "local_path": "assets/originals/images/c3224e96e371db7bbe191576f2c44dd243167b7aa82d5499ef68e4a27bc83116.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348626898301002",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626898301002"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348626898301002",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626898301002"
+    ],
+    "facebook_photo_ids": [
+      "348626898301002"
+    ],
+    "post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "source_post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-04T12:00:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 86026,
+    "sha256": "c3224e96e371db7bbe191576f2c44dd243167b7aa82d5499ef68e4a27bc83116",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348626898301002.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_26144e595990aca147e36fb0",
+    "local_path": "assets/originals/images/26144e595990aca147e36fb053054256cde407980c3f23409358cbe6d5878cfc.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348626908301001",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626908301001"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348626898301002",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626898301002"
+    ],
+    "facebook_photo_ids": [
+      "348626908301001"
+    ],
+    "post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "source_post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-04T12:00:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 177162,
+    "sha256": "26144e595990aca147e36fb053054256cde407980c3f23409358cbe6d5878cfc",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348626908301001.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_9df2c2e5de1312d8df669a26",
+    "local_path": "assets/originals/images/9df2c2e5de1312d8df669a26d920e72c4b3cc64dc736fe2bc59606e267ead263.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348626901634335",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626901634335"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348626898301002",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626898301002"
+    ],
+    "facebook_photo_ids": [
+      "348626901634335"
+    ],
+    "post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "source_post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-04T12:00:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 203702,
+    "sha256": "9df2c2e5de1312d8df669a26d920e72c4b3cc64dc736fe2bc59606e267ead263",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348626901634335.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_ba9ba44036771518cf737db9",
+    "local_path": "assets/originals/images/ba9ba44036771518cf737db9701239340c7ba0d963a3c676b0f37265de79498e.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348626904967668",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626904967668"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348626898301002",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348626898301002"
+    ],
+    "facebook_photo_ids": [
+      "348626904967668"
+    ],
+    "post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "source_post_ids": [
+      "post_eeeeaf0f96034b7055f3eb95"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-04T12:00:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 122491,
+    "sha256": "ba9ba44036771518cf737db9701239340c7ba0d963a3c676b0f37265de79498e",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348626904967668.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_a00bcc688f1dde334c8d1314",
+    "local_path": "assets/originals/images/a00bcc688f1dde334c8d1314d4da8a7f26ec5ffea2183c182a106e916d306911.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348019318361760",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019318361760"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348019318361760",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019318361760"
+    ],
+    "facebook_photo_ids": [
+      "348019318361760"
+    ],
+    "post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "source_post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-03T13:00:15+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 395044,
+    "sha256": "a00bcc688f1dde334c8d1314d4da8a7f26ec5ffea2183c182a106e916d306911",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348019318361760.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_8ad531d497c877e8f76e3257",
+    "local_path": "assets/originals/images/8ad531d497c877e8f76e32579b1c66551f3fefde56f2d9903b9b9d3c038ad0be.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348019315028427",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019315028427"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348019318361760",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019318361760"
+    ],
+    "facebook_photo_ids": [
+      "348019315028427"
+    ],
+    "post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "source_post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-03T13:00:15+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 690927,
+    "sha256": "8ad531d497c877e8f76e32579b1c66551f3fefde56f2d9903b9b9d3c038ad0be",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348019315028427.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_38a4b083cccb54cdcfc02c11",
+    "local_path": "assets/originals/images/38a4b083cccb54cdcfc02c114eaab2068b55159de945a062d6ba9299732897e2.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348019321695093",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019321695093"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348019318361760",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019318361760"
+    ],
+    "facebook_photo_ids": [
+      "348019321695093"
+    ],
+    "post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "source_post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-03T13:00:15+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 654103,
+    "sha256": "38a4b083cccb54cdcfc02c114eaab2068b55159de945a062d6ba9299732897e2",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348019321695093.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_f3e44568f21ed84955273149",
+    "local_path": "assets/originals/images/f3e44568f21ed84955273149c52b4d1c996f64273313e51b27cd2188f2554ed4.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=348019311695094",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019311695094"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=348019318361760",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=348019318361760"
+    ],
+    "facebook_photo_ids": [
+      "348019311695094"
+    ],
+    "post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "source_post_ids": [
+      "post_655a6ec277b72ef003685bd5"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-08-03T13:00:15+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1042,
+    "height": 1042,
+    "format": "JPEG",
+    "file_size": 556552,
+    "sha256": "f3e44568f21ed84955273149c52b4d1c996f64273313e51b27cd2188f2554ed4",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/348019311695094.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_7fd4f02946f40da1b504a11d",
+    "local_path": "assets/originals/images/7fd4f02946f40da1b504a11d69be3abee911c7a1a9d014e2796d6cf5dd982a47.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=346109185219440",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109185219440"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=346109185219440",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109185219440"
+    ],
+    "facebook_photo_ids": [
+      "346109185219440"
+    ],
+    "post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "source_post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-31T13:00:52+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1156,
+    "format": "JPEG",
+    "file_size": 655428,
+    "sha256": "7fd4f02946f40da1b504a11d69be3abee911c7a1a9d014e2796d6cf5dd982a47",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/346109185219440.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_a330166d1f244fa88436d9a0",
+    "local_path": "assets/originals/images/a330166d1f244fa88436d9a0a29a60c835df24e619eb371a4f5fbd628b7bbefd.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=346109178552774",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109178552774"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=346109185219440",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109185219440"
+    ],
+    "facebook_photo_ids": [
+      "346109178552774"
+    ],
+    "post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "source_post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-31T13:00:52+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1155,
+    "format": "JPEG",
+    "file_size": 656701,
+    "sha256": "a330166d1f244fa88436d9a0a29a60c835df24e619eb371a4f5fbd628b7bbefd",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/346109178552774.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_36d14fbe1308fb8e11504342",
+    "local_path": "assets/originals/images/36d14fbe1308fb8e115043424bf3ef084887866c7edcb6063cf57a23122cba0e.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=346109181886107",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109181886107"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=346109185219440",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109185219440"
+    ],
+    "facebook_photo_ids": [
+      "346109181886107"
+    ],
+    "post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "source_post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-31T13:00:52+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1155,
+    "format": "JPEG",
+    "file_size": 608182,
+    "sha256": "36d14fbe1308fb8e115043424bf3ef084887866c7edcb6063cf57a23122cba0e",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/346109181886107.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_53bb7a1b12791930cfa8ebd2",
+    "local_path": "assets/originals/images/53bb7a1b12791930cfa8ebd268f94f4c6587f5d1c4c51180fce5d60b80102627.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=346129725217386",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=346129725217386"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=346109185219440",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=346109185219440"
+    ],
+    "facebook_photo_ids": [
+      "346129725217386"
+    ],
+    "post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "source_post_ids": [
+      "post_fa7cd17853acb80b75a605d3"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-31T13:00:52+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2046,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 270859,
+    "sha256": "53bb7a1b12791930cfa8ebd268f94f4c6587f5d1c4c51180fce5d60b80102627",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/346129725217386.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_0a373bdb118a97a4f23dcce8",
+    "local_path": "assets/originals/images/0a373bdb118a97a4f23dcce80021d37fd218dbac2159d5c37db1750b7877f017.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=343634398800252",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=343634398800252"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=343634398800252",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=343634398800252"
+    ],
+    "facebook_photo_ids": [
+      "343634398800252"
+    ],
+    "post_ids": [
+      "post_4e83990434dc373dec32c83d"
+    ],
+    "source_post_ids": [
+      "post_4e83990434dc373dec32c83d"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-27T13:11:59+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1638,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 736411,
+    "sha256": "0a373bdb118a97a4f23dcce80021d37fd218dbac2159d5c37db1750b7877f017",
+    "description": "Ảnh tư liệu chính thức từ trang CHO EM project (FBID: 343634398800252).",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/343634398800252.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_4fe6f7cf042c735f5c2ff977",
+    "local_path": "assets/originals/images/4fe6f7cf042c735f5c2ff9778693b7df00663fb945e1cb8c1dae3ba30b298e55.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=342934388870253",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934388870253"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=342934388870253",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934388870253"
+    ],
+    "facebook_photo_ids": [
+      "342934388870253"
+    ],
+    "post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "source_post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-24T13:02:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1414,
+    "height": 2000,
+    "format": "JPEG",
+    "file_size": 606490,
+    "sha256": "4fe6f7cf042c735f5c2ff9778693b7df00663fb945e1cb8c1dae3ba30b298e55",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/342934388870253.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_3d422839ad6925fed5e433ad",
+    "local_path": "assets/originals/images/3d422839ad6925fed5e433adf11563def0af9c1c7559b217cd2b4f3d3c307d8b.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=342934365536922",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934365536922"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=342934388870253",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934388870253"
+    ],
+    "facebook_photo_ids": [
+      "342934365536922"
+    ],
+    "post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "source_post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-24T13:02:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1414,
+    "height": 2000,
+    "format": "JPEG",
+    "file_size": 246023,
+    "sha256": "3d422839ad6925fed5e433adf11563def0af9c1c7559b217cd2b4f3d3c307d8b",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/342934365536922.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_e9d132ee106daaee4f1c21e5",
+    "local_path": "assets/originals/images/e9d132ee106daaee4f1c21e54c47b636baf8cd3f17c8b892fcbfa3258a41c816.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=342934352203590",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934352203590"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=342934388870253",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934388870253"
+    ],
+    "facebook_photo_ids": [
+      "342934352203590"
+    ],
+    "post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "source_post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-24T13:02:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1414,
+    "height": 2000,
+    "format": "JPEG",
+    "file_size": 128106,
+    "sha256": "e9d132ee106daaee4f1c21e54c47b636baf8cd3f17c8b892fcbfa3258a41c816",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/342934352203590.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_64f4087dffdf9c7eaafec355",
+    "local_path": "assets/originals/images/64f4087dffdf9c7eaafec3558d1b5e2e0ea30e841b669c741bdc736ed435afa2.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=342934418870250",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934418870250"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=342934388870253",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=342934388870253"
+    ],
+    "facebook_photo_ids": [
+      "342934418870250"
+    ],
+    "post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "source_post_ids": [
+      "post_c2f5ea1d1905d59f806d36a1"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-24T13:02:47+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1414,
+    "height": 2000,
+    "format": "JPEG",
+    "file_size": 138718,
+    "sha256": "64f4087dffdf9c7eaafec3558d1b5e2e0ea30e841b669c741bdc736ed435afa2",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/342934418870250.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_440280b550df7eac9cc4a494",
+    "local_path": "assets/originals/images/440280b550df7eac9cc4a49420582f085e37659786982387a8a1f0b00864d738.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=337033649460327",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=337033649460327"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=337033649460327",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=337033649460327"
+    ],
+    "facebook_photo_ids": [
+      "337033649460327"
+    ],
+    "post_ids": [
+      "post_631fcb8d4b55e8f3dcc38f70"
+    ],
+    "source_post_ids": [
+      "post_631fcb8d4b55e8f3dcc38f70"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-17T00:30:08+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1462,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 441716,
+    "sha256": "440280b550df7eac9cc4a49420582f085e37659786982387a8a1f0b00864d738",
+    "description": "Ảnh tư liệu chính thức từ trang CHO EM project (FBID: 337033649460327).",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/337033649460327.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_5bdf92758fd88c01950b0af3",
+    "local_path": "assets/originals/images/5bdf92758fd88c01950b0af3e76e71b43a37c56ba52a9ec896408f1d3e98b0bf.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=336743279489364",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=336743279489364"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=336743279489364",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=336743279489364"
+    ],
+    "facebook_photo_ids": [
+      "336743279489364"
+    ],
+    "post_ids": [
+      "post_587096a19b671004042e31e4"
+    ],
+    "source_post_ids": [
+      "post_587096a19b671004042e31e4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-16T13:00:41+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 482336,
+    "sha256": "5bdf92758fd88c01950b0af3e76e71b43a37c56ba52a9ec896408f1d3e98b0bf",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/336743279489364.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_9aafd122d747e7c1383ed5cc",
+    "local_path": "assets/originals/images/9aafd122d747e7c1383ed5cc078733026a4b9eb75a3b5acc8b40e1a200513e1d.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=336743282822697",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=336743282822697"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=336743279489364",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=336743279489364"
+    ],
+    "facebook_photo_ids": [
+      "336743282822697"
+    ],
+    "post_ids": [
+      "post_587096a19b671004042e31e4"
+    ],
+    "source_post_ids": [
+      "post_587096a19b671004042e31e4"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-16T13:00:41+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1638,
+    "format": "JPEG",
+    "file_size": 673777,
+    "sha256": "9aafd122d747e7c1383ed5cc078733026a4b9eb75a3b5acc8b40e1a200513e1d",
+    "description": "Ảnh",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/336743282822697.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_7bc157d1ecbaa68925b75ff5",
+    "local_path": "assets/originals/images/7bc157d1ecbaa68925b75ff5c67eaba285ab8be0410ef0c181439eaf2e25f4bd.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=335560292940996",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=335560292940996"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=335560292940996",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=335560292940996"
+    ],
+    "facebook_photo_ids": [
+      "335560292940996"
+    ],
+    "post_ids": [
+      "post_b8fc1ec4f5aa9ba14f76f57d"
+    ],
+    "source_post_ids": [
+      "post_b8fc1ec4f5aa9ba14f76f57d"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-14T13:20:23+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 1707,
+    "format": "JPEG",
+    "file_size": 859643,
+    "sha256": "7bc157d1ecbaa68925b75ff5c67eaba285ab8be0410ef0c181439eaf2e25f4bd",
+    "description": "Ảnh tư liệu chính thức từ trang CHO EM project (FBID: 335560292940996).",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/335560292940996.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_954e2f7e6168fd9c09a5015f",
+    "local_path": "assets/originals/images/954e2f7e6168fd9c09a5015f38ef27b47ef36e3055df58dfbf421b9b32db21dd.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=332599053237120",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=332599053237120"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=332599053237120",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=332599053237120"
+    ],
+    "facebook_photo_ids": [
+      "332599053237120"
+    ],
+    "post_ids": [
+      "post_3646b5c993f3c97018938764"
+    ],
+    "source_post_ids": [
+      "post_3646b5c993f3c97018938764"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-09T13:09:09+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 1080,
+    "height": 1080,
+    "format": "JPEG",
+    "file_size": 300382,
+    "sha256": "954e2f7e6168fd9c09a5015f38ef27b47ef36e3055df58dfbf421b9b32db21dd",
+    "description": "Ảnh tư liệu chính thức từ trang CHO EM project (FBID: 332599053237120).",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/332599053237120.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_01bb86c7834588bcd2d150af",
+    "local_path": "assets/originals/images/01bb86c7834588bcd2d150af5f6e502c326016c0de431adda9f79dddb2c9c072.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=328889316941427",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889316941427"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=328889316941427",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889316941427"
+    ],
+    "facebook_photo_ids": [
+      "328889316941427"
+    ],
+    "post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "source_post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-03T13:41:24+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 700945,
+    "sha256": "01bb86c7834588bcd2d150af5f6e502c326016c0de431adda9f79dddb2c9c072",
+    "description": "✨BAN TRUYỀN THÔNG - TEAM CONTENT WRITER ✍️\n--------------------------------------\n 📝Link đơn đăng ký: https://forms.gle/RCGyAYrU7huVSv2T6\n⏰ Thời hạn: 03/06/2022 - 23h59 phút 08/06/2024 \n  - Cách thức đăng ký\nVòng 1: Điền vào đơn đăng ký online\nVòng 2: Phỏng vấn online: sau khi bạn đã trúng tuyển vòng 1\n⚡️Để có một mùa hè sôi động và đầy ý nghĩa, bạn còn chần chờ gì mà không nhanh tay click điền đơn đăng ký để có cơ hội trở thành thành viên của gia đình 𝗖𝗛𝗢 𝗘𝗠 mùa 3 nhỉ! Đừng quên theo dõi Page để không bỏ lỡ những thông tin thú vị sắp tới!\n--------------------------------------------\n📫𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\nSTK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc\n📌Lê Thị Thúy Như - Trưởng Ban tổ chức (lethuynhu1714@gmail.com)\n📌Nguyễn Văn Linh - Đồng trưởng Ban tổ chức (nguyenvlinh2366@gmail.com)\n📌Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/328889316941427.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_b0698cf625e90aea9e367141",
+    "local_path": "assets/originals/images/b0698cf625e90aea9e3671414d4c474e802e2df0f3fdecfdc493b7c5eb39bd52.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=328889330274759",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889330274759"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=328889316941427",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889316941427"
+    ],
+    "facebook_photo_ids": [
+      "328889330274759"
+    ],
+    "post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "source_post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-03T13:41:24+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 682064,
+    "sha256": "b0698cf625e90aea9e3671414d4c474e802e2df0f3fdecfdc493b7c5eb39bd52",
+    "description": "✨BAN TRUYỀN THÔNG - TEAM MEDIA - DESIGN 🧑‍💻\n--------------------------------------\n 📝Link đơn đăng ký: https://forms.gle/RCGyAYrU7huVSv2T6\n⏰ Thời hạn: 03/06/2022 - 23h59 phút 08/06/2024 \n  - Cách thức đăng ký\nVòng 1: Điền vào đơn đăng ký online\nVòng 2: Phỏng vấn online: sau khi bạn đã trúng tuyển vòng 1\n⚡️Để có một mùa hè sôi động và đầy ý nghĩa, bạn còn chần chờ gì mà không nhanh tay click điền đơn đăng ký để có cơ hội trở thành thành viên của gia đình 𝗖𝗛𝗢 𝗘𝗠 mùa 3 nhỉ! Đừng quên theo dõi Page để không bỏ lỡ những thông tin thú vị sắp tới!\n--------------------------------------------\n📫𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\nSTK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc\n📌Lê Thị Thúy Như - Trưởng Ban tổ chức (lethuynhu1714@gmail.com)\n📌Nguyễn Văn Linh - Đồng trưởng Ban tổ chức (nguyenvlinh2366@gmail.com)\n📌Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/328889330274759.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_014fbcddc5189280b8f9bb21",
+    "local_path": "assets/originals/images/014fbcddc5189280b8f9bb210d9e08e0c66a5b8c22943c47b3c610739029923b.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=328889450274747",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889450274747"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=328889316941427",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889316941427"
+    ],
+    "facebook_photo_ids": [
+      "328889450274747"
+    ],
+    "post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "source_post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-03T13:41:24+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 339886,
+    "sha256": "014fbcddc5189280b8f9bb210d9e08e0c66a5b8c22943c47b3c610739029923b",
+    "description": "✨BAN TÀI CHÍNH - ĐỐI NGOẠI 💸\n--------------------------------------\n 📝Link đơn đăng ký: https://forms.gle/RCGyAYrU7huVSv2T6\n⏰ Thời hạn: 03/06/2022 - 23h59 phút 08/06/2024 \n  - Cách thức đăng ký\nVòng 1: Điền vào đơn đăng ký online\nVòng 2: Phỏng vấn online: sau khi bạn đã trúng tuyển vòng 1\n⚡️Để có một mùa hè sôi động và đầy ý nghĩa, bạn còn chần chờ gì mà không nhanh tay click điền đơn đăng ký để có cơ hội trở thành thành viên của gia đình 𝗖𝗛𝗢 𝗘𝗠 mùa 3 nhỉ! Đừng quên theo dõi Page để không bỏ lỡ những thông tin thú vị sắp tới!\n--------------------------------------------\n📫𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\nSTK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc\n📌Lê Thị Thúy Như - Trưởng Ban tổ chức (lethuynhu1714@gmail.com)\n📌Nguyễn Văn Linh - Đồng trưởng Ban tổ chức (nguyenvlinh2366@gmail.com)\n📌Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/328889450274747.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "photo_id": "photo_b0f5ecc66d46f0968eeaca84",
+    "local_path": "assets/originals/images/b0f5ecc66d46f0968eeaca848ba73f2209134849d26ad95e30156f34196aa775.jpg",
+    "source_url": "https://www.facebook.com/photo.php?fbid=328889540274738",
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889540274738"
+    ],
+    "source_post_url": "https://www.facebook.com/photo.php?fbid=328889316941427",
+    "source_post_urls": [
+      "https://www.facebook.com/photo.php?fbid=328889316941427"
+    ],
+    "facebook_photo_ids": [
+      "328889540274738"
+    ],
+    "post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "source_post_ids": [
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "published_at": "2024-07-03T13:41:24+00:00",
+    "downloaded_at": null,
+    "imported_at": "2026-10-18T12:07:00+00:00",
+    "download_status": "local_imported",
+    "width": 2048,
+    "height": 2048,
+    "format": "JPEG",
+    "file_size": 675693,
+    "sha256": "b0f5ecc66d46f0968eeaca848ba73f2209134849d26ad95e30156f34196aa775",
+    "description": "✨BAN HẬU CẦN 🧹🧼\n--------------------------------------\n 📝Link đơn đăng ký: https://forms.gle/RCGyAYrU7huVSv2T6\n⏰ Thời hạn: 03/06/2022 - 23h59 phút 08/06/2024 \n  - Cách thức đăng ký\nVòng 1: Điền vào đơn đăng ký online\nVòng 2: Phỏng vấn online: sau khi bạn đã trúng tuyển vòng 1\n⚡️Để có một mùa hè sôi động và đầy ý nghĩa, bạn còn chần chờ gì mà không nhanh tay click điền đơn đăng ký để có cơ hội trở thành thành viên của gia đình 𝗖𝗛𝗢 𝗘𝗠 mùa 3 nhỉ! Đừng quên theo dõi Page để không bỏ lỡ những thông tin thú vị sắp tới!\n--------------------------------------------\n📫𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\nSTK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc\n📌Lê Thị Thúy Như - Trưởng Ban tổ chức (lethuynhu1714@gmail.com)\n📌Nguyễn Văn Linh - Đồng trưởng Ban tổ chức (nguyenvlinh2366@gmail.com)\n📌Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+    "category": "activity_photo",
+    "importance_score": 4,
+    "rights_status": "unknown",
+    "rights_evidence": null,
+    "privacy_review_required": true,
+    "publication_status": "not_reviewed",
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/Anh_114435608386800/328889540274738.jpg",
+      "album_folder": "Anh_114435608386800"
+    }
+  },
+  {
+    "video_id": "video_494155613221434",
+    "facebook_video_id": "494155613221434",
+    "local_path": "assets/originals/videos/8fd62b246069d4dc9fd435710f0079d301707a013aed690b0e6b6bf83bea486c.mp4",
+    "source_url": "https://www.facebook.com/reel/494155613221434",
+    "post_url": "https://www.facebook.com/reel/494155613221434",
+    "published_at": "2024-08-20T14:06:10+00:00",
+    "caption_original": "|𝐂𝐇𝐎 𝐄𝐌: VIDEO RECAP CHƯƠNG TRÌNH “SÂN CHƠI CHO EM MÙA 3”|\n\n“Tôi học cách yêu thương người khác tôi\nVà bao dung cho người ghét tôi\nTôi học cách xua đau thương bằng nụ cười\nVà bằng niềm tin ở con người”\n\nChương trình “Sân chơi cho em mùa 3” đã khép lại nhưng những kí ức của sự kiện khánh thành sân chơi ở huyện Hướng Hóa xa xôi ấy vẫn còn vẹn nguyên trong tâm trí của chúng tớ như những ngày đầu. Dự án 𝐂𝐡𝐨 𝐄𝐦 muốn dành tặng video này như một lời cảm ơn đến các thành viên của BTC dự án 𝐂𝐡𝐨 𝐄𝐦 mùa 3. Cảm ơn các bạn vì đã đến và đồng hành cùng dự án từ những ngày đầu tiên, đã chạy xe khắp thành phố Đông Hà hay tụ họp dưới địa điểm thi công các hạng mục mà không ngại cái nắng chói chang của mùa hè Quảng Trị, và vô số những điều khác nữa. Chương trình “Sân chơi cho em mùa 3” đã diễn ra thành công tốt đẹp nhưng dự án mong mỗi chúng ta vẫn sẽ dành một góc nhỏ trong tâm trí để luôn hướng về điểm trường Chênh Vênh và Hướng Choa với mong muốn rằng các em nhỏ sẽ thật tận hưởng những sân chơi ấy. Và, dự án vẫn sẽ ở đây tiếp tục hành trình “Góp một phần nhỏ vì tương lai tươi sáng hơn của trẻ em Quảng Trị”.\n\n- 𝐓𝐨 𝐛𝐞 𝐜𝐨𝐧𝐭𝐢𝐧𝐮𝐞𝐝…\n—-------------------------\n📫𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\nSTK: 1042105349 - Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) - Trần Ngọc Tâm Phúc\n📌Lê Thị Thúy Như - Trưởng Ban tổ chức (lethuynhu1714@gmail.com)\n📌Nguyễn Văn Linh - Đồng trưởng Ban tổ chức (nguyenvlinh2366@gmail.com)\n📌Trần Thiên Hương - Trưởng ban Truyền thông (contact.thienhuongtran@gmail.com)",
+    "caption_completeness": "complete",
+    "duration_seconds": 324,
+    "width": 1280,
+    "height": 720,
+    "format": "MP4",
+    "file_size": 102186112,
+    "sha256": "8fd62b246069d4dc9fd435710f0079d301707a013aed690b0e6b6bf83bea486c",
+    "season_ids": [
+      "season_03"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_mua_3_2024"
+    ],
+    "journey_ids": [
+      "journey_huong_phung_2024"
+    ],
+    "post_ids": [
+      "post_396eb1afc41d360037f402db"
+    ],
+    "source_post_ids": [
+      "post_396eb1afc41d360037f402db"
+    ],
+    "source_status": "meta_official_export",
+    "download_status": "local_imported",
+    "rights_status": "unknown",
+    "privacy_review_required": true,
+    "provenance": {
+      "method": "meta_official_export_import",
+      "export_path": "this_profile's_activity_across_facebook/posts/media/videos/494155613221434.mp4"
+    },
+    "post_id": "post_396eb1afc41d360037f402db"
+  }
+]

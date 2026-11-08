@@ -1,0 +1,66 @@
+[
+  {
+    "journey_id": "journey_trieu_van_2024",
+    "title": "Chuyến đi Trường TH&THCS Triệu Vân, Triệu Phong — Ngày hội Răng Xinh Cho Em",
+    "season_ids": [
+      "season_02"
+    ],
+    "program_ids": [
+      "program_rang_xinh_cho_em_2024"
+    ],
+    "start_date": "2024-02-02",
+    "end_date": "2024-02-02",
+    "origin": "Thành phố Đông Hà, tỉnh Quảng Trị",
+    "destinations": [
+      "Trường Tiểu học và Trung học cơ sở Triệu Vân, xã Triệu Vân, huyện Triệu Phong, tỉnh Quảng Trị"
+    ],
+    "summary": "Khép lại năm Quý Mão bằng những vở kịch vui nhộn và những chiếc bàn chải nhỏ trao tay các em học sinh xã bãi ngang Triệu Vân, gieo thói quen tự chăm sóc bản thân mỗi ngày.",
+    "activities": [
+      "Tổ chức gian hàng gây quỹ và vận động quyên góp bàn chải, kem đánh răng, đồ dùng học tập",
+      "Biểu diễn văn nghệ, đóng kịch tuyên truyền trực quan về tác hại của sâu răng",
+      "Tổ chức lớp học thực tế hướng dẫn đánh răng đúng cách, hiệu quả và an toàn",
+      "Giao lưu, tổ chức trò chơi và trao quà cho học sinh Trường TH&THCS Triệu Vân ngày 02/02/2024"
+    ],
+    "post_ids": [
+      "post_04fc9fb2d20b2e081d62f3fc",
+      "post_969d95421337ace0e4e796db",
+      "post_8dadfe84b493e15e85eda45c",
+      "post_77f8de957c30cc8afbb0ecd8",
+      "post_78f2da6936b08b9f9ef6618e",
+      "post_da3d81575b8b000e620f8380"
+    ],
+    "photo_ids": [
+      "photo_9e7760b490f69ced5db5e3ba",
+      "photo_ab2d62dddc3baa60a2fe4d85",
+      "photo_6d6788f02cb7212fb85b92ab",
+      "photo_b0ce5ca5b4e27fa095f83480",
+      "photo_1775e73ee3b9b94da339b7c9",
+      "photo_86b425ed007a62b3dc6852fb",
+      "photo_a28c430d38433483081492c1",
+      "photo_9f6d9f26e1ad02ed0c0abea0",
+      "photo_bc398a0c3254d109168959e3",
+      "photo_e4071b807d65380d99f9a57d",
+      "photo_8a5902bd60d1d0d7a5f8ca4d",
+      "photo_8e4774f20e3a01fc6132c20d",
+      "photo_ec71026144932423dcaa4866",
+      "photo_81af73fd70d7bab44c099835",
+      "photo_2695b4043ee76e033d360cf5",
+      "photo_a4d9e407a875c68f25c8bf4b",
+      "photo_4801b09ffd571e92141c09a7",
+      "photo_d165903a139a1dae8d5782e5",
+      "photo_08baa9786e8cfd2d68c0b24b",
+      "photo_ca15bdfc63df525d6fe3237b"
+    ],
+    "video_ids": [
+      "video_780168937467886"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/780168937467886",
+      "https://www.facebook.com/photo.php?fbid=238122329351460",
+      "https://www.facebook.com/photo.php?fbid=237500782746948",
+      "https://www.facebook.com/photo.php?fbid=234417709721922",
+      "https://www.facebook.com/photo.php?fbid=231846653312361"
+    ],
+    "verification_status": "verified"
+  }
+]

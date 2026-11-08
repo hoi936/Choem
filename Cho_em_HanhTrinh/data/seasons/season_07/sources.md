@@ -1,0 +1,35 @@
+# Nguồn xác minh CHO EM Mùa 7 — Hành Trang Cho Em
+
+- Hồ sơ xuất chính thức Meta (`Data_fb/this_profile's_activity_across_facebook/posts/profile_posts_1.html`).
+- Số bài đăng thuộc mùa: **28 bài viết**.
+- Số hình ảnh tư liệu gốc: **134 ảnh**.
+- Số video tư liệu gốc: **1 video**.
+
+- [2026-08-20] 𝐂𝐇𝐎 𝐄𝐌: RECAP CHƯƠNG TRÌNH "HÀNH TRANG CHO EM" (https://www.facebook.com/100094610840245/posts/pfbid02aDZF3AFgRTeXha1y7oBijJ28ono9Yx79bdvJhifeawLGGen5EpwK9r5357yoPJcZl)
+- [2026-08-18] 𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - DIMORI COFFEE (https://www.facebook.com/100094610840245/posts/pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl)
+- [2026-08-17] 𝐂𝐇𝐎 𝐄𝐌: CÁC THÀNH VIÊN ĐANG MONG CHỜ ĐIỀU GÌ NHẤT? (https://www.facebook.com/reel/1411736247503742)
+- [2026-08-15] 𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - GÉ NHÀ (https://www.facebook.com/100094610840245/posts/pfbid0JQ5oZmdCcsQ7v7hVTZLmCh8zMPSFNZP4ovV6vGadcyF8Xztxset4G5Vss4EV4kx1l)
+- [2026-08-14] 𝐂𝐇𝐎 𝐄𝐌: CẢM ƠN NHÀ TÀI TRỢ ĐỒNG - Lớp Toán Cô Thu Hồng Lê (https://www.facebook.com/100094610840245/posts/pfbid04T49kQYmFu5efYQot6NZsNhShuDfn6JnS4D1d4MJZQudC6DBtoV5HGQf3ZY7Drq9l)
+- [2026-08-13] 𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ BẠC - NHÀ SÁCH SANG HIẾU (https://www.facebook.com/100094610840245/posts/pfbid0QFj864rHrGhdbYCbHqjuaQzi4rKBcYDZHRBAD1fxT8sT43BDvFGjFXgspTKfXwgKl)
+- [2026-08-11] 𝐂𝐇𝐎 𝐄𝐌: KÊU GỌI QUYÊN GÓP SÁCH CHO CÁC EM NHỎ TẠI TRƯỜNG TIỂU HỌC TÀ LONG (https://www.facebook.com/100094610840245/posts/pfbid022c8u5Y897VmPzjjEzgnV5wmkSBPFy9MEe5q3bqSdagT5Yq7TSX6DhRZHBGYtJVGzl)
+- [2026-08-10] 𝐂𝐇𝐎 𝐄𝐌: THÔNG BÁO HOÃN THỜI GIAN TỔ CHỨC CHƯƠNG TRÌNH “HÀNH TRANG CHO EM” (https://www.facebook.com/photo.php?fbid=910639158766437)
+- [2026-08-09] 𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG - CHÚT CHÍU (https://www.facebook.com/photo.php?fbid=909853605511659)
+- [2026-08-08] 𝐂𝐇𝐎 𝐄𝐌: CẢM ƠN NHÀ TÀI TRỢ ĐỒNG: Nhà hàng Sky Garden (https://www.facebook.com/photo.php?fbid=909024852261201)
+- [2026-08-07] 𝐂𝐇𝐎 𝐄𝐌: TRI ÂN NHÀ TÀI TRỢ ĐỒNG “LỚP HÓA COLENA” (https://www.facebook.com/photo.php?fbid=908189259011427)
+- [2026-08-06] 𝐂𝐇𝐎 𝐄𝐌: CẢM ƠN NHÀ TÀI TRỢ ĐỒNG HÀNH - GẠO COFFEE (https://www.facebook.com/photo.php?fbid=907353819094971)
+- [2026-08-05] 𝐂𝐇𝐎 𝐄𝐌: [GIỚI THIỆU ĐIỂM TRƯỜNG TIỂU HỌC TÀ LONG] (https://www.facebook.com/photo.php?fbid=906484692515217)
+- [2026-08-03] 𝐂𝐇𝐎 𝐄𝐌: RECAP WORKSHOP "HÀNH TRANG CHO EM" – GÓI TRỌN YÊU THƯƠNG BẰNG ĐÔI TAY (https://www.facebook.com/photo.php?fbid=904787706018249)
+- [2026-07-31] 𝐂𝐇𝐎 𝐄𝐌: SEE YOU TOMORROW - WORKSHOP “HÀNH TRANG CHO EM” (https://www.facebook.com/photo.php?fbid=902245922939094)
+- [2026-07-29] 𝐂𝐇𝐎 𝐄𝐌: SƠ ĐỒ WORKSHOP "HÀNH TRANG CHO EM" (https://www.facebook.com/photo.php?fbid=900561626440857)
+- [2026-07-27] 𝐂𝐇𝐎 𝐄𝐌: WORKSHOP “HÀNH TRANG CHO EM” - GÓI YÊU THƯƠNG BẰNG ĐÔI TAY (https://www.facebook.com/photo.php?fbid=898824363281250)
+- [2026-07-25] 𝐂𝐇𝐎 𝐄𝐌: CÙNG “HÀNH TRANG CHO EM” - THAY MÀU ÁO MỚI, BẢO VỆ NỤ CƯỜI THƠ (https://www.facebook.com/photo.php?fbid=897213430109010)
+- [2026-07-23] 𝐂𝐇𝐎 𝐄𝐌: CHÍNH THỨC MỞ ĐƠN ĐẶT HÀNG GÂY QUỸ CHO CHƯƠNG TRÌNH “HÀNH TRANG CHO EM” (https://www.facebook.com/photo.php?fbid=895627356934284)
+- [2026-07-22] 𝐂𝐇𝐎 𝐄𝐌: KÊU GỌI ĐỒNG HÀNH CÙNG CHƯƠNG TRÌNH TUYÊN TRUYỀN VÀ GIÁO DỤC PHÒNG CHỐNG TAI NẠN ĐUỐI NƯỚC CHO TRẺ EM QUẢNG TRỊ -"HÀNH TRANG CHO EM" (https://www.facebook.com/photo.php?fbid=894794017017618)
+- [2026-07-19] 𝐂𝐇𝐎 𝐄𝐌: THƯ NGỎ HỖ TRỢ CHƯƠNG TRÌNH TUYÊN TRUYỀN VÀ GIÁO DỤC PHÒNG CHỐNG TAI NẠN ĐUỐI NƯỚC CHO TRẺ EM QUẢNG TRỊ - “HÀNH TRANG CHO EM” (https://www.facebook.com/photo.php?fbid=892403597256660)
+- [2026-07-15] 𝐂𝐇𝐎 𝐄𝐌: CHÀO MỪNG CÁC THÀNH VIÊN MỚI CỦA ĐẠI GIA ĐÌNH CHO EM (https://www.facebook.com/photo.php?fbid=889257580904595)
+- [2026-07-13] 𝐂𝐇𝐎 𝐄𝐌: MINIGAME: DỰ ĐOÁN TÊN CHỦ ĐỀ CHO EM MÙA 7 (https://www.facebook.com/photo.php?fbid=887682267728793)
+- [2026-07-12] 𝐂𝐇𝐎 𝐄𝐌: CHECK YOUR MAIL (https://www.facebook.com/photo.php?fbid=886554924508194)
+- [2026-07-10] 𝐂𝐇𝐎 𝐄𝐌: CHÍNH THỨC ĐÓNG ĐƠN TUYỂN THÀNH VIÊN DỰ ÁN CHO EM MÙA 7 (https://www.facebook.com/photo.php?fbid=885012707995749)
+- [2026-07-08] 𝐂𝐇𝐎 𝐄𝐌: VÌ SAO BẠN NÊN THAM GIA DỰ ÁN CHO EM? (https://www.facebook.com/photo.php?fbid=883758621454491)
+- [2026-07-07] 𝐂𝐇𝐎 𝐄𝐌: CHÍNH THỨC MỞ ĐƠN TUYỂN THÀNH VIÊN MÙA 7 (https://www.facebook.com/photo.php?fbid=882931781537175)
+- [2026-07-06] 𝐂𝐇𝐎 𝐄𝐌: MỘT HÀNH TRÌNH MỚI SẮP BẮT ĐẦU (https://www.facebook.com/photo.php?fbid=882074724956214)

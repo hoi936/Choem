@@ -1,0 +1,139 @@
+[
+  {
+    "program_id": "program_phao_xinh_cho_em_2025",
+    "name": "Phao Xinh Cho Em",
+    "season_ids": [
+      "season_04"
+    ],
+    "start_date": "2024-12-16",
+    "end_date": "2025-01-28",
+    "event_date": "2025-01-22",
+    "locations": [
+      "Trường TH&THCS Triệu Vân (thôn 8, xã Triệu Vân, huyện Triệu Phong, tỉnh Quảng Trị)"
+    ],
+    "purpose": "Tuyên Truyền Phòng Chống Đuối Nước & Sẻ Chia Hơi Ấm Mùa Xuân",
+    "context": "Khởi động vào tháng 12/2024 đón Xuân Ất Tỵ 2025, CHO EM Mùa 4 trở lại mái trường vùng biển TH&THCS Triệu Vân (cách biển Triệu Lăng 5km) với chương trình 'Phao Xinh Cho Em'. Đây là cột mốc mở đầu cho chuỗi chương trình giáo dục kỹ năng sinh tồn và phòng chống tai nạn đuối nước của dự án, kết hợp cùng Gian hàng Tết gây quỹ và trao quà khuyến học.",
+    "preparation": "Tuyển tình nguyện viên, truyền thông vận động quyên góp và tổ chức sự kiện gây quỹ cộng đồng tại Đông Hà.",
+    "activities": [
+      "Tuyển thành viên và ra mắt đội ngũ Đại sứ Truyền thông CHO EM Mùa 4",
+      "Tổ chức Gian hàng Tết 'Phao Xinh Cho Em' (thu lợi nhuận 9.450.000 VNĐ) và kêu gọi tài trợ (8.500.000 VNĐ)",
+      "Tổ chức ngày hội tuyên truyền phòng chống đuối nước cho học sinh lớp 3, 4, 5 tại Trường TH&THCS Triệu Vân ngày 22/01/2025",
+      "Trao tặng 34 suất quà Tết khuyến học và 02 bảng tuyên truyền phòng chống tai nạn đuối nước"
+    ],
+    "results": [
+      {
+        "metric": "tổng nguồn lực gây quỹ & tài trợ (VNĐ)",
+        "value": 17950000,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "suất quà khuyến học dịp Tết",
+        "value": 34,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "bảng tuyên truyền phòng chống đuối nước",
+        "value": 2,
+        "qualifier": "exact"
+      }
+    ],
+    "post_ids": [
+      "post_b9405eb08e51e5fc5d33677b",
+      "post_813f228ea88b4a66bb8dd2ff",
+      "post_5d629a8e5eda0e02b1ba90af",
+      "post_8b344ec81ac45c746000e51c",
+      "post_857389a58d86ca7146baffe1",
+      "post_eec574cd3c8eca8b2040eb92",
+      "post_9ddc6f6e01f72da1c6ee3112",
+      "post_1ed2462868768ae440b2283e",
+      "post_3e6ae444fc4e8d823d8e305c",
+      "post_790690f5a241afe87826f12a",
+      "post_8b38cbddcc47deef149b7924",
+      "post_d7baef6b111047e2e1fa6212",
+      "post_e5777e3ec0dbb2e0421f762d",
+      "post_6c65a1cde08f8a16b2e20848",
+      "post_804f0cad583fd6a5493feb74",
+      "post_1284eda0b0f1c673265f7838"
+    ],
+    "photo_ids": [
+      "photo_8d9ea905ef8ec3d79c0f7cf9",
+      "photo_bb5863376dfd7b3759e318b8",
+      "photo_9665314bc5ce3d57a93ba610",
+      "photo_01a51b09b89b37ee96c6e346",
+      "photo_31cf728b3219196b2a18f64f",
+      "photo_7f75f1be3a6fb11d27357a4f",
+      "photo_97b6e1fcdb1032eabbcaac9c",
+      "photo_512f6503643ec7c161de3a73",
+      "photo_9da49d2b660e21493af4a9f9",
+      "photo_4a5e7dd920cca5646b7079f2",
+      "photo_c8784ff8b95d0437ce640889",
+      "photo_9c2d6099feea2fed45be6cc9",
+      "photo_d52da393901ae1909b8648e4",
+      "photo_e8ddb5365230846c10bbe361",
+      "photo_985176278f7b0f2c53387e17",
+      "photo_1448c892c6bf3ad03017ffa1",
+      "photo_a35f29d29fe7be07406bcb47",
+      "photo_ec735f9d94b1f93f92bd7654",
+      "photo_4188f1e6d16340cdc164e708",
+      "photo_17496ec77b25670e1052cf4a",
+      "photo_4e4b9806c95af2aae0f27440",
+      "photo_83254b520e9dfb813ec2f097",
+      "photo_424e34561d55a9b32287ee2c",
+      "photo_478aaa1ceb0b72d24945aab3",
+      "photo_2bf6dc844fc563b32baa98c5",
+      "photo_249a78a802ef17dd5be7c7c0",
+      "photo_70941554ac95aea566dc5fce",
+      "photo_6baeab95ffccf5fc05ff7a65",
+      "photo_4d0a866ecd2b2d2e905e6022",
+      "photo_06f8381103ca095905a38fae",
+      "photo_31c6ecc35a2926e1ea5a7f66",
+      "photo_0ae4654810c6a90afbbcf7e3",
+      "photo_428db9fe3bc3d8b4737d4f8d",
+      "photo_98f6ab86fb8455bc098cd122",
+      "photo_2abba09b110bacf8ee581176",
+      "photo_e70281bd7ade1a30050d6230",
+      "photo_c6b210d8aa84e2abf9780c0c",
+      "photo_6c902ac182eb748cee131b7a",
+      "photo_9c8d759d828ef19847fcdd37",
+      "photo_4d14184a60ce145d32b64c35",
+      "photo_e97b30aff012884815fe5c1b",
+      "photo_83f0fdba88e663f3a7535e5d",
+      "photo_ae19deb2d45b335e15f82595",
+      "photo_a492732f581d7ae15657c250",
+      "photo_300fe73d0c14e045bfd7ce3c",
+      "photo_4b45bd6022103d31264a67fc",
+      "photo_15a08753046bfb8024900ffa",
+      "photo_e65889e329ea6f9b227892af",
+      "photo_ce4aa82650a5c939fa7400a2",
+      "photo_628938c9201967b4e2912d87",
+      "photo_7df29fd1f8075cf73aac7b28",
+      "photo_10dad88fdc9908d01bb34046",
+      "photo_c9a46028858f5433f893a2c5",
+      "photo_197aa5d6de61bd535bc7070e",
+      "photo_a64b6c2c0a87c53c281ac47b",
+      "photo_a25cc3ec94ceae6c789894f9",
+      "photo_b24dd64ea83c3435f5c0691c",
+      "photo_9d83c317ef5ed90391872773",
+      "photo_4d5b6352c5822e4e3d754946",
+      "photo_4827a430e0e144ab6d5e01fc",
+      "photo_395f3bbf875e77dd4c874998",
+      "photo_88fa90738af2d4ff08bf1efb"
+    ],
+    "video_ids": [
+      "video_1157236049179114",
+      "video_1342783030498262"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/1157236049179114",
+      "https://www.facebook.com/photo.php?fbid=473024419194582",
+      "https://www.facebook.com/photo.php?fbid=471575476006143",
+      "https://www.facebook.com/photo.php?fbid=470840109413013",
+      "https://www.facebook.com/photo.php?fbid=470163242814033"
+    ],
+    "verification_status": "verified",
+    "evidence_ids": [
+      "ev_season_04_verified_export"
+    ],
+    "research_notes": "Chương trình trọng điểm thuộc khuôn khổ CHO EM Mùa 4 — Phao Xinh Cho Em."
+  }
+]

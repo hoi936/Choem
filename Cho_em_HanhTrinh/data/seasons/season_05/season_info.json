@@ -1,0 +1,172 @@
+{
+  "season_id": "season_05",
+  "season_number": 5,
+  "official_name": "CHO EM Mùa 5 — An Toàn Cho Em",
+  "theme": "Giáo Dục Kỹ Năng Sơ Cứu Cơ Bản & Tự Bảo Vệ Trước Tai Nạn Thương Tích",
+  "slogan": "Trang bị kỹ năng sống an toàn — Lan tỏa yêu thương đến trẻ em vùng cao",
+  "start_date": "2025-07-10",
+  "end_date": "2025-08-18",
+  "event_date": "2025-08-11",
+  "description": "Mùa hè 2025, CHO EM bước sang Mùa 5 dưới sự bảo trợ pháp lý của Đoàn trường THPT Chuyên Lê Quý Đôn. Nhận thấy trẻ em vùng cao thường thiếu kỹ năng tự xử lý khi gặp tai nạn thương tích, dự án đã triển khai chương trình 'An Toàn Cho Em' tại Trường TH&THCS Tân Thành vào ngày 11/08/2025, huy động 25.057.548 VNĐ tiền mặt cùng 100 đôi giày mới (trị giá 20 triệu đồng) và các bộ sơ cấp cứu chuẩn Bộ Y Tế.",
+  "objectives": [
+    "Trang bị kiến thức và kỹ năng sơ cứu cơ bản, xử lý tình huống khẩn cấp cho học sinh khối 4, 5 tại Trường TH&THCS Tân Thành.",
+    "Cung cấp trang thiết bị y tế sơ cấp cứu đạt chuẩn và quà tặng thiết thực cho học sinh vùng biên giới."
+  ],
+  "locations": [
+    "Trường TH&THCS Tân Thành, xã Tân Thành, huyện Hướng Hóa, tỉnh Quảng Trị"
+  ],
+  "leaders": [
+    {
+      "name": "Trần Mai Hương Nguyên",
+      "role": "Trưởng Ban tổ chức",
+      "email": "tranmaihuongnguyenqt@gmail.com"
+    },
+    {
+      "name": "Trần Thiên Hương",
+      "role": "Trưởng ban Truyền thông",
+      "email": "contact.thienhuongtran@gmail.com"
+    },
+    {
+      "name": "Đậu Khắc Gia Bảo",
+      "role": "Phụ trách Tài chính",
+      "email": null
+    }
+  ],
+  "patron": "Đoàn trường THPT Chuyên Lê Quý Đôn",
+  "funds_raised_vnd": 25057548,
+  "results_summary": [
+    {
+      "metric": "tổng kinh phí gây quỹ (VNĐ)",
+      "value": 25057548,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "suất quà trao tặng học sinh",
+      "value": 100,
+      "qualifier": "greater_than"
+    },
+    {
+      "metric": "đôi giày mới (trị giá 20.000.000 VNĐ)",
+      "value": 100,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "bộ sơ cấp cứu loại A chuẩn Bộ Y Tế",
+      "value": 4,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "bảng tuyên truyền kỹ năng sơ cứu",
+      "value": 2,
+      "qualifier": "exact"
+    }
+  ],
+  "program_ids": [
+    "program_an_toan_cho_em_2025"
+  ],
+  "journey_ids": [
+    "journey_tan_thanh_2025"
+  ],
+  "post_ids": [
+    "post_3e14d54ba0b087b93146720f",
+    "post_cc9206de8cba9a367f5f6dec",
+    "post_1d98af39aa67873866f3587a",
+    "post_88404c645c9b6b40b1987c4c",
+    "post_e794c05bead034b3309eeec2",
+    "post_20d7811771aff9d3b12f5d14",
+    "post_b3fa4f90cd2d900de468ef7a",
+    "post_2f1c3d21ba145b2fe96c4e80",
+    "post_beaddc79ca41f21b2334971e",
+    "post_7729f090b174abde19b324b9",
+    "post_99b05fa7fa6d161744a8bcc1",
+    "post_30b15db92f704926bd471630",
+    "post_f2e2600c406e08b88444443e",
+    "post_54088ad750a5a29bb121fea5",
+    "post_c2b309c9a540c53728c2d316",
+    "post_24fac46f6cff80413e024b8a",
+    "post_555a2158813a1850a6530a12",
+    "post_899ea8d93dcf0ab0e9dbd091",
+    "post_0acdb695202fe42d4b78fe8e",
+    "post_980a2fbd8c1950c4a9aaf14e",
+    "post_107d8b035483f4ef08dd913e",
+    "post_effea79ca4501193f0781bbc"
+  ],
+  "photo_ids": [
+    "photo_ea132f974ec26e3c37ce100b",
+    "photo_683152924f692ba03ece8f9d",
+    "photo_3732a46e442661eaf681fce2",
+    "photo_a552f94198ed871b4632a8c6",
+    "photo_26cd2b78094336c43a3009aa",
+    "photo_1bc86ccf8d9d07b03bf567fa",
+    "photo_14c084ee2e14f47a4069cbbb",
+    "photo_5b93a6ea786b647d3a993c4b",
+    "photo_61878fe277af64cd2255cea3",
+    "photo_19fd6934b0a8467d58fc5aea",
+    "photo_f88e36695093eeba9fe99f0e",
+    "photo_9cb300b4961ec2b67d7fa478",
+    "photo_1a8a1294e364cbccd2d08ed7",
+    "photo_c39e9a4fac8e1b306ec46523",
+    "photo_a822f0d0fc8fe81f9283348b",
+    "photo_4a1cd219a7c8c6cee8cd0f98",
+    "photo_8cbf734aa0fd8ff159cd9629",
+    "photo_968142853d54261289678e1a",
+    "photo_09b8d60a8a614e78d058958c",
+    "photo_7648841a2995894f1827eb65",
+    "photo_d9dc2d776ae186fdb461ca62",
+    "photo_9fee8d6548a0d4e06fff01b2",
+    "photo_3acdb8b8f858daf8aa8a024e",
+    "photo_148cd95b6af0594dd8a1995c",
+    "photo_364f1f4e28a6971376c1c602",
+    "photo_2b1e51b04f7556d219ab1fdf",
+    "photo_a248a2788a1a14b90eb804f6",
+    "photo_570756478770ff74755e7ec1",
+    "photo_906e338d0b568c641fffc43f",
+    "photo_e4fdae8676fc229ead48a953",
+    "photo_1c57aff08c6f68ef4058d0d5",
+    "photo_f23b08776e9c1f95887f04d2",
+    "photo_9d2a3375137601cb332ce7c0",
+    "photo_1ac05430a0874e6ae56f0aac",
+    "photo_da1903a04b835fe58a8b0352",
+    "photo_370ddd7ee80dc4ee7c2e89ed",
+    "photo_072e8122793cf8eea73ec6da",
+    "photo_482a475656e3d4e94c4a1ae4",
+    "photo_c2ac769b66b60564d2d33cd3",
+    "photo_4505ded58a2744965a400523",
+    "photo_590ffc06c362974052a24da2",
+    "photo_308bf193fdf7c65501ac85bc",
+    "photo_19438b20daec5d191f6b62ff",
+    "photo_f8ea5b76e4e44aee69db340c",
+    "photo_68ab8d4900c8a6b8c532ea36",
+    "photo_2f98d853f96d3ca495428f67",
+    "photo_e430cb7e6e3993b06e4a88ba",
+    "photo_b94dbe5ff44de7923f632ce6",
+    "photo_6af79d6c2397b87a96c2c99e",
+    "photo_fed43ded54888fd859a5705f",
+    "photo_70740e8bcc73343ad26dd8ac",
+    "photo_f50ea0ca8494c4f0f52758dc",
+    "photo_ca718cee73292b35a8ce6d0f",
+    "photo_084158d50d2adc6251c1aaff"
+  ],
+  "video_ids": [
+    "video_1288126198864163"
+  ],
+  "milestone_ids": [
+    "milestone_season_05_20250811"
+  ],
+  "story_ids": [
+    "story_season_05"
+  ],
+  "source_urls": [
+    "https://www.facebook.com/reel/1288126198864163",
+    "https://www.facebook.com/photo.php?fbid=620680407762315",
+    "https://www.facebook.com/photo.php?fbid=620657721097917",
+    "https://www.facebook.com/photo.php?fbid=619860981177591",
+    "https://www.facebook.com/photo.php?fbid=619859154511107"
+  ],
+  "verification_status": "verified",
+  "evidence_ids": [
+    "ev_season_05_verified_export"
+  ],
+  "season_directory": "data/seasons/season_05",
+  "research_notes": "Hồ sơ CHO EM Mùa 5 — An Toàn Cho Em được tổng hợp đầy đủ từ 22 bài đăng và 54 ảnh gốc trong bản xuất chính thức của Meta."
+}

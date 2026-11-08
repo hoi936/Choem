@@ -1,0 +1,73 @@
+[
+  {
+    "event_id": "event_season_06_kickoff",
+    "title": "Khởi động CHO EM Mùa 6 — An Toàn Cho Em 2",
+    "event_date": "2025-12-13",
+    "date_precision": "day",
+    "event_type": "season_kickoff",
+    "description": "Mở đầu hành trình CHO EM Mùa 6 — An Toàn Cho Em 2 với chủ đề 'Tấm Lá Chắn Kỹ Năng Sơ Cứu Cho Trẻ Em Vùng Sâu Vĩnh Ô'.",
+    "details": "An Toàn Cho Em — Gửi Trọn Yêu Thương",
+    "season_ids": [
+      "season_06"
+    ],
+    "program_ids": [
+      "program_an_toan_cho_em_2_2026"
+    ],
+    "post_ids": [
+      "post_9e63c069f44f338bf10abc79"
+    ],
+    "photo_ids": [
+      "photo_34fc543f8f784334af77bd37",
+      "photo_8b41b3b5661933def7f29755",
+      "photo_ecee52a09e43bb30e99c8bcb"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=764103220086699",
+      "https://www.facebook.com/photo.php?fbid=762890900207931",
+      "https://www.facebook.com/photo.php?fbid=761520407011647",
+      "https://www.facebook.com/photo.php?fbid=759791243851230",
+      "https://www.facebook.com/photo.php?fbid=758969380600083"
+    ],
+    "verification_status": "verified"
+  },
+  {
+    "event_id": "event_season_06_main_program",
+    "title": "Sự kiện chính: An Toàn Cho Em 2 (CHO EM Mùa 6 — An Toàn Cho Em 2)",
+    "event_date": "2026-02-09",
+    "date_precision": "day",
+    "event_type": "program_execution",
+    "description": "Khởi động từ tháng 12/2025 và diễn ra sự kiện chính vào ngày 09/02/2026, CHO EM Mùa 6 tiếp nối sứ mệnh giáo dục kỹ năng sơ cứu cơ bản với chương trình 'An Toàn Cho Em 2' tại Trường PTDTBT Tiểu học Vĩnh Ô — một trong những xã miền núi đặc biệt khó khăn của tỉnh Quảng Trị. Dự án đã trang bị 'tấm lá chắn' kỹ năng tự bảo vệ cùng 67 suất quà và 03 Bộ sơ cấp cứu loại A cho nhà trường.",
+    "details": "Tổ chức Gian hàng Tết 'An Toàn Cho Em 2 - Tết của sự sẻ chia' (Pre-order và bán hàng trực tiếp tại Đông Hà); Phát động chiến dịch thay khung hình avatar lan tỏa thông điệp an toàn học đường; Tổ chức ngày hội giáo dục kỹ năng sơ cứu cơ bản tại Trường PTDTBT Tiểu học Vĩnh Ô ngày 09/02/2026; Trao tặng 67 suất quà học sinh và 03 Bộ sơ cấp cứu loại A chuẩn Bộ Y Tế",
+    "season_ids": [
+      "season_06"
+    ],
+    "program_ids": [
+      "program_an_toan_cho_em_2_2026"
+    ],
+    "post_ids": [
+      "post_196e020e0ff3c33d741fbe37",
+      "post_884803b83abeae2d65b13d14",
+      "post_8341fb8f1f4e7ac95c3140c6"
+    ],
+    "photo_ids": [
+      "photo_0ce8d4ef4a85b62b05fe4c3c",
+      "photo_efcb07e4396f27a8af8e830a",
+      "photo_8fa5e36e9a4208025845c37b",
+      "photo_dd70ec1e5a3d7c8e5e82f380",
+      "photo_595739886163c6639e3b2789",
+      "photo_1faaae04a9a2a1a523c483be",
+      "photo_11da218aa720f14ac2481d2e",
+      "photo_36cd57ce1b4a925957591608"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=764103220086699",
+      "https://www.facebook.com/photo.php?fbid=762890900207931",
+      "https://www.facebook.com/photo.php?fbid=761520407011647",
+      "https://www.facebook.com/photo.php?fbid=759791243851230",
+      "https://www.facebook.com/photo.php?fbid=758969380600083"
+    ],
+    "verification_status": "verified"
+  }
+]

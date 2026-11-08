@@ -1,0 +1,2567 @@
+[
+  {
+    "discovery_id": "url_6a63d2823cada362a297dedb",
+    "url": "https://www.facebook.com/100094610840245/posts/pfbid02aDZF3AFgRTeXha1y7oBijJ28ono9Yx79bdvJhifeawLGGen5EpwK9r5357yoPJcZl",
+    "kind": "photo",
+    "facebook_post_id": "919178351245851",
+    "post_id": "post_f104d87e8be54343375d4996",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_d405b654e64ecc21ca9e511e",
+    "url": "https://www.facebook.com/100094610840245/posts/pfbid02wRbBZoqJeTKE89cPYUrRJmYBrzHimMjQsyp5o3XXArLKbtqVn9bkwzQT8yLJtdnBl",
+    "kind": "photo",
+    "facebook_post_id": "917458881417798",
+    "post_id": "post_e2a1adcea78d463c78aeb99e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_187c64f6e7b0658a6fc2cecc",
+    "url": "https://www.facebook.com/reel/1411736247503742",
+    "kind": "video",
+    "facebook_post_id": "916658988164454",
+    "post_id": "post_f1fd853a73f285ab239cc303",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9c45f2321fde8a065a8cae91",
+    "url": "https://www.facebook.com/100094610840245/posts/pfbid0JQ5oZmdCcsQ7v7hVTZLmCh8zMPSFNZP4ovV6vGadcyF8Xztxset4G5Vss4EV4kx1l",
+    "kind": "photo",
+    "facebook_post_id": "914916395005380",
+    "post_id": "post_27468f8bc18be1773591a581",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_49dc63ba0dee4d86374bdbe3",
+    "url": "https://www.facebook.com/100094610840245/posts/pfbid04T49kQYmFu5efYQot6NZsNhShuDfn6JnS4D1d4MJZQudC6DBtoV5HGQf3ZY7Drq9l",
+    "kind": "photo",
+    "facebook_post_id": "914011711762515",
+    "post_id": "post_718fab34ea6bd300cb1c50f2",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_5d17299e4505b3cb4b98a192",
+    "url": "https://www.facebook.com/100094610840245/posts/pfbid0QFj864rHrGhdbYCbHqjuaQzi4rKBcYDZHRBAD1fxT8sT43BDvFGjFXgspTKfXwgKl",
+    "kind": "photo",
+    "facebook_post_id": "913157068514646",
+    "post_id": "post_ad1e930d7fc055c8b6be1b39",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_42d6f981c9fd4101b7c592e6",
+    "url": "https://www.facebook.com/100094610840245/posts/pfbid022c8u5Y897VmPzjjEzgnV5wmkSBPFy9MEe5q3bqSdagT5Yq7TSX6DhRZHBGYtJVGzl",
+    "kind": "photo",
+    "facebook_post_id": "911449488685404",
+    "post_id": "post_a296c918b7e2b7c882f90c6a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_7be899dc55f7306c70855765",
+    "url": "https://www.facebook.com/photo.php?fbid=910639158766437",
+    "kind": "photo",
+    "facebook_post_id": "910639158766437",
+    "post_id": "post_7be899dc55f7306c70855765",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_20818a2afd0bf47b2a3ca14e",
+    "url": "https://www.facebook.com/photo.php?fbid=909853605511659",
+    "kind": "photo",
+    "facebook_post_id": "909853605511659",
+    "post_id": "post_20818a2afd0bf47b2a3ca14e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_32104f3c2cd38abe0ad387b8",
+    "url": "https://www.facebook.com/photo.php?fbid=909024852261201",
+    "kind": "photo",
+    "facebook_post_id": "909024852261201",
+    "post_id": "post_32104f3c2cd38abe0ad387b8",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_f5ab1611f5aeba8e37983c5a",
+    "url": "https://www.facebook.com/photo.php?fbid=908189259011427",
+    "kind": "photo",
+    "facebook_post_id": "908189259011427",
+    "post_id": "post_f5ab1611f5aeba8e37983c5a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_b898212c85f50c0d50936e32",
+    "url": "https://www.facebook.com/photo.php?fbid=907353819094971",
+    "kind": "photo",
+    "facebook_post_id": "907353819094971",
+    "post_id": "post_b898212c85f50c0d50936e32",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_6320ae22c91d2d0c80c81b50",
+    "url": "https://www.facebook.com/photo.php?fbid=906484692515217",
+    "kind": "photo",
+    "facebook_post_id": "906484692515217",
+    "post_id": "post_6320ae22c91d2d0c80c81b50",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_266a1bae4d5908e84b525340",
+    "url": "https://www.facebook.com/photo.php?fbid=904787706018249",
+    "kind": "photo",
+    "facebook_post_id": "904787706018249",
+    "post_id": "post_266a1bae4d5908e84b525340",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_6a5607e3f5b6a3671c664fd3",
+    "url": "https://www.facebook.com/photo.php?fbid=902245922939094",
+    "kind": "photo",
+    "facebook_post_id": "902245922939094",
+    "post_id": "post_6a5607e3f5b6a3671c664fd3",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_6461718a183679611bf4651d",
+    "url": "https://www.facebook.com/photo.php?fbid=900561626440857",
+    "kind": "photo",
+    "facebook_post_id": "900561626440857",
+    "post_id": "post_6461718a183679611bf4651d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1edb3ab24f06fcb4b22bf23d",
+    "url": "https://www.facebook.com/photo.php?fbid=898824363281250",
+    "kind": "photo",
+    "facebook_post_id": "898824363281250",
+    "post_id": "post_1edb3ab24f06fcb4b22bf23d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_f67fc85302510b454ce382f5",
+    "url": "https://www.facebook.com/photo.php?fbid=897213430109010",
+    "kind": "photo",
+    "facebook_post_id": "897213430109010",
+    "post_id": "post_f67fc85302510b454ce382f5",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_285358286168ba3ff2531895",
+    "url": "https://www.facebook.com/photo.php?fbid=895627356934284",
+    "kind": "photo",
+    "facebook_post_id": "895627356934284",
+    "post_id": "post_285358286168ba3ff2531895",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_baa5d9e3151a6f4dfb20c9a3",
+    "url": "https://www.facebook.com/photo.php?fbid=894794017017618",
+    "kind": "photo",
+    "facebook_post_id": "894794017017618",
+    "post_id": "post_baa5d9e3151a6f4dfb20c9a3",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_a2ff6bff943050ea79d028b3",
+    "url": "https://www.facebook.com/photo.php?fbid=892403597256660",
+    "kind": "photo",
+    "facebook_post_id": "892403597256660",
+    "post_id": "post_a2ff6bff943050ea79d028b3",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_47a3c0d249cc9f3a424c35a5",
+    "url": "https://www.facebook.com/photo.php?fbid=889257580904595",
+    "kind": "photo",
+    "facebook_post_id": "889257580904595",
+    "post_id": "post_47a3c0d249cc9f3a424c35a5",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_bcf8d3931db5ec769dd632ef",
+    "url": "https://www.facebook.com/photo.php?fbid=887682267728793",
+    "kind": "photo",
+    "facebook_post_id": "887682267728793",
+    "post_id": "post_bcf8d3931db5ec769dd632ef",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_cacbe35773b90750d3a36f77",
+    "url": "https://www.facebook.com/photo.php?fbid=886554924508194",
+    "kind": "photo",
+    "facebook_post_id": "886554924508194",
+    "post_id": "post_cacbe35773b90750d3a36f77",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_d48f509cab8536f0066116ed",
+    "url": "https://www.facebook.com/photo.php?fbid=885012707995749",
+    "kind": "photo",
+    "facebook_post_id": "885012707995749",
+    "post_id": "post_d48f509cab8536f0066116ed",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_baeb4d9b637f5c9d77b90804",
+    "url": "https://www.facebook.com/photo.php?fbid=883758621454491",
+    "kind": "photo",
+    "facebook_post_id": "883758621454491",
+    "post_id": "post_baeb4d9b637f5c9d77b90804",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_85d2ba6e176a72adabdea6a6",
+    "url": "https://www.facebook.com/photo.php?fbid=882931781537175",
+    "kind": "photo",
+    "facebook_post_id": "882931781537175",
+    "post_id": "post_85d2ba6e176a72adabdea6a6",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_406177430f0409506cdeeb78",
+    "url": "https://www.facebook.com/photo.php?fbid=882074724956214",
+    "kind": "photo",
+    "facebook_post_id": "882074724956214",
+    "post_id": "post_406177430f0409506cdeeb78",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_196e020e0ff3c33d741fbe37",
+    "url": "https://www.facebook.com/photo.php?fbid=764103220086699",
+    "kind": "photo",
+    "facebook_post_id": "764103220086699",
+    "post_id": "post_196e020e0ff3c33d741fbe37",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_884803b83abeae2d65b13d14",
+    "url": "https://www.facebook.com/photo.php?fbid=762890900207931",
+    "kind": "photo",
+    "facebook_post_id": "762890900207931",
+    "post_id": "post_884803b83abeae2d65b13d14",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_8341fb8f1f4e7ac95c3140c6",
+    "url": "https://www.facebook.com/photo.php?fbid=761520407011647",
+    "kind": "photo",
+    "facebook_post_id": "761520407011647",
+    "post_id": "post_8341fb8f1f4e7ac95c3140c6",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_361064957825b9ebaadfee63",
+    "url": "https://www.facebook.com/photo.php?fbid=759791243851230",
+    "kind": "photo",
+    "facebook_post_id": "759791243851230",
+    "post_id": "post_361064957825b9ebaadfee63",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_299b82520bbcd64c884e8f70",
+    "url": "https://www.facebook.com/photo.php?fbid=758969380600083",
+    "kind": "photo",
+    "facebook_post_id": "758969380600083",
+    "post_id": "post_299b82520bbcd64c884e8f70",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_11442ef762257909d8d5c79a",
+    "url": "https://www.facebook.com/photo.php?fbid=757188317444856",
+    "kind": "photo",
+    "facebook_post_id": "757188317444856",
+    "post_id": "post_11442ef762257909d8d5c79a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1ef6882120f9bd3b7c69005f",
+    "url": "https://www.facebook.com/photo.php?fbid=755698507593837",
+    "kind": "photo",
+    "facebook_post_id": "755698507593837",
+    "post_id": "post_1ef6882120f9bd3b7c69005f",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_d296f134d6349c2d5c91b9f8",
+    "url": "https://www.facebook.com/photo.php?fbid=754159514414403",
+    "kind": "photo",
+    "facebook_post_id": "754159514414403",
+    "post_id": "post_d296f134d6349c2d5c91b9f8",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_88f3e20889022fc31810c063",
+    "url": "https://www.facebook.com/photo.php?fbid=752547861242235",
+    "kind": "photo",
+    "facebook_post_id": "752547861242235",
+    "post_id": "post_88f3e20889022fc31810c063",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_cff84c622442cea46c0a2319",
+    "url": "https://www.facebook.com/photo.php?fbid=750834688080219",
+    "kind": "photo",
+    "facebook_post_id": "750834688080219",
+    "post_id": "post_cff84c622442cea46c0a2319",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_aa2ce90d58fb397bcb0624e5",
+    "url": "https://www.facebook.com/photo.php?fbid=749130041584017",
+    "kind": "photo",
+    "facebook_post_id": "749130041584017",
+    "post_id": "post_aa2ce90d58fb397bcb0624e5",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_94171ff8056ecca810b6a301",
+    "url": "https://www.facebook.com/photo.php?fbid=746763565153998",
+    "kind": "photo",
+    "facebook_post_id": "746763565153998",
+    "post_id": "post_94171ff8056ecca810b6a301",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_f3c73cec524d630ee5d2249c",
+    "url": "https://www.facebook.com/photo.php?fbid=745217628641925",
+    "kind": "photo",
+    "facebook_post_id": "745217628641925",
+    "post_id": "post_f3c73cec524d630ee5d2249c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_891d346d655f8330e5947627",
+    "url": "https://www.facebook.com/photo.php?fbid=744495662047455",
+    "kind": "photo",
+    "facebook_post_id": "744495662047455",
+    "post_id": "post_891d346d655f8330e5947627",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_096cad93e109e62c130671a0",
+    "url": "https://www.facebook.com/photo.php?fbid=742645385565816",
+    "kind": "photo",
+    "facebook_post_id": "742645385565816",
+    "post_id": "post_096cad93e109e62c130671a0",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1db0c2bac141097f5038ca06",
+    "url": "https://www.facebook.com/photo.php?fbid=741442885686066",
+    "kind": "photo",
+    "facebook_post_id": "741442885686066",
+    "post_id": "post_1db0c2bac141097f5038ca06",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_bc8201a2f911b29c81c91baf",
+    "url": "https://www.facebook.com/photo.php?fbid=739987835831571",
+    "kind": "photo",
+    "facebook_post_id": "739987835831571",
+    "post_id": "post_bc8201a2f911b29c81c91baf",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_5fe0cf0c5ce059c32ecd9384",
+    "url": "https://www.facebook.com/photo.php?fbid=738631842633837",
+    "kind": "photo",
+    "facebook_post_id": "738631842633837",
+    "post_id": "post_5fe0cf0c5ce059c32ecd9384",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_634a165ef5f64ec837a30c4a",
+    "url": "https://www.facebook.com/photo.php?fbid=737143602782661",
+    "kind": "photo",
+    "facebook_post_id": "737143602782661",
+    "post_id": "post_634a165ef5f64ec837a30c4a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_c54e2f423797ad05eee2c657",
+    "url": "https://www.facebook.com/photo.php?fbid=730512343445787",
+    "kind": "photo",
+    "facebook_post_id": "730512343445787",
+    "post_id": "post_c54e2f423797ad05eee2c657",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_f6f1fa681507d8a1cba0991d",
+    "url": "https://www.facebook.com/photo.php?fbid=728467793650242",
+    "kind": "photo",
+    "facebook_post_id": "728467793650242",
+    "post_id": "post_f6f1fa681507d8a1cba0991d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_29c7d66e46c06b2f837388db",
+    "url": "https://www.facebook.com/photo.php?fbid=727566830407005",
+    "kind": "photo",
+    "facebook_post_id": "727566830407005",
+    "post_id": "post_29c7d66e46c06b2f837388db",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9cb2d7099bea59180d9c2f91",
+    "url": "https://www.facebook.com/photo.php?fbid=724950970668591",
+    "kind": "photo",
+    "facebook_post_id": "724950970668591",
+    "post_id": "post_9cb2d7099bea59180d9c2f91",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_48562d15d94ffa050380c556",
+    "url": "https://www.facebook.com/photo.php?fbid=723209994176022",
+    "kind": "photo",
+    "facebook_post_id": "723209994176022",
+    "post_id": "post_48562d15d94ffa050380c556",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_03a15020035cc592b883c6cc",
+    "url": "https://www.facebook.com/photo.php?fbid=722714790892209",
+    "kind": "photo",
+    "facebook_post_id": "722714790892209",
+    "post_id": "post_03a15020035cc592b883c6cc",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_74577d0245808f3b7404a970",
+    "url": "https://www.facebook.com/photo.php?fbid=722008650962823",
+    "kind": "photo",
+    "facebook_post_id": "722008650962823",
+    "post_id": "post_74577d0245808f3b7404a970",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_a7fc903d94f52815383c9179",
+    "url": "https://www.facebook.com/photo.php?fbid=720537821109906",
+    "kind": "photo",
+    "facebook_post_id": "720537821109906",
+    "post_id": "post_a7fc903d94f52815383c9179",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9e63c069f44f338bf10abc79",
+    "url": "https://www.facebook.com/photo.php?fbid=718405841323104",
+    "kind": "photo",
+    "facebook_post_id": "718405841323104",
+    "post_id": "post_9e63c069f44f338bf10abc79",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_3e14d54ba0b087b93146720f",
+    "url": "https://www.facebook.com/reel/1288126198864163",
+    "kind": "video",
+    "facebook_post_id": "1288126198864163",
+    "post_id": "post_3e14d54ba0b087b93146720f",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_cc9206de8cba9a367f5f6dec",
+    "url": "https://www.facebook.com/photo.php?fbid=620680407762315",
+    "kind": "photo",
+    "facebook_post_id": "620680407762315",
+    "post_id": "post_cc9206de8cba9a367f5f6dec",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1d98af39aa67873866f3587a",
+    "url": "https://www.facebook.com/photo.php?fbid=620657721097917",
+    "kind": "photo",
+    "facebook_post_id": "620657721097917",
+    "post_id": "post_1d98af39aa67873866f3587a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_88404c645c9b6b40b1987c4c",
+    "url": "https://www.facebook.com/photo.php?fbid=619860981177591",
+    "kind": "photo",
+    "facebook_post_id": "619860981177591",
+    "post_id": "post_88404c645c9b6b40b1987c4c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_e794c05bead034b3309eeec2",
+    "url": "https://www.facebook.com/photo.php?fbid=619859154511107",
+    "kind": "photo",
+    "facebook_post_id": "619859154511107",
+    "post_id": "post_e794c05bead034b3309eeec2",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_20d7811771aff9d3b12f5d14",
+    "url": "https://www.facebook.com/photo.php?fbid=619069131256776",
+    "kind": "photo",
+    "facebook_post_id": "619069131256776",
+    "post_id": "post_20d7811771aff9d3b12f5d14",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_b3fa4f90cd2d900de468ef7a",
+    "url": "https://www.facebook.com/photo.php?fbid=618289148001441",
+    "kind": "photo",
+    "facebook_post_id": "618289148001441",
+    "post_id": "post_b3fa4f90cd2d900de468ef7a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_2f1c3d21ba145b2fe96c4e80",
+    "url": "https://www.facebook.com/photo.php?fbid=616667934830229",
+    "kind": "photo",
+    "facebook_post_id": "616667934830229",
+    "post_id": "post_2f1c3d21ba145b2fe96c4e80",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_beaddc79ca41f21b2334971e",
+    "url": "https://www.facebook.com/photo.php?fbid=615099454987077",
+    "kind": "photo",
+    "facebook_post_id": "615099454987077",
+    "post_id": "post_beaddc79ca41f21b2334971e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_7729f090b174abde19b324b9",
+    "url": "https://www.facebook.com/photo.php?fbid=613447431818946",
+    "kind": "photo",
+    "facebook_post_id": "613447431818946",
+    "post_id": "post_7729f090b174abde19b324b9",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_99b05fa7fa6d161744a8bcc1",
+    "url": "https://www.facebook.com/photo.php?fbid=612643625232660",
+    "kind": "photo",
+    "facebook_post_id": "612643625232660",
+    "post_id": "post_99b05fa7fa6d161744a8bcc1",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_30b15db92f704926bd471630",
+    "url": "https://www.facebook.com/photo.php?fbid=610704158759940",
+    "kind": "photo",
+    "facebook_post_id": "610704158759940",
+    "post_id": "post_30b15db92f704926bd471630",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_f2e2600c406e08b88444443e",
+    "url": "https://www.facebook.com/photo.php?fbid=609554995541523",
+    "kind": "photo",
+    "facebook_post_id": "609554995541523",
+    "post_id": "post_f2e2600c406e08b88444443e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_54088ad750a5a29bb121fea5",
+    "url": "https://www.facebook.com/photo.php?fbid=608801478950208",
+    "kind": "photo",
+    "facebook_post_id": "608801478950208",
+    "post_id": "post_54088ad750a5a29bb121fea5",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_c2b309c9a540c53728c2d316",
+    "url": "https://www.facebook.com/photo.php?fbid=607992985697724",
+    "kind": "photo",
+    "facebook_post_id": "607992985697724",
+    "post_id": "post_c2b309c9a540c53728c2d316",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_24fac46f6cff80413e024b8a",
+    "url": "https://www.facebook.com/photo.php?fbid=606456812518008",
+    "kind": "photo",
+    "facebook_post_id": "606456812518008",
+    "post_id": "post_24fac46f6cff80413e024b8a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_555a2158813a1850a6530a12",
+    "url": "https://www.facebook.com/photo.php?fbid=605718269258529",
+    "kind": "photo",
+    "facebook_post_id": "605718269258529",
+    "post_id": "post_555a2158813a1850a6530a12",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_899ea8d93dcf0ab0e9dbd091",
+    "url": "https://www.facebook.com/photo.php?fbid=600382646458758",
+    "kind": "photo",
+    "facebook_post_id": "600382646458758",
+    "post_id": "post_899ea8d93dcf0ab0e9dbd091",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_0acdb695202fe42d4b78fe8e",
+    "url": "https://www.facebook.com/photo.php?fbid=598881196608903",
+    "kind": "photo",
+    "facebook_post_id": "598881196608903",
+    "post_id": "post_0acdb695202fe42d4b78fe8e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_980a2fbd8c1950c4a9aaf14e",
+    "url": "https://www.facebook.com/photo.php?fbid=598095750020781",
+    "kind": "photo",
+    "facebook_post_id": "598095750020781",
+    "post_id": "post_980a2fbd8c1950c4a9aaf14e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_107d8b035483f4ef08dd913e",
+    "url": "https://www.facebook.com/photo.php?fbid=597310916765931",
+    "kind": "photo",
+    "facebook_post_id": "597310916765931",
+    "post_id": "post_107d8b035483f4ef08dd913e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_effea79ca4501193f0781bbc",
+    "url": "https://www.facebook.com/photo.php?fbid=595080853655604",
+    "kind": "photo",
+    "facebook_post_id": "595080853655604",
+    "post_id": "post_effea79ca4501193f0781bbc",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_b9405eb08e51e5fc5d33677b",
+    "url": "https://www.facebook.com/reel/1157236049179114",
+    "kind": "video",
+    "facebook_post_id": "1157236049179114",
+    "post_id": "post_b9405eb08e51e5fc5d33677b",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_813f228ea88b4a66bb8dd2ff",
+    "url": "https://www.facebook.com/photo.php?fbid=473024419194582",
+    "kind": "photo",
+    "facebook_post_id": "473024419194582",
+    "post_id": "post_813f228ea88b4a66bb8dd2ff",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_5d629a8e5eda0e02b1ba90af",
+    "url": "https://www.facebook.com/photo.php?fbid=471575476006143",
+    "kind": "photo",
+    "facebook_post_id": "471575476006143",
+    "post_id": "post_5d629a8e5eda0e02b1ba90af",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_8b344ec81ac45c746000e51c",
+    "url": "https://www.facebook.com/photo.php?fbid=470840109413013",
+    "kind": "photo",
+    "facebook_post_id": "470840109413013",
+    "post_id": "post_8b344ec81ac45c746000e51c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_857389a58d86ca7146baffe1",
+    "url": "https://www.facebook.com/photo.php?fbid=470163242814033",
+    "kind": "photo",
+    "facebook_post_id": "470163242814033",
+    "post_id": "post_857389a58d86ca7146baffe1",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_eec574cd3c8eca8b2040eb92",
+    "url": "https://www.facebook.com/photo.php?fbid=468744902955867",
+    "kind": "photo",
+    "facebook_post_id": "468744902955867",
+    "post_id": "post_eec574cd3c8eca8b2040eb92",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9ddc6f6e01f72da1c6ee3112",
+    "url": "https://www.facebook.com/photo.php?fbid=468235946340096",
+    "kind": "photo",
+    "facebook_post_id": "468235946340096",
+    "post_id": "post_9ddc6f6e01f72da1c6ee3112",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1ed2462868768ae440b2283e",
+    "url": "https://www.facebook.com/photo.php?fbid=464535186710172",
+    "kind": "photo",
+    "facebook_post_id": "464535186710172",
+    "post_id": "post_1ed2462868768ae440b2283e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_3e6ae444fc4e8d823d8e305c",
+    "url": "https://www.facebook.com/reel/1342783030498262",
+    "kind": "video",
+    "facebook_post_id": "1342783030498262",
+    "post_id": "post_3e6ae444fc4e8d823d8e305c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_790690f5a241afe87826f12a",
+    "url": "https://www.facebook.com/photo.php?fbid=461504820346542",
+    "kind": "photo",
+    "facebook_post_id": "461504820346542",
+    "post_id": "post_790690f5a241afe87826f12a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_8b38cbddcc47deef149b7924",
+    "url": "https://www.facebook.com/photo.php?fbid=461062960390728",
+    "kind": "photo",
+    "facebook_post_id": "461062960390728",
+    "post_id": "post_8b38cbddcc47deef149b7924",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_d7baef6b111047e2e1fa6212",
+    "url": "https://www.facebook.com/photo.php?fbid=463705876793103",
+    "kind": "photo",
+    "facebook_post_id": "463705876793103",
+    "post_id": "post_d7baef6b111047e2e1fa6212",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_e5777e3ec0dbb2e0421f762d",
+    "url": "https://www.facebook.com/photo.php?fbid=459023553928002",
+    "kind": "photo",
+    "facebook_post_id": "459023553928002",
+    "post_id": "post_e5777e3ec0dbb2e0421f762d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_6c65a1cde08f8a16b2e20848",
+    "url": "https://www.facebook.com/photo.php?fbid=447970821699942",
+    "kind": "photo",
+    "facebook_post_id": "447970821699942",
+    "post_id": "post_6c65a1cde08f8a16b2e20848",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_804f0cad583fd6a5493feb74",
+    "url": "https://www.facebook.com/photo.php?fbid=445863368577354",
+    "kind": "photo",
+    "facebook_post_id": "445863368577354",
+    "post_id": "post_804f0cad583fd6a5493feb74",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1284eda0b0f1c673265f7838",
+    "url": "https://www.facebook.com/photo.php?fbid=443749148788776",
+    "kind": "photo",
+    "facebook_post_id": "443749148788776",
+    "post_id": "post_1284eda0b0f1c673265f7838",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_396eb1afc41d360037f402db",
+    "url": "https://www.facebook.com/reel/494155613221434",
+    "kind": "video",
+    "facebook_post_id": "494155613221434",
+    "post_id": "post_396eb1afc41d360037f402db",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1e4fd5805d400146d889cfb4",
+    "url": "https://www.facebook.com/photo.php?fbid=352351214595237",
+    "kind": "photo",
+    "facebook_post_id": "352351214595237",
+    "post_id": "post_1e4fd5805d400146d889cfb4",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_aeaf928e8f3da0f1726e17b1",
+    "url": "https://www.facebook.com/photo.php?fbid=351079411389084",
+    "kind": "photo",
+    "facebook_post_id": "351079411389084",
+    "post_id": "post_aeaf928e8f3da0f1726e17b1",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_eabf7d38aee9d5e927800d7c",
+    "url": "https://www.facebook.com/photo.php?fbid=350439618119730",
+    "kind": "photo",
+    "facebook_post_id": "350439618119730",
+    "post_id": "post_eabf7d38aee9d5e927800d7c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_91cc4ce4bd1435923fca60fc",
+    "url": "https://www.facebook.com/photo.php?fbid=349260684904290",
+    "kind": "photo",
+    "facebook_post_id": "349260684904290",
+    "post_id": "post_91cc4ce4bd1435923fca60fc",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_eeeeaf0f96034b7055f3eb95",
+    "url": "https://www.facebook.com/photo.php?fbid=348626898301002",
+    "kind": "photo",
+    "facebook_post_id": "348626898301002",
+    "post_id": "post_eeeeaf0f96034b7055f3eb95",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_655a6ec277b72ef003685bd5",
+    "url": "https://www.facebook.com/photo.php?fbid=348019318361760",
+    "kind": "photo",
+    "facebook_post_id": "348019318361760",
+    "post_id": "post_655a6ec277b72ef003685bd5",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_fa7cd17853acb80b75a605d3",
+    "url": "https://www.facebook.com/photo.php?fbid=346109185219440",
+    "kind": "photo",
+    "facebook_post_id": "346109185219440",
+    "post_id": "post_fa7cd17853acb80b75a605d3",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_4e83990434dc373dec32c83d",
+    "url": "https://www.facebook.com/photo.php?fbid=343634398800252",
+    "kind": "photo",
+    "facebook_post_id": "343634398800252",
+    "post_id": "post_4e83990434dc373dec32c83d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_c2f5ea1d1905d59f806d36a1",
+    "url": "https://www.facebook.com/photo.php?fbid=342934388870253",
+    "kind": "photo",
+    "facebook_post_id": "342934388870253",
+    "post_id": "post_c2f5ea1d1905d59f806d36a1",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_19e162b626b22226c8fe5e97",
+    "url": "https://www.facebook.com/100094610840245/posts/export_109_20240723",
+    "kind": "status",
+    "facebook_post_id": "export_109_20240723",
+    "post_id": "post_19e162b626b22226c8fe5e97",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_631fcb8d4b55e8f3dcc38f70",
+    "url": "https://www.facebook.com/photo.php?fbid=337033649460327",
+    "kind": "photo",
+    "facebook_post_id": "337033649460327",
+    "post_id": "post_631fcb8d4b55e8f3dcc38f70",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_587096a19b671004042e31e4",
+    "url": "https://www.facebook.com/photo.php?fbid=336743279489364",
+    "kind": "photo",
+    "facebook_post_id": "336743279489364",
+    "post_id": "post_587096a19b671004042e31e4",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_b8fc1ec4f5aa9ba14f76f57d",
+    "url": "https://www.facebook.com/photo.php?fbid=335560292940996",
+    "kind": "photo",
+    "facebook_post_id": "335560292940996",
+    "post_id": "post_b8fc1ec4f5aa9ba14f76f57d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_3646b5c993f3c97018938764",
+    "url": "https://www.facebook.com/photo.php?fbid=332599053237120",
+    "kind": "photo",
+    "facebook_post_id": "332599053237120",
+    "post_id": "post_3646b5c993f3c97018938764",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_7db126c3cc232cc2265a5e55",
+    "url": "https://www.facebook.com/photo.php?fbid=328889316941427",
+    "kind": "photo",
+    "facebook_post_id": "328889316941427",
+    "post_id": "post_7db126c3cc232cc2265a5e55",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_04fc9fb2d20b2e081d62f3fc",
+    "url": "https://www.facebook.com/reel/780168937467886",
+    "kind": "video",
+    "facebook_post_id": "780168937467886",
+    "post_id": "post_04fc9fb2d20b2e081d62f3fc",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_969d95421337ace0e4e796db",
+    "url": "https://www.facebook.com/photo.php?fbid=238122329351460",
+    "kind": "photo",
+    "facebook_post_id": "238122329351460",
+    "post_id": "post_969d95421337ace0e4e796db",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_8dadfe84b493e15e85eda45c",
+    "url": "https://www.facebook.com/photo.php?fbid=237500782746948",
+    "kind": "photo",
+    "facebook_post_id": "237500782746948",
+    "post_id": "post_8dadfe84b493e15e85eda45c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_77f8de957c30cc8afbb0ecd8",
+    "url": "https://www.facebook.com/photo.php?fbid=234417709721922",
+    "kind": "photo",
+    "facebook_post_id": "234417709721922",
+    "post_id": "post_77f8de957c30cc8afbb0ecd8",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_78f2da6936b08b9f9ef6618e",
+    "url": "https://www.facebook.com/photo.php?fbid=231846653312361",
+    "kind": "photo",
+    "facebook_post_id": "231846653312361",
+    "post_id": "post_78f2da6936b08b9f9ef6618e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_da3d81575b8b000e620f8380",
+    "url": "https://www.facebook.com/photo.php?fbid=230572823439744",
+    "kind": "photo",
+    "facebook_post_id": "230572823439744",
+    "post_id": "post_da3d81575b8b000e620f8380",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9fc882a1dd3d02ef70de1d6d",
+    "url": "https://www.facebook.com/photo.php?fbid=228656756964684",
+    "kind": "photo",
+    "facebook_post_id": "228656756964684",
+    "post_id": "post_9fc882a1dd3d02ef70de1d6d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_083a1c06529ae0149afea50a",
+    "url": "https://www.facebook.com/photo.php?fbid=227959693701057",
+    "kind": "photo",
+    "facebook_post_id": "227959693701057",
+    "post_id": "post_083a1c06529ae0149afea50a",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_fbda5291b685a96a955d4157",
+    "url": "https://www.facebook.com/photo.php?fbid=226706693826357",
+    "kind": "photo",
+    "facebook_post_id": "226706693826357",
+    "post_id": "post_fbda5291b685a96a955d4157",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_568806b065bbe64cb1e2afd6",
+    "url": "https://www.facebook.com/photo.php?fbid=226057503891276",
+    "kind": "photo",
+    "facebook_post_id": "226057503891276",
+    "post_id": "post_568806b065bbe64cb1e2afd6",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9b2492832bc954255b8c67ea",
+    "url": "https://www.facebook.com/reel/294889986618149",
+    "kind": "video",
+    "facebook_post_id": "294889986618149",
+    "post_id": "post_9b2492832bc954255b8c67ea",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_3c45223081d6ba4f89f28445",
+    "url": "https://www.facebook.com/photo.php?fbid=134361976394163",
+    "kind": "photo",
+    "facebook_post_id": "134361976394163",
+    "post_id": "post_3c45223081d6ba4f89f28445",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_9d13732373661ea4d107556e",
+    "url": "https://www.facebook.com/photo.php?fbid=132319373265090",
+    "kind": "photo",
+    "facebook_post_id": "132319373265090",
+    "post_id": "post_9d13732373661ea4d107556e",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_44dc1fad75df85fb2f29cd1c",
+    "url": "https://www.facebook.com/photo.php?fbid=131657019997992",
+    "kind": "photo",
+    "facebook_post_id": "131657019997992",
+    "post_id": "post_44dc1fad75df85fb2f29cd1c",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1fc5415942afa593434867cd",
+    "url": "https://www.facebook.com/photo.php?fbid=131639446666416",
+    "kind": "photo",
+    "facebook_post_id": "131639446666416",
+    "post_id": "post_1fc5415942afa593434867cd",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_e3de2fd9b986cf8936ddb334",
+    "url": "https://www.facebook.com/photo.php?fbid=131065093390518",
+    "kind": "photo",
+    "facebook_post_id": "131065093390518",
+    "post_id": "post_e3de2fd9b986cf8936ddb334",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_42ef1dea626d2e5f2e7c5c1d",
+    "url": "https://www.facebook.com/photo.php?fbid=130402466790114",
+    "kind": "photo",
+    "facebook_post_id": "130402466790114",
+    "post_id": "post_42ef1dea626d2e5f2e7c5c1d",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_dd847a3d0d1d933379947dac",
+    "url": "https://www.facebook.com/photo.php?fbid=129730276857333",
+    "kind": "photo",
+    "facebook_post_id": "129730276857333",
+    "post_id": "post_dd847a3d0d1d933379947dac",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1583ce7c5d6e2f554e380221",
+    "url": "https://www.facebook.com/photo.php?fbid=127003150463379",
+    "kind": "photo",
+    "facebook_post_id": "127003150463379",
+    "post_id": "post_1583ce7c5d6e2f554e380221",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_6371098b827ea31997ff2d16",
+    "url": "https://www.facebook.com/photo.php?fbid=124871184009909",
+    "kind": "photo",
+    "facebook_post_id": "124871184009909",
+    "post_id": "post_6371098b827ea31997ff2d16",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_3765ea442019ccfe1bc86c53",
+    "url": "https://www.facebook.com/photo.php?fbid=123504024146625",
+    "kind": "photo",
+    "facebook_post_id": "123504024146625",
+    "post_id": "post_3765ea442019ccfe1bc86c53",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_41bdad26032fdeeea553cf74",
+    "url": "https://www.facebook.com/photo.php?fbid=119474084549619",
+    "kind": "photo",
+    "facebook_post_id": "119474084549619",
+    "post_id": "post_41bdad26032fdeeea553cf74",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_0c37795138cbe35ba936c8d4",
+    "url": "https://www.facebook.com/photo.php?fbid=117297744767253",
+    "kind": "photo",
+    "facebook_post_id": "117297744767253",
+    "post_id": "post_0c37795138cbe35ba936c8d4",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_1dfb8f61fb97f639323b3090",
+    "url": "https://www.facebook.com/photo.php?fbid=116525748177786",
+    "kind": "photo",
+    "facebook_post_id": "116525748177786",
+    "post_id": "post_1dfb8f61fb97f639323b3090",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  },
+  {
+    "discovery_id": "url_2c2340889713ff59d979bf69",
+    "url": "https://www.facebook.com/photo.php?fbid=114428695054158",
+    "kind": "photo",
+    "facebook_post_id": "114428695054158",
+    "post_id": "post_2c2340889713ff59d979bf69",
+    "discovered_at": "2026-10-18T12:07:00+00:00",
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "pipeline": {
+      "discovered": true,
+      "content_extracted": true,
+      "media_downloaded": true,
+      "season_classified": true,
+      "verified": true
+    },
+    "errors": []
+  }
+]

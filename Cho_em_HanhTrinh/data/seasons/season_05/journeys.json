@@ -1,0 +1,65 @@
+[
+  {
+    "journey_id": "journey_tan_thanh_2025",
+    "title": "Chuyến đi Trường TH&THCS Tân Thành — Lớp học sơ cứu và trao quà An Toàn Cho Em",
+    "season_ids": [
+      "season_05"
+    ],
+    "program_ids": [
+      "program_an_toan_cho_em_2025"
+    ],
+    "start_date": "2025-08-11",
+    "end_date": "2025-08-11",
+    "origin": "Thành phố Đông Hà, tỉnh Quảng Trị",
+    "destinations": [
+      "Trường TH&THCS Tân Thành, xã Tân Thành, huyện Hướng Hóa, tỉnh Quảng Trị"
+    ],
+    "summary": "Hơn 100 đôi giày mới, 4 bộ sơ cấp cứu chuẩn y tế và những giờ học thực hành băng bó sôi nổi đã tiếp thêm sự tự tin cho các em học sinh vùng cao Tân Thành.",
+    "activities": [
+      "Tổ chức đặt hàng gây quỹ và vận động tài trợ đạt 25.057.548 VNĐ tiền mặt cùng hiện vật giá trị lớn",
+      "Tổ chức lớp học thực hành kỹ năng sơ cứu cơ bản (băng bó vết thương, xử lý bỏng, dị vật, tai nạn thường gặp) ngày 11/08/2025",
+      "Trao tặng hơn 100 suất quà, 100 đôi giày mới, 04 Bộ sơ cấp cứu loại A chuẩn Bộ Y Tế và 02 bảng tuyên truyền kỹ năng sơ cứu"
+    ],
+    "post_ids": [
+      "post_3e14d54ba0b087b93146720f",
+      "post_cc9206de8cba9a367f5f6dec",
+      "post_1d98af39aa67873866f3587a",
+      "post_88404c645c9b6b40b1987c4c",
+      "post_e794c05bead034b3309eeec2",
+      "post_20d7811771aff9d3b12f5d14"
+    ],
+    "photo_ids": [
+      "photo_ea132f974ec26e3c37ce100b",
+      "photo_683152924f692ba03ece8f9d",
+      "photo_3732a46e442661eaf681fce2",
+      "photo_a552f94198ed871b4632a8c6",
+      "photo_26cd2b78094336c43a3009aa",
+      "photo_1bc86ccf8d9d07b03bf567fa",
+      "photo_14c084ee2e14f47a4069cbbb",
+      "photo_5b93a6ea786b647d3a993c4b",
+      "photo_61878fe277af64cd2255cea3",
+      "photo_19fd6934b0a8467d58fc5aea",
+      "photo_f88e36695093eeba9fe99f0e",
+      "photo_9cb300b4961ec2b67d7fa478",
+      "photo_1a8a1294e364cbccd2d08ed7",
+      "photo_c39e9a4fac8e1b306ec46523",
+      "photo_a822f0d0fc8fe81f9283348b",
+      "photo_4a1cd219a7c8c6cee8cd0f98",
+      "photo_8cbf734aa0fd8ff159cd9629",
+      "photo_968142853d54261289678e1a",
+      "photo_09b8d60a8a614e78d058958c",
+      "photo_7648841a2995894f1827eb65"
+    ],
+    "video_ids": [
+      "video_1288126198864163"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/1288126198864163",
+      "https://www.facebook.com/photo.php?fbid=620680407762315",
+      "https://www.facebook.com/photo.php?fbid=620657721097917",
+      "https://www.facebook.com/photo.php?fbid=619860981177591",
+      "https://www.facebook.com/photo.php?fbid=619859154511107"
+    ],
+    "verification_status": "verified"
+  }
+]

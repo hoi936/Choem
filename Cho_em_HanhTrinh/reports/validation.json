@@ -1,0 +1,3476 @@
+{
+  "schema_version": "1.0",
+  "validated_at": "2026-11-07T07:00:15.170690+00:00",
+  "integrity_status": "passed_with_warnings",
+  "scope": "Offline archive integrity only; this does not certify complete historical coverage or publication approval.",
+  "counts": {
+    "json_files_checked": 242,
+    "discovered_url_records": 135,
+    "posts_archived": 135,
+    "posts_with_caption_complete": 135,
+    "posts_with_caption_partial": 0,
+    "posts_with_caption_unknown": 0,
+    "posts_without_season": 0,
+    "photo_metadata_records": 563,
+    "photos_with_local_file": 563,
+    "photos_imported_from_workspace": 563,
+    "photos_downloaded_from_remote": 0,
+    "photo_download_failures": 0,
+    "videos_metadata_records": 7,
+    "videos_with_local_file": 7,
+    "unique_local_media_files_checked": 570,
+    "seasons_discovered": 7,
+    "seasons_verified": 7,
+    "programs": 7,
+    "programs_verified": 7,
+    "journeys": 7,
+    "timeline_events": 15,
+    "milestones": 7,
+    "stories": 7,
+    "total_facebook_posts": null,
+    "facebook_history_completion_percent": null
+  },
+  "issue_counts": {
+    "error": 0,
+    "warning": 570
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/0",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/1",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/2",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/3",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/4",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/5",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/6",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/7",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/8",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/9",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/10",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/11",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/12",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/13",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/14",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/15",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/16",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/17",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/18",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/19",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/20",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/21",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/22",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/23",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/24",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/25",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/26",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/27",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/28",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/29",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/30",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/31",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/32",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/33",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/34",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/35",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/36",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/37",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/38",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/39",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/40",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/41",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/42",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/43",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/44",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/45",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/46",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/47",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/48",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/49",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/50",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/51",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/52",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/53",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/54",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/55",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/56",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/57",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/58",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/59",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/60",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/61",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/62",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/63",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/64",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/65",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/66",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/67",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/68",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/69",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/70",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/71",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/72",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/73",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/74",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/75",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/76",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/77",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/78",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/79",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/80",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/81",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/82",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/83",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/84",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/85",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/86",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/87",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/88",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/89",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/90",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/91",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/92",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/93",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/94",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/95",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/96",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/97",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/98",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/99",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/100",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/101",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/102",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/103",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/104",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/105",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/106",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/107",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/108",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/109",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/110",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/111",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/112",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/113",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/114",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/115",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/116",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/117",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/118",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/119",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/120",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/121",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/122",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/123",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/124",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/125",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/126",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/127",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/128",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/129",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/130",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/131",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/132",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/133",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/134",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/135",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/136",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/137",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/138",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/139",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/140",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/141",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/142",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/143",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/144",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/145",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/146",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/147",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/148",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/149",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/150",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/151",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/152",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/153",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/154",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/155",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/156",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/157",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/158",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/159",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/160",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/161",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/162",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/163",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/164",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/165",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/166",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/167",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/168",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/169",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/170",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/171",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/172",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/173",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/174",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/175",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/176",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/177",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/178",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/179",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/180",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/181",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/182",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/183",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/184",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/185",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/186",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/187",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/188",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/189",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/190",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/191",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/192",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/193",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/194",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/195",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/196",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/197",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/198",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/199",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/200",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/201",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/202",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/203",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/204",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/205",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/206",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/207",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/208",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/209",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/210",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/211",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/212",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/213",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/214",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/215",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/216",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/217",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/218",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/219",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/220",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/221",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/222",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/223",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/224",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/225",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/226",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/227",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/228",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/229",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/230",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/231",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/232",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/233",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/234",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/235",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/236",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/237",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/238",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/239",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/240",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/241",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/242",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/243",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/244",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/245",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/246",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/247",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/248",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/249",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/250",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/251",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/252",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/253",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/254",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/255",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/256",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/257",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/258",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/259",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/260",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/261",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/262",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/263",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/264",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/265",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/266",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/267",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/268",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/269",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/270",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/271",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/272",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/273",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/274",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/275",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/276",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/277",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/278",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/279",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/280",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/281",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/282",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/283",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/284",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/285",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/286",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/287",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/288",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/289",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/290",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/291",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/292",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/293",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/294",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/295",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/296",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/297",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/298",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/299",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/300",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/301",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/302",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/303",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/304",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/305",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/306",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/307",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/308",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/309",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/310",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/311",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/312",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/313",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/314",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/315",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/316",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/317",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/318",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/319",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/320",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/321",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/322",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/323",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/324",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/325",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/326",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/327",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/328",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/329",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/330",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/331",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/332",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/333",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/334",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/335",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/336",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/337",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/338",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/339",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/340",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/341",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/342",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/343",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/344",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/345",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/346",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/347",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/348",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/349",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/350",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/351",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/352",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/353",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/354",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/355",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/356",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/357",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/358",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/359",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/360",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/361",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/362",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/363",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/364",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/365",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/366",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/367",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/368",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/369",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/370",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/371",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/372",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/373",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/374",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/375",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/376",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/377",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/378",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/379",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/380",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/381",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/382",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/383",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/384",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/385",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/386",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/387",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/388",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/389",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/390",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/391",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/392",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/393",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/394",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/395",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/396",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/397",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/398",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/399",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/400",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/401",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/402",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/403",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/404",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/405",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/406",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/407",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/408",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/409",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/410",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/411",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/412",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/413",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/414",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/415",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/416",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/417",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/418",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/419",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/420",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/421",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/422",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/423",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/424",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/425",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/426",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/427",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/428",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/429",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/430",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/431",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/432",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/433",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/434",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/435",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/436",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/437",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/438",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/439",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/440",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/441",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/442",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/443",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/444",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/445",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/446",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/447",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/448",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/449",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/450",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/451",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/452",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/453",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/454",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/455",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/456",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/457",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/458",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/459",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/460",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/461",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/462",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/463",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/464",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/465",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/466",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/467",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/468",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/469",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/470",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/471",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/472",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/473",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/474",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/475",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/476",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/477",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/478",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/479",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/480",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/481",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/482",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/483",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/484",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/485",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/486",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/487",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/488",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/489",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/490",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/491",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/492",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/493",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/494",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/495",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/496",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/497",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/498",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/499",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/500",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/501",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/502",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/503",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/504",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/505",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/506",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/507",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/508",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/509",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/510",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/511",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/512",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/513",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/514",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/515",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/516",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/517",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/518",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/519",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/520",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/521",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/522",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/523",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/524",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/525",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/526",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/527",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/528",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/529",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/530",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/531",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/532",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/533",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/534",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/535",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/536",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/537",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/538",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/539",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/540",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/541",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/542",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/543",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/544",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/545",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/546",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/547",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/548",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/549",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/550",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/551",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/552",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/553",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/554",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/555",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/556",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/557",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/558",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/559",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/560",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/561",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/photos.json#/562",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/0",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/1",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/2",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/3",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/4",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/5",
+      "message": "Media is not cleared for independent website publication."
+    },
+    {
+      "severity": "warning",
+      "code": "media_rights_unresolved",
+      "path": "data/raw/videos.json#/6",
+      "message": "Media is not cleared for independent website publication."
+    }
+  ],
+  "checks": [
+    "UTF-8 JSON and containers",
+    "unique IDs and references",
+    "ISO dates and timeline order",
+    "caption completeness flags",
+    "season sources and unknown facts",
+    "local media hashes and byte sizes",
+    "media dimensions and decoding",
+    "rights and privacy flags",
+    "initial source file preservation"
+  ],
+  "limits": [
+    "Cannot prove caption completeness without a complete original source/export.",
+    "Cannot establish total Facebook posts or complete seasonal coverage from a blocked source.",
+    "Source URLs and season labels require human/source-content review; URL presence alone does not prove a claim.",
+    "Rights flags are metadata, not evidence of legal permission."
+  ]
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "journey_id": "journey_vinh_o_2026",
+    "title": "Chuyến đi Trường PTDTBT Tiểu học Vĩnh Ô — Chương trình An Toàn Cho Em 2",
+    "season_ids": [
+      "season_06"
+    ],
+    "program_ids": [
+      "program_an_toan_cho_em_2_2026"
+    ],
+    "start_date": "2026-02-09",
+    "end_date": "2026-02-09",
+    "origin": "Thành phố Đông Hà, tỉnh Quảng Trị",
+    "destinations": [
+      "Trường PTDTBT Tiểu học Vĩnh Ô, xã Vĩnh Ô (Bến Quan), tỉnh Quảng Trị"
+    ],
+    "summary": "Hành trình mùa thứ 6 đưa những người trẻ nhiệt huyết vượt đường núi xa xôi đến với các em học sinh bán trú Vĩnh Ô, trao gửi kỹ năng tự bảo vệ và hơi ấm ngày xuân.",
+    "activities": [
+      "Tổ chức Gian hàng Tết 'An Toàn Cho Em 2 - Tết của sự sẻ chia' (Pre-order và bán hàng trực tiếp tại Đông Hà)",
+      "Phát động chiến dịch thay khung hình avatar lan tỏa thông điệp an toàn học đường",
+      "Tổ chức ngày hội giáo dục kỹ năng sơ cứu cơ bản tại Trường PTDTBT Tiểu học Vĩnh Ô ngày 09/02/2026",
+      "Trao tặng 67 suất quà học sinh và 03 Bộ sơ cấp cứu loại A chuẩn Bộ Y Tế"
+    ],
+    "post_ids": [
+      "post_196e020e0ff3c33d741fbe37",
+      "post_884803b83abeae2d65b13d14",
+      "post_8341fb8f1f4e7ac95c3140c6",
+      "post_361064957825b9ebaadfee63",
+      "post_299b82520bbcd64c884e8f70",
+      "post_11442ef762257909d8d5c79a"
+    ],
+    "photo_ids": [
+      "photo_0ce8d4ef4a85b62b05fe4c3c",
+      "photo_efcb07e4396f27a8af8e830a",
+      "photo_8fa5e36e9a4208025845c37b",
+      "photo_dd70ec1e5a3d7c8e5e82f380",
+      "photo_595739886163c6639e3b2789",
+      "photo_1faaae04a9a2a1a523c483be",
+      "photo_11da218aa720f14ac2481d2e",
+      "photo_36cd57ce1b4a925957591608",
+      "photo_7dd6034b3e3ca15f668eaf39",
+      "photo_c5c00063371a26007ef0d55a",
+      "photo_7e4435c80fcaf4a6a14861c5",
+      "photo_0b0901f8bd318c9f8a8361a2",
+      "photo_5a684b05f8e8f4b2e27ed86c",
+      "photo_025061431271ed647c2728d6",
+      "photo_240021242a9cc85d3892a3c4",
+      "photo_94dc8f0ea694bf8914d2e027",
+      "photo_578d1ae0b204f5601f8a659e",
+      "photo_be314b4118b69bcbee956109",
+      "photo_31c7c1ffcc9eff0ca2ef0387",
+      "photo_8d7b2c82956853c1870d63e9"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/photo.php?fbid=764103220086699",
+      "https://www.facebook.com/photo.php?fbid=762890900207931",
+      "https://www.facebook.com/photo.php?fbid=761520407011647",
+      "https://www.facebook.com/photo.php?fbid=759791243851230",
+      "https://www.facebook.com/photo.php?fbid=758969380600083"
+    ],
+    "verification_status": "verified"
+  }
+]

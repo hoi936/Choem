@@ -1,0 +1,101 @@
+[
+  {
+    "event_id": "event_project_founded_20230717",
+    "title": "Thành lập trang chính thức Dự án thiện nguyện CHO EM (CHO EM project)",
+    "event_date": "2023-07-17",
+    "date_precision": "day",
+    "event_type": "project_milestone",
+    "description": "Trang Facebook chính thức CHO EM project được khởi tạo tại Đông Hà, Quảng Trị, mở đầu hành trình vì trẻ em vùng cao.",
+    "details": "Xác nhận từ hồ sơ xuất chính thức Meta: Ngày đăng ký Thứ Hai, 17/07/2023 lúc 20:29 UTC+07:00.",
+    "season_ids": [
+      "season_01"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_2023"
+    ],
+    "post_ids": [
+      "post_2c2340889713ff59d979bf69"
+    ],
+    "photo_ids": [
+      "photo_c0718fb9298f365017c9dc6a"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/profile.php?id=100094610840245"
+    ],
+    "verification_status": "verified"
+  },
+  {
+    "event_id": "event_season_01_kickoff",
+    "title": "Khởi động CHO EM Mùa 1 — Sân Chơi Cho Em",
+    "event_date": "2023-07-17",
+    "date_precision": "day",
+    "event_type": "season_kickoff",
+    "description": "Mở đầu hành trình CHO EM Mùa 1 — Sân Chơi Cho Em với chủ đề 'Sân Chơi Tái Chế Cho Trẻ Em Vùng Cao'.",
+    "details": "Sân chơi cho em, cho em niềm vui, gieo mầm ước mơ",
+    "season_ids": [
+      "season_01"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_2023"
+    ],
+    "post_ids": [
+      "post_2c2340889713ff59d979bf69"
+    ],
+    "photo_ids": [
+      "photo_ffe4b8618b438b6036aecf9c",
+      "photo_1b77652479fdea13a9ba5990",
+      "photo_c0718fb9298f365017c9dc6a"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/reel/294889986618149",
+      "https://www.facebook.com/photo.php?fbid=134361976394163",
+      "https://www.facebook.com/photo.php?fbid=132319373265090",
+      "https://www.facebook.com/photo.php?fbid=131657019997992",
+      "https://www.facebook.com/photo.php?fbid=131639446666416"
+    ],
+    "verification_status": "verified"
+  },
+  {
+    "event_id": "event_season_01_main_program",
+    "title": "Sự kiện chính: Sân Chơi Cho Em (Mùa 1) (CHO EM Mùa 1 — Sân Chơi Cho Em)",
+    "event_date": "2023-08-15",
+    "date_precision": "day",
+    "event_type": "program_execution",
+    "description": "Mùa mở đầu đặt nền móng cho dự án CHO EM (thành lập 17/07/2023). Xuất phát từ trăn trở trước những khoảng sân bê tông trống trải tại các điểm trường mầm non vùng cao Hướng Hóa, dự án đã gây quỹ bằng làm nơ handmade và vận động quyên góp đạt 27.381.403 VNĐ để tự tay thi công và trao tặng 02 sân chơi tái chế từ lốp xe và gỗ tại điểm trường Ho Le và Tà Rùng (Trường Mầm non Húc).",
+    "details": "Làm nơ handmade gây quỹ và vận động quyên góp cộng đồng đạt 27.381.403 VNĐ; Tự tay thiết kế, sơn vẽ và thi công các hạng mục sân chơi từ lốp xe tái chế và gỗ; Vượt chặng đường đèo gần 80km từ Đông Hà lên xã Húc, huyện Hướng Hóa lắp đặt sân chơi; Khánh thành 02 sân chơi và giao lưu, trao quà cho học sinh mầm non tại Ho Le và Tà Rùng",
+    "season_ids": [
+      "season_01"
+    ],
+    "program_ids": [
+      "program_san_choi_cho_em_2023"
+    ],
+    "post_ids": [
+      "post_9b2492832bc954255b8c67ea",
+      "post_3c45223081d6ba4f89f28445",
+      "post_9d13732373661ea4d107556e"
+    ],
+    "photo_ids": [
+      "photo_9844d396e4a5c67492bea7d8",
+      "photo_e8b97e275521d0d231ce22f6",
+      "photo_f8d9667be7787ba5fd5e7199",
+      "photo_76d8bf49b32fea0c24f0b442",
+      "photo_d0a855476029b6f2091edd1e",
+      "photo_1ce1c7e98feb5abfbd4db571",
+      "photo_362b2b232734797c00310755",
+      "photo_2d0eca3299f5ac2a24a6fc59"
+    ],
+    "video_ids": [
+      "video_294889986618149"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/294889986618149",
+      "https://www.facebook.com/photo.php?fbid=134361976394163",
+      "https://www.facebook.com/photo.php?fbid=132319373265090",
+      "https://www.facebook.com/photo.php?fbid=131657019997992",
+      "https://www.facebook.com/photo.php?fbid=131639446666416"
+    ],
+    "verification_status": "verified"
+  }
+]

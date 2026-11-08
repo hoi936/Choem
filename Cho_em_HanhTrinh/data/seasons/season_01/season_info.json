@@ -1,0 +1,176 @@
+{
+  "season_id": "season_01",
+  "season_number": 1,
+  "official_name": "CHO EM Mùa 1 — Sân Chơi Cho Em",
+  "theme": "Sân Chơi Tái Chế Cho Trẻ Em Vùng Cao",
+  "slogan": "Sân chơi cho em, cho em niềm vui, gieo mầm ước mơ",
+  "start_date": "2023-07-17",
+  "end_date": "2023-08-22",
+  "event_date": "2023-08-15",
+  "description": "Mùa mở đầu đặt nền móng cho dự án CHO EM (thành lập 17/07/2023). Xuất phát từ trăn trở trước những khoảng sân bê tông trống trải tại các điểm trường mầm non vùng cao Hướng Hóa, dự án đã gây quỹ bằng làm nơ handmade và vận động quyên góp đạt 27.381.403 VNĐ để tự tay thi công và trao tặng 02 sân chơi tái chế từ lốp xe và gỗ tại điểm trường Ho Le và Tà Rùng (Trường Mầm non Húc).",
+  "objectives": [
+    "Xây dựng và khánh thành 02 sân chơi tái chế an toàn, sáng tạo tại điểm trường Mầm non Bản Ho Le và Bản Tà Rùng (xã Húc, Hướng Hóa).",
+    "Trao tặng tủ đồ chơi, quần áo mới và phần quà tiếp sức đến trường cho các em nhỏ đồng bào Vân Kiều.",
+    "Lan tỏa thông điệp bảo vệ môi trường thông qua tái chế lốp xe cũ thành thiết bị vui chơi cho trẻ em vùng sâu vùng xa."
+  ],
+  "locations": [
+    "Điểm trường Mầm non Bản Ho Le, xã Húc, huyện Hướng Hóa, tỉnh Quảng Trị",
+    "Điểm trường Mầm non Bản Tà Rùng, xã Húc, huyện Hướng Hóa, tỉnh Quảng Trị",
+    "Trường Mầm non Húc, huyện Hướng Hóa, tỉnh Quảng Trị"
+  ],
+  "leaders": [
+    {
+      "name": "Trần Ngọc Tâm Phúc",
+      "role": "Quản lý dự án (Founder)",
+      "email": "ngoctamphuctran@gmail.com"
+    },
+    {
+      "name": "Nguyễn Thùy Linh",
+      "role": "Trưởng ban Truyền thông",
+      "email": "thuylinhnguyen482005@gmail.com"
+    }
+  ],
+  "patron": "Thành đoàn Đông Hà",
+  "funds_raised_vnd": 27381403,
+  "results_summary": [
+    {
+      "metric": "tổng kinh phí gây quỹ (VNĐ)",
+      "value": 27381403,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "sân chơi tái chế khánh thành",
+      "value": 2,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "xích đu lớn, bập bênh & ngựa gỗ",
+      "value": 6,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "suất bánh kẹo",
+      "value": 87,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "bộ quần áo mới",
+      "value": 85,
+      "qualifier": "exact"
+    },
+    {
+      "metric": "tủ đồ chơi",
+      "value": 2,
+      "qualifier": "exact"
+    }
+  ],
+  "program_ids": [
+    "program_san_choi_cho_em_2023"
+  ],
+  "journey_ids": [
+    "journey_huc_huong_hoa_2023"
+  ],
+  "post_ids": [
+    "post_9b2492832bc954255b8c67ea",
+    "post_3c45223081d6ba4f89f28445",
+    "post_9d13732373661ea4d107556e",
+    "post_44dc1fad75df85fb2f29cd1c",
+    "post_1fc5415942afa593434867cd",
+    "post_e3de2fd9b986cf8936ddb334",
+    "post_42ef1dea626d2e5f2e7c5c1d",
+    "post_dd847a3d0d1d933379947dac",
+    "post_1583ce7c5d6e2f554e380221",
+    "post_6371098b827ea31997ff2d16",
+    "post_3765ea442019ccfe1bc86c53",
+    "post_41bdad26032fdeeea553cf74",
+    "post_0c37795138cbe35ba936c8d4",
+    "post_1dfb8f61fb97f639323b3090",
+    "post_2c2340889713ff59d979bf69"
+  ],
+  "photo_ids": [
+    "photo_9844d396e4a5c67492bea7d8",
+    "photo_e8b97e275521d0d231ce22f6",
+    "photo_f8d9667be7787ba5fd5e7199",
+    "photo_76d8bf49b32fea0c24f0b442",
+    "photo_d0a855476029b6f2091edd1e",
+    "photo_1ce1c7e98feb5abfbd4db571",
+    "photo_362b2b232734797c00310755",
+    "photo_2d0eca3299f5ac2a24a6fc59",
+    "photo_4719b335947cfeeecbc90802",
+    "photo_1cbb836f0f9b30f35d01101b",
+    "photo_ce82f9a5c716bdcc9b1fff02",
+    "photo_6aeb57f9a136b392dcf595a8",
+    "photo_2468c1c1ded1072def6828dd",
+    "photo_850b45292881be26cff202ce",
+    "photo_e5ca3790bf45f09f994852cb",
+    "photo_78dfcfa9d8ae8609a693bfb7",
+    "photo_6efab853d4c1a2b7942e8e8a",
+    "photo_f2b5b661b14b36b998fe03ca",
+    "photo_243c807796afe5b6516debac",
+    "photo_3afb27977e44a3b5ad4b146f",
+    "photo_82230ea9908ab03585aba39e",
+    "photo_32d92ad73e46e26cc191338b",
+    "photo_e54cc558188e746652d4c1ea",
+    "photo_59511f4606d1ff4ac31c7bd1",
+    "photo_d302dd81c6490604da42929c",
+    "photo_c8c5f650fc2d858776a75176",
+    "photo_d94a07ba069439488dd14d7a",
+    "photo_d00febb99221d76c81fa95d4",
+    "photo_67ac53b0111921de13444c17",
+    "photo_0d76f9876a729f39fea4c193",
+    "photo_b9bf7150cc5dadb8802803b7",
+    "photo_81aff6769babcc797d94e8e5",
+    "photo_813e4f69113e0b31ed99e600",
+    "photo_4921bf70573645153051dde0",
+    "photo_670cb53703990eb9b1cee10a",
+    "photo_0e645626a10646c325abb520",
+    "photo_6e4850983bf4d713d4ecb413",
+    "photo_0257227272dc002d77656bde",
+    "photo_0d81d411da2e7263ef373dd9",
+    "photo_32aca6444c922d608d590eaf",
+    "photo_3eda5d458480a5e1f4ab3fb4",
+    "photo_0a6518c9e1a2a69919e2da7a",
+    "photo_b5337fe430669f30d07c9d26",
+    "photo_ae98bf6d3b46f91f10298201",
+    "photo_984935ddcdc74de804043646",
+    "photo_175bd0104c56701eb353ff88",
+    "photo_15462ca2c9d23d952508cad9",
+    "photo_1895198a92c40de8874fea58",
+    "photo_93afa3b35be6b5010d5aaea8",
+    "photo_484cd5322bb8f5a7ddac553c",
+    "photo_c916b27e3e2cf2b13a45d0fd",
+    "photo_c9243b70833572ee94b69db3",
+    "photo_0ba84617e84ec0b087f75866",
+    "photo_21a3cc784ff70d3f1ebed04b",
+    "photo_526564c5c41d30ef78320b26",
+    "photo_c481cc700b470e3647efe0a6",
+    "photo_ffe9ab20aac3d04777503019",
+    "photo_854104f29a49b32b4c39274a",
+    "photo_c57f414c859dbf374094904a",
+    "photo_ffe4b8618b438b6036aecf9c",
+    "photo_1b77652479fdea13a9ba5990",
+    "photo_c0718fb9298f365017c9dc6a"
+  ],
+  "video_ids": [
+    "video_294889986618149"
+  ],
+  "milestone_ids": [
+    "milestone_season_01_20230815"
+  ],
+  "story_ids": [
+    "story_season_01"
+  ],
+  "source_urls": [
+    "https://www.facebook.com/reel/294889986618149",
+    "https://www.facebook.com/photo.php?fbid=134361976394163",
+    "https://www.facebook.com/photo.php?fbid=132319373265090",
+    "https://www.facebook.com/photo.php?fbid=131657019997992",
+    "https://www.facebook.com/photo.php?fbid=131639446666416"
+  ],
+  "verification_status": "verified",
+  "evidence_ids": [
+    "ev_season_01_verified_export"
+  ],
+  "season_directory": "data/seasons/season_01",
+  "research_notes": "Hồ sơ CHO EM Mùa 1 — Sân Chơi Cho Em được tổng hợp đầy đủ từ 15 bài đăng và 62 ảnh gốc trong bản xuất chính thức của Meta."
+}

@@ -1,0 +1,44 @@
+{
+  "post_id": "post_1dfb8f61fb97f639323b3090",
+  "facebook_post_id": "116525748177786",
+  "post_url": "https://www.facebook.com/photo.php?fbid=116525748177786",
+  "published_at": "2023-07-22T13:56:09+00:00",
+  "caption_original": "|CHO EM|\nChúng ta đã biết, vùng núi là nơi có địa hình vô cùng hiểm trở và là khu vực gặp nhiều khó khăn nhất cả nước. Về kinh tế, sự lạc hậu của nền nông nghiệp, công cụ máy móc còn thô sơ đã khiến cho chất lượng cuộc sống nơi đây còn thấp. Y tế chưa được trang bị đầy đủ máy móc và giáo dục lại là một vấn đề nan giải hơn. Chẳng hạn như các em học sinh phải chấp nhận trèo đèo lội suối hàng cây số để đến trường hay phải tạm nghỉ học để phụ ba mẹ chặt củi, gánh nước,...\nDù có khó khăn, dù có thiệt thòi đến mấy thế nhưng những hy vọng và niềm tin vào tương lai tươi sáng hơn vẫn ánh lên qua đôi mắt các em nhỏ.\n\nHãy cùng \"𝗖𝗛𝗢 𝗘𝗠\"  viết tiếp những ước mơ của các em... và để không phải ai bị bỏ lại phía sau...\n--------------------------------------------\n📬𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📎Ủng hộ quỹ “Cho Em” qua STK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc theo cú pháp: [Họ tên + CHOEM]\n📍Trần Ngọc Tâm Phúc - Quản lý dự án (ngoctamphuctran@gmail.com)\n📍Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+  "caption_clean": "|CHO EM| Chúng ta đã biết, vùng núi là nơi có địa hình vô cùng hiểm trở và là khu vực gặp nhiều khó khăn nhất cả nước. Về kinh tế, sự lạc hậu của nền nông nghiệp, công cụ máy móc còn thô sơ đã khiến cho chất lượng cuộc sống nơi đây còn thấp. Y tế chưa được trang bị đầy đủ máy móc và giáo dục lại là một vấn đề nan giải hơn. Chẳng hạn như các em học sinh phải chấp nhận trèo đèo lội suối hàng cây số để đến trường hay phải tạm nghỉ học để phụ ba mẹ chặt củi, gánh nước,... Dù có khó khăn, dù có thiệt thòi đến mấy thế nhưng những hy vọng và niềm tin vào tương lai tươi sáng hơn vẫn ánh lên qua đôi mắt các em nhỏ. Hãy cùng \"𝗖𝗛𝗢 𝗘𝗠\" viết tiếp những ước mơ của các em... và để không phải ai bị bỏ lại phía sau... -------------------------------------------- 📬𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔 📎Ủng hộ quỹ “Cho Em” qua STK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc theo cú pháp: [Họ tên + CHOEM] 📍Trần Ngọc Tâm Phúc - Quản lý dự án (ngoctamphuctran@gmail.com) 📍Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+  "hashtags": [],
+  "post_type": "photo",
+  "season_ids": [
+    "season_01"
+  ],
+  "program_ids": [
+    "program_san_choi_cho_em_2023"
+  ],
+  "journey_ids": [
+    "journey_huc_huong_hoa_2023"
+  ],
+  "photo_ids": [
+    "photo_854104f29a49b32b4c39274a",
+    "photo_c57f414c859dbf374094904a",
+    "photo_ffe4b8618b438b6036aecf9c",
+    "photo_1b77652479fdea13a9ba5990"
+  ],
+  "video_ids": [],
+  "location_mentions": [],
+  "keywords": [],
+  "summary": "|CHO EM|",
+  "historical_significance": null,
+  "importance_score": 4,
+  "source_status": "meta_official_export",
+  "collected_at": "2026-10-18T12:07:00+00:00",
+  "caption_completeness": "complete",
+  "verification_status": "verified",
+  "provenance": {
+    "method": "local_export_import",
+    "adapter": "meta_html_export",
+    "source_file": "data/raw/imports/d785aa646f36aa9066e8e1db90c7644b5fd3eb9b52f2a2897975a5ff1f97fffd.json",
+    "json_pointer": "/posts/133",
+    "source_sha256": "d785aa646f36aa9066e8e1db90c7644b5fd3eb9b52f2a2897975a5ff1f97fffd",
+    "caption_field": "caption_original",
+    "input_basename": "profile_posts_1.html"
+  }
+}

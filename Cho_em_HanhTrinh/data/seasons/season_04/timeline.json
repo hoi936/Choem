@@ -1,0 +1,76 @@
+[
+  {
+    "event_id": "event_season_04_kickoff",
+    "title": "Khởi động CHO EM Mùa 4 — Phao Xinh Cho Em",
+    "event_date": "2024-12-16",
+    "date_precision": "day",
+    "event_type": "season_kickoff",
+    "description": "Mở đầu hành trình CHO EM Mùa 4 — Phao Xinh Cho Em với chủ đề 'Tuyên Truyền Phòng Chống Đuối Nước & Sẻ Chia Hơi Ấm Mùa Xuân'.",
+    "details": "Tết đoàn viên năm nay, cùng Cho Em chia sẻ yêu thương",
+    "season_ids": [
+      "season_04"
+    ],
+    "program_ids": [
+      "program_phao_xinh_cho_em_2025"
+    ],
+    "post_ids": [
+      "post_1284eda0b0f1c673265f7838"
+    ],
+    "photo_ids": [
+      "photo_4827a430e0e144ab6d5e01fc",
+      "photo_395f3bbf875e77dd4c874998",
+      "photo_88fa90738af2d4ff08bf1efb"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/reel/1157236049179114",
+      "https://www.facebook.com/photo.php?fbid=473024419194582",
+      "https://www.facebook.com/photo.php?fbid=471575476006143",
+      "https://www.facebook.com/photo.php?fbid=470840109413013",
+      "https://www.facebook.com/photo.php?fbid=470163242814033"
+    ],
+    "verification_status": "verified"
+  },
+  {
+    "event_id": "event_season_04_main_program",
+    "title": "Sự kiện chính: Phao Xinh Cho Em (CHO EM Mùa 4 — Phao Xinh Cho Em)",
+    "event_date": "2025-01-22",
+    "date_precision": "day",
+    "event_type": "program_execution",
+    "description": "Khởi động vào tháng 12/2024 đón Xuân Ất Tỵ 2025, CHO EM Mùa 4 trở lại mái trường vùng biển TH&THCS Triệu Vân (cách biển Triệu Lăng 5km) với chương trình 'Phao Xinh Cho Em'. Đây là cột mốc mở đầu cho chuỗi chương trình giáo dục kỹ năng sinh tồn và phòng chống tai nạn đuối nước của dự án, kết hợp cùng Gian hàng Tết gây quỹ và trao quà khuyến học.",
+    "details": "Tuyển thành viên và ra mắt đội ngũ Đại sứ Truyền thông CHO EM Mùa 4; Tổ chức Gian hàng Tết 'Phao Xinh Cho Em' (thu lợi nhuận 9.450.000 VNĐ) và kêu gọi tài trợ (8.500.000 VNĐ); Tổ chức ngày hội tuyên truyền phòng chống đuối nước cho học sinh lớp 3, 4, 5 tại Trường TH&THCS Triệu Vân ngày 22/01/2025; Trao tặng 34 suất quà Tết khuyến học và 02 bảng tuyên truyền phòng chống tai nạn đuối nước",
+    "season_ids": [
+      "season_04"
+    ],
+    "program_ids": [
+      "program_phao_xinh_cho_em_2025"
+    ],
+    "post_ids": [
+      "post_b9405eb08e51e5fc5d33677b",
+      "post_813f228ea88b4a66bb8dd2ff",
+      "post_5d629a8e5eda0e02b1ba90af"
+    ],
+    "photo_ids": [
+      "photo_8d9ea905ef8ec3d79c0f7cf9",
+      "photo_bb5863376dfd7b3759e318b8",
+      "photo_9665314bc5ce3d57a93ba610",
+      "photo_01a51b09b89b37ee96c6e346",
+      "photo_31cf728b3219196b2a18f64f",
+      "photo_7f75f1be3a6fb11d27357a4f",
+      "photo_97b6e1fcdb1032eabbcaac9c",
+      "photo_512f6503643ec7c161de3a73"
+    ],
+    "video_ids": [
+      "video_1157236049179114",
+      "video_1342783030498262"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/1157236049179114",
+      "https://www.facebook.com/photo.php?fbid=473024419194582",
+      "https://www.facebook.com/photo.php?fbid=471575476006143",
+      "https://www.facebook.com/photo.php?fbid=470840109413013",
+      "https://www.facebook.com/photo.php?fbid=470163242814033"
+    ],
+    "verification_status": "verified"
+  }
+]

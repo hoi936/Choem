@@ -1,0 +1,75 @@
+[
+  {
+    "event_id": "event_season_02_kickoff",
+    "title": "Khởi động CHO EM Mùa 2 — Răng Xinh Cho Em",
+    "event_date": "2024-01-17",
+    "date_precision": "day",
+    "event_type": "season_kickoff",
+    "description": "Mở đầu hành trình CHO EM Mùa 2 — Răng Xinh Cho Em với chủ đề 'Chăm Sóc Sức Khỏe Răng Miệng Học Đường'.",
+    "details": "Vì những nụ cười trẻ thơ — Góp phần nhỏ vì một tương lai tươi sáng hơn của trẻ em Quảng Trị",
+    "season_ids": [
+      "season_02"
+    ],
+    "program_ids": [
+      "program_rang_xinh_cho_em_2024"
+    ],
+    "post_ids": [
+      "post_568806b065bbe64cb1e2afd6"
+    ],
+    "photo_ids": [
+      "photo_430dd1c99356018a6ebcd0c9",
+      "photo_ad46ae6c4812e84e7a1a4c63",
+      "photo_1d45a32085a9436a5ab8a268"
+    ],
+    "video_ids": [],
+    "source_urls": [
+      "https://www.facebook.com/reel/780168937467886",
+      "https://www.facebook.com/photo.php?fbid=238122329351460",
+      "https://www.facebook.com/photo.php?fbid=237500782746948",
+      "https://www.facebook.com/photo.php?fbid=234417709721922",
+      "https://www.facebook.com/photo.php?fbid=231846653312361"
+    ],
+    "verification_status": "verified"
+  },
+  {
+    "event_id": "event_season_02_main_program",
+    "title": "Sự kiện chính: Răng Xinh Cho Em (CHO EM Mùa 2 — Răng Xinh Cho Em)",
+    "event_date": "2024-02-02",
+    "date_precision": "day",
+    "event_type": "program_execution",
+    "description": "Mùa thứ 2 đánh dấu sự mở rộng sứ mệnh của CHO EM sang lĩnh vực giáo dục sức khỏe học đường dịp giáp Tết Quý Mão / Giáp Thìn (tháng 1–2/2024). Chương trình 'Răng Xinh Cho Em' tại Trường TH&THCS Triệu Vân (huyện Triệu Phong) đã mang đến những tiết mục kịch, múa hát trực quan cùng lớp học thực hành vệ sinh răng miệng đúng cách và trao quà cho các em học sinh vùng biển bãi ngang.",
+    "details": "Tổ chức gian hàng gây quỹ và vận động quyên góp bàn chải, kem đánh răng, đồ dùng học tập; Biểu diễn văn nghệ, đóng kịch tuyên truyền trực quan về tác hại của sâu răng; Tổ chức lớp học thực tế hướng dẫn đánh răng đúng cách, hiệu quả và an toàn; Giao lưu, tổ chức trò chơi và trao quà cho học sinh Trường TH&THCS Triệu Vân ngày 02/02/2024",
+    "season_ids": [
+      "season_02"
+    ],
+    "program_ids": [
+      "program_rang_xinh_cho_em_2024"
+    ],
+    "post_ids": [
+      "post_04fc9fb2d20b2e081d62f3fc",
+      "post_969d95421337ace0e4e796db",
+      "post_8dadfe84b493e15e85eda45c"
+    ],
+    "photo_ids": [
+      "photo_9e7760b490f69ced5db5e3ba",
+      "photo_ab2d62dddc3baa60a2fe4d85",
+      "photo_6d6788f02cb7212fb85b92ab",
+      "photo_b0ce5ca5b4e27fa095f83480",
+      "photo_1775e73ee3b9b94da339b7c9",
+      "photo_86b425ed007a62b3dc6852fb",
+      "photo_a28c430d38433483081492c1",
+      "photo_9f6d9f26e1ad02ed0c0abea0"
+    ],
+    "video_ids": [
+      "video_780168937467886"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/780168937467886",
+      "https://www.facebook.com/photo.php?fbid=238122329351460",
+      "https://www.facebook.com/photo.php?fbid=237500782746948",
+      "https://www.facebook.com/photo.php?fbid=234417709721922",
+      "https://www.facebook.com/photo.php?fbid=231846653312361"
+    ],
+    "verification_status": "verified"
+  }
+]

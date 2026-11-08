@@ -1,0 +1,135 @@
+{
+  "project_id": "cho_em",
+  "name": "CHO EM project",
+  "tagline_original": "Cho Em Project - Góp phần nhỏ vì một tương lai tươi sáng hơn của trẻ em Quảng Trị",
+  "slogan": "Sân chơi cho em, cho em niềm vui, gieo mầm ước mơ",
+  "name_meaning": "𝗖ùng em sánh bước trên đường đến trường\n𝗛ọc những điều hay, vun đắp những điều lành\n𝗢 (Ở) trường hồng, ăn đủ no, mặc đủ ấm\n𝗘m ngân nga những mơ ước bên chiếc đu quay\n𝗠ong muốn nụ cười mãi rạng rỡ trên môi.",
+  "founded_at": "2023-07-17",
+  "locality_display": "Đông Hà, Quảng Trị",
+  "legal_patrons": [
+    "Thành đoàn Đông Hà",
+    "Tỉnh đoàn Quảng Trị",
+    "Đoàn trường THPT Chuyên Lê Quý Đôn - Quảng Trị"
+  ],
+  "origin_story": "Dự án thiện nguyện CHO EM được thành lập vào ngày 17/07/2023 bởi những học sinh, sinh viên nhiệt huyết tại thành phố Đông Hà, tỉnh Quảng Trị (với sự bảo trợ pháp lý của Thành đoàn Đông Hà và Đoàn trường THPT Chuyên Lê Quý Đôn). Dự án khởi nguồn từ sự trăn trở khi chứng kiến nhiều điểm trường mầm non, tiểu học vùng sâu vùng xa trên địa bàn tỉnh Quảng Trị còn thiếu thốn cơ sở vật chất, sân trường chỉ là nền bê tông trống trải khiến trẻ em thường chơi đùa gần sông suối, tiềm ẩn nguy cơ bệnh truyền nhiễm và tai nạn thương tích, đuối nước. Từ hai sân chơi tái chế đầu tiên tại xã Húc (Hướng Hóa) mùa hè năm 2023, CHO EM đã phát triển bền bỉ qua 7 mùa hoạt động liên tiếp (2023–2026), mở rộng từ xây dựng sân chơi tái chế sang giáo dục vệ sinh răng miệng, trang bị kỹ năng sơ cứu cơ bản, phòng chống đuối nước và trao tặng tủ sách tri thức cho trẻ em vùng cao.",
+  "mission": "Tạo dựng môi trường vui chơi, học tập an toàn, năng động và sáng tạo; đồng thời giáo dục kỹ năng sống thiết yếu (chăm sóc răng miệng, sơ cứu thương tích, phòng chống đuối nước) cho trẻ em vùng sâu vùng xa, vùng đồng bào dân tộc thiểu số trên địa bàn tỉnh Quảng Trị.",
+  "vision": "Góp phần nhỏ vì một tương lai tươi sáng hơn của trẻ em Quảng Trị — nơi mọi em nhỏ đều được đến trường an toàn, được vui chơi đúng với lứa tuổi hồn nhiên, được trang bị kỹ năng tự bảo vệ bản thân và không một ai bị bỏ lại phía sau.",
+  "objectives": [
+    "Thi công và trao tặng các sân chơi tái chế thân thiện với môi trường tại các điểm trường mầm non vùng cao Hướng Hóa.",
+    "Tổ chức các lớp học trực quan, thực hành kỹ năng chăm sóc răng miệng, kỹ năng sơ cứu y tế cơ bản và phòng chống tai nạn đuối nước.",
+    "Trao tặng áo phao cứu sinh, bộ sơ cấp cứu chuẩn Bộ Y Tế, tủ sách tri thức, giày dép, quần áo mới và học bổng khuyến học cho học sinh nghèo vượt khó.",
+    "Kết nối sức trẻ học sinh, sinh viên Quảng Trị thông qua các hoạt động gây quỹ sáng tạo (làm đồ handmade, gian hàng Tết, bán hàng ẩm thực, workshop nghệ thuật)."
+  ],
+  "core_values": [
+    "Nhân văn & Sẻ chia: Đặt sự an toàn, nụ cười và quyền được vui chơi, học tập của trẻ em vùng cao làm trung tâm.",
+    "Bền vững & Sáng tạo: Tái chế lốp xe, gỗ cũ thành sân chơi tuổi thơ và chuyển giao tri thức, kỹ năng tự bảo vệ lâu dài.",
+    "Minh bạch & Trách nhiệm: Công khai sao kê tài chính, làm việc trực tiếp với chính quyền địa phương và Ban Giám hiệu từng điểm trường.",
+    "Tiếp nối sức trẻ: Truyền lửa qua nhiều thế hệ học sinh, sinh viên Quảng Trị xuyên suốt 7 mùa hoạt động."
+  ],
+  "leadership_generations": [
+    {
+      "seasons": [
+        "season_01",
+        "season_02"
+      ],
+      "period": "2023 – Đầu 2024",
+      "leaders": [
+        {
+          "name": "Trần Ngọc Tâm Phúc",
+          "role": "Quản lý dự án (Founder)"
+        },
+        {
+          "name": "Nguyễn Thùy Linh",
+          "role": "Trưởng ban Truyền thông"
+        }
+      ]
+    },
+    {
+      "seasons": [
+        "season_03",
+        "season_04"
+      ],
+      "period": "Hè 2024 – Đầu 2025",
+      "leaders": [
+        {
+          "name": "Lê Thị Thúy Như",
+          "role": "Trưởng Ban tổ chức"
+        },
+        {
+          "name": "Nguyễn Văn Linh",
+          "role": "Đồng Trưởng Ban tổ chức"
+        },
+        {
+          "name": "Trần Thiên Hương",
+          "role": "Trưởng ban Truyền thông"
+        }
+      ]
+    },
+    {
+      "seasons": [
+        "season_05"
+      ],
+      "period": "Hè 2025",
+      "leaders": [
+        {
+          "name": "Trần Mai Hương Nguyên",
+          "role": "Trưởng Ban tổ chức"
+        },
+        {
+          "name": "Trần Thiên Hương",
+          "role": "Trưởng ban Truyền thông"
+        },
+        {
+          "name": "Đậu Khắc Gia Bảo",
+          "role": "Phụ trách Tài chính"
+        }
+      ]
+    },
+    {
+      "seasons": [
+        "season_06",
+        "season_07"
+      ],
+      "period": "Cuối 2025 – 2026",
+      "leaders": [
+        {
+          "name": "Lê Khánh Linh",
+          "role": "Trưởng Ban tổ chức"
+        },
+        {
+          "name": "Phan Thanh Huyền",
+          "role": "Phó Ban tổ chức"
+        },
+        {
+          "name": "Võ Ngọc Gia Linh",
+          "role": "Điều phối Hậu cần & Hiện vật"
+        }
+      ]
+    }
+  ],
+  "partners": [
+    "Thành đoàn Đông Hà",
+    "Tỉnh đoàn Quảng Trị",
+    "Đoàn trường THPT Chuyên Lê Quý Đôn",
+    "Nhà sách Sang Hiếu",
+    "Lớp Hóa Cô Lê Na (Colena)",
+    "Lớp Anh Team Miss Kha",
+    "Lớp Toán Thầy Thông (Thong Math)",
+    "Lớp Toán Cô Thu Hồng Lê (Miss Pink)",
+    "Nhà thuốc Bảo Châu",
+    "Gạo Coffee",
+    "Gé Nhà Coffee",
+    "Dimori Coffee",
+    "Trường Mầm non Joy School",
+    "Green Centre",
+    "Mây Mart",
+    "The Moment Cafe & Food",
+    "Chút Chíu",
+    "Nhà hàng Sky Garden"
+  ],
+  "source_urls": [
+    "https://www.facebook.com/profile.php?id=100094610840245"
+  ],
+  "verification_status": "verified",
+  "research_notes": "Toàn bộ thông tin sứ mệnh, ý nghĩa tên gọi, ngày thành lập (17/07/2023) và 7 mùa hoạt động đã được xác minh trực tiếp từ bản xuất chính thức của Meta."
+}

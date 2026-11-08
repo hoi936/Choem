@@ -1,0 +1,19 @@
+# Raw bulky archives & duplicate source dumps
+*.zip
+Data_fb/
+Cho-Em-Project/
+
+# Local virtual environments & browser toolchains
+Cho_em_HanhTrinh/.venv/
+Cho_em_HanhTrinh/.tools/
+Cho_em_HanhTrinh/research/sources/
+.venv/
+.tools/
+node_modules/
+
+# Python & OS caches
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db

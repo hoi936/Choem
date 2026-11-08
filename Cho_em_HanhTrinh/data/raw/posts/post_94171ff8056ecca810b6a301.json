@@ -1,0 +1,48 @@
+{
+  "post_id": "post_94171ff8056ecca810b6a301",
+  "facebook_post_id": "746763565153998",
+  "post_url": "https://www.facebook.com/photo.php?fbid=746763565153998",
+  "published_at": "2026-01-21T13:01:11+00:00",
+  "caption_original": "CHO EM: RECAP GIAN HÀNG GÂY QUỸ “AN TOÀN CHO EM 2”\n—----------------------------------\n💖Vậy là gian hàng Tết gây quỹ của dự án CHO EM đã chính thức khép lại. Gian hàng năm nay đã gặt hái được thành công với sự ủng hộ và giúp đỡ của mọi người, cùng với tinh thần nhiệt huyết của các thành viên trong chương trình.\n\n🌱CHO EM xin gửi lời cảm ơn chân thành đến tất cả các bạn, vì đã dành sự quan tâm nồng nhiệt đến dự án, điều đó đã góp phần lớn cho một mùa Tết đầm ấm và tương lai tốt đẹp cho các em nhỏ tại điểm trường PTDTBT TH Vĩnh Ô.\n\n✨Kết thúc đợt gây quỹ lần này, sự đóng góp và theo dõi của các bạn đã giúp chúng tớ có được những vật dụng và trang thiết bị tốt nhất phục vụ cho chương trình sắp tới. Hành trình của dự án CHO EM mùa 6 đang dần đi đến hồi kết, và CHO EM rất mong sẽ tiếp tục nhận được sự đồng hành, ủng hộ của mọi người trong chặng đường sắp tới. Hẹn gặp mọi người tại những khoảnh khắc đáng nhớ cuối cùng ở chuyến xe này nhé!\n—----------------------------------\n📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH\n📌Lê Khánh Linh - Trưởng Ban tổ chức\n(klingle.187@gmail.com)\n📌Phan Thanh Huyền - Phó Ban tổ chức\n(pt.huyen11042009@gmail.com)",
+  "caption_clean": "CHO EM: RECAP GIAN HÀNG GÂY QUỸ “AN TOÀN CHO EM 2” —---------------------------------- 💖Vậy là gian hàng Tết gây quỹ của dự án CHO EM đã chính thức khép lại. Gian hàng năm nay đã gặt hái được thành công với sự ủng hộ và giúp đỡ của mọi người, cùng với tinh thần nhiệt huyết của các thành viên trong chương trình. 🌱CHO EM xin gửi lời cảm ơn chân thành đến tất cả các bạn, vì đã dành sự quan tâm nồng nhiệt đến dự án, điều đó đã góp phần lớn cho một mùa Tết đầm ấm và tương lai tốt đẹp cho các em nhỏ tại điểm trường PTDTBT TH Vĩnh Ô. ✨Kết thúc đợt gây quỹ lần này, sự đóng góp và theo dõi của các bạn đã giúp chúng tớ có được những vật dụng và trang thiết bị tốt nhất phục vụ cho chương trình sắp tới. Hành trình của dự án CHO EM mùa 6 đang dần đi đến hồi kết, và CHO EM rất mong sẽ tiếp tục nhận được sự đồng hành, ủng hộ của mọi người trong chặng đường sắp tới. Hẹn gặp mọi người tại những khoảnh khắc đáng nhớ cuối cùng ở chuyến xe này nhé! —---------------------------------- 📪 𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔 📌STK: 8806408298 - Ngân hàng Thương mại Cổ phần Đầu tư và Phát triển Việt Nam (BIDV) - LE KHANH LINH 📌Lê Khánh Linh - Trưởng Ban tổ chức (klingle.187@gmail.com) 📌Phan Thanh Huyền - Phó Ban tổ chức (pt.huyen11042009@gmail.com)",
+  "hashtags": [],
+  "post_type": "photo",
+  "season_ids": [
+    "season_06"
+  ],
+  "program_ids": [
+    "program_an_toan_cho_em_2_2026"
+  ],
+  "journey_ids": [
+    "journey_vinh_o_2026"
+  ],
+  "photo_ids": [
+    "photo_50b8d5277816a33d73cfab4f"
+  ],
+  "video_ids": [],
+  "location_mentions": [
+    "Trường PTDTBT TH Vĩnh Ô",
+    "Vĩnh Ô"
+  ],
+  "keywords": [
+    "An toàn cho em",
+    "gây quỹ",
+    "Vĩnh Ô"
+  ],
+  "summary": "CHO EM: RECAP GIAN HÀNG GÂY QUỸ “AN TOÀN CHO EM 2”",
+  "historical_significance": null,
+  "importance_score": 5,
+  "source_status": "meta_official_export",
+  "collected_at": "2026-10-18T12:07:00+00:00",
+  "caption_completeness": "complete",
+  "verification_status": "verified",
+  "provenance": {
+    "method": "local_export_import",
+    "adapter": "meta_html_export",
+    "source_file": "data/raw/imports/d785aa646f36aa9066e8e1db90c7644b5fd3eb9b52f2a2897975a5ff1f97fffd.json",
+    "json_pointer": "/posts/39",
+    "source_sha256": "d785aa646f36aa9066e8e1db90c7644b5fd3eb9b52f2a2897975a5ff1f97fffd",
+    "caption_field": "caption_original",
+    "input_basename": "profile_posts_1.html"
+  }
+}

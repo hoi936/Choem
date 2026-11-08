@@ -1,0 +1,150 @@
+[
+  {
+    "program_id": "program_san_choi_cho_em_mua_3_2024",
+    "name": "Sân Chơi Cho Em (Mùa 3)",
+    "season_ids": [
+      "season_03"
+    ],
+    "start_date": "2024-07-03",
+    "end_date": "2024-08-20",
+    "event_date": "2024-08-06",
+    "locations": [
+      "Điểm trường Mầm non Chênh Vênh, Trường Mầm non Hướng Phùng, xã Hướng Phùng, huyện Hướng Hóa, tỉnh Quảng Trị",
+      "Điểm trường Mầm non Hướng Choa, Trường Mầm non Hướng Phùng, xã Hướng Phùng, huyện Hướng Hóa, tỉnh Quảng Trị"
+    ],
+    "purpose": "Tiếp Tục Sứ Mệnh — Nối Tiếp Hành Trình Xây Sân Chơi Vùng Cao",
+    "context": "Mùa 3 trở lại huyện miền núi Hướng Hóa với quy mô lớn hơn và thế hệ Ban Tổ chức kế cận đầy nhiệt huyết. Thông qua các đợt bán hàng gây quỹ mùa hè và kêu gọi tài trợ đạt 28.337.123 VNĐ, dự án đã tự thi công và khánh thành 02 sân chơi tái chế hoàn chỉnh tại điểm trường Chênh Vênh và Hướng Choa (thuộc Trường Mầm non Hướng Phùng) vào ngày 06/08/2024.",
+    "preparation": "Tuyển tình nguyện viên, truyền thông vận động quyên góp và tổ chức sự kiện gây quỹ cộng đồng tại Đông Hà.",
+    "activities": [
+      "Mở đơn tuyển thành viên Mùa 3 với 5 ban chuyên môn (Truyền thông, Tài chính - Đối ngoại, Hậu cần, Nhân sự, Nội dung)",
+      "Tổ chức sự kiện bán đồ ăn, thức uống mùa hè gây quỹ và kêu gọi ủng hộ đạt 28.337.123 VNĐ",
+      "Thi công 2 xích đu lớn, 4 bập bênh, 8 chú ngựa gỗ, 2 bộ vòm chui và 2 thảm cỏ ngoài trời",
+      "Lễ khánh thành sân chơi và trao quà tại điểm trường Chênh Vênh & Hướng Choa ngày 06/08/2024"
+    ],
+    "results": [
+      {
+        "metric": "tổng kinh phí gây quỹ (VNĐ)",
+        "value": 28337123,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "sân chơi tái chế khánh thành",
+        "value": 2,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "hạng mục thiết bị sân chơi (xích đu, bập bênh, ngựa gỗ, vòm chui, thảm cỏ)",
+        "value": 18,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "cuốn vở tập tô",
+        "value": 272,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "suất bánh kẹo",
+        "value": 60,
+        "qualifier": "exact"
+      },
+      {
+        "metric": "đồ chơi mới",
+        "value": 29,
+        "qualifier": "exact"
+      }
+    ],
+    "post_ids": [
+      "post_396eb1afc41d360037f402db",
+      "post_1e4fd5805d400146d889cfb4",
+      "post_aeaf928e8f3da0f1726e17b1",
+      "post_eabf7d38aee9d5e927800d7c",
+      "post_91cc4ce4bd1435923fca60fc",
+      "post_eeeeaf0f96034b7055f3eb95",
+      "post_655a6ec277b72ef003685bd5",
+      "post_fa7cd17853acb80b75a605d3",
+      "post_4e83990434dc373dec32c83d",
+      "post_c2f5ea1d1905d59f806d36a1",
+      "post_19e162b626b22226c8fe5e97",
+      "post_631fcb8d4b55e8f3dcc38f70",
+      "post_587096a19b671004042e31e4",
+      "post_b8fc1ec4f5aa9ba14f76f57d",
+      "post_3646b5c993f3c97018938764",
+      "post_7db126c3cc232cc2265a5e55"
+    ],
+    "photo_ids": [
+      "photo_9e0e3c10cbe01ac5805ade5c",
+      "photo_d9445fe053b236a7c0572b73",
+      "photo_50dd5ef4d1ab731d82a29432",
+      "photo_e460e10efff29c165d6f9ad1",
+      "photo_2b07f9f6e909c8f52e3373e6",
+      "photo_90b7767436599cbc196b297d",
+      "photo_a4f0347d0f1c8b976c24b495",
+      "photo_5d105081a06b3831fe2fe2c9",
+      "photo_74f400d5e6939fc09b2a6314",
+      "photo_3838400425ae6d253705e936",
+      "photo_f565b57e1da654f515d8b31c",
+      "photo_4f10a0500e5d64062fe46028",
+      "photo_a8b2badf2a37d113c0aaf6c1",
+      "photo_4ae5992e75c5a41c5a343e6f",
+      "photo_b824c0609f5cec84c906fbba",
+      "photo_cd0238b4f64b19d1d704306b",
+      "photo_94696d8e52236737ef4701b9",
+      "photo_b5f6f7fe1b6780b8a3999b24",
+      "photo_5e7de99ea8d891f332aa7ccd",
+      "photo_e8c00145c9d4ba2a81e80f03",
+      "photo_c0b740e2f74e2eb4561a824e",
+      "photo_4b35b673056c3cb8e37b7ac8",
+      "photo_29a29abc2f7e6c8974cd9a2e",
+      "photo_278d85eca44435c33d1d71fd",
+      "photo_dd0bcc0a988ff47649a807ae",
+      "photo_d80078aaf4081a4046df7f01",
+      "photo_2c99627e93156ba5f2aeb11d",
+      "photo_85d5439a405ca9bee016e836",
+      "photo_ef61dc8d938b9e67141dbb9d",
+      "photo_7a02c8933a7bb035449ca41e",
+      "photo_2c3e11d5b1e10bd695bfb1a1",
+      "photo_cc4f6d7c33b7fe038b4229fd",
+      "photo_c3224e96e371db7bbe191576",
+      "photo_26144e595990aca147e36fb0",
+      "photo_9df2c2e5de1312d8df669a26",
+      "photo_ba9ba44036771518cf737db9",
+      "photo_a00bcc688f1dde334c8d1314",
+      "photo_8ad531d497c877e8f76e3257",
+      "photo_38a4b083cccb54cdcfc02c11",
+      "photo_f3e44568f21ed84955273149",
+      "photo_7fd4f02946f40da1b504a11d",
+      "photo_a330166d1f244fa88436d9a0",
+      "photo_36d14fbe1308fb8e11504342",
+      "photo_53bb7a1b12791930cfa8ebd2",
+      "photo_0a373bdb118a97a4f23dcce8",
+      "photo_4fe6f7cf042c735f5c2ff977",
+      "photo_3d422839ad6925fed5e433ad",
+      "photo_e9d132ee106daaee4f1c21e5",
+      "photo_64f4087dffdf9c7eaafec355",
+      "photo_440280b550df7eac9cc4a494",
+      "photo_5bdf92758fd88c01950b0af3",
+      "photo_9aafd122d747e7c1383ed5cc",
+      "photo_7bc157d1ecbaa68925b75ff5",
+      "photo_954e2f7e6168fd9c09a5015f",
+      "photo_01bb86c7834588bcd2d150af",
+      "photo_b0698cf625e90aea9e367141",
+      "photo_014fbcddc5189280b8f9bb21",
+      "photo_b0f5ecc66d46f0968eeaca84"
+    ],
+    "video_ids": [
+      "video_494155613221434"
+    ],
+    "source_urls": [
+      "https://www.facebook.com/reel/494155613221434",
+      "https://www.facebook.com/photo.php?fbid=352351214595237",
+      "https://www.facebook.com/photo.php?fbid=351079411389084",
+      "https://www.facebook.com/photo.php?fbid=350439618119730",
+      "https://www.facebook.com/photo.php?fbid=349260684904290"
+    ],
+    "verification_status": "verified",
+    "evidence_ids": [
+      "ev_season_03_verified_export"
+    ],
+    "research_notes": "Chương trình trọng điểm thuộc khuôn khổ CHO EM Mùa 3 — Sân Chơi Cho Em (Mùa 3)."
+  }
+]

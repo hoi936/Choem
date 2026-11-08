@@ -1,0 +1,41 @@
+{
+  "post_id": "post_0c37795138cbe35ba936c8d4",
+  "facebook_post_id": "117297744767253",
+  "post_url": "https://www.facebook.com/photo.php?fbid=117297744767253",
+  "published_at": "2023-07-23T13:30:01+00:00",
+  "caption_original": "[ƯỚC MƠ CỦA EM]\n-Poca hỏi nè, ước mơ của Phin là gì?\n-Ước mơ của tớ là được chơi đu quay và cả cầu trượt nữa. Còn cậu thì sao hả Mon?\n- Mon muốn học trong một ngôi trường thật đẹp có nhiều chiếc đu quay.\n\nChúng ta cùng đã từng là những đứa bé như Phin, Mon hay Poca, cũng lớn lên bằng những ước mơ ngây ngô, thơ dại.  Những điều ước thuở bé lại là những gì mà chính ta khi ấy đã thầm ước ao.\nCác em nhỏ trong câu chuyện trên cũng vậy. Ước mơ của các em là có một ngôi trường đẹp, nơi có chiếc bấp bênh xinh, được vui đùa cùng bạn bè bên chiếc cầu trượt và chiếc đu quay.\n\nVà tháng 8 này hãy cùng CHO EM project viết tiếp những ước mơ nhỏ bé của các em, cùng tạo cho các em một sân chơi thật đẹp để những ước mơ được “cất cánh bay cao”.\n\n--------------------------------------------\n📬𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔\n📎Ủng hộ quỹ “Cho Em” qua STK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc theo cú pháp: [Họ tên + CHOEM]\n📍Trần Ngọc Tâm Phúc - Quản lý dự án (ngoctamphuctran@gmail.com)\n📍Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+  "caption_clean": "[ƯỚC MƠ CỦA EM] -Poca hỏi nè, ước mơ của Phin là gì? -Ước mơ của tớ là được chơi đu quay và cả cầu trượt nữa. Còn cậu thì sao hả Mon? - Mon muốn học trong một ngôi trường thật đẹp có nhiều chiếc đu quay. Chúng ta cùng đã từng là những đứa bé như Phin, Mon hay Poca, cũng lớn lên bằng những ước mơ ngây ngô, thơ dại. Những điều ước thuở bé lại là những gì mà chính ta khi ấy đã thầm ước ao. Các em nhỏ trong câu chuyện trên cũng vậy. Ước mơ của các em là có một ngôi trường đẹp, nơi có chiếc bấp bênh xinh, được vui đùa cùng bạn bè bên chiếc cầu trượt và chiếc đu quay. Và tháng 8 này hãy cùng CHO EM project viết tiếp những ước mơ nhỏ bé của các em, cùng tạo cho các em một sân chơi thật đẹp để những ước mơ được “cất cánh bay cao”. -------------------------------------------- 📬𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝒖𝒔 📎Ủng hộ quỹ “Cho Em” qua STK: 059650320001 - Ngân hàng Liên Việt Postbank - Trần Ngọc Tâm Phúc theo cú pháp: [Họ tên + CHOEM] 📍Trần Ngọc Tâm Phúc - Quản lý dự án (ngoctamphuctran@gmail.com) 📍Nguyễn Thùy Linh - Trưởng ban Truyền thông (thuylinhnguyen482005@gmail.com)",
+  "hashtags": [],
+  "post_type": "photo",
+  "season_ids": [
+    "season_01"
+  ],
+  "program_ids": [
+    "program_san_choi_cho_em_2023"
+  ],
+  "journey_ids": [
+    "journey_huc_huong_hoa_2023"
+  ],
+  "photo_ids": [
+    "photo_ffe9ab20aac3d04777503019"
+  ],
+  "video_ids": [],
+  "location_mentions": [],
+  "keywords": [],
+  "summary": "[ƯỚC MƠ CỦA EM]",
+  "historical_significance": null,
+  "importance_score": 4,
+  "source_status": "meta_official_export",
+  "collected_at": "2026-10-18T12:07:00+00:00",
+  "caption_completeness": "complete",
+  "verification_status": "verified",
+  "provenance": {
+    "method": "local_export_import",
+    "adapter": "meta_html_export",
+    "source_file": "data/raw/imports/d785aa646f36aa9066e8e1db90c7644b5fd3eb9b52f2a2897975a5ff1f97fffd.json",
+    "json_pointer": "/posts/132",
+    "source_sha256": "d785aa646f36aa9066e8e1db90c7644b5fd3eb9b52f2a2897975a5ff1f97fffd",
+    "caption_field": "caption_original",
+    "input_basename": "profile_posts_1.html"
+  }
+}
