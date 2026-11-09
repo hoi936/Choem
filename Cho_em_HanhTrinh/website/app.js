@@ -133,7 +133,7 @@
         ),
         category_id: photo.category_id || (parentPost && parentPost.category_id) || 'recap',
         category_label: cleanText(
-          photo.category_label || (parentPost && parentPost.category_label) || 'Tư liệu thực địa'
+          photo.category_label || (parentPost && parentPost.category_label) || 'Hình ảnh chuyến đi'
         ),
         hashtags: (parentPost && parentPost.hashtags) || [],
         post_url: (parentPost && parentPost.post_url) || 'https://www.facebook.com/profile.php?id=100094610840245',
@@ -478,36 +478,37 @@
     const rawResults = Array.isArray(s.results_summary) ? s.results_summary : [];
     const cards = [];
 
-    rawResults.slice(0, 3).forEach((item) => {
+    rawResults.slice(0, 4).forEach((item) => {
       cards.push({
-        label: cleanText(item.metric || 'KẾT QUẢ ĐỊNH LƯỢNG').toUpperCase(),
+        label: cleanText(item.metric || 'KẾT QUẢ ĐẠT ĐƯỢC').toUpperCase(),
         value: formatMetricValue(item),
       });
     });
 
-    while (cards.length < 3) {
-      if (cards.length === 0) {
-        cards.push({
-          label: 'CHỦ ĐỀ TRỌNG TÂM',
-          value: cleanText(s.theme || s.official_name),
-        });
-      } else if (cards.length === 1) {
-        cards.push({
-          label: 'ĐỊA BÀN TRIỂN KHAI',
-          value: cleanText((s.locations && s.locations[0]) || 'Tỉnh Quảng Trị'),
-        });
-      } else {
-        cards.push({
-          label: 'ĐƠN VỊ ĐỒNG HÀNH / BẢO TRỢ',
-          value: cleanText(s.patron || 'Đoàn Thanh niên & nhà trường địa phương'),
-        });
-      }
-    }
+    const fallbackCards = [
+      {
+        label: 'CHỦ ĐỀ CỦA MÙA',
+        value: cleanText(s.theme || s.official_name),
+      },
+      {
+        label: 'ĐIỂM TRƯỜNG ĐẾN THĂM',
+        value: cleanText((s.locations && s.locations[0]) || 'Tỉnh Quảng Trị'),
+      },
+      {
+        label: 'THỜI GIAN TỔ CHỨC',
+        value: formatSeasonDuration(s),
+      },
+      {
+        label: 'ĐƠN VỊ ĐỒNG HÀNH',
+        value: cleanText(s.patron || 'Đoàn Thanh niên & nhà trường địa phương'),
+      },
+    ];
 
-    cards.push({
-      label: 'HÌNH ẢNH & BÀI VIẾT CỦA MÙA',
-      value: `${s.photos_count} bức ảnh · ${s.posts_count} bài viết · ${s.videos_count} video`,
-    });
+    let fbIdx = 0;
+    while (cards.length < 4 && fbIdx < fallbackCards.length) {
+      cards.push(fallbackCards[fbIdx]);
+      fbIdx += 1;
+    }
 
     return cards;
   }
@@ -544,7 +545,7 @@
           <div class="season-meta-pills">
             <span class="meta-pill accent">MÙA 0${s.season_number}</span>
             <span class="meta-pill">${escapeHtml(formatSeasonDuration(s))}</span>
-            <span class="meta-pill">${escapeHtml(s.posts_count)} bài viết · ${escapeHtml(s.photos_count)} bức ảnh</span>
+            <span class="meta-pill">${escapeHtml((s.locations && s.locations[0]) || 'Quảng Trị')}</span>
           </div>
 
           <h3 class="season-main-title">${formatRichText(s.official_name)}</h3>
@@ -744,7 +745,7 @@
                   <video controls preload="metadata" poster="${escapeHtml(v.poster_photo || s.hero_photo)}" src="${escapeHtml(v.local_path)}"></video>
                 </div>
                 <div class="post-card-top">
-                  <span class="category-badge cat-recap">Phim tư liệu gốc</span>
+                  <span class="category-badge cat-recap">Video kỷ niệm</span>
                   <time class="post-date">${formatViDate(v.published_at)}</time>
                 </div>
                 <h4 class="post-title">${formatRichText(v.title_clean)}</h4>
@@ -843,7 +844,7 @@
                   .slice(0, 4)
                   .map((m) => `• <strong>${escapeHtml(formatMetricValue(m))}</strong>`)
                   .join('<br />')
-              : `• <strong>${s.photos_count} ảnh &amp; ${s.posts_count} bài tư liệu</strong> ghi nhận thực địa`;
+              : `• Trao quà khuyến học và tổ chức hoạt động vui chơi cho các em nhỏ`;
 
           return `
             <tr data-jump-season="${idx}" style="cursor:pointer" title="Nhấn để xem chi tiết ${escapeHtml(s.official_name)}">
@@ -999,7 +1000,7 @@
         seasons
           .map(
             (s) =>
-              `<option value="${escapeHtml(s.season_id)}">${escapeHtml(s.official_name)} (${s.photos_count} ảnh · ${s.posts_count} bài)</option>`
+              `<option value="${escapeHtml(s.season_id)}">${escapeHtml(s.official_name)}</option>`
           )
           .join('');
 
@@ -1231,7 +1232,7 @@
       imgEl.alt = item.title_clean || item.season_name;
     }
     if (seasonBadge) seasonBadge.textContent = item.season_name || `Mùa ${item.season_number}`;
-    if (catBadge) catBadge.textContent = item.category_label || 'Tư liệu thực địa';
+    if (catBadge) catBadge.textContent = item.category_label || 'Hình ảnh kỷ niệm';
     if (counterEl) counterEl.textContent = `${state.lightboxIndex + 1} / ${list.length}`;
     if (dateEl) dateEl.textContent = `Ngày đăng: ${formatViDate(item.published_at)} · ${item.season_locations || 'Quảng Trị'}`;
     if (titleEl) titleEl.innerHTML = formatRichText(item.title_clean || item.season_name);
