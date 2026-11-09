@@ -297,24 +297,24 @@
         .join('');
     }
 
-    // 3 Evolution Stages (Vietnamese sentence case + highlighted quotes)
+    // 3 Evolution Stages (Natural, warm Vietnamese wording)
     const stagesEl = document.getElementById('evolution-stages');
     if (stagesEl) {
       const stages = [
         {
-          stage: 'Giai đoạn 1 · Khởi sinh & thi công sân chơi tái chế (2023)',
+          stage: 'Chặng 1 · Những viên gạch đầu tiên & sân chơi tái chế (2023)',
           seasons: 'MÙA 1 (“SÂN CHƠI CHO EM” · 07–08/2023)',
-          focus: 'Khởi phát ngày 17/07/2023 tại Đông Hà, gây quỹ 27.381.403 VNĐ từ nơ handmade và quyên góp để tự tay thi công 02 sân chơi tái chế tại bản Ho Le và bản Tà Rùng (xã Húc, Hướng Hóa).',
+          focus: 'Bắt đầu từ ngày 17/07/2023 tại Đông Hà, các thành viên đã tự làm nơ thủ công và vận động quyên góp được 27.381.403 VNĐ để tự tay sơn vẽ, lắp đặt 02 sân chơi từ lốp xe cũ cho các em nhỏ bản Ho Le và bản Tà Rùng (xã Húc, Hướng Hóa).',
         },
         {
-          stage: 'Giai đoạn 2 · Mở rộng địa bàn & giáo dục kỹ năng (2024)',
+          stage: 'Chặng 2 · Vừa trao quà, vừa dạy kỹ năng cho các em (2024)',
           seasons: 'MÙA 2 (“RĂNG XINH CHO EM”) · MÙA 3 · MÙA 4 (“PHAO XINH CHO EM”)',
-          focus: 'Mở rộng từ vùng biển bãi ngang Triệu Vân lên miền núi Hướng Phùng (Chênh Vênh, Hướng Choa), kết hợp trao tặng công trình sân chơi với kịch tương tác “Răng xinh cho em” và kỹ năng phòng chống đuối nước “Phao xinh cho em”.',
+          focus: 'Mở rộng hành trình từ vùng biển bãi ngang Triệu Vân lên miền núi Hướng Phùng (Chênh Vênh, Hướng Choa), kết hợp dựng sân chơi với các vở kịch vui nhộn hướng dẫn chăm sóc răng miệng “Răng xinh cho em” và phòng tránh đuối nước “Phao xinh cho em”.',
         },
         {
-          stage: 'Giai đoạn 3 · Chuyên sâu bảo vệ trẻ em & hành trang vùng biên (2025 – 2026)',
+          stage: 'Chặng 3 · Trang bị kỹ năng an toàn & tiếp sức đến trường (2025 – 2026)',
           seasons: 'MÙA 5 (“AN TOÀN CHO EM”) · MÙA 6 · MÙA 7 (“HÀNH TRANG CHO EM”)',
-          focus: 'Triển khai chuỗi chuyên đề kỹ năng sơ cứu và phòng vệ “An toàn cho em” tại Tân Thành (Hướng Hóa), Vĩnh Ô (Vĩnh Linh) và chương trình “Hành trang cho em” tại điểm trường Pa Hy — Tiểu học Tà Long (Đakrông).',
+          focus: 'Tổ chức chuỗi buổi học trực quan về sơ cứu và tự bảo vệ bản thân “An toàn cho em” tại Tân Thành (Hướng Hóa), Vĩnh Ô (Vĩnh Linh) và mang chương trình “Hành trang cho em” cùng tủ sách thiếu nhi lên điểm trường Pa Hy — Tiểu học Tà Long (Đakrông).',
         },
       ];
 
@@ -331,25 +331,25 @@
         .join('');
     }
 
-    // 4 Core Values (Vietnamese sentence case)
+    // 4 Core Values (Simple, relatable Vietnamese wording)
     const valuesEl = document.getElementById('core-values-grid');
     if (valuesEl) {
       const values = [
         {
-          title: 'Thực địa & tự tay thi công',
-          description: 'Trực tiếp khảo sát, sơn vẽ từng chiếc lốp xe, dàn dựng từng vở kịch kỹ năng và lắp đặt công trình tại điểm trường vùng sâu.',
+          title: 'Tự tay làm từng phần việc',
+          description: 'Các thành viên trực tiếp đi tiền trạm, tự sơn từng chiếc lốp xe, tập từng vở kịch nhỏ và lên tận điểm trường lắp đặt cùng thầy cô.',
         },
         {
-          title: 'Minh bạch tài chính tuyệt đối',
-          description: '100% nguồn thu - chi từ làm đồ handmade, gian hàng gây quỹ và tài trợ đều được công khai sao kê chi tiết.',
+          title: 'Rõ ràng trong từng khoản thu chi',
+          description: 'Mọi khoản tiền từ bán đồ thủ công, gian hàng gây quỹ và sự ủng hộ của các nhà hảo tâm đều được công khai minh bạch sau mỗi mùa.',
         },
         {
-          title: 'Giáo dục kỹ năng sống thực tiễn',
-          description: 'Kết hợp trao tặng công trình, học cụ với trang bị kỹ năng vệ sinh học đường, sơ cứu và phòng chống đuối nước.',
+          title: 'Trao kiến thức đi cùng quà tặng',
+          description: 'Không chỉ tặng quà, dự án luôn lồng ghép các buổi hướng dẫn vệ sinh cá nhân, sơ cứu vết thương và phòng tránh đuối nước dễ nhớ cho trẻ.',
         },
         {
-          title: 'Kế thừa liên thế hệ bền bỉ',
-          description: 'Mạng lưới học sinh THPT tại Quảng Trị truyền lửa liên tục qua 4 thế hệ điều hành từ năm 2023 đến năm 2026.',
+          title: 'Bốn thế hệ học sinh nối tiếp nhau',
+          description: 'Khi khóa anh chị ra trường, khóa đàn em lại tiếp nhận và giữ lửa dự án suốt từ mùa hè năm 2023 đến năm 2026.',
         },
       ];
 
@@ -505,8 +505,8 @@
     }
 
     cards.push({
-      label: 'TƯ LIỆU SỐ HÓA CỦA MÙA',
-      value: `${s.photos_count} bức ảnh · ${s.posts_count} bài đăng · ${s.videos_count} video`,
+      label: 'HÌNH ẢNH & BÀI VIẾT CỦA MÙA',
+      value: `${s.photos_count} bức ảnh · ${s.posts_count} bài viết · ${s.videos_count} video`,
     });
 
     return cards;
@@ -535,8 +535,8 @@
             <img src="${escapeHtml(s.hero_photo)}" alt="${escapeHtml(s.official_name)} — ${escapeHtml(s.theme)}" />
           </div>
           <figcaption class="season-hero-caption">
-            <span><strong>Ảnh thực địa tiêu biểu:</strong> ${formatRichText(s.official_name)}</span>
-            <span class="meta-pill accent">Nhấn để phóng to ↗</span>
+            <span><strong>Hình ảnh tiêu biểu:</strong> ${formatRichText(s.official_name)}</span>
+            <span class="meta-pill accent">Bấm để xem ảnh lớn ↗</span>
           </figcaption>
         </figure>
 
@@ -544,23 +544,23 @@
           <div class="season-meta-pills">
             <span class="meta-pill accent">MÙA 0${s.season_number}</span>
             <span class="meta-pill">${escapeHtml(formatSeasonDuration(s))}</span>
-            <span class="meta-pill">${escapeHtml(s.posts_count)} bài viết · ${escapeHtml(s.photos_count)} ảnh</span>
+            <span class="meta-pill">${escapeHtml(s.posts_count)} bài viết · ${escapeHtml(s.photos_count)} bức ảnh</span>
           </div>
 
           <h3 class="season-main-title">${formatRichText(s.official_name)}</h3>
           <p class="season-theme-banner">${formatRichText(storyTitle)}</p>
-          ${storySummary ? `<p class="season-story-text"><strong>Tóm tắt hành trình:</strong> ${formatRichText(storySummary)}</p>` : ''}
+          ${storySummary ? `<p class="season-story-text"><strong>Cảm xúc chuyến đi:</strong> ${formatRichText(storySummary)}</p>` : ''}
           <p class="season-story-text">${formatRichText(narrativeText)}</p>
 
           <div class="season-locations-box">
-            <strong>Địa điểm thực địa:</strong> ${escapeHtml((s.locations || []).join(' · '))}<br />
+            <strong>Điểm trường đến thăm:</strong> ${escapeHtml((s.locations || []).join(' · '))}<br />
             <strong>Thông điệp của mùa:</strong> ${formatRichText(s.slogan || s.theme)}
           </div>
         </div>
       </div>
 
       <!-- 4 Quantitative KPI Cards -->
-      <div class="season-impact-strip" aria-label="Kết quả định lượng của mùa chiến dịch">
+      <div class="season-impact-strip" aria-label="Kết quả đạt được của mùa hoạt động">
         ${kpiItems
           .map(
             (kpi) => `
@@ -575,20 +575,20 @@
 
       <!-- Sub-Tab Navigation -->
       <div class="season-subtabs-bar">
-        <div class="subtab-buttons" role="tablist" aria-label="Tư liệu chi tiết của ${escapeHtml(s.official_name)}">
+        <div class="subtab-buttons" role="tablist" aria-label="Nội dung chi tiết của ${escapeHtml(s.official_name)}">
           <button type="button" role="tab" class="subtab-btn ${state.seasonSubTab === 'photos' ? 'active' : ''}" data-subtab="photos" aria-selected="${state.seasonSubTab === 'photos'}">
-            Ảnh thực địa (${sPhotos.length})
+            Hình ảnh trong mùa (${sPhotos.length})
           </button>
           <button type="button" role="tab" class="subtab-btn ${state.seasonSubTab === 'posts' ? 'active' : ''}" data-subtab="posts" aria-selected="${state.seasonSubTab === 'posts'}">
-            Bài đăng đã phân loại (${sPosts.length})
+            Bài viết của mùa (${sPosts.length})
           </button>
           <button type="button" role="tab" class="subtab-btn ${state.seasonSubTab === 'activities' ? 'active' : ''}" data-subtab="activities" aria-selected="${state.seasonSubTab === 'activities'}">
-            Mục tiêu &amp; hoạt động thực địa
+            Mục tiêu &amp; việc đã làm
           </button>
           ${
             sVideos.length > 0
               ? `<button type="button" role="tab" class="subtab-btn ${state.seasonSubTab === 'videos' ? 'active' : ''}" data-subtab="videos" aria-selected="${state.seasonSubTab === 'videos'}">
-                  Video tư liệu (${sVideos.length})
+                  Video của mùa (${sVideos.length})
                 </button>`
               : ''
           }
@@ -690,11 +690,11 @@
     if (state.seasonSubTab === 'posts') {
       const categories = [
         { id: 'all', label: `Tất cả (${sPosts.length})` },
-        { id: 'recap', label: 'Tổng kết & ký sự' },
-        { id: 'campaign', label: 'Phát động & gây quỹ' },
-        { id: 'knowledge', label: 'Kiến thức & kỹ năng' },
-        { id: 'team', label: 'Ban Tổ chức & nhân sự' },
-        { id: 'sponsor', label: 'Tri ân nhà tài trợ' },
+        { id: 'recap', label: 'Tổng kết chuyến đi' },
+        { id: 'campaign', label: 'Gây quỹ & chuẩn bị' },
+        { id: 'knowledge', label: 'Chia sẻ kiến thức' },
+        { id: 'team', label: 'Thành viên & tuyển quân' },
+        { id: 'sponsor', label: 'Cảm ơn nhà tài trợ' },
       ];
 
       const filteredPosts =
@@ -766,23 +766,23 @@
     container.innerHTML = `
       <div class="season-posts-grid">
         <div class="post-card">
-          <span class="panel-tag">MỤC TIÊU TRỌNG TÂM</span>
-          <h4 class="post-title">Định hướng của ${formatRichText(s.official_name)}</h4>
+          <span class="panel-tag">MỤC TIÊU CỦA CHUYẾN ĐI</span>
+          <h4 class="post-title">Mong muốn gửi trao trong ${formatRichText(s.official_name)}</h4>
           <ul class="verify-badges-list">
             ${objectives.map((obj) => `<li>✓ ${formatRichText(obj)}</li>`).join('')}
           </ul>
           ${
             leaders.length > 0
               ? `<div style="margin-top:0.75rem;padding-top:0.75rem;border-top:1px solid var(--border-subtle);font-size:0.85rem;color:var(--ink-700)">
-                  <strong>Nhân sự điều hành tiêu biểu:</strong><br/>
+                  <strong>Các bạn phụ trách chính:</strong><br/>
                   ${leaders.map((l) => `${escapeHtml(l.name)} (${escapeHtml(l.role)})`).join(' · ')}
                 </div>`
               : ''
           }
         </div>
         <div class="post-card">
-          <span class="panel-tag">HOẠT ĐỘNG TRIỂN KHAI THỰC ĐỊA</span>
-          <h4 class="post-title">Các hạng mục thực hiện tại địa phương</h4>
+          <span class="panel-tag">NHỮNG VIỆC ĐÃ CÙNG NHAU THỰC HIỆN</span>
+          <h4 class="post-title">Hoạt động từ lúc gây quỹ đến ngày lên điểm trường</h4>
           <ul class="verify-badges-list">
             ${activities.map((act) => `<li>• ${formatRichText(act)}</li>`).join('')}
           </ul>
@@ -936,7 +936,7 @@
       }
       toggleWrap.innerHTML = `
         <button type="button" class="btn-secondary" id="btn-toggle-timeline" style="padding: 0.55rem 1.15rem; font-size: 0.84rem;">
-          ${state.timelineExpanded ? 'Thu gọn danh sách cột mốc ↑' : `Xem toàn bộ ${filtered.length} cột mốc lịch sử ↓`}
+          ${state.timelineExpanded ? 'Thu gọn danh sách dấu mốc ↑' : `Xem đầy đủ ${filtered.length} dấu mốc qua các mùa ↓`}
         </button>
       `;
       const btnToggle = document.getElementById('btn-toggle-timeline');
@@ -1099,7 +1099,7 @@
 
       const visible = filteredPhotos.slice(0, state.archiveLimit);
       if (summaryEl) {
-        summaryEl.textContent = `Đang hiển thị ${visible.length} / ${filteredPhotos.length} bức ảnh tư liệu khớp bộ lọc.`;
+        summaryEl.textContent = `Đang hiển thị ${visible.length} / ${filteredPhotos.length} bức ảnh kỷ niệm.`;
       }
 
       if (filteredPhotos.length === 0) {
@@ -1160,7 +1160,7 @@
 
     const visiblePosts = filteredPosts.slice(0, state.archiveLimit);
     if (summaryEl) {
-      summaryEl.textContent = `Đang hiển thị ${visiblePosts.length} / ${filteredPosts.length} bài viết đã chuẩn hóa tiếng Việt.`;
+      summaryEl.textContent = `Đang hiển thị ${visiblePosts.length} / ${filteredPosts.length} bài viết từ Fanpage dự án.`;
     }
 
     if (filteredPosts.length === 0) {

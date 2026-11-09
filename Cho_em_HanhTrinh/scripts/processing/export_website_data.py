@@ -231,17 +231,17 @@ def split_body_and_footer(raw_caption: str) -> tuple[str, list[str]]:
 
 
 def classify_post(title_clean: str, body_clean: str) -> tuple[str, str]:
-    """Classify a post into a logical editorial category."""
+    """Classify a post into a clear, reader-friendly Vietnamese category."""
     upper = (title_clean + " " + body_clean[:200]).upper()
     if any(k in upper for k in ["NHÀ TÀI TRỢ", "ĐƠN VỊ ĐỒNG HÀNH", "TRI ÂN NHÀ TÀI TRỢ", "CẢM ƠN NHÀ TÀI TRỢ", "BẢO TRỢ"]):
-        return "sponsor", "Tri ân nhà tài trợ"
+        return "sponsor", "Cảm ơn nhà tài trợ"
     if any(k in upper for k in ["TỔNG KẾT", "RECAP CHƯƠNG TRÌNH", "VIDEO RECAP", "CHUYẾN ĐI CHO EM", "NHỮNG KHOẢNH KHẮC QUÝ GIÁ", "NHÌN LẠI HÀNH TRÌNH", "RECAP 2025", "LỄ KHÁNH THÀNH"]):
-        return "recap", "Tổng kết & ký sự"
+        return "recap", "Tổng kết chuyến đi"
     if any(k in upper for k in ["TUYỂN THÀNH VIÊN", "TUYỂN QUÂN", "CORE TEAM", "BAN TỔ CHỨC", "PHỎNG VẤN", "ỨNG VIÊN", "ĐƠN ĐĂNG KÝ", "GIA ĐÌNH CHO EM"]):
-        return "team", "Ban Tổ chức & nhân sự"
+        return "team", "Thành viên & tuyển quân"
     if any(k in upper for k in ["SƠ CỨU", "ĐUỐI NƯỚC", "RĂNG MIỆNG", "CẨM NANG", "KỸ NĂNG", "MINIGAME", "GIẢI Ô CHỮ"]):
-        return "knowledge", "Kiến thức & kỹ năng"
-    return "campaign", "Phát động & gây quỹ"
+        return "knowledge", "Chia sẻ kiến thức"
+    return "campaign", "Gây quỹ & chuẩn bị"
 
 
 def build_web_bundle():
@@ -360,7 +360,7 @@ def build_web_bundle():
                     "title_clean": short_title,
                     "description": caption_clean,
                     "category_id": parent_clean.get("category_id", "recap"),
-                    "category_label": parent_clean.get("category_label", "Tư liệu mùa"),
+                    "category_label": parent_clean.get("category_label", "Hình ảnh chuyến đi"),
                     "post_id": parent_pid,
                 }
             )
