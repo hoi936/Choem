@@ -93,6 +93,14 @@ async function runVerification() {
       fullPage: false,
     });
 
+    // 1b. Capture Chapter 01 Mission & Heritage Typography Screenshot
+    await page.locator('#mission-heritage').scrollIntoViewIfNeeded();
+    await page.waitForTimeout(250);
+    await page.screenshot({
+      path: path.join(ARTIFACT_DIR, 'fe_verify_07_mission_typography.png'),
+      fullPage: false,
+    });
+
     // 2. Check for Mathematical Alphanumeric Unicode, replacement chars, or generic captions in DOM
     const textAudit = await page.evaluate(() => {
       const bodyText = document.body.innerText || '';

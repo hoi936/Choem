@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate website/data/archive_bundle.js with full Unicode normalization,
-clean Vietnamese titles/excerpts, post categorization, and curated action photos."""
+natural Vietnamese sentence-case/uppercase typography, smart quote formatting,
+post categorization, and curated action photos."""
 
 from __future__ import annotations
 
@@ -22,54 +23,182 @@ CURATED_SEASON_HERO_PHOTOS = {
     "season_07": "assets/originals/images/fef45178deab58dc7729d1af94ed83c84197ef55534c7503401a737bdeb8d2c8.jpg",
 }
 
+# Natural Vietnamese typography overrides (eliminating English Every-Word Title Case)
+SEASON_TYPOGRAPHY_OVERRIDES = {
+    "season_01": {
+        "official_name": "CHO EM mùa 1 — “Sân chơi cho em”",
+        "theme": "Xây dựng sân chơi tái chế cho trẻ em vùng cao",
+        "slogan": "“Sân chơi cho em, cho em niềm vui, gieo mầm ước mơ”",
+        "story_title": "“Người nhỏ làm việc nhỏ” — Hành trình 80km vượt đèo lên bản Ho Le & Tà Rùng",
+    },
+    "season_02": {
+        "official_name": "CHO EM mùa 2 — “Răng xinh cho em”",
+        "theme": "Chăm sóc sức khỏe răng miệng học đường",
+        "slogan": "“Vì những nụ cười trẻ thơ — Góp phần nhỏ vì một tương lai tươi sáng hơn của trẻ em Quảng Trị”",
+        "story_title": "“Hai ba bàn chải nhỏ” — Giữ trọn nụ cười xinh nơi vùng biển cát Triệu Vân",
+    },
+    "season_03": {
+        "official_name": "CHO EM mùa 3 — “Sân chơi cho em” (mùa 3)",
+        "theme": "Tiếp tục sứ mệnh — Nối tiếp hành trình xây sân chơi vùng cao",
+        "slogan": "“Sân chơi cho em, cho em niềm vui, gieo mầm ước mơ”",
+        "story_title": "Nắng hè Đông Hà & niềm vui nơi điểm trường Chênh Vênh, Hướng Choa",
+    },
+    "season_04": {
+        "official_name": "CHO EM mùa 4 — “Phao xinh cho em”",
+        "theme": "Tuyên truyền phòng chống đuối nước & sẻ chia hơi ấm mùa xuân",
+        "slogan": "“Tết đoàn viên năm nay, cùng CHO EM chia sẻ yêu thương”",
+        "story_title": "Hành trang tuổi 18 & mùa xuân nơi ngôi trường gần biển Triệu Lăng",
+    },
+    "season_05": {
+        "official_name": "CHO EM mùa 5 — “An toàn cho em”",
+        "theme": "Giáo dục kỹ năng sơ cứu cơ bản & tự bảo vệ trước tai nạn thương tích",
+        "slogan": "“Trang bị kỹ năng sống an toàn — Lan tỏa yêu thương đến trẻ em vùng cao”",
+        "story_title": "“Sự sẻ chia là liều thuốc quý giá nhất” — Chuyến xe mùa 5 đến với Tân Thành",
+    },
+    "season_06": {
+        "official_name": "CHO EM mùa 6 — “An toàn cho em 2”",
+        "theme": "Trang bị “tấm lá chắn kỹ năng” sơ cứu cho trẻ em vùng sâu Vĩnh Ô",
+        "slogan": "“An toàn cho em — Gửi trọn yêu thương”",
+        "story_title": "Vượt đèo lên Vĩnh Ô — Mang “tấm lá chắn kỹ năng” giữa mùa đông ấm áp",
+    },
+    "season_07": {
+        "official_name": "CHO EM mùa 7 — “Hành trang cho em”",
+        "theme": "Phòng chống tai nạn đuối nước & trao tủ sách tri thức vùng cao",
+        "slogan": "“Cùng Hành trang cho em — Thay màu áo mới, bảo vệ nụ cười thơ”",
+        "story_title": "“Hành trang cho em” — Những chiếc áo phao cam & tủ sách tri thức giữa núi rừng Tà Long",
+    },
+}
+
+TIMELINE_TITLE_OVERRIDES = {
+    "event_project_founded_20230717": (
+        "Thành lập trang chính thức dự án thiện nguyện “CHO EM”",
+        "Trang Facebook chính thức dự án “CHO EM” được khởi tạo tại Đông Hà, Quảng Trị, mở đầu hành trình vì trẻ em vùng cao.",
+    ),
+    "event_season_01_kickoff": (
+        "Khởi động CHO EM mùa 1 — “Sân chơi cho em”",
+        "Mở đầu hành trình CHO EM mùa 1 — “Sân chơi cho em” với chủ đề xây dựng sân chơi tái chế cho trẻ em vùng cao.",
+    ),
+    "event_season_01_main_program": (
+        "Sự kiện chính mùa 1: Khánh thành 02 sân chơi “Sân chơi cho em” tại bản Ho Le & Tà Rùng",
+        None,
+    ),
+    "event_season_02_kickoff": (
+        "Khởi động CHO EM mùa 2 — “Răng xinh cho em”",
+        "Mở đầu hành trình CHO EM mùa 2 — “Răng xinh cho em” với chủ đề chăm sóc sức khỏe răng miệng học đường.",
+    ),
+    "event_season_02_main_program": (
+        "Sự kiện chính mùa 2: Chương trình “Răng xinh cho em” tại xã Triệu Vân",
+        None,
+    ),
+    "event_season_03_kickoff": (
+        "Khởi động CHO EM mùa 3 — “Sân chơi cho em” (mùa 3)",
+        "Mở đầu hành trình CHO EM mùa 3 — “Sân chơi cho em” (mùa 3), tiếp nối sứ mệnh xây dựng sân chơi cho trẻ em vùng cao Hướng Hóa.",
+    ),
+    "event_season_03_main_program": (
+        "Sự kiện chính mùa 3: Khánh thành sân chơi “Sân chơi cho em” tại Chênh Vênh & Hướng Choa",
+        None,
+    ),
+    "event_season_04_kickoff": (
+        "Khởi động CHO EM mùa 4 — “Phao xinh cho em”",
+        "Mở đầu hành trình CHO EM mùa 4 — “Phao xinh cho em” với chủ đề tuyên truyền phòng chống đuối nước và sẻ chia hơi ấm mùa xuân.",
+    ),
+    "event_season_04_main_program": (
+        "Sự kiện chính mùa 4: Ngày hội kỹ năng “Phao xinh cho em” tại xã Triệu Vân",
+        None,
+    ),
+    "event_season_05_kickoff": (
+        "Khởi động CHO EM mùa 5 — “An toàn cho em”",
+        "Mở đầu hành trình CHO EM mùa 5 — “An toàn cho em” với chủ đề giáo dục kỹ năng sơ cứu cơ bản và tự bảo vệ trước tai nạn thương tích.",
+    ),
+    "event_season_05_main_program": (
+        "Sự kiện chính mùa 5: Chuyên đề “An toàn cho em” tại xã Tân Thành",
+        None,
+    ),
+    "event_season_06_kickoff": (
+        "Khởi động CHO EM mùa 6 — “An toàn cho em 2”",
+        "Mở đầu hành trình CHO EM mùa 6 — “An toàn cho em 2”, mang tấm lá chắn kỹ năng sơ cứu đến với trẻ em vùng sâu Vĩnh Ô.",
+    ),
+    "event_season_06_main_program": (
+        "Sự kiện chính mùa 6: Chương trình “An toàn cho em 2” tại xã Vĩnh Ô",
+        None,
+    ),
+    "event_season_07_kickoff": (
+        "Khởi động CHO EM mùa 7 — “Hành trang cho em”",
+        "Mở đầu hành trình CHO EM mùa 7 — “Hành trang cho em” với chủ đề phòng chống tai nạn đuối nước và trao tủ sách tri thức vùng cao.",
+    ),
+    "event_season_07_main_program": (
+        "Sự kiện chính mùa 7: Chương trình “Hành trang cho em” tại điểm trường Tà Long",
+        None,
+    ),
+}
+
+TITLE_CASE_PHRASE_FIXES = [
+    ("Sân Chơi Cho Em (Mùa 3)", "“Sân chơi cho em” (mùa 3)"),
+    ("Sân Chơi Cho Em (Mùa 1)", "“Sân chơi cho em” (mùa 1)"),
+    ("Sân Chơi Cho Em", "“Sân chơi cho em”"),
+    ("Răng Xinh Cho Em", "“Răng xinh cho em”"),
+    ("Phao Xinh Cho Em", "“Phao xinh cho em”"),
+    ("An Toàn Cho Em 2", "“An toàn cho em 2”"),
+    ("An Toàn Cho Em", "“An toàn cho em”"),
+    ("Hành Trang Cho Em", "“Hành trang cho em”"),
+    ("CHO EM Mùa ", "CHO EM mùa "),
+]
+
+
+def normalize_smart_quotes(text: str) -> str:
+    """Convert straight double/single quotes around phrases into typographic “...” quotes
+    and replace English Title-Cased campaign phrases with natural Vietnamese sentence case."""
+    if not text:
+        return ""
+    for old_phrase, new_phrase in TITLE_CASE_PHRASE_FIXES:
+        text = text.replace(old_phrase, new_phrase)
+    # Replace straight double quotes "phrase" with “phrase”
+    text = re.sub(r'"([^"\n]{1,120})"', r"“\1”", text)
+    # Replace single quotes 'phrase' (when not inside words) with “phrase”
+    text = re.sub(r"(?<!\w)'([^'\n]{2,120})'(?!\w)", r"“\1”", text)
+    # Collapse nested double smart quotes ““...”” -> “...”
+    text = re.sub(r"“+([^”]+)”+", r"“\1”", text)
+    return text
+
 
 def normalize_vn_text(text: str | None) -> str:
     """Convert Mathematical Alphanumeric Unicode (𝐂𝐇𝐎 𝐄𝐌) and combining marks
     into clean, standard NFC Vietnamese UTF-8 text."""
     if not text:
         return ""
-    # NFKC converts mathematical bold/italic/sans-serif symbols to regular ASCII/Latin
     normalized = unicodedata.normalize("NFKC", text)
-    # NFC composes base letters + combining Vietnamese tone/vowel marks into single glyphs
     normalized = unicodedata.normalize("NFC", normalized)
-    # Remove zero-width joiners/spaces and variation selectors that break web fonts
     normalized = re.sub(r"[\u200b\u200c\u200d\ufeff\ufe0e\ufe0f]", "", normalized)
-    # Normalize multiple spaces on the same line
     normalized = re.sub(r"[ \t]+", " ", normalized)
-    # Normalize 3+ newlines to 2 newlines
     normalized = re.sub(r"\n{3,}", "\n\n", normalized)
-    return normalized.strip()
+    return normalize_smart_quotes(normalized.strip())
 
 
 def clean_post_title(raw_caption: str, fallback_summary: str) -> str:
-    """Extract a clean, human-readable Vietnamese headline from a post caption."""
+    """Extract a clean Vietnamese headline from a post caption (ALL CAPS for post headers)."""
     norm_cap = normalize_vn_text(raw_caption)
     lines = [ln.strip() for ln in norm_cap.splitlines() if ln.strip()]
     first_line = lines[0] if lines else normalize_vn_text(fallback_summary)
 
-    # Strip surrounding brackets/pipes like |...| or [...]
     first_line = re.sub(r"^[\|\[\]【】\s]+|[\|\[\]【】\s]+$", "", first_line)
-    # Strip leading decorative emojis/symbols
     first_line = re.sub(r"^[^\wÀ-ỹ\"“”‘’\(\)]+", "", first_line).strip()
-    # Strip trailing decorative emojis
     first_line = re.sub(r"[^\wÀ-ỹ\"“”‘’\.\!\?\)\]]+$", "", first_line).strip()
 
-    # Standardize "CHO EM:" or "CHO EM |" prefix
     first_line = re.sub(r"^CHO\s+EM\s*[:\|\-–—]\s*", "", first_line, flags=re.IGNORECASE).strip()
     first_line = re.sub(r"^NEWS\s*[:\|\-–—]\s*", "", first_line, flags=re.IGNORECASE).strip()
 
-    # Balance unclosed smart/straight quotes
     if first_line.count("“") > first_line.count("”"):
         first_line += "”"
     if first_line.count('"') % 2 == 1:
         first_line += '"'
 
+    first_line = normalize_smart_quotes(first_line)
+
     if not first_line:
         first_line = normalize_vn_text(fallback_summary)
 
-    # Convert ALL-CAPS shouting titles into readable Vietnamese sentence/title case
-    # while keeping proper nouns, acronyms, and quoted program names intact
-    return first_line
+    # Ensure post headlines are consistently UPPERCASE (standard Vietnamese editorial header style)
+    return first_line.upper()
 
 
 def split_body_and_footer(raw_caption: str) -> tuple[str, list[str]]:
@@ -78,7 +207,6 @@ def split_body_and_footer(raw_caption: str) -> tuple[str, list[str]]:
     hashtags = re.findall(r"#[A-Za-z0-9_À-ỹ]+", norm)
 
     lines = norm.splitlines()
-    # Skip the first line if it's a bracketed/piped title line
     body_lines = lines[1:] if len(lines) > 1 else lines
 
     cleaned_lines = []
@@ -87,12 +215,10 @@ def split_body_and_footer(raw_caption: str) -> tuple[str, list[str]]:
         if not s:
             cleaned_lines.append("")
             continue
-        # Stop before the repetitive contact separator block
         if re.match(r"^[_\-─━═\*]{5,}$", s):
             break
         if re.match(r"^(Mọi thông tin chi tiết|Thông tin liên hệ|Liên hệ với chúng mình)", s, flags=re.IGNORECASE):
             break
-        # Skip pure hashtag lines
         if re.match(r"^(#[A-Za-z0-9_À-ỹ]+\s*)+$", s):
             continue
         cleaned_lines.append(s)
@@ -108,14 +234,14 @@ def classify_post(title_clean: str, body_clean: str) -> tuple[str, str]:
     """Classify a post into a logical editorial category."""
     upper = (title_clean + " " + body_clean[:200]).upper()
     if any(k in upper for k in ["NHÀ TÀI TRỢ", "ĐƠN VỊ ĐỒNG HÀNH", "TRI ÂN NHÀ TÀI TRỢ", "CẢM ƠN NHÀ TÀI TRỢ", "BẢO TRỢ"]):
-        return "sponsor", "Tri ân Nhà tài trợ"
+        return "sponsor", "Tri ân nhà tài trợ"
     if any(k in upper for k in ["TỔNG KẾT", "RECAP CHƯƠNG TRÌNH", "VIDEO RECAP", "CHUYẾN ĐI CHO EM", "NHỮNG KHOẢNH KHẮC QUÝ GIÁ", "NHÌN LẠI HÀNH TRÌNH", "RECAP 2025", "LỄ KHÁNH THÀNH"]):
-        return "recap", "Tổng kết & Ký sự"
+        return "recap", "Tổng kết & ký sự"
     if any(k in upper for k in ["TUYỂN THÀNH VIÊN", "TUYỂN QUÂN", "CORE TEAM", "BAN TỔ CHỨC", "PHỎNG VẤN", "ỨNG VIÊN", "ĐƠN ĐĂNG KÝ", "GIA ĐÌNH CHO EM"]):
-        return "team", "Ban Tổ Chức & Nhân sự"
+        return "team", "Ban Tổ chức & nhân sự"
     if any(k in upper for k in ["SƠ CỨU", "ĐUỐI NƯỚC", "RĂNG MIỆNG", "CẨM NANG", "KỸ NĂNG", "MINIGAME", "GIẢI Ô CHỮ"]):
-        return "knowledge", "Kiến thức & Kỹ năng"
-    return "campaign", "Phát động & Gây quỹ"
+        return "knowledge", "Kiến thức & kỹ năng"
+    return "campaign", "Phát động & gây quỹ"
 
 
 def build_web_bundle():
@@ -136,7 +262,20 @@ def build_web_bundle():
     videos_by_id = {v["video_id"]: v for v in videos}
     programs_by_id = {p["program_id"]: p for p in programs}
     stories_by_id = {s["story_id"]: s for s in stories}
-    posts_by_id = {p["post_id"]: p for p in posts}
+
+    # Normalize timeline titles and descriptions
+    for ev in timeline:
+        ev_id = ev.get("event_id", "")
+        if ev_id in TIMELINE_TITLE_OVERRIDES:
+            new_title, new_desc = TIMELINE_TITLE_OVERRIDES[ev_id]
+            ev["title"] = new_title
+            if new_desc:
+                ev["description"] = new_desc
+            else:
+                ev["description"] = normalize_smart_quotes(ev.get("description", ""))
+        else:
+            ev["title"] = normalize_smart_quotes(ev.get("title", ""))
+            ev["description"] = normalize_smart_quotes(ev.get("description", ""))
 
     # Pre-process posts to get clean titles and bodies
     cleaned_posts_map = {}
@@ -162,11 +301,28 @@ def build_web_bundle():
     enriched_seasons = []
     for s in seasons:
         sid = s["season_id"]
+        typo = SEASON_TYPOGRAPHY_OVERRIDES.get(sid, {})
+        if "official_name" in typo:
+            s["official_name"] = typo["official_name"]
+        if "theme" in typo:
+            s["theme"] = typo["theme"]
+        if "slogan" in typo:
+            s["slogan"] = typo["slogan"]
+        s["description"] = normalize_smart_quotes(s.get("description", ""))
+
         s_posts = [p for p in posts if sid in p.get("season_ids", [])]
         s_photos = [photos_by_id[pid] for pid in s["photo_ids"] if pid in photos_by_id]
         s_videos = [videos_by_id[vid] for vid in s["video_ids"] if vid in videos_by_id]
         s_prog = programs_by_id.get(s["program_ids"][0]) if s.get("program_ids") else None
-        s_story = stories_by_id.get(s["story_ids"][0]) if s.get("story_ids") else None
+        s_story = stories_by_id.get(f"story_{sid}") or (
+            stories_by_id.get(s["story_ids"][0]) if s.get("story_ids") else None
+        )
+        if s_story:
+            s_story = dict(s_story)
+            if "story_title" in typo:
+                s_story["title"] = typo["story_title"]
+            s_story["summary"] = normalize_smart_quotes(s_story.get("summary", ""))
+            s_story["narrative"] = normalize_smart_quotes(s_story.get("narrative", ""))
 
         hero_photo = CURATED_SEASON_HERO_PHOTOS.get(sid)
         if not hero_photo:
@@ -179,11 +335,11 @@ def build_web_bundle():
 
         # Build resolved photos with rich contextual descriptions
         resolved_photos = []
-        for idx, p in enumerate(s_photos):
+        for p in s_photos:
             raw_desc = normalize_vn_text(p.get("description", ""))
             parent_pid = p["post_ids"][0] if p.get("post_ids") else None
             parent_clean = cleaned_posts_map.get(parent_pid, {})
-            parent_title = parent_clean.get("title_clean") or s["official_name"]
+            parent_title = parent_clean.get("title_clean") or s["official_name"].upper()
             parent_body = parent_clean.get("body_clean") or s["description"]
 
             is_generic = (
@@ -192,7 +348,7 @@ def build_web_bundle():
                 or raw_desc.startswith("Ảnh tư liệu chính thức từ trang CHO EM")
             )
             caption_clean = parent_body if is_generic else raw_desc
-            short_title = parent_title if is_generic else (raw_desc.splitlines()[0][:95])
+            short_title = parent_title if is_generic else clean_post_title(raw_desc, parent_title)
 
             resolved_photos.append(
                 {
@@ -209,7 +365,6 @@ def build_web_bundle():
                 }
             )
 
-        # Reorder season photos so curated hero photo and recap photos appear first!
         def photo_sort_key(item):
             is_hero = 0 if item["local_path"] == hero_photo else 1
             cat_rank = CATEGORY_PRIORITY.get(item["category_id"], 3)
@@ -266,7 +421,6 @@ def build_web_bundle():
                 }
             )
 
-        # Sort posts so Recap & Campaign posts appear before Sponsor posts by default
         resolved_posts.sort(
             key=lambda item: (CATEGORY_PRIORITY.get(item["category_id"], 3), item["published_at"] or ""),
         )
@@ -287,7 +441,7 @@ def build_web_bundle():
         )
 
     bundle = {
-        "generated_at": "2026-11-07T13:52:00+07:00",
+        "generated_at": "2026-11-09T09:46:00+07:00",
         "project_info": project_info,
         "page_info": page_info,
         "stats": {

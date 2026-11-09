@@ -13,7 +13,7 @@
   }
 
   /* --------------------------------------------------------------------------
-     1. VIETNAMESE UNICODE SAFETY NORMALIZER & FORMATTERS
+     1. VIETNAMESE UNICODE SAFETY NORMALIZER & QUOTE HIGHLIGHT FORMATTER
      -------------------------------------------------------------------------- */
 
   function cleanText(input) {
@@ -22,6 +22,8 @@
       .normalize('NFKC')
       .replace(/[\u200B-\u200D\uFEFF\uFE0E\uFE0F]/g, '')
       .replace(/^[-\s_—–=]{4,}$/gm, '')
+      .replace(/"([^"\n]{1,120})"/g, '“$1”')
+      .replace(/(?<!\w)'([^'\n]{2,120})'(?!\w)/g, '“$1”')
       .replace(/\n{3,}/g, '\n\n')
       .normalize('NFC')
       .trim();
@@ -34,6 +36,15 @@
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  /**
+   * Escapes text and highlights any phrase inside typographic quotes “...”
+   * with <em class="quote-highlight">“...”</em> (italic + accent color).
+   */
+  function formatRichText(str) {
+    const escaped = escapeHtml(str);
+    return escaped.replace(/“([^”]+)”/g, '<em class="quote-highlight">“$1”</em>');
   }
 
   function formatViDate(isoStr) {
@@ -95,7 +106,7 @@
         title_clean: cleanText(post.title_clean || post.summary || season.official_name),
         body_clean: cleanText(post.body_clean || post.caption_original || season.description),
         category_id: post.category_id || 'recap',
-        category_label: cleanText(post.category_label || 'Tổng kết & Ký sự'),
+        category_label: cleanText(post.category_label || 'Tổng kết & ký sự'),
         hashtags: Array.isArray(post.hashtags) ? post.hashtags : [],
         season_id: season.season_id,
         season_number: season.season_number,
@@ -210,7 +221,7 @@
         seasonIndex: 0,
         badge: `MÙA 1 · ${formatShortMonthYear(s1.event_date || s1.start_date).toUpperCase()}`,
         photo: s1.hero_photo,
-        title: `${cleanText(s1.official_name)} — 02 sân chơi tái chế tại Bản Ho Le & Tà Rùng`,
+        title: `${cleanText(s1.official_name)} — 02 sân chơi tái chế tại bản Ho Le & Tà Rùng`,
         meta: cleanText((s1.locations && s1.locations[0]) || 'Xã Húc, huyện Hướng Hóa, tỉnh Quảng Trị'),
       },
       {
@@ -232,7 +243,7 @@
             <span class="hero-card-badge">${escapeHtml(card.badge)}</span>
           </div>
           <div class="hero-card-footer">
-            <h2 class="hero-card-title">${escapeHtml(card.title)}</h2>
+            <h2 class="hero-card-title">${formatRichText(card.title)}</h2>
             <p class="hero-card-meta">${escapeHtml(card.meta)}</p>
           </div>
         </article>
@@ -279,31 +290,31 @@
           (item) => `
           <div class="acrostic-row">
             <span class="acrostic-char" aria-hidden="true">${escapeHtml(item.letter)}</span>
-            <p class="acrostic-text"><strong>“${escapeHtml(item.letter)}”</strong> — ${escapeHtml(item.line)}</p>
+            <p class="acrostic-text"><em class="quote-highlight">“${escapeHtml(item.letter)}”</em> — ${formatRichText(item.line)}</p>
           </div>
         `
         )
         .join('');
     }
 
-    // 3 Evolution Stages
+    // 3 Evolution Stages (Vietnamese sentence case + highlighted quotes)
     const stagesEl = document.getElementById('evolution-stages');
     if (stagesEl) {
-      const stages = info.evolution_stages || [
+      const stages = [
         {
-          stage: 'Giai đoạn 1 · Khởi sinh & Sân Chơi Tái Chế (2023)',
-          seasons: 'Mùa 1 (Sân Chơi Cho Em · 07–08/2023)',
-          focus: 'Khởi phát ngày 17/07/2023 tại Đông Hà, gây quỹ 27.381.403 VNĐ từ nơ handmade và quyên góp để tự tay thi công 02 sân chơi tái chế tại Bản Ho Le và Bản Tà Rùng (xã Húc, Hướng Hóa).',
+          stage: 'Giai đoạn 1 · Khởi sinh & thi công sân chơi tái chế (2023)',
+          seasons: 'MÙA 1 (“SÂN CHƠI CHO EM” · 07–08/2023)',
+          focus: 'Khởi phát ngày 17/07/2023 tại Đông Hà, gây quỹ 27.381.403 VNĐ từ nơ handmade và quyên góp để tự tay thi công 02 sân chơi tái chế tại bản Ho Le và bản Tà Rùng (xã Húc, Hướng Hóa).',
         },
         {
-          stage: 'Giai đoạn 2 · Mở Rộng Địa Bàn & Giáo Dục Kỹ Năng (2024)',
-          seasons: 'Mùa 2 (Răng Xinh Cho Em) · Mùa 3 (Sân Chơi Cho Em 3) · Mùa 4 (Phao Xinh Cho Em)',
-          focus: 'Mở rộng từ vùng biển bãi ngang Triệu Vân lên miền núi Hướng Phùng (Chênh Vênh, Hướng Choa), kết hợp trao tặng công trình sân chơi với kịch tương tác chăm sóc sức khỏe và phòng chống đuối nước.',
+          stage: 'Giai đoạn 2 · Mở rộng địa bàn & giáo dục kỹ năng (2024)',
+          seasons: 'MÙA 2 (“RĂNG XINH CHO EM”) · MÙA 3 · MÙA 4 (“PHAO XINH CHO EM”)',
+          focus: 'Mở rộng từ vùng biển bãi ngang Triệu Vân lên miền núi Hướng Phùng (Chênh Vênh, Hướng Choa), kết hợp trao tặng công trình sân chơi với kịch tương tác “Răng xinh cho em” và kỹ năng phòng chống đuối nước “Phao xinh cho em”.',
         },
         {
-          stage: 'Giai đoạn 3 · Chuyên Sâu Bảo Vệ Trẻ Em & Hành Trang Vùng Biên (2025 – 2026)',
-          seasons: 'Mùa 5 (An Toàn Cho Em) · Mùa 6 (An Toàn Cho Em 2) · Mùa 7 (Hành Trang Cho Em)',
-          focus: 'Triển khai chuỗi chuyên đề kỹ năng phòng vệ và an toàn cho học sinh tại Tân Thành (Hướng Hóa), Vĩnh Ô (Vĩnh Linh) và điểm trường Pa Hy — Tiểu học Tà Long (Đakrông).',
+          stage: 'Giai đoạn 3 · Chuyên sâu bảo vệ trẻ em & hành trang vùng biên (2025 – 2026)',
+          seasons: 'MÙA 5 (“AN TOÀN CHO EM”) · MÙA 6 · MÙA 7 (“HÀNH TRANG CHO EM”)',
+          focus: 'Triển khai chuỗi chuyên đề kỹ năng sơ cứu và phòng vệ “An toàn cho em” tại Tân Thành (Hướng Hóa), Vĩnh Ô (Vĩnh Linh) và chương trình “Hành trang cho em” tại điểm trường Pa Hy — Tiểu học Tà Long (Đakrông).',
         },
       ];
 
@@ -312,32 +323,32 @@
           (st) => `
           <article class="stage-card">
             <div class="stage-meta">${escapeHtml(st.seasons)}</div>
-            <h4 class="stage-title">${escapeHtml(st.stage)}</h4>
-            <p class="stage-desc">${escapeHtml(st.focus)}</p>
+            <h4 class="stage-title">${formatRichText(st.stage)}</h4>
+            <p class="stage-desc">${formatRichText(st.focus)}</p>
           </article>
         `
         )
         .join('');
     }
 
-    // 4 Core Values
+    // 4 Core Values (Vietnamese sentence case)
     const valuesEl = document.getElementById('core-values-grid');
     if (valuesEl) {
-      const values = info.core_values || [
+      const values = [
         {
-          title: 'Thực địa & Tự tay thi công',
-          description: 'Trực tiếp khảo sát, sơn vẽ từng chiếc lốp xe, dàn dựng từng vở kịch kỹ năng và lắp đặt tại điểm trường vùng sâu.',
+          title: 'Thực địa & tự tay thi công',
+          description: 'Trực tiếp khảo sát, sơn vẽ từng chiếc lốp xe, dàn dựng từng vở kịch kỹ năng và lắp đặt công trình tại điểm trường vùng sâu.',
         },
         {
-          title: 'Minh bạch Tài chính',
+          title: 'Minh bạch tài chính tuyệt đối',
           description: '100% nguồn thu - chi từ làm đồ handmade, gian hàng gây quỹ và tài trợ đều được công khai sao kê chi tiết.',
         },
         {
-          title: 'Giáo dục Kỹ năng Sống',
-          description: 'Kết hợp trao tặng công trình/học cụ với trang bị kỹ năng vệ sinh học đường, phòng chống đuối nước và xâm hại.',
+          title: 'Giáo dục kỹ năng sống thực tiễn',
+          description: 'Kết hợp trao tặng công trình, học cụ với trang bị kỹ năng vệ sinh học đường, sơ cứu và phòng chống đuối nước.',
         },
         {
-          title: 'Kế thừa Liên Thế hệ',
+          title: 'Kế thừa liên thế hệ bền bỉ',
           description: 'Mạng lưới học sinh THPT tại Quảng Trị truyền lửa liên tục qua 4 thế hệ điều hành từ năm 2023 đến năm 2026.',
         },
       ];
@@ -346,8 +357,8 @@
         .map(
           (v) => `
           <div class="value-card">
-            <h4 class="value-title">${escapeHtml(v.title)}</h4>
-            <p class="value-desc">${escapeHtml(v.description)}</p>
+            <h4 class="value-title">${formatRichText(v.title)}</h4>
+            <p class="value-desc">${formatRichText(v.description)}</p>
           </div>
         `
         )
@@ -360,25 +371,25 @@
       const gens = [
         {
           badge: 'THẾ HỆ SÁNG LẬP · 2023',
-          title: 'Mùa 1 — Sân Chơi Cho Em',
+          title: 'Mùa 1 — “Sân chơi cho em”',
           period: 'Trần Ngọc Tâm Phúc (Founder) · Nguyễn Thùy Linh',
-          focus: 'Khởi lập dự án dưới sự bảo trợ của Thành đoàn Đông Hà, thi công 02 sân chơi tái chế tại Bản Ho Le & Tà Rùng (xã Húc).',
+          focus: 'Khởi lập dự án dưới sự bảo trợ của Thành đoàn Đông Hà, thi công 02 sân chơi tái chế tại bản Ho Le & Tà Rùng (xã Húc).',
         },
         {
           badge: 'THẾ HỆ MỞ RỘNG · ĐẦU 2024',
-          title: 'Mùa 2 & Mùa 3',
+          title: 'Mùa 2 & mùa 3',
           period: 'Triệu Vân (Triệu Phong) & Hướng Phùng (Hướng Hóa)',
-          focus: 'Đưa mô hình kịch giáo dục sức khỏe “Răng Xinh Cho Em” về vùng bãi ngang và khánh thành sân chơi tại Chênh Vênh, Hướng Choa.',
+          focus: 'Đưa mô hình kịch giáo dục sức khỏe “Răng xinh cho em” về vùng bãi ngang và khánh thành sân chơi tại Chênh Vênh, Hướng Choa.',
         },
         {
           badge: 'THẾ HỆ CHUYÊN SÂU · 2024 – 2025',
-          title: 'Mùa 4, Mùa 5 & Mùa 6',
+          title: 'Mùa 4, mùa 5 & mùa 6',
           period: 'Triệu Vân · Tân Thành · Vĩnh Ô (Vĩnh Linh)',
-          focus: 'Tập trung sâu vào kỹ năng sinh tồn và bảo vệ trẻ em: “Phao Xinh Cho Em”, “An Toàn Cho Em 1” và “An Toàn Cho Em 2”.',
+          focus: 'Tập trung sâu vào kỹ năng sinh tồn và bảo vệ trẻ em qua 3 chiến dịch “Phao xinh cho em”, “An toàn cho em” và “An toàn cho em 2”.',
         },
         {
           badge: 'THẾ HỆ KẾ THỪA · 2025 – 2026',
-          title: 'Mùa 7 — Hành Trang Cho Em',
+          title: 'Mùa 7 — “Hành trang cho em”',
           period: 'Điểm trường Pa Hy · Tiểu học Tà Long (Đakrông)',
           focus: 'Tuyên truyền phòng chống đuối nước, trao tặng 137 bộ dụng cụ học tập, áo trắng và 345 đầu sách thiếu nhi trước thềm năm học mới.',
         },
@@ -389,9 +400,9 @@
           (g) => `
           <article class="gen-card">
             <span class="gen-badge">${escapeHtml(g.badge)}</span>
-            <h4 class="gen-title">${escapeHtml(g.title)}</h4>
+            <h4 class="gen-title">${formatRichText(g.title)}</h4>
             <span class="gen-period">${escapeHtml(g.period)}</span>
-            <p class="gen-focus">${escapeHtml(g.focus)}</p>
+            <p class="gen-focus">${formatRichText(g.focus)}</p>
           </article>
         `
         )
@@ -410,7 +421,7 @@
     tabsContainer.innerHTML = seasons
       .map((s, idx) => {
         const isActive = idx === state.activeSeasonIndex;
-        const shortName = cleanText(s.official_name).replace(/^CHO\s+EM\s+Mùa\s+\d+\s*[—–-]\s*/i, '');
+        const shortName = cleanText(s.official_name).replace(/^CHO\s+EM\s+mùa\s+\d+\s*[—–-]\s*/i, '');
         return `
           <button
             type="button"
@@ -420,7 +431,7 @@
             data-season-idx="${idx}"
           >
             <span class="season-tab-num">MÙA 0${s.season_number}</span>
-            <strong class="season-tab-name">${escapeHtml(shortName)}</strong>
+            <strong class="season-tab-name">${formatRichText(shortName)}</strong>
             <span class="season-tab-date">${escapeHtml(formatShortMonthYear(s.event_date || s.start_date))}</span>
           </button>
         `;
@@ -469,7 +480,7 @@
 
     rawResults.slice(0, 3).forEach((item) => {
       cards.push({
-        label: cleanText(item.metric || 'Kết quả định lượng'),
+        label: cleanText(item.metric || 'KẾT QUẢ ĐỊNH LƯỢNG').toUpperCase(),
         value: formatMetricValue(item),
       });
     });
@@ -477,24 +488,24 @@
     while (cards.length < 3) {
       if (cards.length === 0) {
         cards.push({
-          label: 'Hoạt động trọng tâm',
+          label: 'CHỦ ĐỀ TRỌNG TÂM',
           value: cleanText(s.theme || s.official_name),
         });
       } else if (cards.length === 1) {
         cards.push({
-          label: 'Địa bàn triển khai',
+          label: 'ĐỊA BÀN TRIỂN KHAI',
           value: cleanText((s.locations && s.locations[0]) || 'Tỉnh Quảng Trị'),
         });
       } else {
         cards.push({
-          label: 'Đơn vị đồng hành / Bảo trợ',
-          value: cleanText(s.patron || 'Đoàn Thanh niên & Nhà trường địa phương'),
+          label: 'ĐƠN VỊ ĐỒNG HÀNH / BẢO TRỢ',
+          value: cleanText(s.patron || 'Đoàn Thanh niên & nhà trường địa phương'),
         });
       }
     }
 
     cards.push({
-      label: 'Tư liệu số hóa của mùa',
+      label: 'TƯ LIỆU SỐ HÓA CỦA MÙA',
       value: `${s.photos_count} bức ảnh · ${s.posts_count} bài đăng · ${s.videos_count} video`,
     });
 
@@ -524,7 +535,7 @@
             <img src="${escapeHtml(s.hero_photo)}" alt="${escapeHtml(s.official_name)} — ${escapeHtml(s.theme)}" />
           </div>
           <figcaption class="season-hero-caption">
-            <span><strong>Ảnh thực địa tiêu biểu:</strong> ${escapeHtml(s.official_name)}</span>
+            <span><strong>Ảnh thực địa tiêu biểu:</strong> ${formatRichText(s.official_name)}</span>
             <span class="meta-pill accent">Nhấn để phóng to ↗</span>
           </figcaption>
         </figure>
@@ -536,14 +547,14 @@
             <span class="meta-pill">${escapeHtml(s.posts_count)} bài viết · ${escapeHtml(s.photos_count)} ảnh</span>
           </div>
 
-          <h3 class="season-main-title">${escapeHtml(s.official_name)}</h3>
-          <p class="season-theme-banner">“${escapeHtml(storyTitle)}”</p>
-          ${storySummary ? `<p class="season-story-text"><strong>Tóm tắt câu chuyện:</strong> ${escapeHtml(storySummary)}</p>` : ''}
-          <p class="season-story-text">${escapeHtml(narrativeText)}</p>
+          <h3 class="season-main-title">${formatRichText(s.official_name)}</h3>
+          <p class="season-theme-banner">${formatRichText(storyTitle)}</p>
+          ${storySummary ? `<p class="season-story-text"><strong>Tóm tắt hành trình:</strong> ${formatRichText(storySummary)}</p>` : ''}
+          <p class="season-story-text">${formatRichText(narrativeText)}</p>
 
           <div class="season-locations-box">
             <strong>Địa điểm thực địa:</strong> ${escapeHtml((s.locations || []).join(' · '))}<br />
-            <strong>Khẩu hiệu / Thông điệp:</strong> “${escapeHtml(s.slogan || s.theme)}”
+            <strong>Thông điệp của mùa:</strong> ${formatRichText(s.slogan || s.theme)}
           </div>
         </div>
       </div>
@@ -555,7 +566,7 @@
             (kpi) => `
             <div class="season-kpi-card">
               <div class="season-kpi-label">${escapeHtml(kpi.label)}</div>
-              <div class="season-kpi-val">${escapeHtml(kpi.value)}</div>
+              <div class="season-kpi-val">${formatRichText(kpi.value)}</div>
             </div>
           `
           )
@@ -572,7 +583,7 @@
             Bài đăng đã phân loại (${sPosts.length})
           </button>
           <button type="button" role="tab" class="subtab-btn ${state.seasonSubTab === 'activities' ? 'active' : ''}" data-subtab="activities" aria-selected="${state.seasonSubTab === 'activities'}">
-            Mục tiêu &amp; Hoạt động thực địa
+            Mục tiêu &amp; hoạt động thực địa
           </button>
           ${
             sVideos.length > 0
@@ -633,7 +644,7 @@
                   <span class="photo-cat-tag">${escapeHtml(ph.category_label)}</span>
                 </div>
                 <div class="photo-card-body">
-                  <h4 class="photo-card-title">${escapeHtml(ph.title_clean)}</h4>
+                  <h4 class="photo-card-title">${formatRichText(ph.title_clean)}</h4>
                   <span class="photo-card-date">${formatViDate(ph.published_at)}</span>
                 </div>
               </article>
@@ -645,7 +656,7 @@
           hasMore
             ? `<div class="archive-load-more-wrap">
                 <button type="button" class="btn-secondary" id="btn-season-more-photos">
-                  Xem thêm ảnh của ${escapeHtml(s.official_name)} (còn ${sPhotos.length - visiblePhotos.length} ảnh)
+                  Xem thêm ảnh của ${formatRichText(s.official_name)} (còn ${sPhotos.length - visiblePhotos.length} ảnh)
                 </button>
               </div>`
             : ''
@@ -679,11 +690,11 @@
     if (state.seasonSubTab === 'posts') {
       const categories = [
         { id: 'all', label: `Tất cả (${sPosts.length})` },
-        { id: 'recap', label: 'Tổng kết & Ký sự' },
-        { id: 'campaign', label: 'Phát động & Gây quỹ' },
-        { id: 'knowledge', label: 'Kiến thức & Kỹ năng' },
-        { id: 'team', label: 'Ban Tổ Chức & Nhân sự' },
-        { id: 'sponsor', label: 'Tri ân Nhà tài trợ' },
+        { id: 'recap', label: 'Tổng kết & ký sự' },
+        { id: 'campaign', label: 'Phát động & gây quỹ' },
+        { id: 'knowledge', label: 'Kiến thức & kỹ năng' },
+        { id: 'team', label: 'Ban Tổ chức & nhân sự' },
+        { id: 'sponsor', label: 'Tri ân nhà tài trợ' },
       ];
 
       const filteredPosts =
@@ -736,8 +747,8 @@
                   <span class="category-badge cat-recap">Phim tư liệu gốc</span>
                   <time class="post-date">${formatViDate(v.published_at)}</time>
                 </div>
-                <h4 class="post-title">${escapeHtml(v.title_clean)}</h4>
-                <p class="post-excerpt">${escapeHtml(v.body_clean)}</p>
+                <h4 class="post-title">${formatRichText(v.title_clean)}</h4>
+                <p class="post-excerpt">${formatRichText(v.body_clean)}</p>
               </article>
             `
             )
@@ -756,9 +767,9 @@
       <div class="season-posts-grid">
         <div class="post-card">
           <span class="panel-tag">MỤC TIÊU TRỌNG TÂM</span>
-          <h4 class="post-title">Định hướng của ${escapeHtml(s.official_name)}</h4>
+          <h4 class="post-title">Định hướng của ${formatRichText(s.official_name)}</h4>
           <ul class="verify-badges-list">
-            ${objectives.map((obj) => `<li>✓ ${escapeHtml(obj)}</li>`).join('')}
+            ${objectives.map((obj) => `<li>✓ ${formatRichText(obj)}</li>`).join('')}
           </ul>
           ${
             leaders.length > 0
@@ -773,7 +784,7 @@
           <span class="panel-tag">HOẠT ĐỘNG TRIỂN KHAI THỰC ĐỊA</span>
           <h4 class="post-title">Các hạng mục thực hiện tại địa phương</h4>
           <ul class="verify-badges-list">
-            ${activities.map((act) => `<li>• ${escapeHtml(act)}</li>`).join('')}
+            ${activities.map((act) => `<li>• ${formatRichText(act)}</li>`).join('')}
           </ul>
         </div>
       </div>
@@ -792,8 +803,8 @@
           <span class="category-badge cat-${escapeHtml(post.category_id)}">${escapeHtml(post.category_label)}</span>
           <time class="post-date">Mùa ${post.season_number} · ${formatViDate(post.published_at)}</time>
         </div>
-        <h4 class="post-title">${escapeHtml(post.title_clean)}</h4>
-        <div class="post-excerpt">${escapeHtml(post.body_clean)}</div>
+        <h4 class="post-title">${formatRichText(post.title_clean)}</h4>
+        <div class="post-excerpt">${formatRichText(post.body_clean)}</div>
         ${hashtagsHtml ? `<div class="post-hashtags">${hashtagsHtml}</div>` : ''}
         <div class="post-card-footer">
           <button type="button" class="btn-text-action" data-toggle-expand>Đọc toàn bộ nội dung ↓</button>
@@ -841,7 +852,7 @@
                 <small style="color:var(--ink-500);font-family:var(--font-mono);font-size:0.72rem">${escapeHtml(formatShortMonthYear(s.event_date || s.start_date))}</small>
               </td>
               <td>
-                <strong>${escapeHtml(s.official_name)}</strong><br />
+                <strong>${formatRichText(s.official_name)}</strong><br />
                 <span style="color:var(--ink-700);font-size:0.82rem">${escapeHtml((s.locations || []).join(' · '))}</span>
               </td>
               <td style="font-size:0.84rem;line-height:1.55">
@@ -880,10 +891,10 @@
     const listEl = document.getElementById('milestone-list');
     if (!listEl) return;
 
-    // Use the 15-event `archive.timeline` array (falls back to `archive.milestones`)
-    const events = Array.isArray(archive.timeline) && archive.timeline.length > 0
-      ? archive.timeline
-      : archive.milestones || [];
+    const events =
+      Array.isArray(archive.timeline) && archive.timeline.length > 0
+        ? archive.timeline
+        : archive.milestones || [];
 
     const filtered =
       state.timelineYear === 'all'
@@ -891,7 +902,8 @@
         : events.filter((ev) => String(ev.event_date || ev.date || '').startsWith(state.timelineYear));
 
     const defaultVisibleCount = 6;
-    const shouldTruncate = state.timelineYear === 'all' && !state.timelineExpanded && filtered.length > defaultVisibleCount;
+    const shouldTruncate =
+      state.timelineYear === 'all' && !state.timelineExpanded && filtered.length > defaultVisibleCount;
     const visibleEvents = shouldTruncate ? filtered.slice(0, defaultVisibleCount) : filtered;
 
     listEl.innerHTML = visibleEvents
@@ -907,8 +919,8 @@
         return `
           <li class="milestone-item" data-milestone-season="${sIndex >= 0 ? sIndex : 0}">
             <span class="milestone-date">${escapeHtml(formatViDate(rawDate))} · Mùa 0${seasonNum}</span>
-            <h4 class="milestone-title">${escapeHtml(ev.title)}</h4>
-            <p class="milestone-desc">${escapeHtml(ev.description)}</p>
+            <h4 class="milestone-title">${formatRichText(ev.title)}</h4>
+            <p class="milestone-desc">${formatRichText(ev.description)}</p>
           </li>
         `;
       })
@@ -963,11 +975,11 @@
           </div>
           <div class="cinema-body">
             <div class="cinema-meta">
-              <span>MÙA 0${v.season_number} · ${escapeHtml(v.season_name)}</span>
+              <span>MÙA 0${v.season_number} · ${formatRichText(v.season_name)}</span>
               <time>${formatViDate(v.published_at)}</time>
             </div>
-            <h3 class="cinema-title">${escapeHtml(v.title_clean)}</h3>
-            <p class="cinema-desc">${escapeHtml(v.body_clean)}</p>
+            <h3 class="cinema-title">${formatRichText(v.title_clean)}</h3>
+            <p class="cinema-desc">${formatRichText(v.body_clean)}</p>
           </div>
         </article>
       `
@@ -1092,7 +1104,7 @@
 
       if (filteredPhotos.length === 0) {
         gridEl.innerHTML = `<div class="post-card" style="grid-column: 1 / -1; text-align:center; padding: 2.5rem;">
-          <h4 class="post-title">Không tìm thấy bức ảnh nào khớp từ khóa “${escapeHtml(state.archiveQuery)}”</h4>
+          <h4 class="post-title">Không tìm thấy bức ảnh nào khớp từ khóa <em class="quote-highlight">“${escapeHtml(state.archiveQuery)}”</em></h4>
           <p class="post-excerpt">Hãy thử tìm với tên địa danh như “Tà Long”, “Chênh Vênh”, “Vĩnh Ô”, “Ho Le” hoặc chọn “Tất cả phân loại”.</p>
         </div>`;
       } else {
@@ -1105,8 +1117,8 @@
                 <span class="photo-cat-tag">Mùa ${ph.season_number} · ${escapeHtml(ph.category_label)}</span>
               </div>
               <div class="photo-card-body">
-                <h4 class="photo-card-title">${escapeHtml(ph.title_clean)}</h4>
-                <span class="photo-card-date">${formatViDate(ph.published_at)} · ${escapeHtml(ph.season_name)}</span>
+                <h4 class="photo-card-title">${formatRichText(ph.title_clean)}</h4>
+                <span class="photo-card-date">${formatViDate(ph.published_at)} · ${formatRichText(ph.season_name)}</span>
               </div>
             </article>
           `
@@ -1153,7 +1165,7 @@
 
     if (filteredPosts.length === 0) {
       gridEl.innerHTML = `<div class="post-card" style="grid-column: 1 / -1; text-align:center; padding: 2.5rem;">
-        <h4 class="post-title">Không tìm thấy bài viết nào khớp từ khóa “${escapeHtml(state.archiveQuery)}”</h4>
+        <h4 class="post-title">Không tìm thấy bài viết nào khớp từ khóa <em class="quote-highlight">“${escapeHtml(state.archiveQuery)}”</em></h4>
         <p class="post-excerpt">Hãy thử đổi sang mùa khác hoặc nhấn “Đặt lại bộ lọc”.</p>
       </div>`;
     } else {
@@ -1222,8 +1234,8 @@
     if (catBadge) catBadge.textContent = item.category_label || 'Tư liệu thực địa';
     if (counterEl) counterEl.textContent = `${state.lightboxIndex + 1} / ${list.length}`;
     if (dateEl) dateEl.textContent = `Ngày đăng: ${formatViDate(item.published_at)} · ${item.season_locations || 'Quảng Trị'}`;
-    if (titleEl) titleEl.textContent = item.title_clean || item.season_name;
-    if (captionEl) captionEl.textContent = item.description || '';
+    if (titleEl) titleEl.innerHTML = formatRichText(item.title_clean || item.season_name);
+    if (captionEl) captionEl.innerHTML = formatRichText(item.description || '');
     if (hashtagsEl) {
       hashtagsEl.innerHTML = (item.hashtags || [])
         .map((tag) => `<span class="hashtag-chip">${escapeHtml(tag)}</span>`)
@@ -1268,7 +1280,7 @@
       footerList.innerHTML = seasons
         .map(
           (s, idx) =>
-            `<li><a href="#seasons-hub" data-footer-season="${idx}">${escapeHtml(s.official_name)} (${escapeHtml(formatShortMonthYear(s.event_date || s.start_date))})</a></li>`
+            `<li><a href="#seasons-hub" data-footer-season="${idx}">${formatRichText(s.official_name)} (${escapeHtml(formatShortMonthYear(s.event_date || s.start_date))})</a></li>`
         )
         .join('');
 

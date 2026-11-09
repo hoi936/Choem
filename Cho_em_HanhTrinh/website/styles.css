@@ -313,6 +313,22 @@ a {
   font-weight: 600;
 }
 
+/* Quoted Phrase Highlight (“...”) across the entire website */
+.quote-highlight {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--accent-terracotta);
+  font-weight: 600;
+}
+
+.season-tab-btn.active .quote-highlight {
+  color: #F4A28C;
+}
+
+.season-theme-banner .quote-highlight {
+  color: var(--accent-terracotta);
+}
+
 .hero-lead {
   font-size: clamp(1rem, 1.15vw, 1.12rem);
   color: var(--ink-700);
