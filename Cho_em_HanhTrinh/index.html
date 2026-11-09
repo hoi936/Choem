@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="website/styles.css?v=20261109-9" />
+  <link rel="stylesheet" href="website/styles.css?v=20261109-10" />
 </head>
 <body>
   <a href="#main-content" class="skip-link">Chuyển thẳng tới nội dung chính</a>
@@ -467,10 +467,30 @@
     </div>
   </div>
 
-  <!-- BACKGROUND AUDIO: NẤU ĂN CHO EM — ĐEN VÂU FT. PIALINH -->
-  <audio id="bg-audio" src="assets/audio/nau-an-cho-em.mp3" autoplay loop preload="auto" hidden></audio>
+  <!-- FLOATING MUSIC PLAYER (BOTTOM-RIGHT): NẤU ĂN CHO EM — ĐEN VÂU FT. PIALINH -->
+  <aside class="music-widget" id="music-widget" aria-label="Trình phát nhạc nền Nấu ăn cho em - Đen Vâu">
+    <audio id="bg-audio" src="assets/audio/nau-an-cho-em.mp3" autoplay loop preload="auto"></audio>
+    <div class="music-pill">
+      <button type="button" class="music-disc-btn" id="music-toggle-btn" aria-label="Phát hoặc tạm dừng bài hát Nấu ăn cho em">
+        <img src="Ảnh/Anh1.jpg" alt="Đĩa nhạc Nấu ăn cho em" class="music-disc-img" width="40" height="40" />
+        <span class="music-play-icon" id="music-play-icon" aria-hidden="true">▶</span>
+      </button>
+      <div class="music-meta" id="music-meta-trigger" role="button" tabindex="0" aria-label="Bấm để phát hoặc tạm dừng nhạc">
+        <div class="music-title-row">
+          <span class="eq-bars" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </span>
+          <strong class="music-track-title">Nấu ăn cho em</strong>
+        </div>
+        <span class="music-track-artist" id="music-status-sub">Đen Vâu ft. PiaLinh · Đang phát</span>
+      </div>
+      <button type="button" class="music-collapse-btn" id="music-collapse-btn" aria-label="Thu gọn trình phát nhạc" title="Thu gọn / Mở rộng">
+        –
+      </button>
+    </div>
+  </aside>
 
-  <script src="website/data/archive_bundle.js?v=20261109-9"></script>
-  <script src="website/app.js?v=20261109-9"></script>
+  <script src="website/data/archive_bundle.js?v=20261109-10"></script>
+  <script src="website/app.js?v=20261109-10"></script>
 </body>
 </html>

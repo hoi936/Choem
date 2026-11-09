@@ -1478,28 +1478,93 @@
 
   function initMusicPlayer() {
     const audio = document.getElementById('bg-audio');
-    if (!audio) return;
+    const widget = document.getElementById('music-widget');
+    const toggleBtn = document.getElementById('music-toggle-btn');
+    const metaTrigger = document.getElementById('music-meta-trigger');
+    const playIcon = document.getElementById('music-play-icon');
+    const statusSub = document.getElementById('music-status-sub');
+    const collapseBtn = document.getElementById('music-collapse-btn');
 
-    audio.volume = 0.45;
+    if (!audio || !widget) return;
+
+    audio.volume = 0.5;
+    let userPausedManually = false;
     let pausedByVideo = false;
     let unlocked = false;
 
-    const unlockEvents = ['click', 'touchstart', 'pointerdown', 'keydown', 'scroll', 'wheel'];
+    const unlockEvents = [
+      'pointerdown',
+      'touchstart',
+      'click',
+      'keydown',
+      'wheel',
+      'scroll',
+      'mousemove',
+    ];
 
     const removeUnlockListeners = () => {
       unlockEvents.forEach((evt) => {
-        window.removeEventListener(evt, tryPlayOnInteraction, { capture: true });
+        window.removeEventListener(evt, tryAutoUnlock, { capture: true });
       });
     };
 
-    function tryPlayOnInteraction(ev) {
-      if (unlocked || pausedByVideo) return;
-      if (ev && ev.target && ev.target.closest && ev.target.closest('video')) return;
+    const syncUi = () => {
+      const playing = !audio.paused && !audio.ended;
+      widget.classList.toggle('is-playing', playing);
+      if (playIcon) playIcon.textContent = playing ? '❚❚' : '▶';
+      if (statusSub) {
+        statusSub.textContent = playing
+          ? 'Đen Vâu ft. PiaLinh · Bấm để dừng'
+          : 'Đen Vâu ft. PiaLinh · Đã tạm dừng';
+      }
+    };
+
+    const togglePlayback = (e) => {
+      if (e) e.stopPropagation();
+      unlocked = true;
+      removeUnlockListeners();
+      if (audio.paused) {
+        userPausedManually = false;
+        audio.play().then(syncUi).catch(syncUi);
+      } else {
+        userPausedManually = true;
+        audio.pause();
+        syncUi();
+      }
+    };
+
+    if (toggleBtn) toggleBtn.addEventListener('click', togglePlayback);
+    if (metaTrigger) {
+      metaTrigger.addEventListener('click', togglePlayback);
+      metaTrigger.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          togglePlayback(e);
+        }
+      });
+    }
+
+    if (collapseBtn) {
+      collapseBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const collapsed = widget.classList.toggle('is-collapsed');
+        collapseBtn.textContent = collapsed ? '+' : '–';
+        collapseBtn.setAttribute('aria-label', collapsed ? 'Mở rộng trình phát nhạc' : 'Thu gọn trình phát nhạc');
+      });
+    }
+
+    audio.addEventListener('play', syncUi);
+    audio.addEventListener('pause', syncUi);
+
+    function tryAutoUnlock(ev) {
+      if (unlocked || userPausedManually || pausedByVideo) return;
+      if (ev && ev.target && ev.target.closest && ev.target.closest('#music-widget, video')) return;
       audio
         .play()
         .then(() => {
           unlocked = true;
           removeUnlockListeners();
+          syncUi();
         })
         .catch(() => {});
     }
@@ -1524,26 +1589,28 @@
     document.addEventListener(
       'pause',
       (e) => {
-        if (e.target && e.target.tagName === 'VIDEO' && pausedByVideo) {
+        if (e.target && e.target.tagName === 'VIDEO' && pausedByVideo && !userPausedManually) {
           const anyVideoPlaying = Array.from(document.querySelectorAll('video')).some((v) => !v.paused);
           if (!anyVideoPlaying) {
             pausedByVideo = false;
-            audio.play().catch(() => {});
+            audio.play().then(syncUi).catch(() => {});
           }
         }
       },
       true
     );
 
-    // Attempt immediate background playback; if browser waits for interaction, trigger seamlessly
+    // Attempt immediate autoplay on page open; fallback to instant start on first movement/scroll/click
     audio
       .play()
       .then(() => {
         unlocked = true;
+        syncUi();
       })
       .catch(() => {
+        syncUi();
         unlockEvents.forEach((evt) => {
-          window.addEventListener(evt, tryPlayOnInteraction, { capture: true, passive: true });
+          window.addEventListener(evt, tryAutoUnlock, { capture: true, passive: true });
         });
       });
   }
