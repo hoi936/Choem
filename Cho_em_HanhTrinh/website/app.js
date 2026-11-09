@@ -1478,70 +1478,31 @@
 
   function initMusicPlayer() {
     const audio = document.getElementById('bg-audio');
-    const widget = document.getElementById('music-widget');
-    const toggleBtn = document.getElementById('music-toggle-btn');
-    const metaTrigger = document.getElementById('music-meta-trigger');
-    const headerBtn = document.getElementById('header-music-btn');
-    const headerLabel = document.getElementById('header-music-label');
-    const playIcon = document.getElementById('music-play-icon');
-    const statusSub = document.getElementById('music-status-sub');
-    const promptToast = document.getElementById('music-prompt-toast');
-    const collapseBtn = document.getElementById('music-collapse-btn');
-
-    if (!audio || !widget) return;
+    if (!audio) return;
 
     audio.volume = 0.45;
-    let userPausedManually = false;
     let pausedByVideo = false;
-    let unlockedOnce = false;
+    let unlocked = false;
 
-    const syncUi = () => {
-      const playing = !audio.paused && !audio.ended;
-      widget.classList.toggle('is-playing', playing);
-      if (headerBtn) headerBtn.classList.toggle('is-playing', playing);
-      if (playIcon) playIcon.textContent = playing ? '❚❚' : '▶';
-      if (statusSub) {
-        statusSub.textContent = playing
-          ? 'Đen Vâu ft. PiaLinh · Đang phát'
-          : 'Đen Vâu ft. PiaLinh · Tạm dừng';
-      }
-      if (headerLabel) {
-        headerLabel.textContent = playing ? 'Đang phát: Nấu ăn cho em' : 'Nấu ăn cho em';
-      }
-      if (playing && promptToast) {
-        promptToast.classList.add('is-hidden');
-      }
-    };
+    const unlockEvents = ['click', 'touchstart', 'pointerdown', 'keydown', 'scroll', 'wheel'];
 
-    const togglePlayback = () => {
-      unlockedOnce = true;
-      if (promptToast) promptToast.classList.add('is-hidden');
-      if (audio.paused) {
-        userPausedManually = false;
-        audio.play().then(syncUi).catch(() => syncUi());
-      } else {
-        userPausedManually = true;
-        audio.pause();
-        syncUi();
-      }
-    };
-
-    if (toggleBtn) toggleBtn.addEventListener('click', togglePlayback);
-    if (metaTrigger) metaTrigger.addEventListener('click', togglePlayback);
-    if (headerBtn) headerBtn.addEventListener('click', togglePlayback);
-    if (promptToast) promptToast.addEventListener('click', togglePlayback);
-
-    if (collapseBtn) {
-      collapseBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const collapsed = widget.classList.toggle('is-collapsed');
-        collapseBtn.textContent = collapsed ? '+' : '–';
-        collapseBtn.setAttribute('aria-label', collapsed ? 'Mở rộng trình phát nhạc' : 'Thu gọn trình phát nhạc');
+    const removeUnlockListeners = () => {
+      unlockEvents.forEach((evt) => {
+        window.removeEventListener(evt, tryPlayOnInteraction, { capture: true });
       });
-    }
+    };
 
-    audio.addEventListener('play', syncUi);
-    audio.addEventListener('pause', syncUi);
+    function tryPlayOnInteraction(ev) {
+      if (unlocked || pausedByVideo) return;
+      if (ev && ev.target && ev.target.closest && ev.target.closest('video')) return;
+      audio
+        .play()
+        .then(() => {
+          unlocked = true;
+          removeUnlockListeners();
+        })
+        .catch(() => {});
+    }
 
     // Pause background music automatically when a documentary video plays
     document.addEventListener(
@@ -1552,7 +1513,6 @@
             pausedByVideo = true;
             audio.pause();
           }
-          // Also pause other videos if more than one video was playing
           document.querySelectorAll('video').forEach((v) => {
             if (v !== e.target && !v.paused) v.pause();
           });
@@ -1564,7 +1524,7 @@
     document.addEventListener(
       'pause',
       (e) => {
-        if (e.target && e.target.tagName === 'VIDEO' && pausedByVideo && !userPausedManually) {
+        if (e.target && e.target.tagName === 'VIDEO' && pausedByVideo) {
           const anyVideoPlaying = Array.from(document.querySelectorAll('video')).some((v) => !v.paused);
           if (!anyVideoPlaying) {
             pausedByVideo = false;
@@ -1575,27 +1535,16 @@
       true
     );
 
-    // Try gentle autoplay; if browser requires gesture, auto-start on first click/touch
+    // Attempt immediate background playback; if browser waits for interaction, trigger seamlessly
     audio
       .play()
       .then(() => {
-        unlockedOnce = true;
-        syncUi();
+        unlocked = true;
       })
       .catch(() => {
-        const unlockOnFirstGesture = (ev) => {
-          if (unlockedOnce || userPausedManually) return;
-          if (ev.target && ev.target.closest && ev.target.closest('video')) return;
-          unlockedOnce = true;
-          audio
-            .play()
-            .then(syncUi)
-            .catch(() => {});
-          document.removeEventListener('click', unlockOnFirstGesture);
-          document.removeEventListener('touchstart', unlockOnFirstGesture);
-        };
-        document.addEventListener('click', unlockOnFirstGesture, { passive: true });
-        document.addEventListener('touchstart', unlockOnFirstGesture, { passive: true });
+        unlockEvents.forEach((evt) => {
+          window.addEventListener(evt, tryPlayOnInteraction, { capture: true, passive: true });
+        });
       });
   }
 
