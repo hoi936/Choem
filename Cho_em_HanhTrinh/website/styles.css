@@ -2056,6 +2056,383 @@ a {
 }
 
 /* ==========================================================================
+   MOTION CHOREOGRAPHY, MICRO-INTERACTIONS & MUSIC PLAYER WIDGET
+   ========================================================================== */
+
+/* Top Reading Scroll Progress Bar */
+.scroll-progress-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: transparent;
+  overflow: hidden;
+  z-index: 120;
+}
+
+.scroll-progress-bar {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(90deg, var(--accent-terracotta), var(--accent-gold), var(--accent-forest));
+  transform-origin: 0 50%;
+  transform: scaleX(0);
+  transition: transform 0.1s linear;
+}
+
+/* Header Actions Layout & Music Button */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.btn-music-header {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.44rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-elevated);
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ink-700);
+  cursor: pointer;
+  transition: transform 0.2s var(--ease-out), border-color 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.btn-music-header:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent-terracotta);
+  color: var(--accent-terracotta);
+}
+
+.btn-music-header.is-playing {
+  background: var(--accent-terracotta-soft);
+  border-color: rgba(184, 71, 42, 0.35);
+  color: var(--accent-terracotta);
+}
+
+/* Equalizer Sound Bars */
+.eq-bars {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 12px;
+}
+
+.eq-bars span {
+  display: block;
+  width: 2.5px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--accent-terracotta);
+  transition: height 0.2s ease;
+}
+
+.is-playing .eq-bars span:nth-child(1) {
+  animation: eq-bounce 0.75s ease-in-out infinite alternate;
+}
+.is-playing .eq-bars span:nth-child(2) {
+  animation: eq-bounce 0.55s ease-in-out 0.15s infinite alternate;
+}
+.is-playing .eq-bars span:nth-child(3) {
+  animation: eq-bounce 0.85s ease-in-out 0.3s infinite alternate;
+}
+.is-playing .eq-bars span:nth-child(4) {
+  animation: eq-bounce 0.65s ease-in-out 0.2s infinite alternate;
+}
+
+@keyframes eq-bounce {
+  0% {
+    height: 3px;
+  }
+  100% {
+    height: 12px;
+  }
+}
+
+/* Subtle Pulse on Hero Stamp Dot */
+@keyframes pulse-dot {
+  0%, 100% {
+    box-shadow: 0 0 0 3px rgba(184, 71, 42, 0.18);
+    transform: scale(1);
+  }
+  50% {
+    box-shadow: 0 0 0 6px rgba(184, 71, 42, 0.06);
+    transform: scale(1.08);
+  }
+}
+
+.stamp-dot {
+  animation: pulse-dot 2.8s ease-in-out infinite;
+}
+
+/* Scroll-Triggered Reveal Choreography (Compositor-Safe transform & opacity) */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 0.68s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.68s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, transform;
+}
+
+.reveal-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Smooth Content Crossfade on Season / Tab Switch */
+@keyframes content-fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: content-fade-up 0.42s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.card-cascade-in {
+  animation: content-fade-up 0.45s cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: var(--cascade-delay, 0ms);
+}
+
+/* Tactile Card Hover Micro-Interactions */
+.stage-card,
+.value-card,
+.gen-card,
+.season-kpi-card,
+.acrostic-row,
+.cinema-card,
+.ledger-item {
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.28s ease;
+}
+
+.stage-card:hover,
+.value-card:hover,
+.gen-card:hover,
+.season-kpi-card:hover,
+.cinema-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(184, 71, 42, 0.35);
+}
+
+.acrostic-row:hover {
+  transform: translateX(4px);
+  border-color: rgba(184, 71, 42, 0.38);
+}
+
+.ledger-item:hover {
+  background: var(--bg-elevated);
+}
+
+.btn-primary:active,
+.btn-secondary:active,
+.season-tab-btn:active,
+.subtab-btn:active {
+  transform: scale(0.98);
+}
+
+/* Active Nav Link Indicator */
+.nav-link.active {
+  background: var(--accent-terracotta-soft);
+  color: var(--accent-terracotta);
+  font-weight: 600;
+}
+
+/* Floating Vinyl Music Player Widget (“Nấu ăn cho em” — Đen Vâu) */
+.music-widget {
+  position: fixed;
+  right: 1.25rem;
+  bottom: 1.25rem;
+  z-index: 95;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.45rem;
+}
+
+.music-prompt-toast {
+  background: var(--bg-card);
+  border: 1px solid rgba(184, 71, 42, 0.38);
+  border-radius: 999px;
+  padding: 0.38rem 0.85rem;
+  font-size: 0.78rem;
+  color: var(--ink-900);
+  box-shadow: var(--shadow-md);
+  cursor: pointer;
+  transition: opacity 0.3s ease, transform 0.3s var(--ease-out);
+  animation: toast-float 3s ease-in-out infinite;
+}
+
+.music-prompt-toast.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(6px);
+  display: none;
+}
+
+@keyframes toast-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.music-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.42rem 0.65rem 0.42rem 0.45rem;
+  background: rgba(255, 253, 249, 0.95);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.25s var(--ease-out), border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.music-widget.is-playing .music-pill {
+  border-color: rgba(184, 71, 42, 0.42);
+  box-shadow: 0 12px 32px rgba(184, 71, 42, 0.14);
+}
+
+.music-disc-btn {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  border: 2px solid var(--accent-terracotta);
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+  background: var(--bg-elevated);
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.music-disc-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  animation: spin-disc 10s linear infinite;
+  animation-play-state: paused;
+}
+
+.music-widget.is-playing .music-disc-img {
+  animation-play-state: running;
+}
+
+@keyframes spin-disc {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.music-play-icon {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(24, 20, 17, 0.42);
+  color: #fff;
+  font-size: 0.78rem;
+  transition: background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.music-widget.is-playing .music-play-icon {
+  background: rgba(24, 20, 17, 0.22);
+  opacity: 0;
+}
+
+.music-disc-btn:hover .music-play-icon {
+  opacity: 1;
+}
+
+.music-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  cursor: pointer;
+  padding-right: 0.2rem;
+}
+
+.music-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.music-track-title {
+  font-family: var(--font-serif);
+  font-size: 0.86rem;
+  font-weight: 700;
+  color: var(--ink-900);
+  line-height: 1.2;
+}
+
+.music-track-artist {
+  font-size: 0.73rem;
+  color: var(--ink-500);
+  white-space: nowrap;
+}
+
+.music-collapse-btn {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-elevated);
+  color: var(--ink-500);
+  font-size: 0.85rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.music-collapse-btn:hover {
+  border-color: var(--accent-terracotta);
+  color: var(--accent-terracotta);
+}
+
+.music-widget.is-collapsed .music-meta,
+.music-widget.is-collapsed .music-prompt-toast {
+  display: none;
+}
+
+.music-widget.is-collapsed .music-pill {
+  padding: 0.32rem;
+  gap: 0.3rem;
+}
+
+/* ==========================================================================
    RESPONSIVE BREAKPOINTS (1024px TABLET & 640px MOBILE)
    ========================================================================== */
 

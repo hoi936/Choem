@@ -10,13 +10,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Lora:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="website/styles.css?v=20261109-7" />
+  <link rel="stylesheet" href="website/styles.css?v=20261109-8" />
 </head>
 <body>
   <a href="#main-content" class="skip-link">Chuyển thẳng tới nội dung chính</a>
 
   <!-- Top Editorial Masthead -->
   <header class="site-header" id="top">
+    <div class="scroll-progress-track" aria-hidden="true">
+      <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+    </div>
     <div class="header-inner">
       <a href="#top" class="brand-cluster" aria-label="Trang chủ dự án CHO EM">
         <img src="Ảnh/Anh1.jpg" alt="Biểu trưng dự án CHO EM" class="brand-logo" width="44" height="44" />
@@ -45,6 +48,12 @@
       </nav>
 
       <div class="header-actions">
+        <button type="button" class="btn-music-header" id="header-music-btn" aria-label="Bật hoặc tắt nhạc nền Nấu ăn cho em - Đen Vâu" title="Nhạc nền: Nấu ăn cho em — Đen Vâu ft. PiaLinh">
+          <span class="eq-bars" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+          <span id="header-music-label">Nấu ăn cho em</span>
+        </button>
         <a href="https://www.facebook.com/profile.php?id=100094610840245" target="_blank" rel="noopener noreferrer" class="btn-outline-sm">
           Fanpage chính thức ↗
         </a>
@@ -94,32 +103,32 @@
         <dl class="ledger-strip" aria-label="Những dấu ấn trên hành trình dự án CHO EM">
           <div class="ledger-item">
             <dt class="ledger-label">MÙA THIỆN NGUYỆN</dt>
-            <dd class="ledger-value">07 <span class="ledger-unit">mùa</span></dd>
+            <dd class="ledger-value"><span class="counter-num" data-count-target="7" data-count-pad="2">07</span> <span class="ledger-unit">mùa</span></dd>
             <span class="ledger-sub">Từ mùa hè 2023 đến 2026</span>
           </div>
           <div class="ledger-item">
             <dt class="ledger-label">ĐIỂM TRƯỜNG ĐẾN THĂM</dt>
-            <dd class="ledger-value">08+ <span class="ledger-unit">điểm</span></dd>
+            <dd class="ledger-value"><span class="counter-num" data-count-target="8" data-count-pad="2" data-count-suffix="+">08+</span> <span class="ledger-unit">điểm</span></dd>
             <span class="ledger-sub">Hướng Hóa · Đakrông · Vĩnh Linh</span>
           </div>
           <div class="ledger-item">
             <dt class="ledger-label">SÂN CHƠI &amp; TỦ SÁCH</dt>
-            <dd class="ledger-value">04 <span class="ledger-unit">công trình</span></dd>
+            <dd class="ledger-value"><span class="counter-num" data-count-target="4" data-count-pad="2">04</span> <span class="ledger-unit">công trình</span></dd>
             <span class="ledger-sub">Ho Le · Tà Rùng · Chênh Vênh · Pa Hy</span>
           </div>
           <div class="ledger-item">
             <dt class="ledger-label">QUÀ TẶNG &amp; HỌC PHẨM</dt>
-            <dd class="ledger-value">1.000+ <span class="ledger-unit">phần</span></dd>
+            <dd class="ledger-value"><span class="counter-num" data-count-target="1000" data-count-format="vi" data-count-suffix="+">1.000+</span> <span class="ledger-unit">phần</span></dd>
             <span class="ledger-sub">Áo ấm, giày dép, sách vở &amp; sơ cứu</span>
           </div>
           <div class="ledger-item">
             <dt class="ledger-label">KINH PHÍ GÂY QUỸ</dt>
-            <dd class="ledger-value">90+ <span class="ledger-unit">triệu đ</span></dd>
+            <dd class="ledger-value"><span class="counter-num" data-count-target="90" data-count-suffix="+">90+</span> <span class="ledger-unit">triệu đ</span></dd>
             <span class="ledger-sub">Công khai thu chi sau từng mùa</span>
           </div>
           <div class="ledger-item">
             <dt class="ledger-label">THẾ HỆ HỌC SINH</dt>
-            <dd class="ledger-value">04 <span class="ledger-unit">khóa</span></dd>
+            <dd class="ledger-value"><span class="counter-num" data-count-target="4" data-count-pad="2">04</span> <span class="ledger-unit">khóa</span></dd>
             <span class="ledger-sub">Truyền lửa liên tục (2023 – 2026)</span>
           </div>
         </dl>
@@ -464,7 +473,33 @@
     </div>
   </div>
 
-  <script src="website/data/archive_bundle.js?v=20261109-7"></script>
-  <script src="website/app.js?v=20261109-7"></script>
+  <!-- FLOATING MUSIC PLAYER: NẤU ĂN CHO EM — ĐEN VÂU FT. PIALINH -->
+  <aside class="music-widget" id="music-widget" aria-label="Trình phát nhạc nền Nấu ăn cho em - Đen Vâu">
+    <audio id="bg-audio" src="assets/audio/nau-an-cho-em.mp3" loop preload="auto"></audio>
+    <div class="music-prompt-toast" id="music-prompt-toast" role="status">
+      <span>♪ Chạm để lắng nghe giai điệu <em class="quote-highlight">“Nấu ăn cho em”</em> — Đen Vâu</span>
+    </div>
+    <div class="music-pill">
+      <button type="button" class="music-disc-btn" id="music-toggle-btn" aria-label="Phát hoặc tạm dừng bài hát Nấu ăn cho em">
+        <img src="Ảnh/Anh1.jpg" alt="Đĩa nhạc Nấu ăn cho em" class="music-disc-img" width="40" height="40" />
+        <span class="music-play-icon" id="music-play-icon" aria-hidden="true">▶</span>
+      </button>
+      <div class="music-meta" id="music-meta-trigger">
+        <div class="music-title-row">
+          <span class="eq-bars" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </span>
+          <strong class="music-track-title">Nấu ăn cho em</strong>
+        </div>
+        <span class="music-track-artist" id="music-status-sub">Đen Vâu ft. PiaLinh · Nhấn để phát</span>
+      </div>
+      <button type="button" class="music-collapse-btn" id="music-collapse-btn" aria-label="Thu gọn trình phát nhạc" title="Thu gọn / Mở rộng">
+        –
+      </button>
+    </div>
+  </aside>
+
+  <script src="website/data/archive_bundle.js?v=20261109-8"></script>
+  <script src="website/app.js?v=20261109-8"></script>
 </body>
 </html>

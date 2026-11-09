@@ -624,6 +624,10 @@
     });
 
     renderSeasonSubTabContent(s, sPhotos, sPosts, sVideos);
+
+    workspace.classList.remove('animate-fade-up');
+    void workspace.offsetWidth;
+    workspace.classList.add('animate-fade-up');
   }
 
   function renderSeasonSubTabContent(s, sPhotos, sPosts, sVideos) {
@@ -639,7 +643,7 @@
           ${visiblePhotos
             .map(
               (ph, idx) => `
-              <article class="photo-card" data-season-photo-idx="${idx}" tabindex="0" role="button" aria-label="Xem ảnh ${escapeHtml(ph.title_clean)}">
+              <article class="photo-card card-cascade-in" style="--cascade-delay:${Math.min(idx % 12, 11) * 40}ms" data-season-photo-idx="${idx}" tabindex="0" role="button" aria-label="Xem ảnh ${escapeHtml(ph.title_clean)}">
                 <div class="photo-thumb-wrap">
                   <img src="${escapeHtml(ph.local_path)}" alt="${escapeHtml(ph.title_clean)}" loading="lazy" />
                   <span class="photo-cat-tag">${escapeHtml(ph.category_label)}</span>
@@ -1321,7 +1325,282 @@
   }
 
   /* --------------------------------------------------------------------------
-     12. BOOTSTRAP APPLICATION
+     12. MOTION CHOREOGRAPHY, SCROLL REVEAL & MUSIC PLAYER (“NẤU ĂN CHO EM”)
+     -------------------------------------------------------------------------- */
+
+  function initScrollProgressAndNavSpy() {
+    const progressBar = document.getElementById('scroll-progress-bar');
+    const navLinks = Array.from(document.querySelectorAll('.nav-link[data-nav-section]'));
+    const sectionIds = navLinks.map((l) => l.getAttribute('data-nav-section')).filter(Boolean);
+
+    let ticking = false;
+    const updateOnScroll = () => {
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const ratio = docHeight > 0 ? Math.min(1, Math.max(0, scrollTop / docHeight)) : 0;
+
+      if (progressBar) {
+        progressBar.style.transform = `scaleX(${ratio.toFixed(4)})`;
+      }
+
+      let currentSection = '';
+      const offset = window.innerHeight * 0.28;
+      sectionIds.forEach((id) => {
+        const el = document.getElementById(id);
+        if (el) {
+          const rect = el.getBoundingClientRect();
+          if (rect.top <= offset && rect.bottom >= 120) {
+            currentSection = id;
+          }
+        }
+      });
+
+      navLinks.forEach((link) => {
+        const isMatch = link.getAttribute('data-nav-section') === currentSection;
+        link.classList.toggle('active', isMatch);
+      });
+
+      ticking = false;
+    };
+
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (!ticking) {
+          window.requestAnimationFrame(updateOnScroll);
+          ticking = true;
+        }
+      },
+      { passive: true }
+    );
+    updateOnScroll();
+  }
+
+  function initStatCounters() {
+    const counters = Array.from(document.querySelectorAll('.counter-num[data-count-target]'));
+    if (counters.length === 0) return;
+
+    const prefersReducedMotion =
+      window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion || !('IntersectionObserver' in window)) return;
+
+    const animateCounter = (el) => {
+      const target = Number(el.getAttribute('data-count-target')) || 0;
+      const pad = Number(el.getAttribute('data-count-pad')) || 0;
+      const suffix = el.getAttribute('data-count-suffix') || '';
+      const fmt = el.getAttribute('data-count-format') || '';
+      const duration = 1350;
+      const startTime = performance.now();
+
+      const formatVal = (n) => {
+        let str = fmt === 'vi' ? n.toLocaleString('vi-VN') : String(n);
+        if (pad > 0 && n < 10) {
+          str = String(n).padStart(pad, '0');
+        }
+        return `${str}${suffix}`;
+      };
+
+      const step = (now) => {
+        const elapsed = now - startTime;
+        const progress = Math.min(1, elapsed / duration);
+        // easeOutQuart
+        const eased = 1 - Math.pow(1 - progress, 4);
+        const current = Math.round(target * eased);
+        el.textContent = formatVal(current);
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        } else {
+          el.textContent = formatVal(target);
+        }
+      };
+
+      window.requestAnimationFrame(step);
+    };
+
+    const observer = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            animateCounter(entry.target);
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.35 }
+    );
+
+    counters.forEach((c) => observer.observe(c));
+  }
+
+  function initScrollReveal() {
+    const prefersReducedMotion =
+      window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion || !('IntersectionObserver' in window)) return;
+
+    const groups = [
+      { selector: '.hero-copy, .hero-field-card', stagger: 90 },
+      { selector: '.ledger-item', stagger: 65 },
+      { selector: '.section-header', stagger: 0 },
+      { selector: '.acrostic-panel, .stage-card, .value-card', stagger: 75 },
+      { selector: '.gen-card', stagger: 80 },
+      { selector: '.season-selector-bar, .season-workspace', stagger: 90 },
+      { selector: '.financial-card, .timeline-card', stagger: 100 },
+      { selector: '.cinema-card', stagger: 70 },
+      { selector: '.archive-toolbar', stagger: 0 },
+    ];
+
+    const targets = [];
+    groups.forEach((g) => {
+      const nodes = Array.from(document.querySelectorAll(g.selector));
+      nodes.forEach((node, idx) => {
+        node.classList.add('reveal-on-scroll');
+        if (g.stagger > 0) {
+          node.style.setProperty('--reveal-delay', `${Math.min(idx, 6) * g.stagger}ms`);
+        }
+        targets.push(node);
+      });
+    });
+
+    const observer = new IntersectionObserver(
+      (entries, obs) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-visible');
+            obs.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+
+    targets.forEach((t) => observer.observe(t));
+  }
+
+  function initMusicPlayer() {
+    const audio = document.getElementById('bg-audio');
+    const widget = document.getElementById('music-widget');
+    const toggleBtn = document.getElementById('music-toggle-btn');
+    const metaTrigger = document.getElementById('music-meta-trigger');
+    const headerBtn = document.getElementById('header-music-btn');
+    const headerLabel = document.getElementById('header-music-label');
+    const playIcon = document.getElementById('music-play-icon');
+    const statusSub = document.getElementById('music-status-sub');
+    const promptToast = document.getElementById('music-prompt-toast');
+    const collapseBtn = document.getElementById('music-collapse-btn');
+
+    if (!audio || !widget) return;
+
+    audio.volume = 0.45;
+    let userPausedManually = false;
+    let pausedByVideo = false;
+    let unlockedOnce = false;
+
+    const syncUi = () => {
+      const playing = !audio.paused && !audio.ended;
+      widget.classList.toggle('is-playing', playing);
+      if (headerBtn) headerBtn.classList.toggle('is-playing', playing);
+      if (playIcon) playIcon.textContent = playing ? '❚❚' : '▶';
+      if (statusSub) {
+        statusSub.textContent = playing
+          ? 'Đen Vâu ft. PiaLinh · Đang phát'
+          : 'Đen Vâu ft. PiaLinh · Tạm dừng';
+      }
+      if (headerLabel) {
+        headerLabel.textContent = playing ? 'Đang phát: Nấu ăn cho em' : 'Nấu ăn cho em';
+      }
+      if (playing && promptToast) {
+        promptToast.classList.add('is-hidden');
+      }
+    };
+
+    const togglePlayback = () => {
+      unlockedOnce = true;
+      if (promptToast) promptToast.classList.add('is-hidden');
+      if (audio.paused) {
+        userPausedManually = false;
+        audio.play().then(syncUi).catch(() => syncUi());
+      } else {
+        userPausedManually = true;
+        audio.pause();
+        syncUi();
+      }
+    };
+
+    if (toggleBtn) toggleBtn.addEventListener('click', togglePlayback);
+    if (metaTrigger) metaTrigger.addEventListener('click', togglePlayback);
+    if (headerBtn) headerBtn.addEventListener('click', togglePlayback);
+    if (promptToast) promptToast.addEventListener('click', togglePlayback);
+
+    if (collapseBtn) {
+      collapseBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const collapsed = widget.classList.toggle('is-collapsed');
+        collapseBtn.textContent = collapsed ? '+' : '–';
+        collapseBtn.setAttribute('aria-label', collapsed ? 'Mở rộng trình phát nhạc' : 'Thu gọn trình phát nhạc');
+      });
+    }
+
+    audio.addEventListener('play', syncUi);
+    audio.addEventListener('pause', syncUi);
+
+    // Pause background music automatically when a documentary video plays
+    document.addEventListener(
+      'play',
+      (e) => {
+        if (e.target && e.target.tagName === 'VIDEO') {
+          if (!audio.paused) {
+            pausedByVideo = true;
+            audio.pause();
+          }
+          // Also pause other videos if more than one video was playing
+          document.querySelectorAll('video').forEach((v) => {
+            if (v !== e.target && !v.paused) v.pause();
+          });
+        }
+      },
+      true
+    );
+
+    document.addEventListener(
+      'pause',
+      (e) => {
+        if (e.target && e.target.tagName === 'VIDEO' && pausedByVideo && !userPausedManually) {
+          const anyVideoPlaying = Array.from(document.querySelectorAll('video')).some((v) => !v.paused);
+          if (!anyVideoPlaying) {
+            pausedByVideo = false;
+            audio.play().catch(() => {});
+          }
+        }
+      },
+      true
+    );
+
+    // Try gentle autoplay; if browser requires gesture, auto-start on first click/touch
+    audio
+      .play()
+      .then(() => {
+        unlockedOnce = true;
+        syncUi();
+      })
+      .catch(() => {
+        const unlockOnFirstGesture = (ev) => {
+          if (unlockedOnce || userPausedManually) return;
+          if (ev.target && ev.target.closest && ev.target.closest('video')) return;
+          unlockedOnce = true;
+          audio
+            .play()
+            .then(syncUi)
+            .catch(() => {});
+          document.removeEventListener('click', unlockOnFirstGesture);
+          document.removeEventListener('touchstart', unlockOnFirstGesture);
+        };
+        document.addEventListener('click', unlockOnFirstGesture, { passive: true });
+        document.addEventListener('touchstart', unlockOnFirstGesture, { passive: true });
+      });
+  }
+
+  /* --------------------------------------------------------------------------
+     13. BOOTSTRAP APPLICATION
      -------------------------------------------------------------------------- */
 
   function init() {
@@ -1335,6 +1614,10 @@
     initFullArchiveControls();
     renderFullArchiveResults();
     initLightboxEvents();
+    initScrollProgressAndNavSpy();
+    initStatCounters();
+    initScrollReveal();
+    initMusicPlayer();
   }
 
   if (document.readyState === 'loading') {
