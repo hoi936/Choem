@@ -80,7 +80,7 @@
     const label = cleanText(metricObj.metric || '');
     if (typeof val === 'number') {
       const formattedNum = val.toLocaleString('vi-VN');
-      if (label.toLowerCase().includes('vnđ') || val >= 100000) {
+      if (val >= 100000) {
         return `${formattedNum} VNĐ`;
       }
       return `${formattedNum} ${label}`;
@@ -97,6 +97,12 @@
   const allPosts = [];
   const allVideos = [];
   const postLookup = new Map();
+  const photoByPath = new Map();
+
+  function getImgCropClass(photoPath) {
+    const ph = photoByPath.get(photoPath);
+    return ph && ph.has_bottom_banner ? 'crop-bottom-banner' : '';
+  }
 
   seasons.forEach((season) => {
     const locationStr = (season.locations || []).join(' · ');
@@ -144,6 +150,7 @@
         season_locations: cleanText(locationStr),
       };
       allPhotos.push(enrichedPhoto);
+      photoByPath.set(enrichedPhoto.local_path, enrichedPhoto);
     });
 
     (season.resolved_videos || []).forEach((video, vIdx) => {
@@ -205,7 +212,7 @@
 
     const s7 = seasons[6] || seasons[0];
     const s1 = seasons[0];
-    const s3 = seasons[2] || seasons[0];
+    const s6 = seasons[5] || seasons[2] || seasons[0];
 
     const heroCards = [
       {
@@ -213,8 +220,8 @@
         seasonIndex: 6,
         badge: `MÙA 7 · ${formatShortMonthYear(s7.event_date || s7.start_date).toUpperCase()} · ĐAKRÔNG`,
         photo: s7.hero_photo,
-        title: `${cleanText(s7.official_name)} — ${cleanText(s7.theme)}`,
-        meta: cleanText((s7.locations && s7.locations[0]) || 'Xã Tà Long, huyện Đakrông, tỉnh Quảng Trị'),
+        title: `${cleanText(s7.official_name)} — 125 áo phao & 02 tủ sách tri thức tại Tiểu học Tà Long`,
+        meta: cleanText((s7.locations && s7.locations[0]) || 'Điểm trường Pa Hy — Tiểu học Tà Long, huyện Đakrông, Quảng Trị'),
       },
       {
         featured: false,
@@ -226,11 +233,11 @@
       },
       {
         featured: false,
-        seasonIndex: 2,
-        badge: `MÙA 3 · ${formatShortMonthYear(s3.event_date || s3.start_date).toUpperCase()}`,
-        photo: s3.hero_photo,
-        title: `${cleanText(s3.official_name)} — Tiếp nối sứ mệnh sân chơi vùng cao`,
-        meta: cleanText((s3.locations && s3.locations[0]) || 'Xã Hướng Phùng, huyện Hướng Hóa, tỉnh Quảng Trị'),
+        seasonIndex: 5,
+        badge: `MÙA 6 · ${formatShortMonthYear(s6.event_date || s6.start_date).toUpperCase()}`,
+        photo: s6.hero_photo,
+        title: `${cleanText(s6.official_name)} — Áo ấm mùa đông & kỹ năng sơ cứu tại Vĩnh Ô`,
+        meta: cleanText((s6.locations && s6.locations[0]) || 'Trường PTDTBT Tiểu học Vĩnh Ô, huyện Vĩnh Linh, Quảng Trị'),
       },
     ];
 
@@ -239,7 +246,7 @@
         (card) => `
         <article class="hero-field-card ${card.featured ? 'featured' : ''}" data-jump-season="${card.seasonIndex}" tabindex="0" role="button" aria-label="Xem chi tiết ${escapeHtml(card.title)}">
           <div class="hero-card-media">
-            <img src="${escapeHtml(card.photo)}" alt="${escapeHtml(card.title)}" loading="eager" />
+            <img src="${escapeHtml(card.photo)}" alt="${escapeHtml(card.title)}" class="${getImgCropClass(card.photo)}" loading="eager" />
             <span class="hero-card-badge">${escapeHtml(card.badge)}</span>
           </div>
           <div class="hero-card-footer">
@@ -365,48 +372,189 @@
         .join('');
     }
 
-    // 4 Leadership Generations derived from actual seasons
+    // 4 Leadership Generations with real student leader names & curated photo headers
     const gensEl = document.getElementById('generations-grid');
     if (gensEl) {
       const gens = [
         {
-          badge: 'THẾ HỆ SÁNG LẬP · 2023',
-          title: 'Mùa 1 — “Sân chơi cho em”',
-          period: 'Trần Ngọc Tâm Phúc (Founder) · Nguyễn Thùy Linh',
-          focus: 'Khởi lập dự án dưới sự bảo trợ của Thành đoàn Đông Hà, thi công 02 sân chơi tái chế tại bản Ho Le & Tà Rùng (xã Húc).',
+          seasonIdx: 0,
+          photo: 'assets/originals/images/9844d396e4a5c67492bea7d86eb63dafc975d0c616c8d2f7b2d931c11628a910.jpg',
+          badge: 'THẾ HỆ SÁNG LẬP · 2023 – ĐẦU 2024',
+          title: 'Mùa 1 & mùa 2 — Đặt viên gạch đầu tiên',
+          period: 'Bản Ho Le, Tà Rùng (xã Húc) & xã Triệu Vân',
+          focus: 'Khởi lập dự án ngày 17/07/2023 dưới sự bảo trợ của Thành đoàn Đông Hà, tự thi công 02 sân chơi tái chế đầu tiên và mang vở kịch “Răng xinh cho em” về vùng biển bãi ngang.',
+          leaders: [
+            { name: 'Trần Ngọc Tâm Phúc', role: 'Sáng lập & Quản lý dự án (Founder)' },
+            { name: 'Nguyễn Thùy Linh', role: 'Trưởng ban Truyền thông' },
+          ],
         },
         {
-          badge: 'THẾ HỆ MỞ RỘNG · ĐẦU 2024',
-          title: 'Mùa 2 & mùa 3',
-          period: 'Triệu Vân (Triệu Phong) & Hướng Phùng (Hướng Hóa)',
-          focus: 'Đưa mô hình kịch giáo dục sức khỏe “Răng xinh cho em” về vùng bãi ngang và khánh thành sân chơi tại Chênh Vênh, Hướng Choa.',
+          seasonIdx: 2,
+          photo: 'assets/originals/images/9e0e3c10cbe01ac5805ade5c52cc6554bca269eee8a9a8e85e369ceb3309f54d.jpg',
+          badge: 'THẾ HỆ MỞ RỘNG · HÈ 2024 – ĐẦU 2025',
+          title: 'Mùa 3 & mùa 4 — Vươn xa lên đỉnh đèo & biển cát',
+          period: 'Chênh Vênh, Hướng Choa (Hướng Phùng) & Triệu Vân',
+          focus: 'Tiếp nối ngọn lửa của thế hệ anh chị, khánh thành thêm 02 sân chơi tái chế hoàn chỉnh tại Hướng Phùng và mở đầu chuỗi kỹ năng phòng chống đuối nước “Phao xinh cho em”.',
+          leaders: [
+            { name: 'Lê Thị Thúy Như', role: 'Trưởng Ban tổ chức' },
+            { name: 'Nguyễn Văn Linh', role: 'Đồng Trưởng Ban tổ chức' },
+            { name: 'Trần Thiên Hương', role: 'Trưởng ban Truyền thông' },
+          ],
         },
         {
-          badge: 'THẾ HỆ CHUYÊN SÂU · 2024 – 2025',
-          title: 'Mùa 4, mùa 5 & mùa 6',
-          period: 'Triệu Vân · Tân Thành · Vĩnh Ô (Vĩnh Linh)',
-          focus: 'Tập trung sâu vào kỹ năng sinh tồn và bảo vệ trẻ em qua 3 chiến dịch “Phao xinh cho em”, “An toàn cho em” và “An toàn cho em 2”.',
+          seasonIdx: 4,
+          photo: 'assets/originals/images/s5_tan_thanh_03.jpg',
+          badge: 'THẾ HỆ CHUYÊN SÂU · MÙA HÈ 2025',
+          title: 'Mùa 5 — Chuyên đề kỹ năng “An toàn cho em”',
+          period: 'Trường TH&THCS Tân Thành (Hướng Hóa)',
+          focus: 'Dưới sự đồng hành của Đoàn trường THPT Chuyên Lê Quý Đôn và cô cố vấn Nguyễn Thị Thanh Huyền, mang lớp học sơ cứu trực quan cùng 100 đôi giày mới lên biên giới Tân Thành.',
+          leaders: [
+            { name: 'Trần Mai Hương Nguyên', role: 'Trưởng Ban tổ chức' },
+            { name: 'Trần Thiên Hương', role: 'Trưởng ban Truyền thông' },
+            { name: 'Đậu Khắc Gia Bảo', role: 'Phụ trách Tài chính' },
+          ],
         },
         {
-          badge: 'THẾ HỆ KẾ THỪA · 2025 – 2026',
-          title: 'Mùa 7 — “Hành trang cho em”',
-          period: 'Điểm trường Pa Hy · Tiểu học Tà Long (Đakrông)',
-          focus: 'Tuyên truyền phòng chống đuối nước, trao tặng 137 bộ dụng cụ học tập, áo trắng và 345 đầu sách thiếu nhi trước thềm năm học mới.',
+          seasonIdx: 6,
+          photo: 'assets/originals/images/6ecca86af231ae5f30c18bb9c07ac7d09cb3c6b5854115f0034bde28a5d5e398.jpg',
+          badge: 'THẾ HỆ KẾ THỪA · CUỐI 2025 – 2026',
+          title: 'Mùa 6 & mùa 7 — Lá chắn an toàn & tủ sách đại ngàn',
+          period: 'Xã vùng sâu Vĩnh Ô (Vĩnh Linh) & Tà Long (Đakrông)',
+          focus: 'Vượt đèo mùa đông mang áo ấm, bộ sơ cứu lên Vĩnh Ô và trao tặng 125 áo phao cứu sinh cùng 02 “Tủ sách tri thức” (345 đầu sách) cho học sinh điểm trường Tà Long.',
+          leaders: [
+            { name: 'Lê Khánh Linh', role: 'Trưởng Ban tổ chức' },
+            { name: 'Phan Thanh Huyền', role: 'Phó Ban tổ chức' },
+            { name: 'Võ Ngọc Gia Linh', role: 'Điều phối Hậu cần & Hiện vật' },
+          ],
         },
       ];
 
       gensEl.innerHTML = gens
         .map(
           (g) => `
-          <article class="gen-card">
-            <span class="gen-badge">${escapeHtml(g.badge)}</span>
-            <h4 class="gen-title">${formatRichText(g.title)}</h4>
-            <span class="gen-period">${escapeHtml(g.period)}</span>
-            <p class="gen-focus">${formatRichText(g.focus)}</p>
+          <article class="gen-card" data-jump-season="${g.seasonIdx}" tabindex="0" role="button" aria-label="Xem hành trình của ${escapeHtml(g.title)}">
+            <div class="gen-card-thumb">
+              <img src="${escapeHtml(g.photo)}" alt="${escapeHtml(g.title)}" class="${getImgCropClass(g.photo)}" loading="lazy" />
+            </div>
+            <div class="gen-card-body">
+              <span class="gen-badge">${escapeHtml(g.badge)}</span>
+              <h4 class="gen-title">${formatRichText(g.title)}</h4>
+              <span class="gen-period">${escapeHtml(g.period)}</span>
+              <p class="gen-focus">${formatRichText(g.focus)}</p>
+              <div class="gen-leaders-list">
+                ${g.leaders
+                  .map(
+                    (l) =>
+                      `<div class="gen-leader-row">• <strong>${escapeHtml(l.name)}</strong> — ${escapeHtml(l.role)}</div>`
+                  )
+                  .join('')}
+              </div>
+            </div>
           </article>
         `
         )
         .join('');
+
+      gensEl.querySelectorAll('[data-jump-season]').forEach((cardEl) => {
+        const activate = () => {
+          const idx = Number(cardEl.getAttribute('data-jump-season')) || 0;
+          selectSeason(idx, true);
+        };
+        cardEl.addEventListener('click', activate);
+        cardEl.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            activate();
+          }
+        });
+      });
+    }
+
+    // Interactive Footprint Route Across 8 Schools in 4 Districts of Quang Tri
+    const footprintEl = document.getElementById('footprint-grid');
+    if (footprintEl) {
+      const regions = [
+        {
+          regionTag: 'VÙNG NÚI BIÊN GIỚI PHÍA TÂY',
+          distance: '~65 – 85 km từ Đông Hà',
+          district: 'Huyện Hướng Hóa (5 điểm trường)',
+          schools: [
+            'Điểm trường Bản Ho Le — Mầm non Húc (Mùa 1)',
+            'Điểm trường Bản Tà Rùng — Mầm non Húc (Mùa 1)',
+            'Điểm trường Bản Chênh Vênh — Mầm non Hướng Phùng (Mùa 3)',
+            'Điểm trường Bản Hướng Choa — Mầm non Hướng Phùng (Mùa 3)',
+            'Trường TH&THCS Tân Thành (Mùa 5)',
+          ],
+          seasons: [
+            { label: 'Mùa 1 (Xã Húc) →', idx: 0 },
+            { label: 'Mùa 3 (Hướng Phùng) →', idx: 2 },
+            { label: 'Mùa 5 (Tân Thành) →', idx: 4 },
+          ],
+        },
+        {
+          regionTag: 'VÙNG CÁT BÃI NGANG VEN BIỂN',
+          distance: '~25 km về phía Đông Nam',
+          district: 'Huyện Triệu Phong (2 mùa ghé thăm)',
+          schools: [
+            'Trường TH&THCS Triệu Vân — Chương trình “Răng xinh cho em” (Mùa 2)',
+            'Trường TH&THCS Triệu Vân — Ngày hội kỹ năng “Phao xinh cho em” (Mùa 4)',
+          ],
+          seasons: [
+            { label: 'Mùa 2 (Răng xinh) →', idx: 1 },
+            { label: 'Mùa 4 (Phao xinh) →', idx: 3 },
+          ],
+        },
+        {
+          regionTag: 'MIỀN NÚI PHÍA TÂY BẮC',
+          distance: '~55 km vượt đèo lên Vĩnh Linh',
+          district: 'Huyện Vĩnh Linh (Xã vùng sâu)',
+          schools: [
+            'Trường PTDTBT Tiểu học Vĩnh Ô — Chuyên đề sơ cứu “An toàn cho em 2” & trao 67 suất quà Tết, áo ấm mùa đông (Mùa 6)',
+          ],
+          seasons: [{ label: 'Mùa 6 (Vĩnh Ô) →', idx: 5 }],
+        },
+        {
+          regionTag: 'ĐẠI NGÀN PHÍA TÂY NAM',
+          distance: '~50 km dọc Quốc lộ 9 – Đakrông',
+          district: 'Huyện Đakrông (Thôn Pa Hy)',
+          schools: [
+            'Trường Tiểu học Tà Long — Trao 125 áo phao cứu sinh, 125 bộ học phẩm & 02 “Tủ sách tri thức” 345 đầu sách (Mùa 7)',
+          ],
+          seasons: [{ label: 'Mùa 7 (Tà Long) →', idx: 6 }],
+        },
+      ];
+
+      footprintEl.innerHTML = regions
+        .map(
+          (reg) => `
+          <article class="footprint-card">
+            <div class="footprint-top">
+              <span class="footprint-region-tag">${escapeHtml(reg.regionTag)}</span>
+              <span class="footprint-distance">${escapeHtml(reg.distance)}</span>
+            </div>
+            <h4 class="footprint-district">${escapeHtml(reg.district)}</h4>
+            <ul class="footprint-schools-list">
+              ${reg.schools.map((sch) => `<li>${formatRichText(sch)}</li>`).join('')}
+            </ul>
+            <div class="footprint-season-buttons">
+              ${reg.seasons
+                .map(
+                  (btn) =>
+                    `<button type="button" class="footprint-jump-btn" data-jump-season="${btn.idx}">${escapeHtml(btn.label)}</button>`
+                )
+                .join('')}
+            </div>
+          </article>
+        `
+        )
+        .join('');
+
+      footprintEl.querySelectorAll('[data-jump-season]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const idx = Number(btn.getAttribute('data-jump-season')) || 0;
+          selectSeason(idx, true);
+        });
+      });
     }
   }
 
@@ -454,6 +602,7 @@
   function selectSeason(index, scrollIntoView) {
     const safeIdx = Math.max(0, Math.min(seasons.length - 1, index));
     state.activeSeasonIndex = safeIdx;
+    state.seasonPreviewPhoto = null;
     state.seasonPostCategory = 'all';
     state.seasonPhotoLimit = 12;
 
@@ -528,16 +677,40 @@
     const sPosts = allPosts.filter((p) => p.season_id === s.season_id);
     const sVideos = allVideos.filter((v) => v.season_id === s.season_id);
     const kpiItems = buildSeasonKpiCards(s);
+    const highlightPhotos =
+      Array.isArray(s.highlight_photos) && s.highlight_photos.length > 0
+        ? s.highlight_photos
+        : sPhotos.slice(0, 4).map((p) => p.local_path);
+    const activeHeroPhoto = state.seasonPreviewPhoto || s.hero_photo;
+    const activeHeroObj = photoByPath.get(activeHeroPhoto);
+    const activeHeroCaption =
+      (activeHeroObj && activeHeroObj.title_clean) || s.official_name;
 
     workspace.innerHTML = `
       <div class="season-overview-grid">
-        <figure class="season-hero-figure" id="season-hero-trigger" tabindex="0" role="button" aria-label="Phóng to ảnh tiêu biểu của ${escapeHtml(s.official_name)}">
-          <div class="season-hero-img-wrap">
-            <img src="${escapeHtml(s.hero_photo)}" alt="${escapeHtml(s.official_name)} — ${escapeHtml(s.theme)}" />
+        <figure class="season-hero-figure">
+          <div class="season-hero-img-wrap" id="season-hero-trigger" tabindex="0" role="button" aria-label="Phóng to ảnh tiêu biểu của ${escapeHtml(s.official_name)}" style="cursor:pointer">
+            <img id="season-main-preview-img" src="${escapeHtml(activeHeroPhoto)}" alt="${escapeHtml(activeHeroCaption)}" class="${getImgCropClass(activeHeroPhoto)}" />
           </div>
+          ${
+            highlightPhotos.length > 1
+              ? `<div class="season-filmstrip" role="group" aria-label="Chọn nhanh 4 khoảnh khắc tiêu biểu của mùa">
+                  ${highlightPhotos
+                    .slice(0, 4)
+                    .map(
+                      (hp, hIdx) => `
+                      <button type="button" class="filmstrip-thumb-btn ${hp === activeHeroPhoto ? 'active' : ''}" data-filmstrip-src="${escapeHtml(hp)}" aria-label="Xem ảnh tiêu biểu số ${hIdx + 1}">
+                        <img src="${escapeHtml(hp)}" alt="Khoảnh khắc ${hIdx + 1}" class="${getImgCropClass(hp)}" loading="lazy" />
+                      </button>
+                    `
+                    )
+                    .join('')}
+                </div>`
+              : ''
+          }
           <figcaption class="season-hero-caption">
-            <span><strong>Hình ảnh tiêu biểu:</strong> ${formatRichText(s.official_name)}</span>
-            <span class="meta-pill accent">Bấm để xem ảnh lớn ↗</span>
+            <span id="season-hero-caption-text"><strong>Khoảnh khắc tiêu biểu:</strong> ${formatRichText(activeHeroCaption)}</span>
+            <span class="meta-pill accent" id="season-hero-zoom-pill" style="cursor:pointer">Bấm để phóng to ↗</span>
           </figcaption>
         </figure>
 
@@ -599,14 +772,17 @@
       <div id="season-subtab-content"></div>
     `;
 
-    // Bind Hero image click to open Lightbox
+    // Bind Hero image click & filmstrip switcher
     const heroTrigger = document.getElementById('season-hero-trigger');
+    const zoomPill = document.getElementById('season-hero-zoom-pill');
     if (heroTrigger && sPhotos.length > 0) {
       const openHeroLightbox = () => {
-        const heroIdx = sPhotos.findIndex((p) => p.local_path === s.hero_photo);
+        const currentSrc = state.seasonPreviewPhoto || s.hero_photo;
+        const heroIdx = sPhotos.findIndex((p) => p.local_path === currentSrc);
         openLightbox(sPhotos, heroIdx >= 0 ? heroIdx : 0);
       };
       heroTrigger.addEventListener('click', openHeroLightbox);
+      if (zoomPill) zoomPill.addEventListener('click', openHeroLightbox);
       heroTrigger.addEventListener('keydown', (e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
@@ -614,6 +790,28 @@
         }
       });
     }
+
+    workspace.querySelectorAll('[data-filmstrip-src]').forEach((thumbBtn) => {
+      thumbBtn.addEventListener('click', () => {
+        const newSrc = thumbBtn.getAttribute('data-filmstrip-src');
+        if (!newSrc) return;
+        state.seasonPreviewPhoto = newSrc;
+        const mainImg = document.getElementById('season-main-preview-img');
+        const capText = document.getElementById('season-hero-caption-text');
+        const phObj = photoByPath.get(newSrc);
+        if (mainImg) {
+          mainImg.src = newSrc;
+          mainImg.className = getImgCropClass(newSrc);
+        }
+        if (capText) {
+          const titleStr = (phObj && phObj.title_clean) || s.official_name;
+          capText.innerHTML = `<strong>Khoảnh khắc tiêu biểu:</strong> ${formatRichText(titleStr)}`;
+        }
+        workspace.querySelectorAll('[data-filmstrip-src]').forEach((b) => {
+          b.classList.toggle('active', b === thumbBtn);
+        });
+      });
+    });
 
     // Bind Sub-tab buttons
     workspace.querySelectorAll('[data-subtab]').forEach((btn) => {
@@ -645,7 +843,7 @@
               (ph, idx) => `
               <article class="photo-card card-cascade-in" style="--cascade-delay:${Math.min(idx % 12, 11) * 40}ms" data-season-photo-idx="${idx}" tabindex="0" role="button" aria-label="Xem ảnh ${escapeHtml(ph.title_clean)}">
                 <div class="photo-thumb-wrap">
-                  <img src="${escapeHtml(ph.local_path)}" alt="${escapeHtml(ph.title_clean)}" loading="lazy" />
+                  <img src="${escapeHtml(ph.local_path)}" alt="${escapeHtml(ph.title_clean)}" class="${getImgCropClass(ph.local_path)}" loading="lazy" />
                   <span class="photo-cat-tag">${escapeHtml(ph.category_label)}</span>
                 </div>
                 <div class="photo-card-body">
@@ -767,13 +965,19 @@
     const objectives = s.objectives || [];
     const activities = (s.program && s.program.activities) || s.main_activities || [];
     const leaders = s.leaders || [];
+    const progContext = cleanText((s.program && s.program.context) || s.description || '');
+    const progPrep = cleanText(
+      (s.program && s.program.preparation) ||
+        'Tuyển tình nguyện viên, truyền thông vận động quyên góp và tổ chức sự kiện gây quỹ cộng đồng tại Đông Hà.'
+    );
 
     container.innerHTML = `
       <div class="season-posts-grid">
         <div class="post-card">
-          <span class="panel-tag">MỤC TIÊU CỦA CHUYẾN ĐI</span>
+          <span class="panel-tag">BỐI CẢNH &amp; MỤC TIÊU CHUYẾN ĐI</span>
           <h4 class="post-title">Mong muốn gửi trao trong ${formatRichText(s.official_name)}</h4>
-          <ul class="verify-badges-list">
+          ${progContext ? `<p class="post-excerpt" style="-webkit-line-clamp:unset">${formatRichText(progContext)}</p>` : ''}
+          <ul class="verify-badges-list" style="margin-top:0.5rem">
             ${objectives.map((obj) => `<li>✓ ${formatRichText(obj)}</li>`).join('')}
           </ul>
           ${
@@ -786,9 +990,10 @@
           }
         </div>
         <div class="post-card">
-          <span class="panel-tag">NHỮNG VIỆC ĐÃ CÙNG NHAU THỰC HIỆN</span>
+          <span class="panel-tag">CHUẨN BỊ TẠI ĐÔNG HÀ &amp; TRIỂN KHAI TẠI ĐIỂM TRƯỜNG</span>
           <h4 class="post-title">Hoạt động từ lúc gây quỹ đến ngày lên điểm trường</h4>
-          <ul class="verify-badges-list">
+          <p class="post-excerpt" style="-webkit-line-clamp:unset"><strong>Công tác chuẩn bị:</strong> ${formatRichText(progPrep)}</p>
+          <ul class="verify-badges-list" style="margin-top:0.5rem">
             ${activities.map((act) => `<li>• ${formatRichText(act)}</li>`).join('')}
           </ul>
         </div>
@@ -802,12 +1007,33 @@
       .map((tag) => `<span class="hashtag-chip">${escapeHtml(tag)}</span>`)
       .join('');
 
+    const photoPaths = Array.isArray(post.photo_paths) ? post.photo_paths : [];
+    const previewPhotos = photoPaths.slice(0, 3);
+    const extraCount = photoPaths.length - previewPhotos.length;
+
+    const mediaStripHtml =
+      previewPhotos.length > 0
+        ? `<div class="post-media-strip" style="--media-cols:${previewPhotos.length}">
+            ${previewPhotos
+              .map(
+                (pPath, pIdx) => `
+                <div class="post-media-thumb" data-post-photo-path="${escapeHtml(pPath)}" tabindex="0" role="button" aria-label="Xem ảnh đính kèm bài viết">
+                  <img src="${escapeHtml(pPath)}" alt="${escapeHtml(post.title_clean)}" class="${getImgCropClass(pPath)}" loading="lazy" />
+                  ${pIdx === 2 && extraCount > 0 ? `<span class="post-media-more">+${extraCount} ảnh</span>` : ''}
+                </div>
+              `
+              )
+              .join('')}
+          </div>`
+        : '';
+
     return `
       <article class="post-card" data-post-id="${escapeHtml(post.post_id)}">
         <div class="post-card-top">
           <span class="category-badge cat-${escapeHtml(post.category_id)}">${escapeHtml(post.category_label)}</span>
           <time class="post-date">Mùa ${post.season_number} · ${formatViDate(post.published_at)}</time>
         </div>
+        ${mediaStripHtml}
         <h4 class="post-title">${formatRichText(post.title_clean)}</h4>
         <div class="post-excerpt">${formatRichText(post.body_clean)}</div>
         ${hashtagsHtml ? `<div class="post-hashtags">${hashtagsHtml}</div>` : ''}
@@ -830,11 +1056,115 @@
         btn.textContent = expanded ? 'Thu gọn nội dung ↑' : 'Đọc toàn bộ nội dung ↓';
       });
     });
+
+    rootEl.querySelectorAll('[data-post-photo-path]').forEach((thumb) => {
+      const openPostPhoto = () => {
+        const pPath = thumb.getAttribute('data-post-photo-path');
+        const card = thumb.closest('.post-card');
+        const pid = card ? card.getAttribute('data-post-id') : null;
+        const postPhotos = pid ? allPhotos.filter((ph) => ph.post_id === pid) : [];
+        if (postPhotos.length > 0) {
+          const idx = postPhotos.findIndex((ph) => ph.local_path === pPath);
+          openLightbox(postPhotos, idx >= 0 ? idx : 0);
+        } else {
+          const idx = allPhotos.findIndex((ph) => ph.local_path === pPath);
+          openLightbox(allPhotos, idx >= 0 ? idx : 0);
+        }
+      };
+      thumb.addEventListener('click', openPostPhoto);
+      thumb.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          openPostPhoto();
+        }
+      });
+    });
   }
 
   /* --------------------------------------------------------------------------
-     7. CHƯƠNG 03: BẢNG MINH BẠCH TÀI CHÍNH & DÒNG THỜI GIAN 15 CỘT MỐC
+     7. CHƯƠNG 03: BẢNG MINH BẠCH TÀI CHÍNH, 15 DẤU MỐC & TRI ÂN ĐỒNG HÀNH
      -------------------------------------------------------------------------- */
+
+  function renderGratitudeWall() {
+    const gridEl = document.getElementById('gratitude-grid');
+    if (!gridEl) return;
+
+    const groups = [
+      {
+        tag: 'ĐƠN VỊ BẢO TRỢ & NHÀ TRƯỜNG',
+        title: 'Điểm tựa pháp lý & kết nối bản làng',
+        desc: 'Những cơ quan Đoàn thể và Ban Giám hiệu các nhà trường đã luôn tin tưởng, cấp phép và đón đoàn tình nguyện CHO EM bằng tất cả sự ấm áp.',
+        chips: [
+          { label: 'Thành đoàn Đông Hà', highlight: true },
+          { label: 'Tỉnh đoàn Quảng Trị', highlight: true },
+          { label: 'Đoàn trường THPT Chuyên Lê Quý Đôn', highlight: true },
+          { label: 'Đoàn phường Nam Đông Hà', highlight: true },
+          { label: 'Trường Mầm non Húc (Ho Le & Tà Rùng)', highlight: false },
+          { label: 'Trường TH&THCS Triệu Vân', highlight: false },
+          { label: 'Trường Mầm non Hướng Phùng (Chênh Vênh & Hướng Choa)', highlight: false },
+          { label: 'Trường TH&THCS Tân Thành', highlight: false },
+          { label: 'Trường PTDTBT Tiểu học Vĩnh Ô', highlight: false },
+          { label: 'Trường Tiểu học Tà Long (Điểm trường Pa Hy)', highlight: false },
+        ],
+      },
+      {
+        tag: 'QUÝ THẦY CÔ & NHÀ HẢO TÂM',
+        title: 'Những người thầy, người cô & tấm lòng vàng',
+        desc: 'Sự dìu dắt tận tình của cô cố vấn cùng những khoản đóng góp quý báu từ các thầy cô giáo và mạnh thường quân qua nhiều mùa liên tiếp.',
+        chips: [
+          { label: 'Cô Nguyễn Thị Thanh Huyền (Cố vấn dự án)', highlight: true },
+          { label: 'Chú Lê Minh Tuấn (Tài trợ 100 đôi giày mới)', highlight: true },
+          { label: 'Lớp Hóa Cô Lê Na (Colena)', highlight: true },
+          { label: 'Lớp Anh Team Miss Kha', highlight: false },
+          { label: 'Lớp Toán Thầy Thông', highlight: false },
+          { label: 'Lớp Toán Cô Thu Hồng Lê (Miss Pink)', highlight: false },
+          { label: 'Cô Lê Tú Linh Kha', highlight: false },
+          { label: 'Cô Hạnh Nguyên', highlight: false },
+          { label: 'Gia đình Dì Lê Thị Vân', highlight: false },
+        ],
+      },
+      {
+        tag: 'DOANH NGHIỆP & ĐƠN VỊ ĐỒNG HÀNH',
+        title: 'Những thương hiệu địa phương giàu lòng nhân ái',
+        desc: 'Các nhà sách, nhà thuốc, quán cà phê và cửa hàng tại Đông Hà – Quảng Trị đã tài trợ hiện kim, sách vở, thuốc y tế và không gian tổ chức Workshop gây quỹ.',
+        chips: [
+          { label: 'Nhà sách Sang Hiếu', highlight: true },
+          { label: 'Nhà thuốc Bảo Châu', highlight: true },
+          { label: 'Green Centre', highlight: true },
+          { label: 'Gạo Coffee & Tea', highlight: false },
+          { label: 'Gé Nhà Coffee', highlight: false },
+          { label: 'Dimori Coffee', highlight: false },
+          { label: 'The Moment Cafe & Food', highlight: false },
+          { label: 'Nhà hàng Sky Garden', highlight: false },
+          { label: 'Chút Chíu', highlight: false },
+          { label: 'Mây Mart', highlight: false },
+          { label: 'Mầm non Joy School', highlight: false },
+          { label: 'Hạt Màu Nắng', highlight: false },
+          { label: 'Apical Bud', highlight: false },
+        ],
+      },
+    ];
+
+    gridEl.innerHTML = groups
+      .map(
+        (g) => `
+        <article class="gratitude-card">
+          <span class="panel-tag">${escapeHtml(g.tag)}</span>
+          <h4 class="gratitude-card-title">${escapeHtml(g.title)}</h4>
+          <p class="gratitude-card-desc">${escapeHtml(g.desc)}</p>
+          <div class="partner-chips">
+            ${g.chips
+              .map(
+                (c) =>
+                  `<span class="partner-chip ${c.highlight ? 'highlight' : ''}">${escapeHtml(c.label)}</span>`
+              )
+              .join('')}
+          </div>
+        </article>
+      `
+      )
+      .join('');
+  }
 
   function renderImpactLedgerAndTimeline() {
     const tbody = document.getElementById('impact-table-body');
@@ -877,6 +1207,7 @@
     }
 
     renderTimelineMilestones();
+    renderGratitudeWall();
 
     const yearFilters = document.getElementById('timeline-year-filters');
     if (yearFilters) {
@@ -1118,7 +1449,7 @@
             (ph, idx) => `
             <article class="photo-card" data-archive-photo-idx="${idx}" tabindex="0" role="button" aria-label="Phóng to ảnh ${escapeHtml(ph.title_clean)}">
               <div class="photo-thumb-wrap">
-                <img src="${escapeHtml(ph.local_path)}" alt="${escapeHtml(ph.title_clean)}" loading="lazy" />
+                <img src="${escapeHtml(ph.local_path)}" alt="${escapeHtml(ph.title_clean)}" class="${getImgCropClass(ph.local_path)}" loading="lazy" />
                 <span class="photo-cat-tag">Mùa ${ph.season_number} · ${escapeHtml(ph.category_label)}</span>
               </div>
               <div class="photo-card-body">
@@ -1443,8 +1774,10 @@
       { selector: '.section-header', stagger: 0 },
       { selector: '.acrostic-panel, .stage-card, .value-card', stagger: 75 },
       { selector: '.gen-card', stagger: 80 },
+      { selector: '.footprint-card', stagger: 80 },
       { selector: '.season-selector-bar, .season-workspace', stagger: 90 },
       { selector: '.financial-card, .timeline-card', stagger: 100 },
+      { selector: '.gratitude-card', stagger: 85 },
       { selector: '.cinema-card', stagger: 70 },
       { selector: '.archive-toolbar', stagger: 0 },
     ];

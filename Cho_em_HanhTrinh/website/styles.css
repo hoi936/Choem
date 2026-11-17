@@ -2433,6 +2433,338 @@ a {
 }
 
 /* ==========================================================================
+   ENHANCED VISUAL STORYTELLING: BANNER CROPPING, FILMSTRIP, FOOTPRINT & GRATITUDE
+   ========================================================================== */
+
+/* Smart framing for Season 7 recap photos that have a white sponsor footer strip */
+img.crop-bottom-banner {
+  object-fit: cover;
+  object-position: center 14% !important;
+  transform: scale(1.15);
+  transform-origin: center top;
+}
+
+.hero-field-card:hover img.crop-bottom-banner,
+.photo-card:hover img.crop-bottom-banner,
+.season-hero-figure:hover img.crop-bottom-banner {
+  transform: scale(1.19);
+}
+
+/* Generation Cards with Curated Photo Header & Student Leaders List */
+.gen-card {
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.gen-card-thumb {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--bg-elevated);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.gen-card-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.gen-card:hover .gen-card-thumb img:not(.crop-bottom-banner) {
+  transform: scale(1.05);
+}
+
+.gen-card-body {
+  padding: 1.15rem 1.2rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  flex: 1;
+}
+
+.gen-leaders-list {
+  margin-top: 0.35rem;
+  padding-top: 0.65rem;
+  border-top: 1px dashed var(--border-strong);
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  color: var(--ink-700);
+}
+
+.gen-leader-row strong {
+  color: var(--ink-900);
+}
+
+/* Footprint Map / Route Block Across 8 Schools in Quang Tri */
+.footprint-block,
+.gratitude-block {
+  margin-top: 2.25rem;
+  padding: 1.85rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.footprint-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.1rem;
+  margin-top: 1.35rem;
+}
+
+.footprint-card {
+  background: var(--bg-paper);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.28s ease;
+}
+
+.footprint-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(184, 71, 42, 0.38);
+}
+
+.footprint-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.footprint-region-tag {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent-forest);
+  background: var(--accent-forest-soft);
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+}
+
+.footprint-distance {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--ink-500);
+}
+
+.footprint-district {
+  font-family: var(--font-serif);
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: var(--ink-900);
+}
+
+.footprint-schools-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.38rem;
+  font-size: 0.82rem;
+  color: var(--ink-700);
+  margin: 0.15rem 0;
+}
+
+.footprint-schools-list li {
+  padding-left: 0.85rem;
+  position: relative;
+  line-height: 1.45;
+}
+
+.footprint-schools-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--accent-terracotta);
+  font-weight: 700;
+}
+
+.footprint-season-buttons {
+  margin-top: auto;
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.footprint-jump-btn {
+  padding: 0.28rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--bg-card);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent-terracotta);
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.footprint-jump-btn:hover {
+  background: var(--accent-terracotta);
+  border-color: var(--accent-terracotta);
+  color: #fff;
+}
+
+/* Season Hero 4-Photo Filmstrip Switcher */
+.season-filmstrip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  padding: 0.65rem 0.85rem;
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--border-subtle);
+}
+
+.filmstrip-thumb-btn {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  border: 2px solid transparent;
+  padding: 0;
+  cursor: pointer;
+  background: var(--bg-card);
+  opacity: 0.72;
+  transition: opacity 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.filmstrip-thumb-btn:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+.filmstrip-thumb-btn.active {
+  opacity: 1;
+  border-color: var(--accent-terracotta);
+  box-shadow: 0 0 0 2px rgba(184, 71, 42, 0.18);
+}
+
+.filmstrip-thumb-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+}
+
+/* Inline Photo Preview Strip inside Post Cards */
+.post-media-strip {
+  display: grid;
+  grid-template-columns: repeat(var(--media-cols, 1), 1fr);
+  gap: 0.45rem;
+  margin-bottom: 0.35rem;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.post-media-thumb {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  cursor: pointer;
+  border: 1px solid var(--border-subtle);
+}
+
+.post-media-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 25%;
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.post-media-thumb:hover img:not(.crop-bottom-banner) {
+  transform: scale(1.05);
+}
+
+.post-media-more {
+  position: absolute;
+  inset: 0;
+  background: rgba(24, 20, 17, 0.62);
+  color: #fff;
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+
+/* Gratitude & Companionship Wall */
+.gratitude-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.15rem;
+  margin-top: 1.35rem;
+}
+
+.gratitude-card {
+  background: var(--bg-paper);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.gratitude-card-title {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--ink-900);
+}
+
+.gratitude-card-desc {
+  font-size: 0.83rem;
+  color: var(--ink-700);
+  line-height: 1.55;
+}
+
+.partner-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.42rem;
+  margin-top: 0.2rem;
+}
+
+.partner-chip {
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 0.28rem 0.65rem;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  color: var(--ink-900);
+}
+
+.partner-chip.highlight {
+  background: var(--accent-terracotta-soft);
+  border-color: rgba(184, 71, 42, 0.32);
+  color: var(--accent-terracotta);
+}
+
+/* ==========================================================================
    RESPONSIVE BREAKPOINTS (1024px TABLET & 640px MOBILE)
    ========================================================================== */
 
@@ -2460,8 +2792,13 @@ a {
     border-bottom: 1px solid var(--border-subtle);
   }
 
-  .generations-grid {
+  .generations-grid,
+  .footprint-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gratitude-grid {
+    grid-template-columns: 1fr;
   }
 
   .season-selector-bar {
@@ -2484,6 +2821,8 @@ a {
   .hero-cards-stack,
   .core-values-grid,
   .generations-grid,
+  .footprint-grid,
+  .gratitude-grid,
   .season-impact-strip,
   .season-posts-grid,
   .cinema-grid,
